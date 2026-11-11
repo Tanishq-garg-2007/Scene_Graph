@@ -1,0 +1,85 @@
+{
+  "image_id": 12,
+  "prompt_text": "### Relational Edges:\n- [Telephone_1] --[on]--> [Desk_1: table, white]\n- [Wall_1] --[behind]--> [ComputerMonitor_1: flat, black, a screen, on]\n- [Pen_1] --[on]--> [Desk_1: table, white]\n- [Mouse_1] --[on]--> [Desk_1: table, white]\n- [Cup_1] --[on]--> [Desk_1: table, white]\n- [ComputerKeyboard_1] --[next to]--> [WaterBottle_1: clear, plastic, white, closed]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [WaterBottle_1: clear, plastic, white, closed] -> [ComputerSpeaker_1: black] -> [CompositionBook_1: white, black, gray, indoors, closed] -> [Spots_1] -> [OfficeChair_1: gray, grey] -> [ComputerMonitor_1: flat, black, a screen, on] -> [Armrest_1] -> [ComputerKeyboard_1: black] -> [SurgeProtector_1: extension cord] -> [Desk_1: table, white] -> [StickyNote_1: pink] -> [Mouse_1: white] -> [Pen_1: black] -> [Cup_1: green] -> [ComputerKeyboard_2: white] -> [Cpu_1: white] -> [Telephone_1: black] -> [InboxTray_1: plastic, black] -> [InboxTray_2: plastic, black] -> [InboxTray_3: plastic, black] -> [Paper_1: ream] -> [Paper_2: ream]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [InboxTray_3: plastic, black] -> [Paper_1: ream] -> [ComputerMonitor_1: flat, black, a screen, on] -> [InboxTray_2: plastic, black] -> [Paper_2: ream] -> [InboxTray_1: plastic, black] -> [ComputerSpeaker_1: black] -> [StickyNote_1: pink] -> [Cup_1: green] -> [Telephone_1: black] -> [WaterBottle_1: clear, plastic, white, closed] -> [ComputerKeyboard_2: white] -> [Desk_1: table, white] -> [Pen_1: black] -> [ComputerKeyboard_1: black] -> [Mouse_1: white] -> [Spots_1] -> [CompositionBook_1: white, black, gray, indoors, closed] -> [OfficeChair_1: gray, grey] -> [SurgeProtector_1: extension cord] -> [Cpu_1: white] -> [Armrest_1]",
+  "semantic_id_mapping": {
+    "5300": "Armrest_1",
+    "1024186": "CompositionBook_1",
+    "1024187": "ComputerKeyboard_1",
+    "1024220": "ComputerKeyboard_2",
+    "1024195": "ComputerMonitor_1",
+    "5294": "ComputerSpeaker_1",
+    "5302": "Cpu_1",
+    "1024213": "Cup_1",
+    "1024216": "Desk_1",
+    "5293": "InboxTray_1",
+    "5292": "InboxTray_2",
+    "5291": "InboxTray_3",
+    "1024211": "Mouse_1",
+    "1024199": "OfficeChair_1",
+    "5297": "Paper_1",
+    "5298": "Paper_2",
+    "5305": "Pen_1",
+    "5301": "Spots_1",
+    "5296": "StickyNote_1",
+    "5289": "SurgeProtector_1",
+    "5303": "Telephone_1",
+    "1024208": "Wall_1",
+    "1024188": "WaterBottle_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Wall_1",
+      "predicate": "behind",
+      "object": "ComputerMonitor_1"
+    },
+    {
+      "subject": "Pen_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Cup_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "ComputerKeyboard_1",
+      "predicate": "next to",
+      "object": "WaterBottle_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "WaterBottle_1",
+    "ComputerSpeaker_1",
+    "CompositionBook_1",
+    "Spots_1",
+    "OfficeChair_1",
+    "ComputerMonitor_1",
+    "Armrest_1",
+    "ComputerKeyboard_1",
+    "SurgeProtector_1",
+    "Desk_1",
+    "StickyNote_1",
+    "Mouse_1",
+    "Pen_1",
+    "Cup_1",
+    "ComputerKeyboard_2",
+    "Cpu_1",
+    "Telephone_1",
+    "InboxTray_1",
+    "InboxTray_2",
+    "InboxTray_3",
+    "Paper_1",
+    "Paper_2"
+  ]
+}

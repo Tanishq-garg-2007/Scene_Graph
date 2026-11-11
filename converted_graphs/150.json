@@ -1,0 +1,103 @@
+{
+  "image_id": 150,
+  "prompt_text": "### Relational Edges:\n- [Leaves_1] --[on]--> [Tree_1]\n- [Window_1] --[on]--> [Building_1]\n- [Person_3] --[on]--> [Sidewalk_1]\n- [Person_4] --[on]--> [Sidewalk_1]\n- [Person_2] --[on]--> [Sidewalk_1]\n- [Person_1] --[on]--> [Sidewalk_1]\n- [Can_1] --[next to]--> [Tree_1]\n- [Light_1] --[on]--> [Sidewalk_1]\n- [Drainage_1] --[on]--> [Sidewalk_1]\n- [Window_4] --[on]--> [Building_1]\n- [Window_3] --[on]--> [Building_1]\n- [Window_2] --[on]--> [Building_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Light_1: street] -> [Drainage_1] -> [Person_1: standing] -> [Person_2: standing] -> [Person_3: standing] -> [Person_4: standing] -> [Window_1] -> [Window_2] -> [Bags_1] -> [Leaves_1: green] -> [City_1] -> [Tree_1] -> [Window_3] -> [Can_1: trash] -> [Building_1] -> [Window_4]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_3] -> [Window_2] -> [Leaves_1: green] -> [Light_1: street] -> [Building_1] -> [Window_1] -> [Tree_1] -> [Window_4] -> [Person_4: standing] -> [City_1] -> [Person_1: standing] -> [Person_2: standing] -> [Bags_1] -> [Person_3: standing] -> [Can_1: trash] -> [Drainage_1]",
+  "semantic_id_mapping": {
+    "3792899": "Bags_1",
+    "1535738": "Building_1",
+    "3792895": "Can_1",
+    "3792903": "City_1",
+    "3792900": "Drainage_1",
+    "3792884": "Leaves_1",
+    "3792897": "Light_1",
+    "3792894": "Person_1",
+    "3792891": "Person_2",
+    "3792887": "Person_3",
+    "3792890": "Person_4",
+    "3792898": "Sidewalk_1",
+    "3792902": "Tree_1",
+    "3792886": "Window_1",
+    "3792907": "Window_2",
+    "3792906": "Window_3",
+    "3792904": "Window_4"
+  },
+  "relational_edges": [
+    {
+      "subject": "Leaves_1",
+      "predicate": "on",
+      "object": "Tree_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Person_3",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_4",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_2",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Can_1",
+      "predicate": "next to",
+      "object": "Tree_1"
+    },
+    {
+      "subject": "Light_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Drainage_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_3",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Light_1",
+    "Drainage_1",
+    "Person_1",
+    "Person_2",
+    "Person_3",
+    "Person_4",
+    "Window_1",
+    "Window_2",
+    "Bags_1",
+    "Leaves_1",
+    "City_1",
+    "Tree_1",
+    "Window_3",
+    "Can_1",
+    "Building_1",
+    "Window_4"
+  ]
+}

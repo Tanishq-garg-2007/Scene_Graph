@@ -1,0 +1,133 @@
+{
+  "image_id": 137,
+  "prompt_text": "### Relational Edges:\n- [Arrow_1] --[on]--> [Sign_1: blue, white, round, circular]\n- [Bicycle_1] --[on]--> [Pole_1]\n- [TrashBin_1] --[on]--> [Sidewalk_1: patterned]\n- [TrashBin_1] --[on]--> [Wall_1]\n- [Bicycle_1] --[on]--> [Sidewalk_1: patterned]\n- [Person_2] --[near]--> [Pole_1]\n- [Balcony_1] --[on]--> [Building_2]\n- [Person_1] --[wearing]--> [Shirt_1: pink, red]\n- [Person_1] --[wearing]--> [Skirt_1: white]\n- [Car_1] --[on]--> [Street_1]\n- [TrashBin_1] --[near]--> [Building_2]\n- [Person_2] --[wearing]--> [Shirt_2: white]\n- [Sign_2] --[on]--> [Building_2]\n- [Tree_1] --[near]--> [Street_1]\n- [Sign_1] --[on]--> [Pole_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Person_1] -> [Building_1: multi-storied, multi-story] -> [Person_2] -> [HandleBars_1] -> [Sign_1: blue, white, round, circular] -> [Arrow_1: white] -> [Pole_1] -> [Bicycle_1: white, small] -> [Seat_1] -> [Car_1: green] -> [Light_1: green] -> [Wheels_1: black] -> [Car_2: small, black, parked, two door] -> [Balcony_1] -> [Car_3: parked, blue] -> [Tree_1: leafy] -> [Step_1: stone] -> [Border_1] -> [Sign_2] -> [Building_2] -> [TrashBin_1: plastic, grey]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Balcony_1] -> [Building_1: multi-storied, multi-story] -> [Sign_1: blue, white, round, circular] -> [Arrow_1: white] -> [Sign_2] -> [Light_1: green] -> [Tree_1: leafy] -> [Building_2] -> [Car_1: green] -> [Pole_1] -> [Car_3: parked, blue] -> [Car_2: small, black, parked, two door] -> [Person_2] -> [Person_1] -> [Wheels_1: black] -> [Seat_1] -> [Border_1] -> [HandleBars_1] -> [Bicycle_1: white, small] -> [Step_1: stone] -> [TrashBin_1: plastic, grey]",
+  "semantic_id_mapping": {
+    "1062381": "Arrow_1",
+    "1062393": "Balcony_1",
+    "1062382": "Bicycle_1",
+    "1062406": "Border_1",
+    "1062395": "Building_1",
+    "1062394": "Building_2",
+    "1062402": "Car_1",
+    "1062384": "Car_2",
+    "1062397": "Car_3",
+    "1062399": "HandleBars_1",
+    "1062388": "Light_1",
+    "1062385": "Person_1",
+    "1062392": "Person_2",
+    "1062383": "Pole_1",
+    "1062398": "Seat_1",
+    "1062396": "Shirt_1",
+    "1062403": "Shirt_2",
+    "1062390": "Sidewalk_1",
+    "1062380": "Sign_1",
+    "1062404": "Sign_2",
+    "1062400": "Skirt_1",
+    "1062405": "Step_1",
+    "1062386": "Street_1",
+    "1062389": "TrashBin_1",
+    "1062401": "Tree_1",
+    "1062391": "Wall_1",
+    "1062387": "Wheels_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Arrow_1",
+      "predicate": "on",
+      "object": "Sign_1"
+    },
+    {
+      "subject": "Bicycle_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "TrashBin_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "TrashBin_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Bicycle_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_2",
+      "predicate": "near",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "Balcony_1",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Skirt_1"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "TrashBin_1",
+      "predicate": "near",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Person_2",
+      "predicate": "wearing",
+      "object": "Shirt_2"
+    },
+    {
+      "subject": "Sign_2",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "near",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Person_1",
+    "Building_1",
+    "Person_2",
+    "HandleBars_1",
+    "Sign_1",
+    "Arrow_1",
+    "Pole_1",
+    "Bicycle_1",
+    "Seat_1",
+    "Car_1",
+    "Light_1",
+    "Wheels_1",
+    "Car_2",
+    "Balcony_1",
+    "Car_3",
+    "Tree_1",
+    "Step_1",
+    "Border_1",
+    "Sign_2",
+    "Building_2",
+    "TrashBin_1"
+  ]
+}

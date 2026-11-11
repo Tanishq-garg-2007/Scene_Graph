@@ -1,0 +1,259 @@
+{
+  "image_id": 62,
+  "prompt_text": "### Relational Edges:\n- [Window_9] --[on]--> [Building_2]\n- [Window_14] --[on]--> [Building_2]\n- [Window_12] --[on]--> [Building_2]\n- [Window_15] --[on]--> [Building_2]\n- [Window_11] --[on]--> [Building_2]\n- [Window_8] --[on]--> [Building_2]\n- [Window_6] --[on]--> [Building_1]\n- [Window_3] --[on]--> [Building_1]\n- [Window_7] --[on]--> [Building_1]\n- [Window_4] --[on]--> [Building_1]\n- [Window_2] --[on]--> [Building_1]\n- [Window_13] --[on]--> [Building_2]\n- [Person_1] --[wearing]--> [Shirt_1: blue]\n- [Car_1] --[on]--> [Ground_1]\n- [Car_3] --[on]--> [Ground_1]\n- [Car_2] --[on]--> [Ground_1]\n- [Shadow_1] --[on]--> [Ground_1]\n- [Shadow_3] --[on]--> [Ground_1]\n- [Shadow_2] --[on]--> [Ground_1]\n- [Fountain_1] --[on]--> [Sidewalk_1]\n- [Woman_1] --[wearing]--> [Dress_1]\n- [Balcony_2] --[on]--> [Building_1]\n- [Balcony_1] --[on]--> [Building_1]\n- [Truck_1] --[behind]--> [Car_2: gold, small]\n- [Hubcap_2] --[on]--> [Tire_2]\n- [Hubcap_1] --[on]--> [Tire_1]\n- [Sign_1] --[on]--> [Pole_1]\n- [Window_5] --[on]--> [Building_1]\n- [Window_10] --[on]--> [Building_2]\n- [Window_10] --[on]--> [Building_1]\n- [Window_1] --[on]--> [Building_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Planter_1] -> [Plant_1: potted] -> [Shadow_1] -> [Shadow_2] -> [Woman_1: walking] -> [Purse_1] -> [Fountain_1] -> [Window_1] -> [Planter_2] -> [Plant_2: potted] -> [Window_2] -> [Window_3] -> [Balcony_1] -> [Building_1] -> [Car_1] -> [Window_4] -> [Window_5] -> [Shadow_3] -> [Balcony_2] -> [Window_6] -> [Window_7] -> [Planter_3] -> [Plant_3: potted] -> [Person_1] -> [Tire_1] -> [Hubcap_1] -> [Person_2] -> [Sign_1] -> [Pole_1] -> [Window_8] -> [Window_9] -> [Car_2: gold, small] -> [Window_10] -> [Window_11] -> [Window_12] -> [Building_2] -> [Stripe_1] -> [Window_13] -> [Window_14] -> [Window_15] -> [Tire_2] -> [Hubcap_2] -> [Car_3] -> [Light_1: globe] -> [Truck_1: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_5] -> [Window_8] -> [Window_11] -> [Window_15] -> [Window_1] -> [Window_7] -> [Window_2] -> [Window_4] -> [Window_9] -> [Window_12] -> [Window_14] -> [Window_6] -> [Window_3] -> [Building_2] -> [Building_1] -> [Balcony_1] -> [Balcony_2] -> [Light_1: globe] -> [Window_10] -> [Window_13] -> [Sign_1] -> [Truck_1: white] -> [Pole_1] -> [Fountain_1] -> [Person_2] -> [Person_1] -> [Car_1] -> [Car_3] -> [Plant_3: potted] -> [Purse_1] -> [Woman_1: walking] -> [Plant_2: potted] -> [Planter_3] -> [Shadow_3] -> [Plant_1: potted] -> [Planter_2] -> [Car_2: gold, small] -> [Planter_1] -> [Shadow_2] -> [Stripe_1] -> [Tire_2] -> [Hubcap_2] -> [Tire_1] -> [Hubcap_1] -> [Shadow_1]",
+  "semantic_id_mapping": {
+    "1025685": "Balcony_1",
+    "1025686": "Balcony_2",
+    "1025655": "Building_1",
+    "1025661": "Building_2",
+    "1025673": "Car_1",
+    "1025667": "Car_2",
+    "1025672": "Car_3",
+    "1025684": "Dress_1",
+    "1025681": "Fountain_1",
+    "1025671": "Ground_1",
+    "1025693": "Hubcap_1",
+    "1025695": "Hubcap_2",
+    "1025692": "Light_1",
+    "1025669": "Person_1",
+    "1025699": "Person_2",
+    "1025680": "Plant_1",
+    "1025678": "Plant_2",
+    "1025679": "Plant_3",
+    "1025691": "Planter_1",
+    "1025689": "Planter_2",
+    "1025690": "Planter_3",
+    "1025698": "Pole_1",
+    "1025687": "Purse_1",
+    "1025676": "Shadow_1",
+    "1025674": "Shadow_2",
+    "1025675": "Shadow_3",
+    "1025670": "Shirt_1",
+    "1025682": "Sidewalk_1",
+    "1025697": "Sign_1",
+    "1025668": "Stripe_1",
+    "1025694": "Tire_1",
+    "1025696": "Tire_2",
+    "1025688": "Truck_1",
+    "1025705": "Window_1",
+    "1025654": "Window_2",
+    "1025658": "Window_3",
+    "1025656": "Window_4",
+    "1025701": "Window_5",
+    "1025659": "Window_6",
+    "1025657": "Window_7",
+    "1025660": "Window_8",
+    "1025666": "Window_9",
+    "1025704": "Window_10",
+    "1025662": "Window_11",
+    "1025664": "Window_12",
+    "1025703": "Window_13",
+    "1025665": "Window_14",
+    "1025663": "Window_15",
+    "1025683": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Window_9",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_14",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_12",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_15",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_11",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_8",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_6",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_3",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_7",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_13",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Car_3",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Shadow_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Shadow_3",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Shadow_2",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Fountain_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Dress_1"
+    },
+    {
+      "subject": "Balcony_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Balcony_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Truck_1",
+      "predicate": "behind",
+      "object": "Car_2"
+    },
+    {
+      "subject": "Hubcap_2",
+      "predicate": "on",
+      "object": "Tire_2"
+    },
+    {
+      "subject": "Hubcap_1",
+      "predicate": "on",
+      "object": "Tire_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "Window_5",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_10",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_10",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Planter_1",
+    "Plant_1",
+    "Shadow_1",
+    "Shadow_2",
+    "Woman_1",
+    "Purse_1",
+    "Fountain_1",
+    "Window_1",
+    "Planter_2",
+    "Plant_2",
+    "Window_2",
+    "Window_3",
+    "Balcony_1",
+    "Building_1",
+    "Car_1",
+    "Window_4",
+    "Window_5",
+    "Shadow_3",
+    "Balcony_2",
+    "Window_6",
+    "Window_7",
+    "Planter_3",
+    "Plant_3",
+    "Person_1",
+    "Tire_1",
+    "Hubcap_1",
+    "Person_2",
+    "Sign_1",
+    "Pole_1",
+    "Window_8",
+    "Window_9",
+    "Car_2",
+    "Window_10",
+    "Window_11",
+    "Window_12",
+    "Building_2",
+    "Stripe_1",
+    "Window_13",
+    "Window_14",
+    "Window_15",
+    "Tire_2",
+    "Hubcap_2",
+    "Car_3",
+    "Light_1",
+    "Truck_1"
+  ]
+}

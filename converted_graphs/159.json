@@ -1,0 +1,95 @@
+{
+  "image_id": 159,
+  "prompt_text": "### Relational Edges:\n- [Tree_1] --[on]--> [Curb_1: concrete]\n- [Suv_1] --[on]--> [Road_2]\n- [Cars_1] --[on]--> [ParkingLot_1]\n- [Flowers_1] --[on]--> [Tree_1]\n- [Trunk_1] --[on]--> [Tree_1]\n- [TailLight_2] --[on]--> [RedCar_1]\n- [TailLight_1] --[on]--> [BlackCar_1]\n- [SpareTire_1] --[on]--> [Jeep_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Hills_1: background] -> [WoodenFence_1] -> [Fence_1: lining] -> [TailLight_1] -> [Mountains_1: distant] -> [BlackCar_1] -> [Jeep_1] -> [Suv_1: parked] -> [SpareTire_1: black] -> [Flowers_1: pink] -> [ParkingLot_1] -> [Photo_1] -> [Tree_1] -> [Trunk_1: brown] -> [Curb_1: concrete] -> [TailLight_2] -> [Building_1: large, white] -> [WhiteBuilding_1] -> [RedCar_1] -> [Cars_1: parked] -> [BlackRailing_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Hills_1: background] -> [Mountains_1: distant] -> [Building_1: large, white] -> [WhiteBuilding_1] -> [Flowers_1: pink] -> [Photo_1] -> [Tree_1] -> [BlackRailing_1] -> [WoodenFence_1] -> [Fence_1: lining] -> [Jeep_1] -> [Suv_1: parked] -> [SpareTire_1: black] -> [Cars_1: parked] -> [Trunk_1: brown] -> [BlackCar_1] -> [TailLight_1] -> [RedCar_1] -> [ParkingLot_1] -> [TailLight_2] -> [Curb_1: concrete]",
+  "semantic_id_mapping": {
+    "1535989": "BlackCar_1",
+    "1535995": "BlackRailing_1",
+    "1536010": "Building_1",
+    "1535976": "Cars_1",
+    "1535972": "Curb_1",
+    "1535980": "Fence_1",
+    "1535982": "Flowers_1",
+    "1535978": "Hills_1",
+    "1535993": "Jeep_1",
+    "1535996": "Mountains_1",
+    "1535977": "ParkingLot_1",
+    "1535971": "Photo_1",
+    "1535987": "RedCar_1",
+    "1535981": "Road_1",
+    "1535975": "Road_2",
+    "1535992": "SpareTire_1",
+    "1535974": "Suv_1",
+    "1535988": "TailLight_1",
+    "1535986": "TailLight_2",
+    "1535985": "Tree_1",
+    "1535984": "Trunk_1",
+    "1536011": "Wall_1",
+    "1535994": "WhiteBuilding_1",
+    "1535990": "WoodenFence_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tree_1",
+      "predicate": "on",
+      "object": "Curb_1"
+    },
+    {
+      "subject": "Suv_1",
+      "predicate": "on",
+      "object": "Road_2"
+    },
+    {
+      "subject": "Cars_1",
+      "predicate": "on",
+      "object": "ParkingLot_1"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "on",
+      "object": "Tree_1"
+    },
+    {
+      "subject": "Trunk_1",
+      "predicate": "on",
+      "object": "Tree_1"
+    },
+    {
+      "subject": "TailLight_2",
+      "predicate": "on",
+      "object": "RedCar_1"
+    },
+    {
+      "subject": "TailLight_1",
+      "predicate": "on",
+      "object": "BlackCar_1"
+    },
+    {
+      "subject": "SpareTire_1",
+      "predicate": "on",
+      "object": "Jeep_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Hills_1",
+    "WoodenFence_1",
+    "Fence_1",
+    "TailLight_1",
+    "Mountains_1",
+    "BlackCar_1",
+    "Jeep_1",
+    "Suv_1",
+    "SpareTire_1",
+    "Flowers_1",
+    "ParkingLot_1",
+    "Photo_1",
+    "Tree_1",
+    "Trunk_1",
+    "Curb_1",
+    "TailLight_2",
+    "Building_1",
+    "WhiteBuilding_1",
+    "RedCar_1",
+    "Cars_1",
+    "BlackRailing_1"
+  ]
+}

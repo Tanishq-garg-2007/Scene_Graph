@@ -1,0 +1,111 @@
+{
+  "image_id": 42,
+  "prompt_text": "### Relational Edges:\n- [Carpet_1] --[on]--> [Floor_1]\n- [Lamp_1] --[on]--> [Table_1]\n- [Chair_2] --[on]--> [Left_1]\n- [Book_1] --[on]--> [Table_1]\n- [Alarm_1] --[on]--> [Wall_1: white]\n- [Doorway_1] --[behind]--> [Chair_5]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Building_1] -> [Couch_1: blue, plush, tall, brown] -> [View_1] -> [City_1] -> [Book_1] -> [Pile_1] -> [Lamp_1: thin, metal, silver] -> [Table_1] -> [Window_1: rectangle] -> [Chair_1: black] -> [Sofa_1: blue] -> [Chair_2: blue] -> [Couch_2: blue] -> [Daytime_1] -> [Room_1] -> [Chair_3] -> [Wood_1] -> [Left_1] -> [Chair_4] -> [Two_1] -> [Table_2: white, gray] -> [Middle_1] -> [Indoors_1] -> [EntertainmentCenter_1: grey, daytime, indoors, lit] -> [Scene_1: indoors] -> [CoffeeTable_1: gray, industrial, wooden, side by side, brown] -> [Refrigerator_1: tall, black, wooden, side by side, brown] -> [Several_1] -> [Chair_5] -> [Fridge_1: black] -> [Doorway_1] -> [CarpetRug_1: black] -> [Tv_1: off, present] -> [Alarm_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Alarm_1] -> [View_1] -> [Window_1: rectangle] -> [Daytime_1] -> [Lamp_1: thin, metal, silver] -> [Couch_1: blue, plush, tall, brown] -> [Building_1] -> [City_1] -> [Room_1] -> [Doorway_1] -> [Fridge_1: black] -> [Tv_1: off, present] -> [Chair_5] -> [CoffeeTable_1: gray, industrial, wooden, side by side, brown] -> [Chair_4] -> [Scene_1: indoors] -> [EntertainmentCenter_1: grey, daytime, indoors, lit] -> [Indoors_1] -> [Left_1] -> [Middle_1] -> [Sofa_1: blue] -> [Chair_2: blue] -> [Table_2: white, gray] -> [Couch_2: blue] -> [Book_1] -> [Pile_1] -> [Chair_1: black] -> [Several_1] -> [CarpetRug_1: black] -> [Two_1] -> [Refrigerator_1: tall, black, wooden, side by side, brown] -> [Table_1] -> [Wood_1] -> [Chair_3]",
+  "semantic_id_mapping": {
+    "1061649": "Alarm_1",
+    "1061628": "Book_1",
+    "1061639": "Building_1",
+    "1061636": "Carpet_1",
+    "5944": "CarpetRug_1",
+    "5936": "Chair_1",
+    "1061621": "Chair_2",
+    "1061630": "Chair_3",
+    "1061655": "Chair_4",
+    "1061652": "Chair_5",
+    "1061647": "City_1",
+    "5934": "CoffeeTable_1",
+    "5933": "Couch_1",
+    "1061648": "Couch_2",
+    "1061635": "Daytime_1",
+    "1061651": "Doorway_1",
+    "1061654": "EntertainmentCenter_1",
+    "1061637": "Floor_1",
+    "1061623": "Fridge_1",
+    "1061653": "Indoors_1",
+    "1061609": "Lamp_1",
+    "1061641": "Left_1",
+    "1061642": "Middle_1",
+    "1061629": "Pile_1",
+    "5935": "Refrigerator_1",
+    "5937": "Room_1",
+    "1061622": "Scene_1",
+    "1061643": "Several_1",
+    "5941": "Sofa_1",
+    "1061646": "Table_1",
+    "1061626": "Table_2",
+    "1061617": "Tv_1",
+    "1061645": "Two_1",
+    "1061638": "View_1",
+    "1061633": "Wall_1",
+    "1061644": "Window_1",
+    "1061631": "Wood_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Carpet_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Chair_2",
+      "predicate": "on",
+      "object": "Left_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Alarm_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Doorway_1",
+      "predicate": "behind",
+      "object": "Chair_5"
+    }
+  ],
+  "horizontal_ordering": [
+    "Building_1",
+    "Couch_1",
+    "View_1",
+    "City_1",
+    "Book_1",
+    "Pile_1",
+    "Lamp_1",
+    "Table_1",
+    "Window_1",
+    "Chair_1",
+    "Sofa_1",
+    "Chair_2",
+    "Couch_2",
+    "Daytime_1",
+    "Room_1",
+    "Chair_3",
+    "Wood_1",
+    "Left_1",
+    "Chair_4",
+    "Two_1",
+    "Table_2",
+    "Middle_1",
+    "Indoors_1",
+    "EntertainmentCenter_1",
+    "Scene_1",
+    "CoffeeTable_1",
+    "Refrigerator_1",
+    "Several_1",
+    "Chair_5",
+    "Fridge_1",
+    "Doorway_1",
+    "CarpetRug_1",
+    "Tv_1",
+    "Alarm_1"
+  ]
+}

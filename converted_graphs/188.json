@@ -1,0 +1,91 @@
+{
+  "image_id": 188,
+  "prompt_text": "### Relational Edges:\n- [Tree_1] --[near]--> [Sand_2]\n- [Tree_2] --[near]--> [Sand_2]\n- [Prints_1] --[on]--> [Sand_2]\n- [Shadow_1] --[on]--> [Ground_1]\n- [Sand_2] --[on]--> [Ground_1]\n- [Ring_2] --[on]--> [Pole_1]\n- [Ring_1] --[on]--> [Pole_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Sand_1] -> [Top_1: black] -> [Shadow_1] -> [Bar_1: metal] -> [Park_1] -> [Sand_2] -> [PlayGround_1] -> [Prints_1] -> [Cloud_1] -> [Sand_3] -> [Tree_1] -> [Palm_1] -> [Tree_2] -> [Cloud_2] -> [SwingSet_1] -> [Ring_1] -> [Background_1] -> [Palm_2] -> [Pole_1] -> [Sign_1: white] -> [Ring_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Cloud_2] -> [Cloud_1] -> [Palm_2] -> [Tree_2] -> [Pole_1] -> [Palm_1] -> [SwingSet_1] -> [Tree_1] -> [Bar_1: metal] -> [Ring_2] -> [Ring_1] -> [Sign_1: white] -> [Park_1] -> [Background_1] -> [Sand_2] -> [PlayGround_1] -> [Prints_1] -> [Shadow_1] -> [Top_1: black] -> [Sand_3] -> [Sand_1]",
+  "semantic_id_mapping": {
+    "3792932": "Background_1",
+    "1536714": "Bar_1",
+    "1536703": "Cloud_1",
+    "1536700": "Cloud_2",
+    "1536731": "Ground_1",
+    "1536718": "Ground_2",
+    "1536696": "Palm_1",
+    "1536697": "Palm_2",
+    "1536726": "Park_1",
+    "3792929": "PlayGround_1",
+    "1536734": "Pole_1",
+    "3792931": "Prints_1",
+    "1536732": "Ring_1",
+    "1536733": "Ring_2",
+    "1536709": "Sand_1",
+    "1536715": "Sand_2",
+    "1536707": "Sand_3",
+    "1536722": "Shadow_1",
+    "1536720": "Sign_1",
+    "1536719": "Sky_1",
+    "1536698": "SwingSet_1",
+    "3792930": "Top_1",
+    "1536713": "Tree_1",
+    "1536729": "Tree_2",
+    "1536717": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tree_1",
+      "predicate": "near",
+      "object": "Sand_2"
+    },
+    {
+      "subject": "Tree_2",
+      "predicate": "near",
+      "object": "Sand_2"
+    },
+    {
+      "subject": "Prints_1",
+      "predicate": "on",
+      "object": "Sand_2"
+    },
+    {
+      "subject": "Shadow_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Sand_2",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Ring_2",
+      "predicate": "on",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "Ring_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Sand_1",
+    "Top_1",
+    "Shadow_1",
+    "Bar_1",
+    "Park_1",
+    "Sand_2",
+    "PlayGround_1",
+    "Prints_1",
+    "Cloud_1",
+    "Sand_3",
+    "Tree_1",
+    "Palm_1",
+    "Tree_2",
+    "Cloud_2",
+    "SwingSet_1",
+    "Ring_1",
+    "Background_1",
+    "Palm_2",
+    "Pole_1",
+    "Sign_1",
+    "Ring_2"
+  ]
+}

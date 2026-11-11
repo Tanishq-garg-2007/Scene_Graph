@@ -1,0 +1,21 @@
+{
+  "model": "qwen3.5:0.8b",
+  "token_budget": 1024,
+  "total_evaluated": 2,
+  "total_correct": 2,
+  "overall_accuracy_percentage": 100.0,
+  "total_time_seconds": 41.94,
+  "average_time_per_query": 20.97,
+  "categories": {
+    "Elevation": {
+      "total": 1,
+      "correct": 1,
+      "accuracy_percentage": 100.0
+    },
+    "Betweenness / Object": {
+      "total": 1,
+      "correct": 1,
+      "accuracy_percentage": 100.0
+    }
+  }
+}

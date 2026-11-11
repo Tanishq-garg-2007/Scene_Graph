@@ -1,0 +1,88 @@
+{
+  "image_id": 176,
+  "prompt_text": "### Relational Edges:\n- [Pavers_1] --[on]--> [Walkway_1]\n- [Trees_1] --[near]--> [Walkway_1]\n- [Windows_1] --[on]--> [Building_1: large, tan]\n- [Window_1] --[on]--> [Building_1: large, tan]\n- [Window_2] --[on]--> [Building_1: large, tan]\n- [Boy_1] --[near]--> [Water_1: splashing]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Boy_1] -> [Trees_1: palm trees, to the left] -> [Spire_1] -> [Statue_1: manly, armless] -> [Flowers_1] -> [Window_1] -> [WaterFountain_1: large, in rear] -> [Building_1: large, tan] -> [Water_1: splashing] -> [Roof_1: green] -> [Walkway_1] -> [Bag_1: white] -> [Woman_1: taking picture, standing] -> [Umbrella_1: red] -> [Skirt_1: white] -> [Woman_2] -> [Spire_2] -> [Window_2] -> [Camera_1] -> [Man_1] -> [Pavers_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Spire_2] -> [Spire_1] -> [Roof_1: green] -> [Building_1: large, tan] -> [Window_1] -> [Trees_1: palm trees, to the left] -> [Window_2] -> [Water_1: splashing] -> [WaterFountain_1: large, in rear] -> [Camera_1] -> [Man_1] -> [Umbrella_1: red] -> [Statue_1: manly, armless] -> [Woman_2] -> [Skirt_1: white] -> [Bag_1: white] -> [Woman_1: taking picture, standing] -> [Boy_1] -> [Flowers_1] -> [Walkway_1] -> [Pavers_1]",
+  "semantic_id_mapping": {
+    "1062531": "Bag_1",
+    "1062525": "Boy_1",
+    "1062516": "Building_1",
+    "1062529": "Camera_1",
+    "1062518": "Flowers_1",
+    "1062519": "Grass_1",
+    "1062528": "Man_1",
+    "1062511": "Pavers_1",
+    "1062517": "Roof_1",
+    "1062526": "Shirt_1",
+    "1062532": "Shirt_2",
+    "1062533": "Shorts_1",
+    "1062530": "Skirt_1",
+    "1062513": "Sky_1",
+    "1062521": "Spire_1",
+    "1062522": "Spire_2",
+    "1062510": "Statue_1",
+    "1062515": "Trees_1",
+    "1062527": "Umbrella_1",
+    "1062512": "Walkway_1",
+    "1062514": "Water_1",
+    "1026176": "WaterFountain_1",
+    "1062523": "Window_1",
+    "1062524": "Window_2",
+    "1062520": "Windows_1",
+    "1026175": "Woman_1",
+    "1026177": "Woman_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Pavers_1",
+      "predicate": "on",
+      "object": "Walkway_1"
+    },
+    {
+      "subject": "Trees_1",
+      "predicate": "near",
+      "object": "Walkway_1"
+    },
+    {
+      "subject": "Windows_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Boy_1",
+      "predicate": "near",
+      "object": "Water_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Boy_1",
+    "Trees_1",
+    "Spire_1",
+    "Statue_1",
+    "Flowers_1",
+    "Window_1",
+    "WaterFountain_1",
+    "Building_1",
+    "Water_1",
+    "Roof_1",
+    "Walkway_1",
+    "Bag_1",
+    "Woman_1",
+    "Umbrella_1",
+    "Skirt_1",
+    "Woman_2",
+    "Spire_2",
+    "Window_2",
+    "Camera_1",
+    "Man_1",
+    "Pavers_1"
+  ]
+}

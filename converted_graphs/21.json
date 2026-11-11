@@ -1,0 +1,104 @@
+{
+  "image_id": 21,
+  "prompt_text": "### Relational Edges:\n- [Album_1] --[on]--> [Lap_1: adult]\n- [Girl_1] --[wearing]--> [Yellow_1]\n- [Girl_1] --[next to]--> [Adult_1: pointing]\n- [Girl_1] --[wearing]--> [Dress_1: yellow, sleeveless]\n- [Woman_1] --[wearing]--> [Watch_1: white]\n- [Woman_1] --[wearing]--> [Shirt_1: white]\n- [Person_1] --[wearing]--> [Photo_2: indoors]\n- [Person_1] --[wearing]--> [Picture_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Photo_1] -> [Trouser_1: white] -> [Album_1: photo, open] -> [Lap_1: adult] -> [Picture_1] -> [Person_1: female, sitting, looking] -> [People_1] -> [Woman_1: pointing, elderly] -> [Couch_1: white, ivory] -> [Adult_1: pointing] -> [Sofa_1: white] -> [Neck_1: hers] -> [Scarf_1: red, maroon] -> [Thing_1: tied] -> [Girl_1: young, bare foot, looking, little] -> [Wristwatch_1: silver] -> [Clip_1: shiny] -> [Shoulder_1: woman's] -> [Pillow_1: tufted, plaid] -> [Blanket_1: blue, green plaid, green, plaid]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Neck_1: hers] -> [Blanket_1: blue, green plaid, green, plaid] -> [Adult_1: pointing] -> [Thing_1: tied] -> [Couch_1: white, ivory] -> [Shoulder_1: woman's] -> [People_1] -> [Scarf_1: red, maroon] -> [Pillow_1: tufted, plaid] -> [Woman_1: pointing, elderly] -> [Clip_1: shiny] -> [Person_1: female, sitting, looking] -> [Sofa_1: white] -> [Lap_1: adult] -> [Girl_1: young, bare foot, looking, little] -> [Trouser_1: white] -> [Album_1: photo, open] -> [Picture_1] -> [Wristwatch_1: silver] -> [Photo_1]",
+  "semantic_id_mapping": {
+    "5479": "Adult_1",
+    "1061072": "Album_1",
+    "5485": "Arm_1",
+    "1061054": "Blanket_1",
+    "1061091": "Clip_1",
+    "1061079": "Couch_1",
+    "1061053": "Dress_1",
+    "1061062": "Floor_1",
+    "1061042": "Girl_1",
+    "1061067": "Hair_1",
+    "1061089": "Hair_2",
+    "1061087": "Hand_1",
+    "1061041": "Lap_1",
+    "5487": "Neck_1",
+    "5492": "People_1",
+    "1061088": "Person_1",
+    "1061083": "Photo_1",
+    "1061086": "Photo_2",
+    "5481": "Picture_1",
+    "1061092": "Picture_2",
+    "1061090": "Pillow_1",
+    "1061084": "Scarf_1",
+    "5496": "Shirt_1",
+    "5494": "Shoulder_1",
+    "1061046": "Sofa_1",
+    "5486": "Sweater_1",
+    "5493": "Thing_1",
+    "1061085": "Trouser_1",
+    "1061080": "Tshirt_1",
+    "1061082": "Tshirt_2",
+    "1061071": "Watch_1",
+    "1061068": "Woman_1",
+    "5484": "Wristwatch_1",
+    "1061043": "Yellow_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Album_1",
+      "predicate": "on",
+      "object": "Lap_1"
+    },
+    {
+      "subject": "Girl_1",
+      "predicate": "wearing",
+      "object": "Yellow_1"
+    },
+    {
+      "subject": "Girl_1",
+      "predicate": "next to",
+      "object": "Adult_1"
+    },
+    {
+      "subject": "Girl_1",
+      "predicate": "wearing",
+      "object": "Dress_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Watch_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Photo_2"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Picture_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Photo_1",
+    "Trouser_1",
+    "Album_1",
+    "Lap_1",
+    "Picture_1",
+    "Person_1",
+    "People_1",
+    "Woman_1",
+    "Couch_1",
+    "Adult_1",
+    "Sofa_1",
+    "Neck_1",
+    "Scarf_1",
+    "Thing_1",
+    "Girl_1",
+    "Wristwatch_1",
+    "Clip_1",
+    "Shoulder_1",
+    "Pillow_1",
+    "Blanket_1"
+  ]
+}

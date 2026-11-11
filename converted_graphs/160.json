@@ -1,0 +1,60 @@
+{
+  "image_id": 160,
+  "prompt_text": "### Relational Edges:\n- [Woman_1] --[wearing]--> [Robe_1: nice, purple, colored, white]\n- [Woman_1] --[wearing]--> [Water_1: calm, fresh, blue]\n- [Woman_1] --[near]--> [Water_1: calm, fresh, blue]\n- [Pot_1] --[on]--> [Woman_1: focusing, kneeling, sitting, praying]\n- [Pot_1] --[near]--> [Woman_1: focusing, kneeling, sitting, praying]\n- [Woman_1] --[on]--> [Water_1: calm, fresh, blue]\n- [Pot_1] --[near]--> [Water_1: calm, fresh, blue]\n- [Robe_1] --[near]--> [Water_1: calm, fresh, blue]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Mountian_1: high, covered, green, far] -> [Woman_1: focusing, kneeling, sitting, praying] -> [Pot_1: round, brown]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Pot_1: round, brown] -> [Mountian_1: high, covered, green, far] -> [Woman_1: focusing, kneeling, sitting, praying]",
+  "semantic_id_mapping": {
+    "1058766": "Hair_1",
+    "1058764": "Mountian_1",
+    "1058765": "Nose_1",
+    "1058763": "Pot_1",
+    "1058761": "Robe_1",
+    "1058762": "Water_1",
+    "1058760": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Robe_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "near",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Pot_1",
+      "predicate": "on",
+      "object": "Woman_1"
+    },
+    {
+      "subject": "Pot_1",
+      "predicate": "near",
+      "object": "Woman_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "on",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Pot_1",
+      "predicate": "near",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Robe_1",
+      "predicate": "near",
+      "object": "Water_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Mountian_1",
+    "Woman_1",
+    "Pot_1"
+  ]
+}

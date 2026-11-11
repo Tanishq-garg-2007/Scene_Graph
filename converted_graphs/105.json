@@ -1,0 +1,153 @@
+{
+  "image_id": 105,
+  "prompt_text": "### Relational Edges:\n- [Car_6] --[on]--> [Street_1]\n- [Car_3] --[on]--> [Street_1]\n- [Car_4] --[on]--> [Street_1]\n- [Car_2] --[on]--> [Street_1]\n- [Car_5] --[on]--> [Street_1]\n- [Truck_1] --[on]--> [Street_1]\n- [Car_1] --[on]--> [Street_1]\n- [Vehicle_3] --[on]--> [Street_1]\n- [Van_2] --[on]--> [Street_1]\n- [Van_1] --[on]--> [Street_1]\n- [Vehicle_1] --[on]--> [Street_1]\n- [Vehicle_2] --[on]--> [Street_1]\n- [Man_2] --[wearing]--> [Coat_1: blue, gray]\n- [Building_1] --[next to]--> [Sidewalk_1: gray]\n- [Backpack_1] --[on]--> [Shoulder_1]\n- [Man_1] --[wearing]--> [BlackCoat_1]\n- [Pole_1] --[next to]--> [Truck_1: parked, black, blue, grey]\n- [Man_2] --[wearing]--> [Backpack_1: black, brow]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Car_1] -> [Car_2] -> [Van_1: red] -> [Vehicle_1] -> [Car_3] -> [Vehicle_2] -> [Lines_1] -> [Car_4] -> [Streetlight_1] -> [Car_5] -> [WetSpots_1] -> [Vehicle_3] -> [Downtown_1] -> [LicensePlate_1: white] -> [Car_6: empty] -> [Van_2: purple] -> [Truck_1: parked, black, blue, grey] -> [Pole_1: tall] -> [Man_1] -> [Blue_1] -> [Man_2] -> [Shoulder_1] -> [Building_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Streetlight_1] -> [Pole_1: tall] -> [Truck_1: parked, black, blue, grey] -> [Vehicle_3] -> [Car_5] -> [Man_1] -> [Car_4] -> [Car_3] -> [Vehicle_2] -> [Vehicle_1] -> [Car_2] -> [Van_1: red] -> [Car_1] -> [Shoulder_1] -> [Car_6: empty] -> [Van_2: purple] -> [Lines_1] -> [LicensePlate_1: white] -> [Downtown_1] -> [Building_1] -> [Man_2] -> [Blue_1] -> [WetSpots_1]",
+  "semantic_id_mapping": {
+    "1062324": "Backpack_1",
+    "1062327": "BlackCoat_1",
+    "1062333": "Blue_1",
+    "1062323": "Building_1",
+    "1062316": "Car_1",
+    "1025913": "Car_2",
+    "1025914": "Car_3",
+    "1025915": "Car_4",
+    "1025916": "Car_5",
+    "1025911": "Car_6",
+    "1062321": "Coat_1",
+    "1062330": "Downtown_1",
+    "1062334": "Jeans_1",
+    "1062335": "LicensePlate_1",
+    "1062328": "Lines_1",
+    "1062326": "Man_1",
+    "1062319": "Man_2",
+    "1062322": "Pole_1",
+    "1062331": "Road_1",
+    "1062325": "Shoulder_1",
+    "1062320": "Sidewalk_1",
+    "1025912": "Street_1",
+    "1062329": "Streetlight_1",
+    "1062314": "Truck_1",
+    "1062298": "Van_1",
+    "1062300": "Van_2",
+    "1062318": "Vehicle_1",
+    "1062297": "Vehicle_2",
+    "1062317": "Vehicle_3",
+    "1062332": "WetSpots_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Car_6",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_3",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_4",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_5",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Truck_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Vehicle_3",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Van_2",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Van_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Vehicle_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Vehicle_2",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Coat_1"
+    },
+    {
+      "subject": "Building_1",
+      "predicate": "next to",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Backpack_1",
+      "predicate": "on",
+      "object": "Shoulder_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "BlackCoat_1"
+    },
+    {
+      "subject": "Pole_1",
+      "predicate": "next to",
+      "object": "Truck_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Backpack_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Car_1",
+    "Car_2",
+    "Van_1",
+    "Vehicle_1",
+    "Car_3",
+    "Vehicle_2",
+    "Lines_1",
+    "Car_4",
+    "Streetlight_1",
+    "Car_5",
+    "WetSpots_1",
+    "Vehicle_3",
+    "Downtown_1",
+    "LicensePlate_1",
+    "Car_6",
+    "Van_2",
+    "Truck_1",
+    "Pole_1",
+    "Man_1",
+    "Blue_1",
+    "Man_2",
+    "Shoulder_1",
+    "Building_1"
+  ]
+}

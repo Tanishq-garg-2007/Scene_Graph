@@ -1,0 +1,51 @@
+{
+  "image_id": 190,
+  "prompt_text": "### Relational Edges:\n- [Window_1] --[on]--> [Building_1: brick]\n- [WaterFountain_1] --[next to]--> [SwimmingPool_1: inground]\n- [Bench_1] --[near]--> [SwimmingPool_1: inground]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Window_1: large] -> [WaterFountain_1: staggered stone] -> [Window_2] -> [Water_1] -> [Building_1: brick] -> [SwimmingPool_1: inground] -> [Door_1] -> [Bench_1: empty] -> [Light_1: hanging] -> [Decal_1] -> [Steps_1] -> [Plant_1: green, large] -> [Pot_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_2] -> [Window_1: large] -> [Light_1: hanging] -> [Building_1: brick] -> [Plant_1: green, large] -> [Door_1] -> [Bench_1: empty] -> [WaterFountain_1: staggered stone] -> [Steps_1] -> [Pot_1] -> [Decal_1] -> [SwimmingPool_1: inground] -> [Water_1]",
+  "semantic_id_mapping": {
+    "1062567": "Bench_1",
+    "1062559": "Building_1",
+    "1062570": "Decal_1",
+    "1062571": "Door_1",
+    "1062569": "Light_1",
+    "1062562": "Plant_1",
+    "1062563": "Pot_1",
+    "1062566": "Steps_1",
+    "1062564": "SwimmingPool_1",
+    "1062565": "Water_1",
+    "1062568": "WaterFountain_1",
+    "1062560": "Window_1",
+    "1062561": "Window_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "WaterFountain_1",
+      "predicate": "next to",
+      "object": "SwimmingPool_1"
+    },
+    {
+      "subject": "Bench_1",
+      "predicate": "near",
+      "object": "SwimmingPool_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Window_1",
+    "WaterFountain_1",
+    "Window_2",
+    "Water_1",
+    "Building_1",
+    "SwimmingPool_1",
+    "Door_1",
+    "Bench_1",
+    "Light_1",
+    "Decal_1",
+    "Steps_1",
+    "Plant_1",
+    "Pot_1"
+  ]
+}

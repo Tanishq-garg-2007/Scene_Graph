@@ -1,0 +1,28 @@
+{
+  "image_id": 144,
+  "prompt_text": "### Relational Edges:\nNone\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Boat_1] -> [Boat_2] -> [Boat_3] -> [Boat_4] -> [Water_1] -> [Boat_5] -> [Boat_6] -> [Boat_7] -> [Boat_8]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Boat_5] -> [Boat_8] -> [Boat_3] -> [Boat_6] -> [Boat_7] -> [Boat_1] -> [Boat_2] -> [Boat_4] -> [Water_1]",
+  "semantic_id_mapping": {
+    "1624970": "Boat_1",
+    "1624969": "Boat_2",
+    "1624974": "Boat_3",
+    "1624967": "Boat_4",
+    "1624973": "Boat_5",
+    "1624972": "Boat_6",
+    "1624971": "Boat_7",
+    "1624975": "Boat_8",
+    "1624976": "Wall_1",
+    "1624968": "Water_1"
+  },
+  "relational_edges": [],
+  "horizontal_ordering": [
+    "Boat_1",
+    "Boat_2",
+    "Boat_3",
+    "Boat_4",
+    "Water_1",
+    "Boat_5",
+    "Boat_6",
+    "Boat_7",
+    "Boat_8"
+  ]
+}

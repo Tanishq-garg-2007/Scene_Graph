@@ -1,0 +1,125 @@
+{
+  "image_id": 40,
+  "prompt_text": "### Relational Edges:\n- [LampStand_2] --[on]--> [Table_2: tiled]\n- [Table_1] --[next to]--> [Chair_1: decorated, floral, indoors, blue]\n- [Chair_1] --[next to]--> [Table_1: blue, colorful]\n- [Frame_1] --[on]--> [Table_1: blue, colorful]\n- [Flowers_1] --[on]--> [Table_1: blue, colorful]\n- [Books_1] --[on]--> [Shelf_1: indoors]\n- [Picture_2] --[on]--> [Table_1: blue, colorful]\n- [Person_2] --[on]--> [Picture_2: indoors]\n- [Person_1] --[on]--> [Picture_2: indoors]\n- [Vase_1] --[on]--> [Table_1: blue, colorful]\n- [Frames_1] --[on]--> [Table_1: blue, colorful]\n- [LampStand_1] --[on]--> [Table_1: blue, colorful]\n- [Tile_1] --[on]--> [Floor_1]\n- [Bow_1] --[on]--> [Table_1: blue, colorful]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Chair_1: decorated, floral, indoors, blue] -> [Books_1: arranged, indoors] -> [Shelf_1: indoors] -> [Lampshade_1: white] -> [LampStand_1: indoors, white] -> [Scene_1: indoors, daytime, sunny] -> [Background_1] -> [Frame_1: yellow, indoors] -> [Picture_1: yellow] -> [LampStand_2: white, colored, blue, indoors] -> [Table_1: blue, colorful] -> [Frames_1] -> [Bow_1] -> [Photos_1: framed] -> [Table_2: tiled] -> [Tile_1] -> [Person_1] -> [Flowers_1: yellow, indoors] -> [Picture_2: indoors] -> [Person_2] -> [Vase_1] -> [Window_1: light, clean]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Lampshade_1: white] -> [Flowers_1: yellow, indoors] -> [Books_1: arranged, indoors] -> [Shelf_1: indoors] -> [LampStand_1: indoors, white] -> [Background_1] -> [Window_1: light, clean] -> [Vase_1] -> [Frame_1: yellow, indoors] -> [Picture_1: yellow] -> [Photos_1: framed] -> [Frames_1] -> [Picture_2: indoors] -> [Person_2] -> [Person_1] -> [Scene_1: indoors, daytime, sunny] -> [Bow_1] -> [Chair_1: decorated, floral, indoors, blue] -> [LampStand_2: white, colored, blue, indoors] -> [Table_1: blue, colorful] -> [Table_2: tiled] -> [Tile_1]",
+  "semantic_id_mapping": {
+    "5907": "Background_1",
+    "1025181": "Books_1",
+    "1025217": "Bow_1",
+    "1025176": "Chair_1",
+    "1025214": "Floor_1",
+    "1025201": "Flowers_1",
+    "5897": "Frame_1",
+    "5909": "Frames_1",
+    "1025212": "LampStand_1",
+    "5893": "LampStand_2",
+    "1025213": "Lampshade_1",
+    "5903": "Person_1",
+    "5902": "Person_2",
+    "5908": "Photos_1",
+    "1025177": "Picture_1",
+    "1025183": "Picture_2",
+    "1025191": "Scene_1",
+    "1025182": "Shelf_1",
+    "1025211": "Table_1",
+    "5894": "Table_2",
+    "1025215": "Tile_1",
+    "1025188": "Vase_1",
+    "1025216": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "LampStand_2",
+      "predicate": "on",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Table_1",
+      "predicate": "next to",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "next to",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Frame_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Picture_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Person_2",
+      "predicate": "on",
+      "object": "Picture_2"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Picture_2"
+    },
+    {
+      "subject": "Vase_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Frames_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "LampStand_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Tile_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Bow_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Chair_1",
+    "Books_1",
+    "Shelf_1",
+    "Lampshade_1",
+    "LampStand_1",
+    "Scene_1",
+    "Background_1",
+    "Frame_1",
+    "Picture_1",
+    "LampStand_2",
+    "Table_1",
+    "Frames_1",
+    "Bow_1",
+    "Photos_1",
+    "Table_2",
+    "Tile_1",
+    "Person_1",
+    "Flowers_1",
+    "Picture_2",
+    "Person_2",
+    "Vase_1",
+    "Window_1"
+  ]
+}

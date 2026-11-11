@@ -1,0 +1,232 @@
+{
+  "image_id": 7,
+  "prompt_text": "### Relational Edges:\n- [Book_3] --[on]--> [Desk_2]\n- [JuiceBottle_1] --[on]--> [Desk_1: cluttered]\n- [StickyNote_1] --[on]--> [Monitor_1: on, turned on, for computer]\n- [Telephone_1] --[on]--> [Desk_1: cluttered]\n- [Headphones_1] --[on]--> [Desk_1: cluttered]\n- [Woman_1] --[wearing]--> [Pants_1: blue]\n- [Papers_1] --[next to]--> [WhiteBoard_1: dirty]\n- [Cpu_1] --[on]--> [Floor_1]\n- [Mouse_1] --[on]--> [Desk_1: cluttered]\n- [WhiteBoard_1] --[on]--> [Wall_1]\n- [Bracelet_1] --[on]--> [Wrist_1]\n- [WristPad_1] --[on]--> [Keyboard_1: black, red]\n- [Mouse_1] --[on]--> [Mousepad_1]\n- [Cereal_1] --[on]--> [Desk_1: cluttered]\n- [Pen_1] --[on]--> [Book_1]\n- [Woman_1] --[wearing]--> [Earring_1]\n- [WaterBottle_1] --[on]--> [Desk_1: cluttered]\n- [Monitor_1] --[next to]--> [Keyboard_1: black, red]\n- [Mug_1] --[on]--> [Desk_1: cluttered]\n- [Woman_1] --[wearing]--> [Sweater_1: cream colored, gray, beige]\n- [Mug_1] --[next to]--> [Telephone_1: pink, beige, tan, push button]\n- [Laptop_1] --[on]--> [Desk_2]\n- [Woman_1] --[wearing]--> [BlueJeans_1]\n- [Cereal_1] --[behind]--> [WaterBottle_1]\n- [Calculator_1] --[on]--> [Book_2: open]\n- [TapeDispenser_1] --[on]--> [Desk_1: cluttered]\n- [Pen_1] --[on]--> [Desk_1: cluttered]\n- [JuiceBottle_1] --[next to]--> [Monitor_1: on, turned on, for computer]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Writing_1: red] -> [Lady_1: young, seated, smiling] -> [Papers_1] -> [Woman_1: smiling] -> [Pen_1: red] -> [Book_1] -> [WhiteBoard_1: dirty] -> [Chair_1] -> [Wrist_1] -> [Bracelet_1] -> [CdPlayer_1: for listening] -> [Lid_1: on top] -> [JuiceBottle_1] -> [StickyNote_1: yellow] -> [Headphones_1: black, for listening] -> [WristPad_1: red] -> [Monitor_1: on, turned on, for computer] -> [Keyboard_1: black, red] -> [Desk_1: cluttered] -> [Cables_1] -> [Cpu_1: black] -> [ThreeHolePunch_1: black] -> [Mousepad_1] -> [Mouse_1: black] -> [Mug_1] -> [Cereal_1] -> [WaterBottle_1] -> [Label_1: green] -> [Book_2: open] -> [Calculator_1] -> [Telephone_1: pink, beige, tan, push button] -> [TapeDispenser_1: black] -> [Window_1: brown] -> [Laptop_1: black, closed] -> [Lid_2] -> [Desk_2] -> [Book_3: purple]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [WhiteBoard_1: dirty] -> [Writing_1: red] -> [Window_1: brown] -> [Monitor_1: on, turned on, for computer] -> [Lid_1: on top] -> [Cereal_1] -> [StickyNote_1: yellow] -> [Papers_1] -> [JuiceBottle_1] -> [ThreeHolePunch_1: black] -> [Label_1: green] -> [WaterBottle_1] -> [Mug_1] -> [Keyboard_1: black, red] -> [WristPad_1: red] -> [CdPlayer_1: for listening] -> [Telephone_1: pink, beige, tan, push button] -> [Mouse_1: black] -> [Book_1] -> [Headphones_1: black, for listening] -> [Mousepad_1] -> [Pen_1: red] -> [Lady_1: young, seated, smiling] -> [Calculator_1] -> [Woman_1: smiling] -> [Desk_1: cluttered] -> [Book_2: open] -> [TapeDispenser_1: black] -> [Lid_2] -> [Cables_1] -> [Laptop_1: black, closed] -> [Bracelet_1] -> [Wrist_1] -> [Desk_2] -> [Book_3: purple] -> [Cpu_1: black] -> [Chair_1]",
+  "semantic_id_mapping": {
+    "1060430": "BlueJeans_1",
+    "1060407": "Book_1",
+    "1060434": "Book_2",
+    "5172": "Book_3",
+    "1060414": "Bracelet_1",
+    "1060422": "Cables_1",
+    "1060433": "Calculator_1",
+    "1060418": "CdPlayer_1",
+    "1060419": "Cereal_1",
+    "1060431": "Chair_1",
+    "5186": "Cpu_1",
+    "1060412": "Desk_1",
+    "1060382": "Desk_2",
+    "1060420": "Earring_1",
+    "5187": "Floor_1",
+    "5179": "Hair_1",
+    "1060394": "Headphones_1",
+    "1060383": "JuiceBottle_1",
+    "1060411": "Keyboard_1",
+    "1060432": "Label_1",
+    "5178": "Lady_1",
+    "1060424": "Laptop_1",
+    "1060426": "Lid_1",
+    "1060425": "Lid_2",
+    "1060386": "Monitor_1",
+    "1060408": "Mouse_1",
+    "1060417": "Mousepad_1",
+    "1060423": "Mug_1",
+    "5184": "Pants_1",
+    "5185": "Papers_1",
+    "1060406": "Pen_1",
+    "1060385": "StickyNote_1",
+    "1060427": "Sweater_1",
+    "1060429": "TapeDispenser_1",
+    "1060380": "Telephone_1",
+    "1060435": "ThreeHolePunch_1",
+    "1060413": "Wall_1",
+    "5191": "Wall_2",
+    "1060421": "WaterBottle_1",
+    "1060389": "WhiteBoard_1",
+    "1060428": "Window_1",
+    "1060401": "Woman_1",
+    "1060415": "Wrist_1",
+    "1060416": "WristPad_1",
+    "1060390": "Writing_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Book_3",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "JuiceBottle_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "StickyNote_1",
+      "predicate": "on",
+      "object": "Monitor_1"
+    },
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Headphones_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Pants_1"
+    },
+    {
+      "subject": "Papers_1",
+      "predicate": "next to",
+      "object": "WhiteBoard_1"
+    },
+    {
+      "subject": "Cpu_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "WhiteBoard_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Bracelet_1",
+      "predicate": "on",
+      "object": "Wrist_1"
+    },
+    {
+      "subject": "WristPad_1",
+      "predicate": "on",
+      "object": "Keyboard_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Mousepad_1"
+    },
+    {
+      "subject": "Cereal_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Pen_1",
+      "predicate": "on",
+      "object": "Book_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Earring_1"
+    },
+    {
+      "subject": "WaterBottle_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Monitor_1",
+      "predicate": "next to",
+      "object": "Keyboard_1"
+    },
+    {
+      "subject": "Mug_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Sweater_1"
+    },
+    {
+      "subject": "Mug_1",
+      "predicate": "next to",
+      "object": "Telephone_1"
+    },
+    {
+      "subject": "Laptop_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "BlueJeans_1"
+    },
+    {
+      "subject": "Cereal_1",
+      "predicate": "behind",
+      "object": "WaterBottle_1"
+    },
+    {
+      "subject": "Calculator_1",
+      "predicate": "on",
+      "object": "Book_2"
+    },
+    {
+      "subject": "TapeDispenser_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Pen_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "JuiceBottle_1",
+      "predicate": "next to",
+      "object": "Monitor_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Writing_1",
+    "Lady_1",
+    "Papers_1",
+    "Woman_1",
+    "Pen_1",
+    "Book_1",
+    "WhiteBoard_1",
+    "Chair_1",
+    "Wrist_1",
+    "Bracelet_1",
+    "CdPlayer_1",
+    "Lid_1",
+    "JuiceBottle_1",
+    "StickyNote_1",
+    "Headphones_1",
+    "WristPad_1",
+    "Monitor_1",
+    "Keyboard_1",
+    "Desk_1",
+    "Cables_1",
+    "Cpu_1",
+    "ThreeHolePunch_1",
+    "Mousepad_1",
+    "Mouse_1",
+    "Mug_1",
+    "Cereal_1",
+    "WaterBottle_1",
+    "Label_1",
+    "Book_2",
+    "Calculator_1",
+    "Telephone_1",
+    "TapeDispenser_1",
+    "Window_1",
+    "Laptop_1",
+    "Lid_2",
+    "Desk_2",
+    "Book_3"
+  ]
+}

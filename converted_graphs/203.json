@@ -1,0 +1,167 @@
+{
+  "image_id": 203,
+  "prompt_text": "### Relational Edges:\n- [Car_2] --[on]--> [Street_2]\n- [Car_5] --[on]--> [Street_1]\n- [Car_8] --[on]--> [Street_6]\n- [Car_9] --[on]--> [Street_7]\n- [Car_4] --[on]--> [Street_3]\n- [Car_10] --[on]--> [Street_8]\n- [Motorcycle_1] --[on]--> [Sidewalk_1]\n- [Car_7] --[on]--> [Street_5]\n- [Car_6] --[on]--> [Street_4]\n- [Wiper_1] --[on]--> [Car_5: yellow]\n- [Sticker_1] --[on]--> [Window_1]\n- [Car_8] --[on]--> [Street_4]\n- [Car_7] --[on]--> [Street_4]\n- [Car_1] --[on]--> [Street_4]\n- [Car_5] --[on]--> [Street_4]\n- [Car_2] --[on]--> [Street_4]\n- [Car_3] --[on]--> [Street_4]\n- [Motorcycle_1] --[on]--> [Walkway_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Car_1] -> [Sticker_1] -> [Window_1] -> [Door_1] -> [Light_1] -> [Car_2: old, red] -> [Sunroof_1] -> [Car_3] -> [Minivan_1: large] -> [Building_1: large] -> [Car_4] -> [Handle_1: black] -> [Lamp_1: metal, tall] -> [City_1] -> [Plate_1: black, yellow] -> [Mirror_1] -> [Wiper_1: black] -> [Car_5: yellow] -> [Car_6] -> [Car_7] -> [Tree_1: big, large] -> [Car_8: parked] -> [Car_9] -> [Cement_1] -> [Car_10] -> [Walkway_1] -> [Person_1] -> [Motorcycle_1: silver] -> [Greenery_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Building_1: large] -> [Tree_1: big, large] -> [Lamp_1: metal, tall] -> [Light_1] -> [Door_1] -> [City_1] -> [Car_6] -> [Car_10] -> [Person_1] -> [Car_9] -> [Car_3] -> [Minivan_1: large] -> [Car_4] -> [Car_8: parked] -> [Car_1] -> [Car_7] -> [Wiper_1: black] -> [Motorcycle_1: silver] -> [Sunroof_1] -> [Plate_1: black, yellow] -> [Car_5: yellow] -> [Mirror_1] -> [Walkway_1] -> [Car_2: old, red] -> [Greenery_1] -> [Window_1] -> [Cement_1] -> [Handle_1: black] -> [Sticker_1]",
+  "semantic_id_mapping": {
+    "1062708": "Building_1",
+    "1026237": "Car_1",
+    "1026233": "Car_2",
+    "1026236": "Car_3",
+    "1062690": "Car_4",
+    "1026235": "Car_5",
+    "1062698": "Car_6",
+    "1026238": "Car_7",
+    "1026239": "Car_8",
+    "1062688": "Car_9",
+    "1062693": "Car_10",
+    "1062713": "Cement_1",
+    "1062709": "City_1",
+    "1062704": "Door_1",
+    "1062714": "Greenery_1",
+    "1062711": "Handle_1",
+    "1062712": "Lamp_1",
+    "1062703": "Light_1",
+    "1062666": "Minivan_1",
+    "1062707": "Mirror_1",
+    "1062695": "Motorcycle_1",
+    "1062702": "Person_1",
+    "1062699": "Plate_1",
+    "1062696": "Sidewalk_1",
+    "1062705": "Sticker_1",
+    "1062670": "Street_1",
+    "1062665": "Street_2",
+    "1062691": "Street_3",
+    "1026234": "Street_4",
+    "1062697": "Street_5",
+    "1062660": "Street_6",
+    "1062689": "Street_7",
+    "1062694": "Street_8",
+    "1062701": "Sunroof_1",
+    "1062710": "Tree_1",
+    "1062715": "Walkway_1",
+    "1062706": "Window_1",
+    "1062700": "Wiper_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Car_5",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_8",
+      "predicate": "on",
+      "object": "Street_6"
+    },
+    {
+      "subject": "Car_9",
+      "predicate": "on",
+      "object": "Street_7"
+    },
+    {
+      "subject": "Car_4",
+      "predicate": "on",
+      "object": "Street_3"
+    },
+    {
+      "subject": "Car_10",
+      "predicate": "on",
+      "object": "Street_8"
+    },
+    {
+      "subject": "Motorcycle_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Car_7",
+      "predicate": "on",
+      "object": "Street_5"
+    },
+    {
+      "subject": "Car_6",
+      "predicate": "on",
+      "object": "Street_4"
+    },
+    {
+      "subject": "Wiper_1",
+      "predicate": "on",
+      "object": "Car_5"
+    },
+    {
+      "subject": "Sticker_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Car_8",
+      "predicate": "on",
+      "object": "Street_4"
+    },
+    {
+      "subject": "Car_7",
+      "predicate": "on",
+      "object": "Street_4"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Street_4"
+    },
+    {
+      "subject": "Car_5",
+      "predicate": "on",
+      "object": "Street_4"
+    },
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Street_4"
+    },
+    {
+      "subject": "Car_3",
+      "predicate": "on",
+      "object": "Street_4"
+    },
+    {
+      "subject": "Motorcycle_1",
+      "predicate": "on",
+      "object": "Walkway_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Car_1",
+    "Sticker_1",
+    "Window_1",
+    "Door_1",
+    "Light_1",
+    "Car_2",
+    "Sunroof_1",
+    "Car_3",
+    "Minivan_1",
+    "Building_1",
+    "Car_4",
+    "Handle_1",
+    "Lamp_1",
+    "City_1",
+    "Plate_1",
+    "Mirror_1",
+    "Wiper_1",
+    "Car_5",
+    "Car_6",
+    "Car_7",
+    "Tree_1",
+    "Car_8",
+    "Car_9",
+    "Cement_1",
+    "Car_10",
+    "Walkway_1",
+    "Person_1",
+    "Motorcycle_1",
+    "Greenery_1"
+  ]
+}

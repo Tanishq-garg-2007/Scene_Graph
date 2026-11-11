@@ -1,0 +1,92 @@
+{
+  "image_id": 49,
+  "prompt_text": "### Relational Edges:\n- [Girl_1] --[wearing]--> [Coat_1: pink]\n- [Man_1] --[wearing]--> [Jacket_1: white, clean, long]\n- [Man_1] --[wearing]--> [Bag_2: red]\n- [Sky_1] --[near]--> [Buildings_1: tall, big]\n- [Signs_1] --[on]--> [Buildings_1: tall, big]\n- [Windows_1] --[on]--> [Building_1: tall]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Car_1: parked] -> [Vehicle_1: parked] -> [Purse_1: white] -> [Bag_1] -> [Woman_1: walking, white] -> [Buildings_1: tall, big] -> [Plants_1: green] -> [Taxi_1: yellow, gold, parked] -> [Planters_1: concrete] -> [Pole_1: black] -> [Light_1: off] -> [Signs_1: hanging, high, black] -> [Sign_1: blue, yellow] -> [People_1: walking] -> [Light_2: red, black] -> [Man_1: walking] -> [Girl_1] -> [Man_2] -> [Bag_3] -> [Flag_1: hanging, waving, blue] -> [Store_1] -> [Building_1: tall]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Buildings_1: tall, big] -> [Light_1: off] -> [Building_1: tall] -> [Flag_1: hanging, waving, blue] -> [Pole_1: black] -> [Signs_1: hanging, high, black] -> [Sign_1: blue, yellow] -> [Store_1] -> [Light_2: red, black] -> [Taxi_1: yellow, gold, parked] -> [Car_1: parked] -> [Plants_1: green] -> [Planters_1: concrete] -> [Girl_1] -> [Vehicle_1: parked] -> [Bag_1] -> [Bag_3] -> [People_1: walking] -> [Purse_1: white] -> [Man_1: walking] -> [Woman_1: walking, white] -> [Man_2]",
+  "semantic_id_mapping": {
+    "6118": "Bag_1",
+    "6116": "Bag_2",
+    "6120": "Bag_3",
+    "1061940": "Building_1",
+    "1061944": "Buildings_1",
+    "1061927": "Car_1",
+    "1061917": "Coat_1",
+    "1061922": "Flag_1",
+    "6106": "Girl_1",
+    "1061923": "Jacket_1",
+    "6114": "Light_1",
+    "1061925": "Light_2",
+    "6112": "Man_1",
+    "6119": "Man_2",
+    "1061953": "People_1",
+    "6122": "Planters_1",
+    "1061938": "Plants_1",
+    "6124": "Pole_1",
+    "1025537": "Purse_1",
+    "6107": "Shirt_1",
+    "1061930": "Sign_1",
+    "1061943": "Signs_1",
+    "1061948": "Sky_1",
+    "6126": "Store_1",
+    "1061942": "Street_1",
+    "1061952": "Sunglasses_1",
+    "1061921": "Taxi_1",
+    "6121": "Vehicle_1",
+    "1061954": "Windows_1",
+    "1025507": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Girl_1",
+      "predicate": "wearing",
+      "object": "Coat_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Jacket_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Bag_2"
+    },
+    {
+      "subject": "Sky_1",
+      "predicate": "near",
+      "object": "Buildings_1"
+    },
+    {
+      "subject": "Signs_1",
+      "predicate": "on",
+      "object": "Buildings_1"
+    },
+    {
+      "subject": "Windows_1",
+      "predicate": "on",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Car_1",
+    "Vehicle_1",
+    "Purse_1",
+    "Bag_1",
+    "Woman_1",
+    "Buildings_1",
+    "Plants_1",
+    "Taxi_1",
+    "Planters_1",
+    "Pole_1",
+    "Light_1",
+    "Signs_1",
+    "Sign_1",
+    "People_1",
+    "Light_2",
+    "Man_1",
+    "Girl_1",
+    "Man_2",
+    "Bag_3",
+    "Flag_1",
+    "Store_1",
+    "Building_1"
+  ]
+}

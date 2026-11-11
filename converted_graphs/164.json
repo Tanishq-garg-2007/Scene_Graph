@@ -1,0 +1,64 @@
+{
+  "image_id": 164,
+  "prompt_text": "### Relational Edges:\n- [Roof_1] --[on]--> [Tunnel_1: illuminated, blue, white, long]\n- [Lighting_1] --[on]--> [Ceiling_1]\n- [Line_2] --[on]--> [Ceiling_1]\n- [Person_1] --[on]--> [Walkway_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [YellowLine_1] -> [Line_1: yellow] -> [Line_2: blue] -> [Tile_1] -> [Tile_2] -> [Tile_3] -> [Walkway_1] -> [Tile_4] -> [CheckeredFloor_1: blue, white] -> [Person_1] -> [Light_1: tube] -> [Lighting_1: tube] -> [Tunnel_1: illuminated, blue, white, long] -> [Building_1: modern] -> [Roof_1] -> [Walkway_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Line_2: blue] -> [Lighting_1: tube] -> [Light_1: tube] -> [Roof_1] -> [Tunnel_1: illuminated, blue, white, long] -> [Building_1: modern] -> [Person_1] -> [Walkway_1] -> [Walkway_2] -> [CheckeredFloor_1: blue, white] -> [YellowLine_1] -> [Line_1: yellow] -> [Tile_3] -> [Tile_2] -> [Tile_4] -> [Tile_1]",
+  "semantic_id_mapping": {
+    "1536113": "Building_1",
+    "1536109": "Ceiling_1",
+    "1536120": "CheckeredFloor_1",
+    "1536134": "Floor_1",
+    "1536110": "Light_1",
+    "1536106": "Lighting_1",
+    "3792914": "Line_1",
+    "1536108": "Line_2",
+    "1536117": "Person_1",
+    "1536104": "Roof_1",
+    "1536132": "Tile_1",
+    "1536131": "Tile_2",
+    "1536126": "Tile_3",
+    "1536135": "Tile_4",
+    "1536112": "Tunnel_1",
+    "1536115": "Walkway_1",
+    "1536123": "Walkway_2",
+    "1536125": "YellowLine_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Roof_1",
+      "predicate": "on",
+      "object": "Tunnel_1"
+    },
+    {
+      "subject": "Lighting_1",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Line_2",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Walkway_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "YellowLine_1",
+    "Line_1",
+    "Line_2",
+    "Tile_1",
+    "Tile_2",
+    "Tile_3",
+    "Walkway_1",
+    "Tile_4",
+    "CheckeredFloor_1",
+    "Person_1",
+    "Light_1",
+    "Lighting_1",
+    "Tunnel_1",
+    "Building_1",
+    "Roof_1",
+    "Walkway_2"
+  ]
+}

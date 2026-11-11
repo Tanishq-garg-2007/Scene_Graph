@@ -1,0 +1,26 @@
+{
+  "image_id": 91,
+  "prompt_text": "### Relational Edges:\n- [Shade_1] --[on]--> [Lamp_2: floor lamp]\n- [Shade_2] --[on]--> [Lamp_2: floor lamp]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Lamp_1: tall] -> [Lamp_2: floor lamp]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Lamp_1: tall] -> [Lamp_2: floor lamp]",
+  "semantic_id_mapping": {
+    "1624901": "Lamp_1",
+    "1624902": "Lamp_2",
+    "3561945": "Shade_1",
+    "3561946": "Shade_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Shade_1",
+      "predicate": "on",
+      "object": "Lamp_2"
+    },
+    {
+      "subject": "Shade_2",
+      "predicate": "on",
+      "object": "Lamp_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Lamp_1",
+    "Lamp_2"
+  ]
+}

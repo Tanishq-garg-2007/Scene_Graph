@@ -1,0 +1,146 @@
+{
+  "image_id": 70,
+  "prompt_text": "### Relational Edges:\n- [Painting_1] --[on]--> [Wall_1]\n- [Person_1] --[wearing]--> [Chair_1: leather]\n- [Person_1] --[on]--> [Chair_1: leather]\n- [Man_3] --[wearing]--> [Jacket_2: black]\n- [Woman_3] --[wearing]--> [Shirt_1]\n- [Woman_1] --[wearing]--> [Sunglasses_1: black]\n- [Suitcase_1] --[on]--> [Floor_1]\n- [Man_2] --[wearing]--> [Green_1]\n- [WhiteBox_1] --[on]--> [Wall_1]\n- [RedLever_1] --[on]--> [Wall_1]\n- [Woman_3] --[wearing]--> [Sunglasses_1: black]\n- [Man_1] --[wearing]--> [Shirt_1]\n- [Man_2] --[holding]--> [Bag_1: brown]\n- [Man_3] --[holding]--> [Papers_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Woman_1: smiling] -> [Left_1] -> [Painting_1] -> [Man_1] -> [Picture_1] -> [Person_1] -> [Right_1] -> [Phone_1] -> [Woman_2] -> [Hands_1] -> [Chairs_1] -> [Newspaper_1] -> [Glass_1] -> [RedLever_1] -> [Fire_1] -> [WhiteBox_1] -> [Empty_1] -> [Room_1] -> [Man_2] -> [Black_1] -> [Men_1] -> [Mean_1] -> [Man_3] -> [Papers_1] -> [Line_1] -> [Bag_1: brown] -> [Man_4] -> [Woman_3] -> [Suitcase_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Picture_1] -> [Left_1] -> [RedLever_1] -> [Right_1] -> [Painting_1] -> [Glass_1] -> [WhiteBox_1] -> [Mean_1] -> [Man_2] -> [Fire_1] -> [Woman_3] -> [Men_1] -> [Man_3] -> [Man_4] -> [Line_1] -> [Woman_2] -> [Person_1] -> [Newspaper_1] -> [Bag_1: brown] -> [Papers_1] -> [Suitcase_1] -> [Woman_1: smiling] -> [Room_1] -> [Man_1] -> [Phone_1] -> [Hands_1] -> [Black_1] -> [Empty_1] -> [Chairs_1]",
+  "semantic_id_mapping": {
+    "1058751": "Bag_1",
+    "1058737": "Black_1",
+    "1058727": "Chair_1",
+    "1058756": "Chairs_1",
+    "1058755": "Empty_1",
+    "1058757": "Fire_1",
+    "1058740": "Floor_1",
+    "1058758": "Glass_1",
+    "1058744": "Green_1",
+    "1058754": "Hands_1",
+    "1058750": "Jacket_1",
+    "3786871": "Jacket_2",
+    "1058745": "Left_1",
+    "1058753": "Line_1",
+    "1058741": "Man_1",
+    "1058743": "Man_2",
+    "1058728": "Man_3",
+    "3786872": "Man_4",
+    "1058736": "Mean_1",
+    "1058752": "Men_1",
+    "1058735": "Newspaper_1",
+    "1058724": "Painting_1",
+    "1058759": "Papers_1",
+    "1058726": "Person_1",
+    "1058742": "Phone_1",
+    "1058746": "Picture_1",
+    "1058749": "RedLever_1",
+    "1058747": "Right_1",
+    "1058738": "Room_1",
+    "1058731": "Shirt_1",
+    "1058739": "Suitcase_1",
+    "1058733": "Sunglasses_1",
+    "1058725": "Wall_1",
+    "1058748": "WhiteBox_1",
+    "1058732": "Woman_1",
+    "1058734": "Woman_2",
+    "1058730": "Woman_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Man_3",
+      "predicate": "wearing",
+      "object": "Jacket_2"
+    },
+    {
+      "subject": "Woman_3",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Sunglasses_1"
+    },
+    {
+      "subject": "Suitcase_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Green_1"
+    },
+    {
+      "subject": "WhiteBox_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "RedLever_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Woman_3",
+      "predicate": "wearing",
+      "object": "Sunglasses_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "holding",
+      "object": "Bag_1"
+    },
+    {
+      "subject": "Man_3",
+      "predicate": "holding",
+      "object": "Papers_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Woman_1",
+    "Left_1",
+    "Painting_1",
+    "Man_1",
+    "Picture_1",
+    "Person_1",
+    "Right_1",
+    "Phone_1",
+    "Woman_2",
+    "Hands_1",
+    "Chairs_1",
+    "Newspaper_1",
+    "Glass_1",
+    "RedLever_1",
+    "Fire_1",
+    "WhiteBox_1",
+    "Empty_1",
+    "Room_1",
+    "Man_2",
+    "Black_1",
+    "Men_1",
+    "Mean_1",
+    "Man_3",
+    "Papers_1",
+    "Line_1",
+    "Bag_1",
+    "Man_4",
+    "Woman_3",
+    "Suitcase_1"
+  ]
+}

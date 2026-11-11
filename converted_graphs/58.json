@@ -1,0 +1,72 @@
+{
+  "image_id": 58,
+  "prompt_text": "### Relational Edges:\n- [Man_1] --[wearing]--> [Shirt_1: white]\n- [Design_1] --[on]--> [Street_1]\n- [Chairs_1] --[near]--> [Building_1: set]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Underpass_1] -> [Archway_1] -> [Handbag_1] -> [Woman_1] -> [Guy_1] -> [Letters_1: yellow, green] -> [BlackSign_1: black] -> [Chairs_1] -> [Tables_1] -> [Design_1: boxed in] -> [Building_1: set] -> [Letters_2: white, yellow] -> [MesonAgustin_1] -> [Sign_1: black] -> [Entrance_1] -> [Man_1] -> [Building_2] -> [Paint_1: red] -> [Window_1] -> [Reflection_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Paint_1: red] -> [MesonAgustin_1] -> [Letters_2: white, yellow] -> [Sign_1: black] -> [Letters_1: yellow, green] -> [BlackSign_1: black] -> [Building_1: set] -> [Building_2] -> [Reflection_1] -> [Underpass_1] -> [Archway_1] -> [Window_1] -> [Entrance_1] -> [Guy_1] -> [Woman_1] -> [Handbag_1] -> [Man_1] -> [Tables_1] -> [Chairs_1] -> [Design_1: boxed in]",
+  "semantic_id_mapping": {
+    "1634364": "Archway_1",
+    "1533784": "BlackSign_1",
+    "1533795": "Building_1",
+    "1533793": "Building_2",
+    "1533782": "Chairs_1",
+    "1533790": "Design_1",
+    "1533797": "Entrance_1",
+    "1634368": "Grass_1",
+    "1533801": "Guy_1",
+    "1533804": "Handbag_1",
+    "1533785": "Letters_1",
+    "1634361": "Letters_2",
+    "1634366": "Man_1",
+    "1533798": "MesonAgustin_1",
+    "1634363": "Paint_1",
+    "1533788": "Pants_1",
+    "1533787": "Reflection_1",
+    "1634367": "Shirt_1",
+    "1634365": "Sidewalk_1",
+    "1634360": "Sign_1",
+    "1533800": "Street_1",
+    "1533781": "Tables_1",
+    "1533802": "Underpass_1",
+    "3561766": "Wall_1",
+    "1533786": "Window_1",
+    "1533803": "Windows_1",
+    "1533799": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Design_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Chairs_1",
+      "predicate": "near",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Underpass_1",
+    "Archway_1",
+    "Handbag_1",
+    "Woman_1",
+    "Guy_1",
+    "Letters_1",
+    "BlackSign_1",
+    "Chairs_1",
+    "Tables_1",
+    "Design_1",
+    "Building_1",
+    "Letters_2",
+    "MesonAgustin_1",
+    "Sign_1",
+    "Entrance_1",
+    "Man_1",
+    "Building_2",
+    "Paint_1",
+    "Window_1",
+    "Reflection_1"
+  ]
+}

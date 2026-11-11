@@ -1,0 +1,123 @@
+{
+  "image_id": 30,
+  "prompt_text": "### Relational Edges:\n- [Luggage_1] --[on]--> [Floor_1: grey, carpeted]\n- [Sign_1] --[on]--> [Stand_1]\n- [Advertisements_1] --[on]--> [Stand_1]\n- [Tv_1] --[on]--> [Stand_1]\n- [Chairs_1] --[on]--> [Floor_1: grey, carpeted]\n- [Light_1] --[on]--> [Ceiling_1: white]\n- [Rails_1] --[on]--> [Window_1]\n- [Rug_1] --[on]--> [Floor_1: grey, carpeted]\n- [Remote_1] --[on]--> [Magazines_1: literature ]\n- [Magazines_1] --[on]--> [Stand_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Night_1] -> [Rails_1: white] -> [Window_1] -> [Luggage_1: black] -> [Bag_1] -> [Chair_1: grey, upholstered, wooden] -> [Chairs_1: cushioned] -> [Flooring_1: beige] -> [Curtains_1: green, grey] -> [Table_1: brown, wooden] -> [Chair_2: grey] -> [Light_1: on, lit, white yellow] -> [Picture_1] -> [Night_2] -> [Window_2] -> [Rug_1: brown, gray] -> [Picture_2: nighttime, night, inside] -> [Curtains_2: green] -> [Advertisements_1] -> [Handles_1: metallic] -> [Stand_1] -> [Magazines_1: literature ] -> [Drawer_1] -> [EntertainmentCenter_1] -> [ThreeDrawers_1] -> [Tv_1: switched off, turned off, black, tube style, small] -> [Remote_1: black] -> [Reflection_1] -> [Remote_2: television ] -> [Sign_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Light_1: on, lit, white yellow] -> [Magazines_1: literature ] -> [Advertisements_1] -> [Remote_1: black] -> [Sign_1] -> [Remote_2: television ] -> [Picture_1] -> [Night_1] -> [Night_2] -> [Curtains_1: green, grey] -> [Curtains_2: green] -> [Window_2] -> [Reflection_1] -> [Tv_1: switched off, turned off, black, tube style, small] -> [Window_1] -> [Picture_2: nighttime, night, inside] -> [Stand_1] -> [Chair_2: grey] -> [Rails_1: white] -> [Chairs_1: cushioned] -> [Table_1: brown, wooden] -> [Chair_1: grey, upholstered, wooden] -> [Handles_1: metallic] -> [Drawer_1] -> [Luggage_1: black] -> [Flooring_1: beige] -> [Bag_1] -> [ThreeDrawers_1] -> [EntertainmentCenter_1] -> [Rug_1: brown, gray]",
+  "semantic_id_mapping": {
+    "1061341": "Advertisements_1",
+    "1061337": "Bag_1",
+    "1061323": "Ceiling_1",
+    "1061315": "Chair_1",
+    "5708": "Chair_2",
+    "1061344": "Chairs_1",
+    "1061309": "Curtains_1",
+    "5715": "Curtains_2",
+    "1061335": "Drawer_1",
+    "1061336": "EntertainmentCenter_1",
+    "1061328": "Floor_1",
+    "1061351": "Flooring_1",
+    "1061349": "Handles_1",
+    "1061322": "Light_1",
+    "1061312": "Luggage_1",
+    "1061346": "Magazines_1",
+    "5710": "Night_1",
+    "5717": "Night_2",
+    "5716": "Picture_1",
+    "1061317": "Picture_2",
+    "1061340": "Rails_1",
+    "1061350": "Reflection_1",
+    "1061334": "Remote_1",
+    "3798666": "Remote_2",
+    "1061342": "Rug_1",
+    "1061338": "Sign_1",
+    "1061339": "Stand_1",
+    "1061330": "Table_1",
+    "1061347": "ThreeDrawers_1",
+    "1061333": "Tv_1",
+    "1061343": "Wall_1",
+    "1061345": "Window_1",
+    "1061348": "Window_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Luggage_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Stand_1"
+    },
+    {
+      "subject": "Advertisements_1",
+      "predicate": "on",
+      "object": "Stand_1"
+    },
+    {
+      "subject": "Tv_1",
+      "predicate": "on",
+      "object": "Stand_1"
+    },
+    {
+      "subject": "Chairs_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Light_1",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Rails_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Rug_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Remote_1",
+      "predicate": "on",
+      "object": "Magazines_1"
+    },
+    {
+      "subject": "Magazines_1",
+      "predicate": "on",
+      "object": "Stand_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Night_1",
+    "Rails_1",
+    "Window_1",
+    "Luggage_1",
+    "Bag_1",
+    "Chair_1",
+    "Chairs_1",
+    "Flooring_1",
+    "Curtains_1",
+    "Table_1",
+    "Chair_2",
+    "Light_1",
+    "Picture_1",
+    "Night_2",
+    "Window_2",
+    "Rug_1",
+    "Picture_2",
+    "Curtains_2",
+    "Advertisements_1",
+    "Handles_1",
+    "Stand_1",
+    "Magazines_1",
+    "Drawer_1",
+    "EntertainmentCenter_1",
+    "ThreeDrawers_1",
+    "Tv_1",
+    "Remote_1",
+    "Reflection_1",
+    "Remote_2",
+    "Sign_1"
+  ]
+}

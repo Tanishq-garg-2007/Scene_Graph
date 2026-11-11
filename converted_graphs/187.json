@@ -1,0 +1,104 @@
+{
+  "image_id": 187,
+  "prompt_text": "### Relational Edges:\n- [WineHolder_1] --[on]--> [Floor_1: wooden, wood]\n- [Blender_1] --[on]--> [Shelf_2]\n- [Basket_1] --[on]--> [Shelf_1]\n- [Basket_2] --[on]--> [Floor_1: wooden, wood]\n- [Basket_4] --[on]--> [Floor_1: wooden, wood]\n- [Boxes_1] --[on]--> [Shelf_5]\n- [Potatoes_1] --[on]--> [Shelf_3]\n- [Towels_1] --[on]--> [Drawer_1: white]\n- [Can_1] --[on]--> [Shelf_4]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Wine_1] -> [WineHolder_1] -> [CoffeeMaker_1: percolating, white] -> [Basket_1] -> [Shelf_1] -> [Shelf_2] -> [Basket_2: wicker, brown] -> [PaperTowels_1: white] -> [Kettle_1: tall, silver] -> [Bowl_1: green, round, glass] -> [Blender_1: white] -> [Potatoes_1] -> [Room_1] -> [Shelf_3] -> [Drawer_1: white] -> [Basket_3: wire] -> [Towels_1] -> [Can_1] -> [Basket_4] -> [Shelf_4] -> [Jar_1: homemade, red] -> [Boxes_1] -> [Shelf_5] -> [Container_1: blue]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Boxes_1] -> [Bowl_1: green, round, glass] -> [Shelf_5] -> [Basket_1] -> [Can_1] -> [Container_1: blue] -> [Shelf_1] -> [Towels_1] -> [Drawer_1: white] -> [Shelf_4] -> [CoffeeMaker_1: percolating, white] -> [Kettle_1: tall, silver] -> [Blender_1: white] -> [Room_1] -> [Shelf_2] -> [Jar_1: homemade, red] -> [PaperTowels_1: white] -> [Wine_1] -> [Basket_3: wire] -> [Potatoes_1] -> [Basket_2: wicker, brown] -> [WineHolder_1] -> [Shelf_3] -> [Basket_4]",
+  "semantic_id_mapping": {
+    "1062543": "Basket_1",
+    "1062546": "Basket_2",
+    "1062541": "Basket_3",
+    "1062547": "Basket_4",
+    "1062537": "Blender_1",
+    "1062545": "Bowl_1",
+    "1062549": "Boxes_1",
+    "1062556": "Can_1",
+    "1062539": "CoffeeMaker_1",
+    "1062542": "Container_1",
+    "1062551": "Drawer_1",
+    "1026180": "Floor_1",
+    "1062548": "Jar_1",
+    "1062558": "Kettle_1",
+    "1062554": "PaperTowels_1",
+    "1062540": "Potatoes_1",
+    "1026181": "Room_1",
+    "1062544": "Shelf_1",
+    "1062538": "Shelf_2",
+    "1062553": "Shelf_3",
+    "1062557": "Shelf_4",
+    "1062550": "Shelf_5",
+    "1062555": "Towels_1",
+    "1062552": "Wine_1",
+    "1062536": "WineHolder_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "WineHolder_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Blender_1",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Basket_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Basket_2",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Basket_4",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Boxes_1",
+      "predicate": "on",
+      "object": "Shelf_5"
+    },
+    {
+      "subject": "Potatoes_1",
+      "predicate": "on",
+      "object": "Shelf_3"
+    },
+    {
+      "subject": "Towels_1",
+      "predicate": "on",
+      "object": "Drawer_1"
+    },
+    {
+      "subject": "Can_1",
+      "predicate": "on",
+      "object": "Shelf_4"
+    }
+  ],
+  "horizontal_ordering": [
+    "Wine_1",
+    "WineHolder_1",
+    "CoffeeMaker_1",
+    "Basket_1",
+    "Shelf_1",
+    "Shelf_2",
+    "Basket_2",
+    "PaperTowels_1",
+    "Kettle_1",
+    "Bowl_1",
+    "Blender_1",
+    "Potatoes_1",
+    "Room_1",
+    "Shelf_3",
+    "Drawer_1",
+    "Basket_3",
+    "Towels_1",
+    "Can_1",
+    "Basket_4",
+    "Shelf_4",
+    "Jar_1",
+    "Boxes_1",
+    "Shelf_5",
+    "Container_1"
+  ]
+}

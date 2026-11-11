@@ -1,0 +1,53 @@
+{
+  "image_id": 162,
+  "prompt_text": "### Relational Edges:\n- [Bowl_1] --[on]--> [Platform_1: wooden]\n- [Stem_1] --[on]--> [Fruit_1]\n- [Bowl_1] --[on]--> [Table_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Table_1] -> [Kiwi_1: unpeeled, brown] -> [Pear_1: uneaten, yellow] -> [Fruit_1] -> [Platform_1: wooden] -> [Plate_1] -> [Bowl_1: white, ceramic, small] -> [Table_2] -> [Grapes_1: red] -> [Lid_1: black] -> [Stem_1] -> [Rim_1: blue] -> [Grain_1] -> [Lines_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Kiwi_1: unpeeled, brown] -> [Rim_1: blue] -> [Grapes_1: red] -> [Plate_1] -> [Bowl_1: white, ceramic, small] -> [Table_2] -> [Lines_1] -> [Platform_1: wooden] -> [Table_1] -> [Grain_1] -> [Pear_1: uneaten, yellow] -> [Fruit_1] -> [Stem_1] -> [Lid_1: black]",
+  "semantic_id_mapping": {
+    "1634736": "Bowl_1",
+    "3562435": "Fruit_1",
+    "1536065": "Grain_1",
+    "1634731": "Grapes_1",
+    "1634734": "Kiwi_1",
+    "1634737": "Lid_1",
+    "1634727": "Lines_1",
+    "1634732": "Pear_1",
+    "3562429": "Plate_1",
+    "3562431": "Platform_1",
+    "1634730": "Rim_1",
+    "1634738": "Stem_1",
+    "3562434": "Table_1",
+    "1536064": "Table_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Platform_1"
+    },
+    {
+      "subject": "Stem_1",
+      "predicate": "on",
+      "object": "Fruit_1"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Table_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Table_1",
+    "Kiwi_1",
+    "Pear_1",
+    "Fruit_1",
+    "Platform_1",
+    "Plate_1",
+    "Bowl_1",
+    "Table_2",
+    "Grapes_1",
+    "Lid_1",
+    "Stem_1",
+    "Rim_1",
+    "Grain_1",
+    "Lines_1"
+  ]
+}

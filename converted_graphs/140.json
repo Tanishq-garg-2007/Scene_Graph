@@ -1,0 +1,44 @@
+{
+  "image_id": 140,
+  "prompt_text": "### Relational Edges:\n- [Bike_2] --[along]--> [Walk_1: side]\n- [Bike_3] --[along]--> [Walk_1: side]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Fence_1] -> [Bike_1: grey] -> [Fence_2] -> [Bike_2: bunch] -> [Bike_3: bunch] -> [Walk_1: side] -> [Sign_1: white, red] -> [Building_1] -> [Bike_4: grey] -> [Pole_1] -> [Sign_2: black, white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Sign_2: black, white] -> [Building_1] -> [Sign_1: white, red] -> [Pole_1] -> [Bike_4: grey] -> [Bike_3: bunch] -> [Fence_2] -> [Bike_2: bunch] -> [Fence_1] -> [Walk_1: side] -> [Bike_1: grey]",
+  "semantic_id_mapping": {
+    "1621249": "Bike_1",
+    "1621247": "Bike_2",
+    "1621248": "Bike_3",
+    "1621253": "Bike_4",
+    "1621261": "Building_1",
+    "1621250": "Fence_1",
+    "1621252": "Fence_2",
+    "1621258": "Pole_1",
+    "1621259": "Sidewalk_1",
+    "1621260": "Sign_1",
+    "1621257": "Sign_2",
+    "3787122": "Walk_1",
+    "1621254": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Bike_2",
+      "predicate": "along",
+      "object": "Walk_1"
+    },
+    {
+      "subject": "Bike_3",
+      "predicate": "along",
+      "object": "Walk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Fence_1",
+    "Bike_1",
+    "Fence_2",
+    "Bike_2",
+    "Bike_3",
+    "Walk_1",
+    "Sign_1",
+    "Building_1",
+    "Bike_4",
+    "Pole_1",
+    "Sign_2"
+  ]
+}

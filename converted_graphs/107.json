@@ -1,0 +1,101 @@
+{
+  "image_id": 107,
+  "prompt_text": "### Relational Edges:\n- [Sticker_1] --[on]--> [Chair_2: blue, black]\n- [Mouse_1] --[on]--> [Table_1: brown, wood]\n- [Paper_1] --[on]--> [Table_1: brown, wood]\n- [Speaker_1] --[on]--> [Table_1: brown, wood]\n- [Book_1] --[on]--> [Table_1: brown, wood]\n- [Keyboard_1] --[on]--> [Table_1: brown, wood]\n- [Keyboard_2] --[on]--> [Table_1: brown, wood]\n- [Box_1] --[next to]--> [Monitor_1: crt, white]\n- [Whiteboard_1] --[on]--> [Wall_1: blue]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [OutletBox_1: blue] -> [Adapter_1: black] -> [Cord_1: yellow] -> [Whiteboard_1] -> [Box_1: black] -> [Keyboard_1: white] -> [Monitor_1: crt, white] -> [Box_2: open, cardboard] -> [Mouse_1: white] -> [Table_1: brown, wood] -> [Chair_1: black] -> [Speaker_1: white] -> [Wheel_1: black] -> [Sticker_1: white] -> [Chair_2: blue, black] -> [Paper_1: white] -> [Wheel_2] -> [Pen_1] -> [Monitor_2: white] -> [Keyboard_2: white] -> [Book_1: red]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Whiteboard_1] -> [Chair_1: black] -> [Monitor_1: crt, white] -> [Monitor_2: white] -> [Speaker_1: white] -> [Box_1: black] -> [Paper_1: white] -> [Book_1: red] -> [Mouse_1: white] -> [Keyboard_1: white] -> [Table_1: brown, wood] -> [Keyboard_2: white] -> [Sticker_1: white] -> [Box_2: open, cardboard] -> [Cord_1: yellow] -> [OutletBox_1: blue] -> [Chair_2: blue, black] -> [Adapter_1: black] -> [Pen_1] -> [Wheel_2] -> [Wheel_1: black]",
+  "semantic_id_mapping": {
+    "1025938": "Adapter_1",
+    "1025922": "Back_1",
+    "1025933": "Book_1",
+    "1025940": "Box_1",
+    "1025927": "Box_2",
+    "1025923": "Carpet_1",
+    "1025926": "Chair_1",
+    "1025920": "Chair_2",
+    "1025930": "Cord_1",
+    "1025925": "Keyboard_1",
+    "1025936": "Keyboard_2",
+    "1025934": "Leg_1",
+    "1025941": "Monitor_1",
+    "1025942": "Monitor_2",
+    "1025935": "Mouse_1",
+    "1025929": "OutletBox_1",
+    "1025931": "Paper_1",
+    "1025932": "Pen_1",
+    "1025937": "Speaker_1",
+    "1025919": "Sticker_1",
+    "1025924": "Table_1",
+    "1025939": "Wall_1",
+    "1025921": "Wheel_1",
+    "1025928": "Wheel_2",
+    "1025943": "Whiteboard_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Sticker_1",
+      "predicate": "on",
+      "object": "Chair_2"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Paper_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Speaker_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Keyboard_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Box_1",
+      "predicate": "next to",
+      "object": "Monitor_1"
+    },
+    {
+      "subject": "Whiteboard_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "OutletBox_1",
+    "Adapter_1",
+    "Cord_1",
+    "Whiteboard_1",
+    "Box_1",
+    "Keyboard_1",
+    "Monitor_1",
+    "Box_2",
+    "Mouse_1",
+    "Table_1",
+    "Chair_1",
+    "Speaker_1",
+    "Wheel_1",
+    "Sticker_1",
+    "Chair_2",
+    "Paper_1",
+    "Wheel_2",
+    "Pen_1",
+    "Monitor_2",
+    "Keyboard_2",
+    "Book_1"
+  ]
+}

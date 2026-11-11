@@ -1,0 +1,64 @@
+{
+  "image_id": 67,
+  "prompt_text": "### Relational Edges:\n- [AnOutlet_1] --[on]--> [Wall_1]\n- [AnOutlet_2] --[on]--> [Wall_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [LegOfAChair_1: leg] -> [PurpleFlowers_1: purple] -> [LegOfAChair_2: leg] -> [Vase_1] -> [LegOfAChair_3: leg] -> [AnOutlet_1] -> [Painting_1: flowers] -> [Flowers_1: framed, print] -> [PictureFrame_1: picture, black] -> [BowlWithFruits_1: fruit] -> [AnOutlet_2] -> [LegOfAChair_4: leg] -> [Vent_1: metal] -> [ShinyMetal_1: shiny, stove, vent] -> [LShapedCounterTop_1: counter, L-shaped] -> [Oven_1: silver] -> [LegOfAChair_5] -> [LegOfAChair_6: leg] -> [CounterTop_1: counter, island, white] -> [TwoLights_1] -> [Fridge_1: silver]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [TwoLights_1] -> [ShinyMetal_1: shiny, stove, vent] -> [Vent_1: metal] -> [PictureFrame_1: picture, black] -> [Painting_1: flowers] -> [Flowers_1: framed, print] -> [Fridge_1: silver] -> [AnOutlet_2] -> [AnOutlet_1] -> [PurpleFlowers_1: purple] -> [BowlWithFruits_1: fruit] -> [CounterTop_1: counter, island, white] -> [Vase_1] -> [Oven_1: silver] -> [LShapedCounterTop_1: counter, L-shaped] -> [LegOfAChair_3: leg] -> [LegOfAChair_1: leg] -> [LegOfAChair_2: leg] -> [LegOfAChair_4: leg] -> [LegOfAChair_6: leg] -> [LegOfAChair_5]",
+  "semantic_id_mapping": {
+    "1533994": "AnOutlet_1",
+    "1533995": "AnOutlet_2",
+    "1533992": "BowlWithFruits_1",
+    "3786870": "Ceiling_1",
+    "1533996": "CounterTop_1",
+    "1533979": "Flowers_1",
+    "1533993": "Fridge_1",
+    "1533998": "LShapedCounterTop_1",
+    "1533985": "LegOfAChair_1",
+    "1533984": "LegOfAChair_2",
+    "1533983": "LegOfAChair_3",
+    "1533988": "LegOfAChair_4",
+    "1533986": "LegOfAChair_5",
+    "1533987": "LegOfAChair_6",
+    "1533991": "Oven_1",
+    "1533990": "Painting_1",
+    "1533981": "PictureFrame_1",
+    "1533989": "PurpleFlowers_1",
+    "1533980": "ShinyMetal_1",
+    "1533997": "TwoLights_1",
+    "3786867": "Vase_1",
+    "1533982": "Vent_1",
+    "3786869": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "AnOutlet_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "AnOutlet_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "LegOfAChair_1",
+    "PurpleFlowers_1",
+    "LegOfAChair_2",
+    "Vase_1",
+    "LegOfAChair_3",
+    "AnOutlet_1",
+    "Painting_1",
+    "Flowers_1",
+    "PictureFrame_1",
+    "BowlWithFruits_1",
+    "AnOutlet_2",
+    "LegOfAChair_4",
+    "Vent_1",
+    "ShinyMetal_1",
+    "LShapedCounterTop_1",
+    "Oven_1",
+    "LegOfAChair_5",
+    "LegOfAChair_6",
+    "CounterTop_1",
+    "TwoLights_1",
+    "Fridge_1"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "image_id": 99,
+  "prompt_text": "### Relational Edges:\n- [Paintings_1] --[on]--> [Wall_1: red]\n- [PictuersOnTheWall_1] --[on]--> [RedTopWall_1: red]\n- [Flame_1] --[on]--> [LitWhiteCandle_1: lit]\n- [CandleStand_1] --[on]--> [RoundTable_1: round]\n- [ArchedWindow_1] --[on]--> [WindowPend_1]\n- [Flame_1] --[on]--> [Candle_1]\n- [Candle_1] --[on]--> [Table_2]\n- [Candle_1] --[on]--> [CandleStand_1]\n- [CandleStand_1] --[on]--> [TableCloth_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Napkin_1: white] -> [PictuersOnTheWall_1] -> [SilverUtensils_1: silver] -> [Napkin_2: white] -> [Napkin_3: white] -> [Door_1] -> [Glass_1: clear] -> [DinnerPlate_1: cream colored] -> [WineGlasses_1: empty] -> [Seat_1] -> [Glass_2: clear] -> [ArchedWindow_1] -> [Napkin_4: white] -> [SunShine_1] -> [Doors_1: open] -> [Paintings_1] -> [RedTopWall_1: red] -> [WindowPend_1] -> [WindowPends_1] -> [Napkin_5: white] -> [WhiteNapkin_1: white] -> [Table_1] -> [Multi-coloredTableCloth_1: multicolored] -> [TableCloth_1] -> [Building_1] -> [Building_2] -> [EmptyWineGlasses_1: empty] -> [TableCloth_2] -> [CandleStand_1] -> [LitWhiteCandle_1: lit] -> [BurningCaddle_1] -> [Table_2] -> [Flame_1] -> [Candle_1] -> [RoundTable_1: round] -> [Napkin_6: white] -> [Picture_1: hanging] -> [Seat_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [RedTopWall_1: red] -> [Paintings_1] -> [PictuersOnTheWall_1] -> [Picture_1: hanging] -> [WindowPend_1] -> [Door_1] -> [ArchedWindow_1] -> [Building_1] -> [WindowPends_1] -> [Doors_1: open] -> [Building_2] -> [SunShine_1] -> [Flame_1] -> [BurningCaddle_1] -> [Table_1] -> [Candle_1] -> [TableCloth_1] -> [LitWhiteCandle_1: lit] -> [Seat_1] -> [Multi-coloredTableCloth_1: multicolored] -> [EmptyWineGlasses_1: empty] -> [Napkin_6: white] -> [CandleStand_1] -> [RoundTable_1: round] -> [Napkin_4: white] -> [Table_2] -> [TableCloth_2] -> [Napkin_2: white] -> [Napkin_1: white] -> [Seat_2] -> [Napkin_5: white] -> [Glass_1: clear] -> [WhiteNapkin_1: white] -> [WineGlasses_1: empty] -> [Napkin_3: white] -> [Glass_2: clear] -> [DinnerPlate_1: cream colored] -> [SilverUtensils_1: silver]",
+  "semantic_id_mapping": {
+    "1534594": "ArchedWindow_1",
+    "1534573": "Building_1",
+    "1534572": "Building_2",
+    "1534586": "BurningCaddle_1",
+    "1534602": "Candle_1",
+    "1534592": "CandleStand_1",
+    "1534596": "DinnerPlate_1",
+    "1534587": "Door_1",
+    "3786934": "Doors_1",
+    "1534590": "EmptyWineGlasses_1",
+    "1534604": "Flame_1",
+    "1534581": "Glass_1",
+    "1534580": "Glass_2",
+    "1534601": "Glasses_1",
+    "1534588": "LitWhiteCandle_1",
+    "1534600": "Multi-coloredTableCloth_1",
+    "3786939": "Napkin_1",
+    "3786940": "Napkin_2",
+    "3786938": "Napkin_3",
+    "3786941": "Napkin_4",
+    "3786937": "Napkin_5",
+    "3786942": "Napkin_6",
+    "3786936": "Paintings_1",
+    "1534584": "PictuersOnTheWall_1",
+    "1534598": "Picture_1",
+    "1534582": "RedTopWall_1",
+    "1534591": "RoundTable_1",
+    "1534606": "Seat_1",
+    "1534593": "Seat_2",
+    "1534599": "SilverUtensils_1",
+    "1534605": "SunShine_1",
+    "1534585": "Table_1",
+    "3786943": "Table_2",
+    "1534607": "TableCloth_1",
+    "1534609": "TableCloth_2",
+    "3786935": "Wall_1",
+    "1534597": "WhiteNapkin_1",
+    "1534595": "WindowPend_1",
+    "1534608": "WindowPends_1",
+    "1534583": "Windows_1",
+    "3786933": "WineGlasses_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Paintings_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "PictuersOnTheWall_1",
+      "predicate": "on",
+      "object": "RedTopWall_1"
+    },
+    {
+      "subject": "Flame_1",
+      "predicate": "on",
+      "object": "LitWhiteCandle_1"
+    },
+    {
+      "subject": "CandleStand_1",
+      "predicate": "on",
+      "object": "RoundTable_1"
+    },
+    {
+      "subject": "ArchedWindow_1",
+      "predicate": "on",
+      "object": "WindowPend_1"
+    },
+    {
+      "subject": "Flame_1",
+      "predicate": "on",
+      "object": "Candle_1"
+    },
+    {
+      "subject": "Candle_1",
+      "predicate": "on",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Candle_1",
+      "predicate": "on",
+      "object": "CandleStand_1"
+    },
+    {
+      "subject": "CandleStand_1",
+      "predicate": "on",
+      "object": "TableCloth_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Napkin_1",
+    "PictuersOnTheWall_1",
+    "SilverUtensils_1",
+    "Napkin_2",
+    "Napkin_3",
+    "Door_1",
+    "Glass_1",
+    "DinnerPlate_1",
+    "WineGlasses_1",
+    "Seat_1",
+    "Glass_2",
+    "ArchedWindow_1",
+    "Napkin_4",
+    "SunShine_1",
+    "Doors_1",
+    "Paintings_1",
+    "RedTopWall_1",
+    "WindowPend_1",
+    "WindowPends_1",
+    "Napkin_5",
+    "WhiteNapkin_1",
+    "Table_1",
+    "Multi-coloredTableCloth_1",
+    "TableCloth_1",
+    "Building_1",
+    "Building_2",
+    "EmptyWineGlasses_1",
+    "TableCloth_2",
+    "CandleStand_1",
+    "LitWhiteCandle_1",
+    "BurningCaddle_1",
+    "Table_2",
+    "Flame_1",
+    "Candle_1",
+    "RoundTable_1",
+    "Napkin_6",
+    "Picture_1",
+    "Seat_2"
+  ]
+}

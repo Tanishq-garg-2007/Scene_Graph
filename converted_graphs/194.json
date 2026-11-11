@@ -1,0 +1,52 @@
+{
+  "image_id": 194,
+  "prompt_text": "### Relational Edges:\n- [Tree_1] --[on]--> [Ground_1: clean]\n- [Window_1] --[on]--> [Building_1: far, long, wide, large, red, brick, big, tall]\n- [Grass_1] --[on]--> [Ground_1: clean]\n- [Building_1] --[near]--> [Tree_1: skinny, close, bare, leafy]\n- [Tree_1] --[near]--> [Building_1: far, long, wide, large, red, brick, big, tall]\n- [Tree_1] --[next to]--> [Building_1: far, long, wide, large, red, brick, big, tall]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Building_1: far, long, wide, large, red, brick, big, tall] -> [Tree_1: skinny, close, bare, leafy] -> [Window_1: black, closed] -> [Building_2] -> [Door_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_1: black, closed] -> [Tree_1: skinny, close, bare, leafy] -> [Building_2] -> [Building_1: far, long, wide, large, red, brick, big, tall] -> [Door_1]",
+  "semantic_id_mapping": {
+    "1058798": "Building_1",
+    "3787378": "Building_2",
+    "3787377": "Door_1",
+    "1058800": "Grass_1",
+    "1058797": "Ground_1",
+    "1058796": "Tree_1",
+    "1058799": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tree_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Grass_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Building_1",
+      "predicate": "near",
+      "object": "Tree_1"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "near",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "next to",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Building_1",
+    "Tree_1",
+    "Window_1",
+    "Building_2",
+    "Door_1"
+  ]
+}

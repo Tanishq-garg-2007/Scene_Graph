@@ -1,0 +1,465 @@
+{
+  "Qwen/Qwen2.5-VL-3B-Instruct": {
+    "tests": [
+      {
+        "test_id": "T1_PHONE_SUBSTRATE",
+        "latency_seconds": 33.81,
+        "generated_tokens": 533,
+        "tokens_per_second": 15.76,
+        "peak_vram_gb": 7.74,
+        "json_valid": true,
+        "parsed_output": {
+          "query": "What object is the corded telephone resting directly on, and what item is located immediately to its left?",
+          "micro_inspection_cot": {
+            "focal_landmark": "corded telephone",
+            "spatial_relation_trace": "The corded telephone is resting directly on a desk.",
+            "nearby_landmarks": [
+              "desk",
+              "keyboard",
+              "mouse"
+            ],
+            "visual_evidence_and_text": "The corded telephone is black and appears to be a standard office phone."
+          },
+          "grounded_scene_graph": {
+            "nodes": [
+              {
+                "id": "obj_1",
+                "name": "desk",
+                "box_2d": [
+                  136,
+                  248,
+                  644,
+                  476
+                ],
+                "attributes": [
+                  "white",
+                  "office",
+                  "desk"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "obj_2",
+                "name": "corded telephone",
+                "box_2d": [
+                  459,
+                  271,
+                  546,
+                  344
+                ],
+                "attributes": [
+                  "black",
+                  "office",
+                  "telephone"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "obj_3",
+                "name": "keyboard",
+                "box_2d": [
+                  168,
+                  273,
+                  339,
+                  318
+                ],
+                "attributes": [
+                  "white",
+                  "office",
+                  "keyboard"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "obj_4",
+                "name": "mouse",
+                "box_2d": [
+                  344,
+                  296,
+                  376,
+                  322
+                ],
+                "attributes": [
+                  "white",
+                  "office",
+                  "mouse"
+                ],
+                "visible_text": "none"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "obj_2",
+                "predicate": "rests_on",
+                "object": "obj_1"
+              },
+              {
+                "subject": "obj_2",
+                "predicate": "adjacent_to",
+                "object": "obj_3"
+              },
+              {
+                "subject": "obj_2",
+                "predicate": "adjacent_to",
+                "object": "obj_4"
+              }
+            ]
+          },
+          "verified_answer": "The corded telephone is resting directly on the desk, and the keyboard is located immediately to its left."
+        },
+        "raw_output": "```json\n{\n  \"query\": \"What object is the corded telephone resting directly on, and what item is located immediately to its left?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"corded telephone\",\n    \"spatial_relation_trace\": \"The corded telephone is resting directly on a desk.\",\n    \"nearby_landmarks\": [\"desk\", \"keyboard\", \"mouse\"],\n    \"visual_evidence_and_text\": \"The corded telephone is black and appears to be a standard office phone.\"\n  },\n  \"grounded_scene_graph\": {\n    \"nodes\": [\n      {\n        \"id\": \"obj_1\",\n        \"name\": \"desk\",\n        \"box_2d\": [136, 248, 644, 476],\n        \"attributes\": [\"white\", \"office\", \"desk\"],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_2\",\n        \"name\": \"corded telephone\",\n        \"box_2d\": [459, 271, 546, 344],\n        \"attributes\": [\"black\", \"office\", \"telephone\"],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_3\",\n        \"name\": \"keyboard\",\n        \"box_2d\": [168, 273, 339, 318],\n        \"attributes\": [\"white\", \"office\", \"keyboard\"],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_4\",\n        \"name\": \"mouse\",\n        \"box_2d\": [344, 296, 376, 322],\n        \"attributes\": [\"white\", \"office\", \"mouse\"],\n        \"visible_text\": \"none\"\n      }\n    ],\n    \"edges\": [\n      {\n        \"subject\": \"obj_2\",\n        \"predicate\": \"rests_on\",\n        \"object\": \"obj_1\"\n      },\n      {\n        \"subject\": \"obj_2\",\n        \"predicate\": \"adjacent_to\",\n        \"object\": \"obj_3\"\n      },\n      {\n        \"subject\": \"obj_2\",\n        \"predicate\": \"adjacent_to\",\n        \"object\": \"obj_4\"\n      }\n    ]\n  },\n  \"verified_answer\": \"The corded telephone is resting directly on the desk, and the keyboard is located immediately to its left.\"\n}\n```"
+      },
+      {
+        "test_id": "T2_HOODIE_MAN_CONTACT",
+        "latency_seconds": 26.27,
+        "generated_tokens": 516,
+        "tokens_per_second": 19.64,
+        "peak_vram_gb": 7.84,
+        "json_valid": true,
+        "parsed_output": {
+          "query": "Look at the man on the right wearing the grey hoodie: what color footwear is he wearing, and what surface is he standing directly on?",
+          "micro_inspection_cot": {
+            "focal_landmark": "man wearing grey hoodie",
+            "spatial_relation_trace": "standing on sidewalk",
+            "nearby_landmarks": [
+              "tree",
+              "parking meter",
+              "sidewalk"
+            ],
+            "visual_evidence_and_text": "grey hoodie, grey shoes, sidewalk"
+          },
+          "grounded_scene_graph": {
+            "nodes": [
+              {
+                "id": "obj_1",
+                "name": "man wearing grey hoodie",
+                "box_2d": [
+                  376,
+                  258,
+                  459,
+                  503
+                ],
+                "attributes": [
+                  "wearing grey hoodie"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "obj_2",
+                "name": "sidewalk",
+                "box_2d": [
+                  85,
+                  338,
+                  811,
+                  588
+                ],
+                "attributes": [
+                  "standing on"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "obj_3",
+                "name": "tree",
+                "box_2d": [
+                  486,
+                  0,
+                  540,
+                  441
+                ],
+                "attributes": [
+                  "standing next to"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "obj_4",
+                "name": "parking meter",
+                "box_2d": [
+                  586,
+                  320,
+                  610,
+                  460
+                ],
+                "attributes": [
+                  "standing next to"
+                ],
+                "visible_text": "none"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "obj_1",
+                "predicate": "standing on",
+                "object": "obj_2"
+              },
+              {
+                "subject": "obj_1",
+                "predicate": "standing next to",
+                "object": "obj_3"
+              },
+              {
+                "subject": "obj_1",
+                "predicate": "standing next to",
+                "object": "obj_4"
+              }
+            ]
+          },
+          "verified_answer": "The man on the right wearing the grey hoodie is wearing grey shoes and is standing directly on the sidewalk."
+        },
+        "raw_output": "```json\n{\n  \"query\": \"Look at the man on the right wearing the grey hoodie: what color footwear is he wearing, and what surface is he standing directly on?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"man wearing grey hoodie\",\n    \"spatial_relation_trace\": \"standing on sidewalk\",\n    \"nearby_landmarks\": [\"tree\", \"parking meter\", \"sidewalk\"],\n    \"visual_evidence_and_text\": \"grey hoodie, grey shoes, sidewalk\"\n  },\n  \"grounded_scene_graph\": {\n    \"nodes\": [\n      {\n        \"id\": \"obj_1\",\n        \"name\": \"man wearing grey hoodie\",\n        \"box_2d\": [376, 258, 459, 503],\n        \"attributes\": [\"wearing grey hoodie\"],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_2\",\n        \"name\": \"sidewalk\",\n        \"box_2d\": [85, 338, 811, 588],\n        \"attributes\": [\"standing on\"],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_3\",\n        \"name\": \"tree\",\n        \"box_2d\": [486, 0, 540, 441],\n        \"attributes\": [\"standing next to\"],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_4\",\n        \"name\": \"parking meter\",\n        \"box_2d\": [586, 320, 610, 460],\n        \"attributes\": [\"standing next to\"],\n        \"visible_text\": \"none\"\n      }\n    ],\n    \"edges\": [\n      {\n        \"subject\": \"obj_1\",\n        \"predicate\": \"standing on\",\n        \"object\": \"obj_2\"\n      },\n      {\n        \"subject\": \"obj_1\",\n        \"predicate\": \"standing next to\",\n        \"object\": \"obj_3\"\n      },\n      {\n        \"subject\": \"obj_1\",\n        \"predicate\": \"standing next to\",\n        \"object\": \"obj_4\"\n      }\n    ]\n  },\n  \"verified_answer\": \"The man on the right wearing the grey hoodie is wearing grey shoes and is standing directly on the sidewalk.\"\n}\n```"
+      }
+    ],
+    "errors": [],
+    "load_time_seconds": 56.95
+  },
+  "Qwen/Qwen3-VL-2B-Instruct": {
+    "tests": [
+      {
+        "test_id": "T1_PHONE_SUBSTRATE",
+        "latency_seconds": 38.31,
+        "generated_tokens": 800,
+        "tokens_per_second": 20.88,
+        "peak_vram_gb": 4.53,
+        "json_valid": false,
+        "parsed_output": null,
+        "raw_output": "```json\n{\n  \"query\": \"What object is the corded telephone resting directly on, and what item is located immediately to its left?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"the corded telephone\",\n    \"spatial_relation_trace\": \"the corded telephone rests on a white desk surface.\",\n    \"nearby_landmarks\": [\n      \"a black bag\",\n      \"a blue pen\",\n      \"a computer monitor\"\n    ],\n    \"visual_evidence_and_text\": \"The telephone is black and has a keypad. It is placed on a light-colored desk. To its immediate left is a white keyboard.\"\n  },\n  \"grounded_scene_graph\": {\n    \"nodes\": [\n      {\n        \"id\": \"obj_1\",\n        \"name\": \"corded telephone\",\n        \"box_2d\": [716, 569, 856, 725],\n        \"attributes\": [\n          \"black\",\n          \"corded\",\n          \"telephone\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_2\",\n        \"name\": \"keyboard\",\n        \"box_2d\": [260, 571, 525, 660],\n        \"attributes\": [\n          \"white\",\n          \"computer keyboard\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_3\",\n        \"name\": \"desk\",\n        \"box_2d\": [208, 488, 998, 999],\n        \"attributes\": [\n          \"light-colored\",\n          \"flat surface\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_4\",\n        \"name\": \"bag\",\n        \"box_2d\": [898, 571, 1000, 845],\n        \"attributes\": [\n          \"black\",\n          \"bag\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_5\",\n        \"name\": \"pen\",\n        \"box_2d\": [638, 675, 716, 700],\n        \"attributes\": [\n          \"blue\",\n          \"pen\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_6\",\n        \"name\": \"monitor\",\n        \"box_2d\": [248, 264, 475, 525],\n        \"attributes\": [\n          \"CRT monitor\",\n          \"white frame\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_7\",\n        \"name\": \"computer tower\",\n        \"box_2d\": [338, 750, 460, 999],\n        \"attributes\": [\n          \"white\",\n          \"tower\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_8\",\n        \"name\": \"cable\",\n        \"box_2d\": [208, 750, 338, 999],\n        \"attributes\": [\n          \"black cable\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_9\",\n        \"name\": \"wall\",\n        \"box_2d\": [0, 0, 1000, 200],\n        \"attributes\": [\n          \"blue wall\"\n        ],\n        \"visible_text\": \"none\"\n      }\n    ],\n    \"edges\": [\n      {\n        \"subject\": \""
+      },
+      {
+        "test_id": "T2_HOODIE_MAN_CONTACT",
+        "latency_seconds": 36.68,
+        "generated_tokens": 763,
+        "tokens_per_second": 20.8,
+        "peak_vram_gb": 4.63,
+        "json_valid": true,
+        "parsed_output": {
+          "query": "Look at the man on the right wearing the grey hoodie: what color footwear is he wearing, and what surface is he standing directly on?",
+          "micro_inspection_cot": {
+            "focal_landmark": "the man on the right wearing a grey hoodie",
+            "spatial_relation_trace": "the man is standing on a paved brick sidewalk.",
+            "nearby_landmarks": [
+              "a tree trunk",
+              "a parking meter",
+              "a white car"
+            ],
+            "visual_evidence_and_text": "The man is wearing light brown or tan shoes. He is standing on a brick-paved sidewalk."
+          },
+          "grounded_scene_graph": {
+            "nodes": [
+              {
+                "id": "man_in_gray_hoodie",
+                "name": "man on the right wearing a grey hoodie",
+                "box_2d": [
+                  467,
+                  438,
+                  569,
+                  851
+                ],
+                "attributes": [
+                  "wearing a grey hoodie",
+                  "standing",
+                  "on a paved surface"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "paved_sidewalk",
+                "name": "paved sidewalk",
+                "box_2d": [
+                  115,
+                  488,
+                  800,
+                  999
+                ],
+                "attributes": [
+                  "paved",
+                  "brick",
+                  "sidewalk"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "tree_trunk",
+                "name": "tree trunk",
+                "box_2d": [
+                  785,
+                  15,
+                  895,
+                  935
+                ],
+                "attributes": [
+                  "tree trunk",
+                  "greenish bark"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "parking_meter",
+                "name": "parking meter",
+                "box_2d": [
+                  725,
+                  545,
+                  755,
+                  685
+                ],
+                "attributes": [
+                  "parking meter",
+                  "metallic"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "white_car",
+                "name": "white car",
+                "box_2d": [
+                  895,
+                  575,
+                  1000,
+                  851
+                ],
+                "attributes": [
+                  "white",
+                  "car"
+                ],
+                "visible_text": "none"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "man_in_gray_hoodie",
+                "predicate": "rests_on",
+                "object": "paved_sidewalk"
+              },
+              {
+                "subject": "man_in_gray_hoodie",
+                "predicate": "standing_on",
+                "object": "paved_sidewalk"
+              },
+              {
+                "subject": "man_in_gray_hoodie",
+                "predicate": "adjacent_to",
+                "object": "tree_trunk"
+              },
+              {
+                "subject": "man_in_gray_hoodie",
+                "predicate": "adjacent_to",
+                "object": "parking_meter"
+              },
+              {
+                "subject": "man_in_gray_hoodie",
+                "predicate": "adjacent_to",
+                "object": "white_car"
+              }
+            ]
+          },
+          "verified_answer": "The man on the right wearing the grey hoodie is wearing light brown or tan footwear and is standing on a brick-paved sidewalk."
+        },
+        "raw_output": "```json\n{\n  \"query\": \"Look at the man on the right wearing the grey hoodie: what color footwear is he wearing, and what surface is he standing directly on?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"the man on the right wearing a grey hoodie\",\n    \"spatial_relation_trace\": \"the man is standing on a paved brick sidewalk.\",\n    \"nearby_landmarks\": [\n      \"a tree trunk\",\n      \"a parking meter\",\n      \"a white car\"\n    ],\n    \"visual_evidence_and_text\": \"The man is wearing light brown or tan shoes. He is standing on a brick-paved sidewalk.\"\n  },\n  \"grounded_scene_graph\": {\n    \"nodes\": [\n      {\n        \"id\": \"man_in_gray_hoodie\",\n        \"name\": \"man on the right wearing a grey hoodie\",\n        \"box_2d\": [467, 438, 569, 851],\n        \"attributes\": [\n          \"wearing a grey hoodie\",\n          \"standing\",\n          \"on a paved surface\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"paved_sidewalk\",\n        \"name\": \"paved sidewalk\",\n        \"box_2d\": [115, 488, 800, 999],\n        \"attributes\": [\n          \"paved\",\n          \"brick\",\n          \"sidewalk\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"tree_trunk\",\n        \"name\": \"tree trunk\",\n        \"box_2d\": [785, 15, 895, 935],\n        \"attributes\": [\n          \"tree trunk\",\n          \"greenish bark\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"parking_meter\",\n        \"name\": \"parking meter\",\n        \"box_2d\": [725, 545, 755, 685],\n        \"attributes\": [\n          \"parking meter\",\n          \"metallic\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"white_car\",\n        \"name\": \"white car\",\n        \"box_2d\": [895, 575, 1000, 851],\n        \"attributes\": [\n          \"white\",\n          \"car\"\n        ],\n        \"visible_text\": \"none\"\n      }\n    ],\n    \"edges\": [\n      {\n        \"subject\": \"man_in_gray_hoodie\",\n        \"predicate\": \"rests_on\",\n        \"object\": \"paved_sidewalk\"\n      },\n      {\n        \"subject\": \"man_in_gray_hoodie\",\n        \"predicate\": \"standing_on\",\n        \"object\": \"paved_sidewalk\"\n      },\n      {\n        \"subject\": \"man_in_gray_hoodie\",\n        \"predicate\": \"adjacent_to\",\n        \"object\": \"tree_trunk\"\n      },\n      {\n        \"subject\": \"man_in_gray_hoodie\",\n        \"predicate\": \"adjacent_to\",\n        \"object\": \"parking_meter\"\n      },\n      {\n        \"subject\": \"man_in_gray_hoodie\",\n        \"predicate\": \"adjacent_to\",\n        \"object\": \"white_car\"\n      }\n    ]\n  },\n  \"verified_answer\": \"The man on the right wearing the grey hoodie is wearing light brown or tan footwear and is standing on a brick-paved sidewalk.\"\n}\n```"
+      }
+    ],
+    "errors": [],
+    "load_time_seconds": 28.38
+  },
+  "Qwen/Qwen3.5-2B": {
+    "tests": [
+      {
+        "test_id": "T1_PHONE_SUBSTRATE",
+        "latency_seconds": 29.69,
+        "generated_tokens": 554,
+        "tokens_per_second": 18.66,
+        "peak_vram_gb": 4.59,
+        "json_valid": true,
+        "parsed_output": {
+          "query": "What object is the corded telephone resting directly on, and what item is located immediately to its left?",
+          "micro_inspection_cot": {
+            "focal_landmark": "corded telephone",
+            "spatial_relation_trace": "The telephone is resting directly on the curved white desk surface. The left side of the telephone makes direct physical contact with the left edge of the desk surface.",
+            "nearby_landmarks": [
+              "white keyboard",
+              "white computer mouse",
+              "desk surface"
+            ],
+            "visual_evidence_and_text": "Black corded telephone with visible keypad and antenna; white desk surface beneath it."
+          },
+          "grounded_scene_graph": {
+            "nodes": [
+              {
+                "id": "obj_1",
+                "name": "corded telephone",
+                "box_2d": [
+                  716,
+                  589,
+                  838,
+                  725
+                ],
+                "attributes": [
+                  "black",
+                  "corded",
+                  "antenna"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "obj_2",
+                "name": "desk surface",
+                "box_2d": [
+                  210,
+                  508,
+                  1000,
+                  998
+                ],
+                "attributes": [
+                  "white",
+                  "curved",
+                  "office furniture"
+                ],
+                "visible_text": "none"
+              },
+              {
+                "id": "obj_3",
+                "name": "keyboard",
+                "box_2d": [
+                  260,
+                  569,
+                  519,
+                  658
+                ],
+                "attributes": [
+                  "white",
+                  "computer keyboard"
+                ],
+                "visible_text": "none"
+              }
+            ],
+            "edges": [
+              {
+                "subject": "obj_1",
+                "predicate": "rests_on",
+                "object": "obj_2"
+              },
+              {
+                "subject": "obj_1",
+                "predicate": "adjacent_to",
+                "object": "obj_3"
+              }
+            ]
+          },
+          "verified_answer": "The corded telephone is resting directly on the white curved desk surface, and the white keyboard is located immediately to its left."
+        },
+        "raw_output": "{\n  \"query\": \"What object is the corded telephone resting directly on, and what item is located immediately to its left?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"corded telephone\",\n    \"spatial_relation_trace\": \"The telephone is resting directly on the curved white desk surface. The left side of the telephone makes direct physical contact with the left edge of the desk surface.\",\n    \"nearby_landmarks\": [\n      \"white keyboard\",\n      \"white computer mouse\",\n      \"desk surface\"\n    ],\n    \"visual_evidence_and_text\": \"Black corded telephone with visible keypad and antenna; white desk surface beneath it.\"\n  },\n  \"grounded_scene_graph\": {\n    \"nodes\": [\n      {\n        \"id\": \"obj_1\",\n        \"name\": \"corded telephone\",\n        \"box_2d\": [\n          716,\n          589,\n          838,\n          725\n        ],\n        \"attributes\": [\"black\", \"corded\", \"antenna\"],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_2\",\n        \"name\": \"desk surface\",\n        \"box_2d\": [\n          210,\n          508,\n          1000,\n          998\n        ],\n        \"attributes\": [\"white\", \"curved\", \"office furniture\"],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"obj_3\",\n        \"name\": \"keyboard\",\n        \"box_2d\": [\n          260,\n          569,\n          519,\n          658\n        ],\n        \"attributes\": [\"white\", \"computer keyboard\"],\n        \"visible_text\": \"none\"\n      }\n    ],\n    \"edges\": [\n      {\n        \"subject\": \"obj_1\",\n        \"predicate\": \"rests_on\",\n        \"object\": \"obj_2\"\n      },\n      {\n        \"subject\": \"obj_1\",\n        \"predicate\": \"adjacent_to\",\n        \"object\": \"obj_3\"\n      }\n    ]\n  },\n  \"verified_answer\": \"The corded telephone is resting directly on the white curved desk surface, and the white keyboard is located immediately to its left.\"\n}"
+      },
+      {
+        "test_id": "T2_HOODIE_MAN_CONTACT",
+        "latency_seconds": 41.69,
+        "generated_tokens": 800,
+        "tokens_per_second": 19.19,
+        "peak_vram_gb": 4.64,
+        "json_valid": false,
+        "parsed_output": null,
+        "raw_output": "{\n  \"query\": \"Look at the man on the right wearing the grey hoodie: what color footwear is he wearing, and what surface is he standing directly on?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"Man on the right wearing a grey hoodie (person_2)\",\n    \"spatial_relation_trace\": \"The man stands directly on a paved brick sidewalk surface. His feet make direct physical contact with the ground plane of the sidewalk.\",\n    \"nearby_landmarks\": [\n      \"Tree trunk (tree_1)\",\n      \"White pickup truck (truck_1)\",\n      \"Parking meter (meter_1)\"\n    ],\n    \"visual_evidence_and_text\": \"The man is wearing brownish-brown shoes. The surface beneath him is a reddish-brown brick pavement.\"\n  },\n  \"grounded_scene_graph\": {\n    \"nodes\": [\n      {\n        \"id\": \"person_2\",\n        \"name\": \"man in grey hoodie\",\n        \"box_2d\": [\n          [\n            467,\n            442,\n            560,\n            850\n          ]\n        ],\n        \"attributes\": [\n          \"wearing grey hoodie\",\n          \"wearing brown shoes\",\n          \"standing on sidewalk\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"sidewalk\",\n        \"name\": \"brick sidewalk\",\n        \"box_2d\": [\n          [\n            0,\n            590,\n            1000,\n            1000\n          ]\n        ],\n        \"attributes\": [\n          \"paved\",\n          \"reddish-brown bricks\",\n          \"flat ground\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"tree_1\",\n        \"name\": \"tree trunk\",\n        \"box_2d\": [\n          [\n            780,\n            0,\n            880,\n            930\n          ]\n        ],\n        \"attributes\": [\n          \"green bark\",\n          \"leafless branches\",\n          \"supports sidewalk\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"truck_1\",\n        \"name\": \"white pickup truck\",\n        \"box_2d\": [\n          [\n            670,\n            490,\n            950,\n            750\n          ]\n        ],\n        \"attributes\": [\n          \"white\",\n          \"parked\",\n          \"next to sidewalk\"\n        ],\n        \"visible_text\": \"none\"\n      },\n      {\n        \"id\": \"meter_1\",\n        \"name\": \"parking meter\",\n        \"box_2d\": [\n          [\n            710,\n            530,\n            750,\n            780\n          ]\n        ],\n        \"attributes\": [\n          \"black metal\",\n          \"on pole\",\n          \"next to tree\"\n        ],\n        \"visible_text\": \"none\"\n      }\n    ],\n    \"edges\": [\n      {\n        \"subject\": \"person_2\",\n        \"predicate\": \"stands_on\",\n        \"object\": \"sidewalk\"\n      },\n      {\n        \"subject\": \"person_2\",\n        \"predicate\": \""
+      }
+    ],
+    "errors": [],
+    "load_time_seconds": 34.09
+  }
+}

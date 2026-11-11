@@ -1,0 +1,204 @@
+{
+  "image_id": 84,
+  "prompt_text": "### Relational Edges:\n- [Tassels_1] --[on]--> [Pillow_1: red]\n- [Glass_1] --[on]--> [Tray_1: wide]\n- [Glass_2] --[on]--> [Tray_1: wide]\n- [Covering_1] --[on]--> [Ottoman_1]\n- [Rug_1] --[on]--> [Floor_1]\n- [Books_3] --[on]--> [Floor_2]\n- [Books_2] --[on]--> [Shelf_1]\n- [Book_6] --[on]--> [Shelf_1]\n- [Book_3] --[on]--> [Shelf_1]\n- [Book_4] --[on]--> [Shelf_1]\n- [Book_5] --[on]--> [Shelf_2]\n- [Mirror_1] --[on]--> [Wall_2]\n- [Curtain_1] --[behind]--> [Lamp_1]\n- [Book_1] --[on]--> [Tabletop_1]\n- [Candle_1] --[on]--> [Books_1]\n- [BurgundyPillow_1] --[on]--> [Seat_1]\n- [Shade_1] --[on]--> [Lamp_1]\n- [Pillow_1] --[on]--> [Bed_1]\n- [Tray_1] --[on]--> [Seat_2]\n- [Handle_1] --[on]--> [Door_1]\n- [Wall_1] --[behind]--> [Lamp_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Book_1] -> [Book_2] -> [Candle_1: yellow] -> [Books_1] -> [Book_3] -> [Shelf_1] -> [Book_4] -> [Books_2] -> [Book_5] -> [Curtain_1: white] -> [Shelf_2] -> [Book_6] -> [Book_7] -> [Books_3: staked] -> [Book_8] -> [Table_1: circular] -> [Sunflowers_1] -> [Vase_1] -> [Vase_2] -> [Tabletop_1] -> [Flowers_1: yellow] -> [Lamp_1] -> [BlackWroughtIronLegs_1: black, wrought iron] -> [Rug_1] -> [Tassels_1: long] -> [Doors_1: open, white] -> [BurgundyPillow_1: burgundy] -> [Pillow_1: red] -> [Handle_1: brown] -> [Door_1] -> [Bed_1] -> [Seat_1] -> [Glass_1] -> [Covering_1: striped] -> [Ottoman_1] -> [Seat_2] -> [WhiteCurtain_1: white] -> [Tray_1: wide] -> [Glass_2] -> [Frame_1: gold] -> [Mirror_1] -> [OrnateDesign_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [OrnateDesign_1] -> [Mirror_1] -> [Curtain_1: white] -> [Frame_1: gold] -> [Door_1] -> [WhiteCurtain_1: white] -> [Lamp_1] -> [Doors_1: open, white] -> [Sunflowers_1] -> [Flowers_1: yellow] -> [Handle_1: brown] -> [Book_1] -> [Vase_1] -> [Candle_1: yellow] -> [Vase_2] -> [Tabletop_1] -> [BurgundyPillow_1: burgundy] -> [Pillow_1: red] -> [Books_1] -> [Tassels_1: long] -> [Seat_1] -> [Bed_1] -> [Glass_1] -> [Glass_2] -> [Book_6] -> [Book_3] -> [Books_2] -> [Book_2] -> [Tray_1: wide] -> [Book_5] -> [Shelf_2] -> [Table_1: circular] -> [Book_4] -> [Shelf_1] -> [Book_7] -> [Covering_1: striped] -> [Seat_2] -> [Books_3: staked] -> [Ottoman_1] -> [BlackWroughtIronLegs_1: black, wrought iron] -> [Book_8] -> [Rug_1]",
+  "semantic_id_mapping": {
+    "1534340": "Bed_1",
+    "1534332": "BlackWroughtIronLegs_1",
+    "1534326": "Book_1",
+    "1534305": "Book_2",
+    "1534303": "Book_3",
+    "1534308": "Book_4",
+    "1534310": "Book_5",
+    "1534302": "Book_6",
+    "1534309": "Book_7",
+    "1534312": "Book_8",
+    "1534330": "Books_1",
+    "1534299": "Books_2",
+    "1534296": "Books_3",
+    "1534333": "BurgundyPillow_1",
+    "1534329": "Candle_1",
+    "1534293": "Covering_1",
+    "1534324": "Curtain_1",
+    "1534344": "Door_1",
+    "1534278": "Doors_1",
+    "1534295": "Floor_1",
+    "1534298": "Floor_2",
+    "1534279": "Flowers_1",
+    "3786883": "Frame_1",
+    "1534287": "Glass_1",
+    "1534286": "Glass_2",
+    "1534343": "Handle_1",
+    "1534346": "Lamp_1",
+    "1534320": "Mirror_1",
+    "1534291": "OrnateDesign_1",
+    "1534292": "Ottoman_1",
+    "1534339": "Pillow_1",
+    "1534294": "Rug_1",
+    "1534335": "Seat_1",
+    "1534342": "Seat_2",
+    "1534337": "Shade_1",
+    "1534300": "Shelf_1",
+    "1534282": "Shelf_2",
+    "1534318": "Sunflowers_1",
+    "1534331": "Table_1",
+    "1534327": "Tabletop_1",
+    "1534284": "Tassels_1",
+    "1534341": "Tray_1",
+    "1534316": "Vase_1",
+    "3786882": "Vase_2",
+    "1534345": "Wall_1",
+    "1534321": "Wall_2",
+    "1534322": "WhiteCurtain_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tassels_1",
+      "predicate": "on",
+      "object": "Pillow_1"
+    },
+    {
+      "subject": "Glass_1",
+      "predicate": "on",
+      "object": "Tray_1"
+    },
+    {
+      "subject": "Glass_2",
+      "predicate": "on",
+      "object": "Tray_1"
+    },
+    {
+      "subject": "Covering_1",
+      "predicate": "on",
+      "object": "Ottoman_1"
+    },
+    {
+      "subject": "Rug_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Books_3",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Books_2",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Book_6",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Book_3",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Book_4",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Book_5",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Mirror_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Curtain_1",
+      "predicate": "behind",
+      "object": "Lamp_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Tabletop_1"
+    },
+    {
+      "subject": "Candle_1",
+      "predicate": "on",
+      "object": "Books_1"
+    },
+    {
+      "subject": "BurgundyPillow_1",
+      "predicate": "on",
+      "object": "Seat_1"
+    },
+    {
+      "subject": "Shade_1",
+      "predicate": "on",
+      "object": "Lamp_1"
+    },
+    {
+      "subject": "Pillow_1",
+      "predicate": "on",
+      "object": "Bed_1"
+    },
+    {
+      "subject": "Tray_1",
+      "predicate": "on",
+      "object": "Seat_2"
+    },
+    {
+      "subject": "Handle_1",
+      "predicate": "on",
+      "object": "Door_1"
+    },
+    {
+      "subject": "Wall_1",
+      "predicate": "behind",
+      "object": "Lamp_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Book_1",
+    "Book_2",
+    "Candle_1",
+    "Books_1",
+    "Book_3",
+    "Shelf_1",
+    "Book_4",
+    "Books_2",
+    "Book_5",
+    "Curtain_1",
+    "Shelf_2",
+    "Book_6",
+    "Book_7",
+    "Books_3",
+    "Book_8",
+    "Table_1",
+    "Sunflowers_1",
+    "Vase_1",
+    "Vase_2",
+    "Tabletop_1",
+    "Flowers_1",
+    "Lamp_1",
+    "BlackWroughtIronLegs_1",
+    "Rug_1",
+    "Tassels_1",
+    "Doors_1",
+    "BurgundyPillow_1",
+    "Pillow_1",
+    "Handle_1",
+    "Door_1",
+    "Bed_1",
+    "Seat_1",
+    "Glass_1",
+    "Covering_1",
+    "Ottoman_1",
+    "Seat_2",
+    "WhiteCurtain_1",
+    "Tray_1",
+    "Glass_2",
+    "Frame_1",
+    "Mirror_1",
+    "OrnateDesign_1"
+  ]
+}

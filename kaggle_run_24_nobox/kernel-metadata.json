@@ -1,0 +1,17 @@
+{
+  "id": "tanishqgarg2007/qwen-24-spatial-nobox",
+  "title": "Qwen 24 Spatial NoBox",
+  "code_file": "run_24_spatial_benchmark_nobox.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "tanishqgarg2007/spatial-benchmark-24-images"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}
+

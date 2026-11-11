@@ -1,0 +1,40 @@
+{
+  "image_id": 109,
+  "prompt_text": "### Relational Edges:\n- [Building_3] --[on]--> [Street_1: brick]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Window_1] -> [Building_1] -> [Window_2] -> [Building_2] -> [Building_3: large] -> [Window_3] -> [Manhole_1: round] -> [Bicycle_1] -> [Man_1] -> [Window_4] -> [Building_4] -> [Car_1: parked]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_4] -> [Window_1] -> [Window_2] -> [Window_3] -> [Building_4] -> [Building_2] -> [Building_1] -> [Building_3: large] -> [Car_1: parked] -> [Man_1] -> [Bicycle_1] -> [Manhole_1: round]",
+  "semantic_id_mapping": {
+    "1634402": "Bicycle_1",
+    "1634394": "Building_1",
+    "1634395": "Building_2",
+    "1634391": "Building_3",
+    "1634399": "Building_4",
+    "1634404": "Car_1",
+    "1634401": "Man_1",
+    "1634403": "Manhole_1",
+    "1634392": "Street_1",
+    "1634393": "Window_1",
+    "1634396": "Window_2",
+    "1634397": "Window_3",
+    "1634400": "Window_4"
+  },
+  "relational_edges": [
+    {
+      "subject": "Building_3",
+      "predicate": "on",
+      "object": "Street_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Window_1",
+    "Building_1",
+    "Window_2",
+    "Building_2",
+    "Building_3",
+    "Window_3",
+    "Manhole_1",
+    "Bicycle_1",
+    "Man_1",
+    "Window_4",
+    "Building_4",
+    "Car_1"
+  ]
+}

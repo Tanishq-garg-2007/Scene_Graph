@@ -1,0 +1,197 @@
+{
+  "image_id": 34,
+  "prompt_text": "### Relational Edges:\n- [Telephone_1] --[on]--> [Table_2]\n- [Painting_1] --[on]--> [Wall_2: tiled, white, glass]\n- [Shadow_1] --[on]--> [Floor_1: beige]\n- [Shadow_5] --[on]--> [Floor_1: beige]\n- [Shadow_2] --[on]--> [Floor_1: beige]\n- [Shadow_4] --[on]--> [Floor_1: beige]\n- [Shadow_3] --[on]--> [Floor_1: beige]\n- [Mouse_1] --[on]--> [Table_3: desk, wooden, metal]\n- [Printer_1] --[on]--> [Table_1: wooden, brown]\n- [ComputerMonitor_1] --[on]--> [Table_3: desk, wooden, metal]\n- [Monitor_1] --[on]--> [Swivel_1]\n- [Computer_2] --[on]--> [Desk_1: wood]\n- [Telephone_1] --[on]--> [Desk_1: wood]\n- [Pictures_1] --[on]--> [Shelf_1]\n- [Notebooks_1] --[on]--> [Desk_1: wood]\n- [ToyCar_1] --[on]--> [Notebooks_1: lying]\n- [Frames_1] --[on]--> [Table_1: wooden, brown]\n- [Mug_1] --[on]--> [Desk_1: wood]\n- [Eyeglasses_1] --[on]--> [Desk_1: wood]\n- [Pens_1] --[on]--> [Table_1: wooden, brown]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Paper_1] -> [Printer_1: white, compact] -> [Wheel_1] -> [Table_1: wooden, brown] -> [Wheel_2] -> [Shadow_1] -> [Pens_1] -> [Shadow_2] -> [Fabric_1: blue] -> [Shadow_3] -> [Frame_1] -> [Picture_1: framed, small] -> [ToyCar_1: red, antique] -> [Notebooks_1: lying] -> [Frames_1: black] -> [Pictures_1] -> [Table_2] -> [Chair_1: blue, navy blue, metal] -> [RollerWheels_1] -> [Shelf_1] -> [Picture_2: framed] -> [Frame_2] -> [MetalRods_1: metal] -> [Office_1: indoors, open, well-lit] -> [Handset_1] -> [Telephone_1: white, telephone] -> [Shadow_4] -> [Mouse_1: beige, silver] -> [Computer_1] -> [Shadow_5] -> [Computer_2] -> [Desk_1: wood] -> [Table_3: desk, wooden, metal] -> [Swivel_1] -> [Base_1] -> [ComputerMonitor_1: on, desktop computer] -> [Monitor_1: white, lit, on, beige, crt] -> [Eyeglasses_1] -> [CoffeeMug_1: large] -> [Cup_1: painted] -> [Mug_1] -> [Painting_1: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Painting_1: white] -> [Frame_1] -> [Pictures_1] -> [Frames_1: black] -> [Picture_1: framed, small] -> [Frame_2] -> [Picture_2: framed] -> [Shelf_1] -> [ComputerMonitor_1: on, desktop computer] -> [Monitor_1: white, lit, on, beige, crt] -> [Handset_1] -> [ToyCar_1: red, antique] -> [Telephone_1: white, telephone] -> [Notebooks_1: lying] -> [Computer_2] -> [Pens_1] -> [Mouse_1: beige, silver] -> [Swivel_1] -> [Base_1] -> [Cup_1: painted] -> [Mug_1] -> [CoffeeMug_1: large] -> [Desk_1: wood] -> [Eyeglasses_1] -> [Table_2] -> [Fabric_1: blue] -> [Office_1: indoors, open, well-lit] -> [Computer_1] -> [Printer_1: white, compact] -> [Shadow_2] -> [Chair_1: blue, navy blue, metal] -> [Table_3: desk, wooden, metal] -> [Shadow_4] -> [Table_1: wooden, brown] -> [Paper_1] -> [Wheel_2] -> [MetalRods_1: metal] -> [Shadow_1] -> [Shadow_5] -> [RollerWheels_1] -> [Wheel_1] -> [Shadow_3]",
+  "semantic_id_mapping": {
+    "1024944": "Base_1",
+    "1061405": "Chair_1",
+    "1061464": "CoffeeMug_1",
+    "1024943": "Computer_1",
+    "1061463": "Computer_2",
+    "1061407": "ComputerMonitor_1",
+    "5783": "Cup_1",
+    "1061467": "Desk_1",
+    "1061469": "Eyeglasses_1",
+    "1061456": "Fabric_1",
+    "1061419": "Floor_1",
+    "1061466": "Frame_1",
+    "1061465": "Frame_2",
+    "1061461": "Frames_1",
+    "1061459": "Handset_1",
+    "5779": "MetalRods_1",
+    "1024906": "Monitor_1",
+    "1061424": "Mouse_1",
+    "1061410": "Mug_1",
+    "1061458": "Notebooks_1",
+    "5800": "Office_1",
+    "5789": "Painting_1",
+    "1061457": "Paper_1",
+    "1061470": "Pens_1",
+    "1061408": "Picture_1",
+    "1061409": "Picture_2",
+    "1061460": "Pictures_1",
+    "1061426": "Printer_1",
+    "1061471": "RollerWheels_1",
+    "5791": "Shadow_1",
+    "5794": "Shadow_2",
+    "5796": "Shadow_3",
+    "5795": "Shadow_4",
+    "1061440": "Shadow_5",
+    "1061468": "Shelf_1",
+    "1024945": "Swivel_1",
+    "1061427": "Table_1",
+    "5788": "Table_2",
+    "5798": "Table_3",
+    "1061414": "Telephone_1",
+    "1061462": "ToyCar_1",
+    "1061472": "Wall_1",
+    "1061417": "Wall_2",
+    "5785": "Wheel_1",
+    "5786": "Wheel_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Shadow_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Shadow_5",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Shadow_2",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Shadow_4",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Shadow_3",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Table_3"
+    },
+    {
+      "subject": "Printer_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "ComputerMonitor_1",
+      "predicate": "on",
+      "object": "Table_3"
+    },
+    {
+      "subject": "Monitor_1",
+      "predicate": "on",
+      "object": "Swivel_1"
+    },
+    {
+      "subject": "Computer_2",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Pictures_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Notebooks_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "ToyCar_1",
+      "predicate": "on",
+      "object": "Notebooks_1"
+    },
+    {
+      "subject": "Frames_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Mug_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Eyeglasses_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Pens_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Paper_1",
+    "Printer_1",
+    "Wheel_1",
+    "Table_1",
+    "Wheel_2",
+    "Shadow_1",
+    "Pens_1",
+    "Shadow_2",
+    "Fabric_1",
+    "Shadow_3",
+    "Frame_1",
+    "Picture_1",
+    "ToyCar_1",
+    "Notebooks_1",
+    "Frames_1",
+    "Pictures_1",
+    "Table_2",
+    "Chair_1",
+    "RollerWheels_1",
+    "Shelf_1",
+    "Picture_2",
+    "Frame_2",
+    "MetalRods_1",
+    "Office_1",
+    "Handset_1",
+    "Telephone_1",
+    "Shadow_4",
+    "Mouse_1",
+    "Computer_1",
+    "Shadow_5",
+    "Computer_2",
+    "Desk_1",
+    "Table_3",
+    "Swivel_1",
+    "Base_1",
+    "ComputerMonitor_1",
+    "Monitor_1",
+    "Eyeglasses_1",
+    "CoffeeMug_1",
+    "Cup_1",
+    "Mug_1",
+    "Painting_1"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "image_id": 8,
+  "prompt_text": "### Relational Edges:\n- [Man_1] --[wearing]--> [Sleeves_1: folded]\n- [Cd_1] --[on]--> [Desk_2]\n- [Cup_2] --[on]--> [Desk_1]\n- [Man_1] --[wearing]--> [Glasses_1]\n- [Man_1] --[wearing]--> [Shirt_1: black, white]\n- [Dish_1] --[on]--> [Cpu_1]\n- [Picture_1] --[on]--> [Wall_1]\n- [Stapler_1] --[on]--> [Desk_1]\n- [Bag_1] --[on]--> [Papers_3: stack]\n- [Cup_1] --[on]--> [Shelf_1]\n- [Stapler_1] --[near]--> [Cup_2: white, large]\n- [Cd_1] --[near]--> [Mug_1: smaller]\n- [Files_1] --[on]--> [Desk_2]\n- [Papers_3] --[on]--> [Desk_2]\n- [Books_1] --[on]--> [Shelf_1]\n- [Mouse_1] --[next to]--> [Keyboard_1: white, gray]\n- [Mouse_1] --[on]--> [Desk_1]\n- [Book_1] --[on]--> [Shelf_1]\n- [Cd_1] --[on]--> [Drawer_2]\n- [Papers_1] --[on]--> [Folder_1: white]\n- [Man_1] --[wearing]--> [Pants_1: black]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Books_1] -> [Chair_1: blue] -> [Shelf_1] -> [Book_1: blue] -> [Shelves_1: wood] -> [Cup_1: black, silver] -> [Cpu_1] -> [Dish_1: tupperware, empty] -> [Man_1: youn, using] -> [ComputerSpeaker_1: white, gray] -> [Desk_1] -> [Keyboard_1: white, gray] -> [Monitor_1: on, black] -> [Color_1: grey] -> [Drawer_1] -> [Mouse_1: white] -> [Drawers_1: grey, silver, gray] -> [CoffeeMug_1: ceramic, white, plastic, large] -> [Cup_2: white, large] -> [Papers_1] -> [Folder_1: white] -> [Stapler_1: black] -> [Papers_2] -> [BulletinBoard_1] -> [Drawer_2] -> [Desk_2] -> [Files_1] -> [Front_1] -> [Cd_1: white, sitting] -> [Papers_3: stack] -> [Mug_1: smaller] -> [Bag_1] -> [Picture_1: taped]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Books_1] -> [Shelves_1: wood] -> [Picture_1: taped] -> [Book_1: blue] -> [Cup_1: black, silver] -> [Shelf_1] -> [Dish_1: tupperware, empty] -> [Files_1] -> [Bag_1] -> [Papers_3: stack] -> [Monitor_1: on, black] -> [Cpu_1] -> [Papers_1] -> [ComputerSpeaker_1: white, gray] -> [Papers_2] -> [Folder_1: white] -> [BulletinBoard_1] -> [Keyboard_1: white, gray] -> [CoffeeMug_1: ceramic, white, plastic, large] -> [Cup_2: white, large] -> [Mouse_1: white] -> [Man_1: youn, using] -> [Stapler_1: black] -> [Desk_1] -> [Desk_2] -> [Mug_1: smaller] -> [Chair_1: blue] -> [Color_1: grey] -> [Drawer_1] -> [Drawers_1: grey, silver, gray] -> [Front_1] -> [Cd_1: white, sitting] -> [Drawer_2]",
+  "semantic_id_mapping": {
+    "5211": "Bag_1",
+    "1060485": "Book_1",
+    "1060483": "Books_1",
+    "1060476": "BulletinBoard_1",
+    "1060441": "Cd_1",
+    "1060489": "Chair_1",
+    "1060480": "Chin_1",
+    "1060490": "CoffeeMug_1",
+    "5197": "Color_1",
+    "1060479": "ComputerSpeaker_1",
+    "1060454": "Cpu_1",
+    "5213": "Cup_1",
+    "1060471": "Cup_2",
+    "1060463": "Desk_1",
+    "1060442": "Desk_2",
+    "1060453": "Dish_1",
+    "1060475": "Drawer_1",
+    "1060486": "Drawer_2",
+    "1060439": "Drawers_1",
+    "1060478": "Files_1",
+    "1060481": "Folder_1",
+    "5216": "Front_1",
+    "1060450": "Glasses_1",
+    "1060445": "Hand_1",
+    "1060446": "Keyboard_1",
+    "1060459": "Man_1",
+    "1060436": "Monitor_1",
+    "1060484": "Mouse_1",
+    "5215": "Mug_1",
+    "1060488": "Pants_1",
+    "1060482": "Papers_1",
+    "1060477": "Papers_2",
+    "1060465": "Papers_3",
+    "1060455": "Picture_1",
+    "1060469": "Shelf_1",
+    "1060491": "Shelves_1",
+    "1060451": "Shirt_1",
+    "1060437": "Sleeves_1",
+    "1060462": "Stapler_1",
+    "1060456": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Sleeves_1"
+    },
+    {
+      "subject": "Cd_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Cup_2",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Glasses_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Dish_1",
+      "predicate": "on",
+      "object": "Cpu_1"
+    },
+    {
+      "subject": "Picture_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Stapler_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Bag_1",
+      "predicate": "on",
+      "object": "Papers_3"
+    },
+    {
+      "subject": "Cup_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Stapler_1",
+      "predicate": "near",
+      "object": "Cup_2"
+    },
+    {
+      "subject": "Cd_1",
+      "predicate": "near",
+      "object": "Mug_1"
+    },
+    {
+      "subject": "Files_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Papers_3",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "next to",
+      "object": "Keyboard_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Cd_1",
+      "predicate": "on",
+      "object": "Drawer_2"
+    },
+    {
+      "subject": "Papers_1",
+      "predicate": "on",
+      "object": "Folder_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Pants_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Books_1",
+    "Chair_1",
+    "Shelf_1",
+    "Book_1",
+    "Shelves_1",
+    "Cup_1",
+    "Cpu_1",
+    "Dish_1",
+    "Man_1",
+    "ComputerSpeaker_1",
+    "Desk_1",
+    "Keyboard_1",
+    "Monitor_1",
+    "Color_1",
+    "Drawer_1",
+    "Mouse_1",
+    "Drawers_1",
+    "CoffeeMug_1",
+    "Cup_2",
+    "Papers_1",
+    "Folder_1",
+    "Stapler_1",
+    "Papers_2",
+    "BulletinBoard_1",
+    "Drawer_2",
+    "Desk_2",
+    "Files_1",
+    "Front_1",
+    "Cd_1",
+    "Papers_3",
+    "Mug_1",
+    "Bag_1",
+    "Picture_1"
+  ]
+}

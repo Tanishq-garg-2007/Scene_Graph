@@ -1,0 +1,92 @@
+{
+  "image_id": 163,
+  "prompt_text": "### Relational Edges:\n- [Foods_1] --[on]--> [Plate_1]\n- [Edging_1] --[on]--> [Plate_1]\n- [Pancakes_1] --[on]--> [Plate_1]\n- [Grapes_2] --[on]--> [Plate_1]\n- [Food_1] --[on]--> [Plate_1]\n- [Breakfast_1] --[on]--> [Plate_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Grape_1: purple, oval shaped] -> [Grape_2] -> [Grapes_1: red] -> [Grape_3: purple, oval] -> [Pancake_1] -> [Holes_1: alot] -> [Grape_4: purple, oval] -> [Grapes_2] -> [Grape_5: oval, purple] -> [Grape_6: purple, oval] -> [Grape_7: purple, oval] -> [Table_1: light wood grain, light brown, wooden] -> [Surface_1: wooden] -> [Plate_1] -> [Grape_8: purple, oval] -> [Breakfast_1] -> [Grape_9: purple, oval] -> [Foods_1: breakfast] -> [Pancakes_1] -> [Grapes_3] -> [Food_1] -> [Edging_1: blue] -> [Grape_10: oval, purple] -> [Grape_11: oval, purple] -> [Pancake_2: brown] -> [Pancake_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Holes_1: alot] -> [Grape_9: purple, oval] -> [Grape_11: oval, purple] -> [Grapes_3] -> [Grape_8: purple, oval] -> [Pancake_1] -> [Pancake_3] -> [Grape_10: oval, purple] -> [Table_1: light wood grain, light brown, wooden] -> [Breakfast_1] -> [Surface_1: wooden] -> [Grapes_2] -> [Edging_1: blue] -> [Plate_1] -> [Food_1] -> [Foods_1: breakfast] -> [Grape_7: purple, oval] -> [Grape_4: purple, oval] -> [Pancakes_1] -> [Grape_5: oval, purple] -> [Grape_2] -> [Grape_6: purple, oval] -> [Grapes_1: red] -> [Grape_1: purple, oval shaped] -> [Pancake_2: brown] -> [Grape_3: purple, oval]",
+  "semantic_id_mapping": {
+    "1536101": "Breakfast_1",
+    "1536084": "Edging_1",
+    "1536099": "Food_1",
+    "1536082": "Foods_1",
+    "1536066": "Grape_1",
+    "1536073": "Grape_2",
+    "1536067": "Grape_3",
+    "1536074": "Grape_4",
+    "1536068": "Grape_5",
+    "1536069": "Grape_6",
+    "1536078": "Grape_7",
+    "1536071": "Grape_8",
+    "1536076": "Grape_9",
+    "1536072": "Grape_10",
+    "1536077": "Grape_11",
+    "1536092": "Grapes_1",
+    "1536088": "Grapes_2",
+    "1536080": "Grapes_3",
+    "1536095": "Holes_1",
+    "1536094": "Pancake_1",
+    "1536093": "Pancake_2",
+    "1536098": "Pancake_3",
+    "1536089": "Pancakes_1",
+    "1536081": "Plate_1",
+    "1536079": "Surface_1",
+    "1536090": "Table_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Foods_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Edging_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Pancakes_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Grapes_2",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Food_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Breakfast_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Grape_1",
+    "Grape_2",
+    "Grapes_1",
+    "Grape_3",
+    "Pancake_1",
+    "Holes_1",
+    "Grape_4",
+    "Grapes_2",
+    "Grape_5",
+    "Grape_6",
+    "Grape_7",
+    "Table_1",
+    "Surface_1",
+    "Plate_1",
+    "Grape_8",
+    "Breakfast_1",
+    "Grape_9",
+    "Foods_1",
+    "Pancakes_1",
+    "Grapes_3",
+    "Food_1",
+    "Edging_1",
+    "Grape_10",
+    "Grape_11",
+    "Pancake_2",
+    "Pancake_3"
+  ]
+}

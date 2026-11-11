@@ -1,0 +1,64 @@
+{
+  "image_id": 31,
+  "prompt_text": "### Relational Edges:\n- [Breadbox_1] --[on]--> [Shelf_1]\n- [Switch_1] --[on]--> [Wall_1: clean, white]\n- [Box_1] --[next to]--> [Breadbox_1: metal, new, silver, grey]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Knife_1: black] -> [Holder_1: shiny, steel, grey] -> [Plant_1] -> [Flowers_1: red, green, orange, fresh] -> [Box_1: grey] -> [Kleenex_1] -> [Oven_1: black, toaster, metal, cast, small, grey] -> [Shelf_1] -> [Sink_1: steel, new, clean, shiny, grey] -> [Breadbox_1: metal, new, silver, grey] -> [Cabinets_1: brown, light brown, new, wooden] -> [Photo_1] -> [Container_1: green, small] -> [Canister_1: set, cream, white] -> [Drainer_1: steel, white] -> [Glass_1: clear] -> [Picture_1: indoors] -> [Dishwasher_1: black, new] -> [Switch_1: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Cabinets_1: brown, light brown, new, wooden] -> [Kleenex_1] -> [Breadbox_1: metal, new, silver, grey] -> [Box_1: grey] -> [Photo_1] -> [Shelf_1] -> [Knife_1: black] -> [Picture_1: indoors] -> [Switch_1: white] -> [Oven_1: black, toaster, metal, cast, small, grey] -> [Canister_1: set, cream, white] -> [Container_1: green, small] -> [Flowers_1: red, green, orange, fresh] -> [Holder_1: shiny, steel, grey] -> [Plant_1] -> [Glass_1: clear] -> [Drainer_1: steel, white] -> [Sink_1: steel, new, clean, shiny, grey] -> [Dishwasher_1: black, new]",
+  "semantic_id_mapping": {
+    "1058604": "Box_1",
+    "1058606": "Breadbox_1",
+    "1058631": "Cabinets_1",
+    "1058601": "Canister_1",
+    "1058612": "Container_1",
+    "1058605": "Dishwasher_1",
+    "5719": "Drainer_1",
+    "1058608": "Flowers_1",
+    "1058632": "Glass_1",
+    "1058614": "Holder_1",
+    "5722": "Kleenex_1",
+    "1058613": "Knife_1",
+    "1058602": "Oven_1",
+    "5735": "Photo_1",
+    "5734": "Picture_1",
+    "5727": "Plant_1",
+    "5726": "Shelf_1",
+    "1058599": "Sink_1",
+    "1058610": "Switch_1",
+    "1058611": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Breadbox_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Switch_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Box_1",
+      "predicate": "next to",
+      "object": "Breadbox_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Knife_1",
+    "Holder_1",
+    "Plant_1",
+    "Flowers_1",
+    "Box_1",
+    "Kleenex_1",
+    "Oven_1",
+    "Shelf_1",
+    "Sink_1",
+    "Breadbox_1",
+    "Cabinets_1",
+    "Photo_1",
+    "Container_1",
+    "Canister_1",
+    "Drainer_1",
+    "Glass_1",
+    "Picture_1",
+    "Dishwasher_1",
+    "Switch_1"
+  ]
+}

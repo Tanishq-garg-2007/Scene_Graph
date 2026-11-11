@@ -1,0 +1,66 @@
+{
+  "image_id": 200,
+  "prompt_text": "### Relational Edges:\n- [Tray_1] --[on]--> [Table_1: brown]\n- [Umbrella_1] --[on]--> [Table_1: brown]\n- [Chair_1] --[behind]--> [Umbrella_1]\n- [Sauce_1] --[on]--> [Dish_1: small, white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Food_1] -> [Cup_1: silver, metal] -> [Food_2] -> [Food_3] -> [Food_4] -> [Food_5] -> [Food_6] -> [Food_7] -> [Plate_1: silver] -> [Food_8] -> [Chair_1: black] -> [Tray_1] -> [Table_1: brown] -> [Food_9] -> [Umbrella_1] -> [Food_10] -> [Sauce_1: brown] -> [Dish_1: small, white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Chair_1: black] -> [Umbrella_1] -> [Cup_1: silver, metal] -> [Food_10] -> [Sauce_1: brown] -> [Dish_1: small, white] -> [Food_4] -> [Food_8] -> [Food_6] -> [Table_1: brown] -> [Plate_1: silver] -> [Tray_1] -> [Food_9] -> [Food_7] -> [Food_3] -> [Food_1] -> [Food_5] -> [Food_2]",
+  "semantic_id_mapping": {
+    "1621487": "Chair_1",
+    "1621502": "Cup_1",
+    "1621489": "Dish_1",
+    "1621495": "Food_1",
+    "1621500": "Food_2",
+    "1621497": "Food_3",
+    "1621494": "Food_4",
+    "1621499": "Food_5",
+    "1621493": "Food_6",
+    "1621504": "Food_7",
+    "1621501": "Food_8",
+    "1621498": "Food_9",
+    "1621496": "Food_10",
+    "1621505": "Plate_1",
+    "1621490": "Sauce_1",
+    "1621486": "Table_1",
+    "3562738": "Tray_1",
+    "1621488": "Umbrella_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tray_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Umbrella_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "behind",
+      "object": "Umbrella_1"
+    },
+    {
+      "subject": "Sauce_1",
+      "predicate": "on",
+      "object": "Dish_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Food_1",
+    "Cup_1",
+    "Food_2",
+    "Food_3",
+    "Food_4",
+    "Food_5",
+    "Food_6",
+    "Food_7",
+    "Plate_1",
+    "Food_8",
+    "Chair_1",
+    "Tray_1",
+    "Table_1",
+    "Food_9",
+    "Umbrella_1",
+    "Food_10",
+    "Sauce_1",
+    "Dish_1"
+  ]
+}

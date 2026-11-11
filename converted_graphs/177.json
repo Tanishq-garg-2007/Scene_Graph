@@ -1,0 +1,83 @@
+{
+  "image_id": 177,
+  "prompt_text": "### Relational Edges:\n- [Reflection_1] --[on]--> [Chair_3: brown, leather]\n- [Tools_1] --[on]--> [Table_1: dental]\n- [Painting_1] --[on]--> [Wall_1]\n- [Wheels_1] --[on]--> [Chair_2]\n- [Chair_2] --[on]--> [Floor_1: tiled]\n- [Wheels_1] --[on]--> [Chair_3: brown, leather]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Tubes_1] -> [Flower_1] -> [Painting_1: colorful] -> [Kleenex_1: blue] -> [Chair_1: dentist chair, white, patient] -> [Tools_1] -> [Table_1: dental] -> [Wheels_1] -> [Trim_1: black] -> [Office_1] -> [Room_1] -> [Chair_2] -> [Plant_1: green, leafy] -> [Box_1: plant box] -> [Pot_1: brown] -> [Window_1] -> [Glass_1] -> [Reflection_1] -> [Door_1: glass] -> [Chair_3: brown, leather]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Flower_1] -> [Painting_1: colorful] -> [Glass_1] -> [Trim_1: black] -> [Plant_1: green, leafy] -> [Door_1: glass] -> [Window_1] -> [Kleenex_1: blue] -> [Tools_1] -> [Table_1: dental] -> [Office_1] -> [Room_1] -> [Chair_1: dentist chair, white, patient] -> [Pot_1: brown] -> [Box_1: plant box] -> [Tubes_1] -> [Chair_3: brown, leather] -> [Reflection_1] -> [Chair_2] -> [Wheels_1]",
+  "semantic_id_mapping": {
+    "1536382": "Back_1",
+    "1536349": "Box_1",
+    "1536377": "Chair_1",
+    "1536381": "Chair_2",
+    "1536365": "Chair_3",
+    "1536356": "Door_1",
+    "1536363": "Floor_1",
+    "1536338": "Flower_1",
+    "1536357": "Glass_1",
+    "1536336": "Kleenex_1",
+    "1536359": "Office_1",
+    "1536372": "Painting_1",
+    "1536369": "Plant_1",
+    "1536371": "Pot_1",
+    "1536344": "Reflection_1",
+    "1536375": "Room_1",
+    "1536353": "Table_1",
+    "1536352": "Tools_1",
+    "1536342": "Trim_1",
+    "1536376": "Tubes_1",
+    "1536373": "Wall_1",
+    "1536341": "Wheels_1",
+    "1536343": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Reflection_1",
+      "predicate": "on",
+      "object": "Chair_3"
+    },
+    {
+      "subject": "Tools_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Wheels_1",
+      "predicate": "on",
+      "object": "Chair_2"
+    },
+    {
+      "subject": "Chair_2",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Wheels_1",
+      "predicate": "on",
+      "object": "Chair_3"
+    }
+  ],
+  "horizontal_ordering": [
+    "Tubes_1",
+    "Flower_1",
+    "Painting_1",
+    "Kleenex_1",
+    "Chair_1",
+    "Tools_1",
+    "Table_1",
+    "Wheels_1",
+    "Trim_1",
+    "Office_1",
+    "Room_1",
+    "Chair_2",
+    "Plant_1",
+    "Box_1",
+    "Pot_1",
+    "Window_1",
+    "Glass_1",
+    "Reflection_1",
+    "Door_1",
+    "Chair_3"
+  ]
+}

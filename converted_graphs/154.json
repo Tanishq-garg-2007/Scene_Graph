@@ -1,0 +1,83 @@
+{
+  "image_id": 154,
+  "prompt_text": "### Relational Edges:\n- [Appliance_1] --[on]--> [Counter_1]\n- [Appliance_3] --[on]--> [Counter_1]\n- [Appliance_2] --[on]--> [Counter_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Plug_1: black ] -> [PowerStrip_1] -> [Powerstrip_1: white] -> [Phone_1] -> [Telephone_1: white, corded] -> [CoffeeTable_1] -> [Table_1: small, wooden] -> [WindowSill_1] -> [Man_1] -> [Lid_1: white , plastic ] -> [Vessel_1] -> [Counter_1] -> [Vessel_2] -> [Telephone_2: white] -> [CoffeeCup_1: maroon] -> [Counter_2] -> [SprayBottle_1: green ] -> [Appliance_1] -> [Vessel_3] -> [CoffeeCup_2: dark grey] -> [Appliance_2] -> [CoffeeMaker_1: black , grey ] -> [Vessel_4] -> [BreadBox_1: wooden ] -> [Breadbox_1] -> [Appliance_3] -> [Toaster_1: white ] -> [Box_1: red]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Appliance_2] -> [CoffeeMaker_1: black , grey ] -> [Phone_1] -> [SprayBottle_1: green ] -> [WindowSill_1] -> [Vessel_4] -> [Telephone_1: white, corded] -> [Vessel_1] -> [Man_1] -> [Box_1: red] -> [Plug_1: black ] -> [CoffeeCup_2: dark grey] -> [Vessel_3] -> [Powerstrip_1: white] -> [PowerStrip_1] -> [Breadbox_1] -> [Telephone_2: white] -> [Vessel_2] -> [CoffeeCup_1: maroon] -> [BreadBox_1: wooden ] -> [Counter_2] -> [Counter_1] -> [Table_1: small, wooden] -> [CoffeeTable_1] -> [Appliance_1] -> [Lid_1: white , plastic ] -> [Toaster_1: white ] -> [Appliance_3]",
+  "semantic_id_mapping": {
+    "1535868": "Appliance_1",
+    "1535872": "Appliance_2",
+    "1535870": "Appliance_3",
+    "1535845": "Box_1",
+    "1535860": "BreadBox_1",
+    "1535878": "Breadbox_1",
+    "3787163": "CoffeeCup_1",
+    "1535867": "CoffeeCup_2",
+    "1535861": "CoffeeMaker_1",
+    "1535852": "CoffeeTable_1",
+    "1535873": "Counter_1",
+    "1535879": "Counter_2",
+    "1535858": "Hand_1",
+    "1535847": "Lid_1",
+    "1535857": "Man_1",
+    "1535855": "Phone_1",
+    "1535853": "Plug_1",
+    "1535854": "PowerStrip_1",
+    "1535862": "Powerstrip_1",
+    "1535866": "Shirt_1",
+    "1535849": "SprayBottle_1",
+    "1535863": "Table_1",
+    "1535864": "Telephone_1",
+    "1535865": "Telephone_2",
+    "1535859": "Toaster_1",
+    "1535875": "Vessel_1",
+    "1535874": "Vessel_2",
+    "1535877": "Vessel_3",
+    "1535876": "Vessel_4",
+    "1535856": "WindowSill_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Appliance_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Appliance_3",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Appliance_2",
+      "predicate": "on",
+      "object": "Counter_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Plug_1",
+    "PowerStrip_1",
+    "Powerstrip_1",
+    "Phone_1",
+    "Telephone_1",
+    "CoffeeTable_1",
+    "Table_1",
+    "WindowSill_1",
+    "Man_1",
+    "Lid_1",
+    "Vessel_1",
+    "Counter_1",
+    "Vessel_2",
+    "Telephone_2",
+    "CoffeeCup_1",
+    "Counter_2",
+    "SprayBottle_1",
+    "Appliance_1",
+    "Vessel_3",
+    "CoffeeCup_2",
+    "Appliance_2",
+    "CoffeeMaker_1",
+    "Vessel_4",
+    "BreadBox_1",
+    "Breadbox_1",
+    "Appliance_3",
+    "Toaster_1",
+    "Box_1"
+  ]
+}

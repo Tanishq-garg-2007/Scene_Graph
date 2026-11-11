@@ -1,0 +1,56 @@
+{
+  "image_id": 111,
+  "prompt_text": "### Relational Edges:\n- [Paper_1] --[on]--> [Counter_2: black]\n- [Spatula_1] --[on]--> [Counter_3]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Handle_1: orange] -> [Pitcher_1] -> [Counter_1: black] -> [Lid_1] -> [Top_1: small] -> [Orange_1: orange] -> [Label_1] -> [Bottle_1] -> [Counter_2: black] -> [Container_1] -> [Bowl_1: small] -> [Lable_1: white] -> [Counter_3] -> [Spatula_1] -> [Turner_1] -> [Paper_1: white] -> [Lid_2: blue] -> [Handle_2: black]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Handle_1: orange] -> [Paper_1: white] -> [Pitcher_1] -> [Turner_1] -> [Spatula_1] -> [Handle_2: black] -> [Bottle_1] -> [Label_1] -> [Counter_3] -> [Counter_2: black] -> [Lid_2: blue] -> [Lable_1: white] -> [Container_1] -> [Counter_1: black] -> [Bowl_1: small] -> [Orange_1: orange] -> [Lid_1] -> [Top_1: small]",
+  "semantic_id_mapping": {
+    "1634415": "Bottle_1",
+    "1634419": "Bowl_1",
+    "1634412": "Container_1",
+    "1634424": "Counter_1",
+    "1634408": "Counter_2",
+    "1634426": "Counter_3",
+    "1634409": "Handle_1",
+    "1634405": "Handle_2",
+    "1634416": "Label_1",
+    "1634411": "Lable_1",
+    "1634413": "Lid_1",
+    "1634422": "Lid_2",
+    "1634418": "Orange_1",
+    "1634407": "Paper_1",
+    "1634410": "Pitcher_1",
+    "1634425": "Spatula_1",
+    "1634423": "Top_1",
+    "1634406": "Turner_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Paper_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Spatula_1",
+      "predicate": "on",
+      "object": "Counter_3"
+    }
+  ],
+  "horizontal_ordering": [
+    "Handle_1",
+    "Pitcher_1",
+    "Counter_1",
+    "Lid_1",
+    "Top_1",
+    "Orange_1",
+    "Label_1",
+    "Bottle_1",
+    "Counter_2",
+    "Container_1",
+    "Bowl_1",
+    "Lable_1",
+    "Counter_3",
+    "Spatula_1",
+    "Turner_1",
+    "Paper_1",
+    "Lid_2",
+    "Handle_2"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "image_id": 158,
+  "prompt_text": "### Relational Edges:\n- [Wall_2] --[on]--> [Building_1]\n- [Wall_1] --[on]--> [Building_1]\n- [Butterfly_1] --[on]--> [Flower_2]\n- [Sunligt_1] --[on]--> [Ground_1]\n- [Stem_1] --[holding]--> [Flower_1: orange, towering]\n- [GreenStem_1] --[on]--> [Flower_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Stem_1] -> [Middle_1] -> [Flower_1: orange, towering] -> [GreenLeaf_1: large] -> [Leaf_1] -> [Stem_2: red, supporting] -> [GreenStem_1] -> [Flower_2] -> [Stem_3: green] -> [Garden_1] -> [Flower_3: red] -> [Flowers_1: pointed, green] -> [Building_1] -> [Butterfly_1: sitting] -> [Flower_4: colorful] -> [Building_2] -> [Sunligt_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Flower_4: colorful] -> [Sunligt_1] -> [Building_2] -> [Butterfly_1: sitting] -> [Building_1] -> [Middle_1] -> [Garden_1] -> [Flowers_1: pointed, green] -> [Flower_1: orange, towering] -> [Flower_2] -> [Stem_3: green] -> [Stem_1] -> [Leaf_1] -> [GreenLeaf_1: large] -> [GreenStem_1] -> [Stem_2: red, supporting] -> [Flower_3: red]",
+  "semantic_id_mapping": {
+    "3632918": "Building_1",
+    "1535962": "Building_2",
+    "1625032": "Butterfly_1",
+    "3632924": "Flower_1",
+    "1535966": "Flower_2",
+    "1625037": "Flower_3",
+    "1535968": "Flower_4",
+    "1625027": "Flowers_1",
+    "1535969": "Garden_1",
+    "1535970": "GreenLeaf_1",
+    "1535964": "GreenStem_1",
+    "3632923": "Ground_1",
+    "1625040": "Leaf_1",
+    "1625036": "Middle_1",
+    "1625039": "Stem_1",
+    "1625033": "Stem_2",
+    "1625028": "Stem_3",
+    "1625038": "Sunligt_1",
+    "1625030": "Wall_1",
+    "1625029": "Wall_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Wall_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Wall_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Butterfly_1",
+      "predicate": "on",
+      "object": "Flower_2"
+    },
+    {
+      "subject": "Sunligt_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Stem_1",
+      "predicate": "holding",
+      "object": "Flower_1"
+    },
+    {
+      "subject": "GreenStem_1",
+      "predicate": "on",
+      "object": "Flower_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Stem_1",
+    "Middle_1",
+    "Flower_1",
+    "GreenLeaf_1",
+    "Leaf_1",
+    "Stem_2",
+    "GreenStem_1",
+    "Flower_2",
+    "Stem_3",
+    "Garden_1",
+    "Flower_3",
+    "Flowers_1",
+    "Building_1",
+    "Butterfly_1",
+    "Flower_4",
+    "Building_2",
+    "Sunligt_1"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "image_id": 180,
+  "prompt_text": "### Relational Edges:\n- [Tree_2] --[on]--> [Side_1: mountain]\n- [Tree_1] --[on]--> [Side_1: mountain]\n- [Trees_1] --[on]--> [Side_1: mountain]\n- [Table_1] --[near]--> [Chair_1: empty, unoccupied]\n- [Table_2] --[near]--> [Woman_1]\n- [Woman_1] --[wearing]--> [Legs_1]\n- [Pool_1] --[on]--> [Deck_1]\n- [Table_2] --[next to]--> [LoungeChair_2: white]\n- [Woman_1] --[holding]--> [Glass_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Chair_1: empty, unoccupied] -> [Object_1] -> [LoungeChair_1] -> [Tree_1: several] -> [Table_1] -> [PalmTree_1: tall, palm] -> [Tree_2: several] -> [BikiniTop_1: woman's, grey, bikini] -> [Side_1: mountain] -> [It_1: beachy] -> [Deck_1] -> [Woman_1] -> [LoungeChair_2: white] -> [Glass_1] -> [Liquid_1: orange] -> [Pool_1: small, round] -> [Trees_1: several] -> [Table_2] -> [Jacuzzi_1] -> [SeatingArea_1] -> [Water_1] -> [Building_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Trees_1: several] -> [Tree_2: several] -> [PalmTree_1: tall, palm] -> [Tree_1: several] -> [Building_1] -> [Side_1: mountain] -> [Glass_1] -> [Liquid_1: orange] -> [BikiniTop_1: woman's, grey, bikini] -> [Woman_1] -> [It_1: beachy] -> [LoungeChair_2: white] -> [Table_2] -> [Chair_1: empty, unoccupied] -> [LoungeChair_1] -> [Object_1] -> [Table_1] -> [Water_1] -> [SeatingArea_1] -> [Pool_1: small, round] -> [Deck_1] -> [Jacuzzi_1]",
+  "semantic_id_mapping": {
+    "1536468": "BikiniTop_1",
+    "1536478": "Building_1",
+    "1536466": "Chair_1",
+    "3792922": "Deck_1",
+    "1536456": "Glass_1",
+    "1536471": "Hair_1",
+    "3787284": "Hand_1",
+    "3787278": "It_1",
+    "1536458": "Jacuzzi_1",
+    "1536472": "Legs_1",
+    "3787279": "Liquid_1",
+    "1536461": "LoungeChair_1",
+    "3792924": "LoungeChair_2",
+    "1536460": "Object_1",
+    "1536455": "PalmTree_1",
+    "3787285": "Pool_1",
+    "1536470": "SeatingArea_1",
+    "3787282": "Side_1",
+    "1536464": "Table_1",
+    "3792926": "Table_2",
+    "3787280": "Tree_1",
+    "3787281": "Tree_2",
+    "1536459": "Trees_1",
+    "1536467": "Water_1",
+    "1536462": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tree_2",
+      "predicate": "on",
+      "object": "Side_1"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "on",
+      "object": "Side_1"
+    },
+    {
+      "subject": "Trees_1",
+      "predicate": "on",
+      "object": "Side_1"
+    },
+    {
+      "subject": "Table_1",
+      "predicate": "near",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Table_2",
+      "predicate": "near",
+      "object": "Woman_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Legs_1"
+    },
+    {
+      "subject": "Pool_1",
+      "predicate": "on",
+      "object": "Deck_1"
+    },
+    {
+      "subject": "Table_2",
+      "predicate": "next to",
+      "object": "LoungeChair_2"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "holding",
+      "object": "Glass_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Chair_1",
+    "Object_1",
+    "LoungeChair_1",
+    "Tree_1",
+    "Table_1",
+    "PalmTree_1",
+    "Tree_2",
+    "BikiniTop_1",
+    "Side_1",
+    "It_1",
+    "Deck_1",
+    "Woman_1",
+    "LoungeChair_2",
+    "Glass_1",
+    "Liquid_1",
+    "Pool_1",
+    "Trees_1",
+    "Table_2",
+    "Jacuzzi_1",
+    "SeatingArea_1",
+    "Water_1",
+    "Building_1"
+  ]
+}

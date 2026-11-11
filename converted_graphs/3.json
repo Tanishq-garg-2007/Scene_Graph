@@ -1,0 +1,214 @@
+{
+  "image_id": 3,
+  "prompt_text": "### Relational Edges:\n- [Mouse_1] --[next to]--> [Keyboard_1: white]\n- [FilingCabinet_1] --[next to]--> [Desk_1]\n- [MultipleOutlet_1] --[next to]--> [Monitor_1: white, switched off, turned off]\n- [OfficePhone_1] --[on]--> [Desk_1]\n- [Outlet_2] --[on]--> [Wall_1]\n- [Outlet_1] --[on]--> [Wall_1]\n- [Girl_1] --[wearing]--> [Chain_1]\n- [Pen_1] --[on]--> [Desk_1]\n- [Cable_1] --[on]--> [Floor_2]\n- [Cable_2] --[on]--> [Floor_2]\n- [Bag_1] --[on]--> [Desk_1]\n- [Monitor_2] --[on]--> [Wall_3]\n- [Girl_1] --[wearing]--> [BlackHair_1]\n- [Girl_1] --[wearing]--> [WhiteTop_1]\n- [Picture_1] --[on]--> [Wall_1]\n- [Telephone_1] --[on]--> [Desk_1]\n- [Pen_1] --[next to]--> [Telephone_1: black]\n- [Photos_1] --[on]--> [Wall_2]\n- [Cables_1] --[on]--> [Floor_1]\n- [Picture_2] --[on]--> [DividingScreen_1]\n- [Girl_1] --[wearing]--> [Necklace_1]\n- [Telephone_1] --[on]--> [Table_1: white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Outlet_1: data line] -> [Plug_1] -> [Handle_1] -> [Drawer_1] -> [FilingCabinet_1] -> [Cabinet_1: grey, beige] -> [Plug_2] -> [MultipleOutlet_1] -> [Pluged_1] -> [Outlet_2: electrical] -> [Plug_3] -> [Drawer_2] -> [Cables_1] -> [Plug_4] -> [Cable_1] -> [Cable_2] -> [Monitor_1: white, switched off, turned off] -> [Picture_1] -> [Keyboard_1: white] -> [GreyKeys_1] -> [Cpu_1: computer tower] -> [ComputerTower_1] -> [Mouse_1: white] -> [Photos_1] -> [Cubicles_1] -> [Desk_1] -> [Desktop_1: curved] -> [Table_1: white] -> [DividingScreen_1] -> [Pen_1: blue, yellow, black] -> [Monitor_2: off] -> [Computer_1] -> [Picture_2: hanged] -> [WirelessPhone_1] -> [OfficePhoneBase_1] -> [OfficePhone_1: multi-line phone] -> [Telephone_1: black] -> [Desk_2] -> [Girl_1: sitting] -> [Strap_1: black] -> [ComputerCase_1: black, leather] -> [Bag_1: black]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Picture_1] -> [Photos_1] -> [Computer_1] -> [Monitor_2: off] -> [Picture_2: hanged] -> [Girl_1: sitting] -> [Desk_2] -> [DividingScreen_1] -> [Monitor_1: white, switched off, turned off] -> [Plug_4] -> [Plug_3] -> [MultipleOutlet_1] -> [Pluged_1] -> [Outlet_2: electrical] -> [Plug_2] -> [Outlet_1: data line] -> [Plug_1] -> [Cables_1] -> [Cubicles_1] -> [Keyboard_1: white] -> [GreyKeys_1] -> [WirelessPhone_1] -> [OfficePhone_1: multi-line phone] -> [Telephone_1: black] -> [OfficePhoneBase_1] -> [Mouse_1: white] -> [Pen_1: blue, yellow, black] -> [ComputerCase_1: black, leather] -> [Bag_1: black] -> [Desktop_1: curved] -> [Table_1: white] -> [Desk_1] -> [FilingCabinet_1] -> [Cabinet_1: grey, beige] -> [Strap_1: black] -> [Handle_1] -> [Drawer_1] -> [Cable_2] -> [Cpu_1: computer tower] -> [ComputerTower_1] -> [Cable_1] -> [Drawer_2]",
+  "semantic_id_mapping": {
+    "1060252": "Bag_1",
+    "1060277": "BlackHair_1",
+    "1060249": "Cabinet_1",
+    "5117": "Cable_1",
+    "5119": "Cable_2",
+    "1060295": "Cables_1",
+    "5115": "Chain_1",
+    "1060293": "Computer_1",
+    "5101": "ComputerCase_1",
+    "1060247": "ComputerTower_1",
+    "5096": "Cpu_1",
+    "1060291": "Cubicles_1",
+    "1060282": "Desk_1",
+    "1060301": "Desk_2",
+    "5097": "Desktop_1",
+    "1060290": "DividingScreen_1",
+    "1060251": "Drawer_1",
+    "5099": "Drawer_2",
+    "5098": "FilingCabinet_1",
+    "1060299": "Floor_1",
+    "5118": "Floor_2",
+    "1060269": "Girl_1",
+    "1060245": "GreyKeys_1",
+    "5114": "Hair_1",
+    "1060298": "Handle_1",
+    "1060286": "Keyboard_1",
+    "1060246": "Monitor_1",
+    "1060270": "Monitor_2",
+    "1060253": "Mouse_1",
+    "5106": "MultipleOutlet_1",
+    "1060300": "Necklace_1",
+    "5091": "OfficePhone_1",
+    "5104": "OfficePhoneBase_1",
+    "5093": "Outlet_1",
+    "5092": "Outlet_2",
+    "1060281": "Pen_1",
+    "1060296": "Photos_1",
+    "1060292": "Picture_1",
+    "1060294": "Picture_2",
+    "5107": "Plug_1",
+    "5108": "Plug_2",
+    "5109": "Plug_3",
+    "5110": "Plug_4",
+    "1060261": "Pluged_1",
+    "1060289": "Strap_1",
+    "1060248": "Table_1",
+    "1060242": "Telephone_1",
+    "1060274": "Wall_1",
+    "1060297": "Wall_2",
+    "1060287": "Wall_3",
+    "1060288": "WhiteTop_1",
+    "5103": "WirelessPhone_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Mouse_1",
+      "predicate": "next to",
+      "object": "Keyboard_1"
+    },
+    {
+      "subject": "FilingCabinet_1",
+      "predicate": "next to",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "MultipleOutlet_1",
+      "predicate": "next to",
+      "object": "Monitor_1"
+    },
+    {
+      "subject": "OfficePhone_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Outlet_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Outlet_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Girl_1",
+      "predicate": "wearing",
+      "object": "Chain_1"
+    },
+    {
+      "subject": "Pen_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Cable_1",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Cable_2",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Bag_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Monitor_2",
+      "predicate": "on",
+      "object": "Wall_3"
+    },
+    {
+      "subject": "Girl_1",
+      "predicate": "wearing",
+      "object": "BlackHair_1"
+    },
+    {
+      "subject": "Girl_1",
+      "predicate": "wearing",
+      "object": "WhiteTop_1"
+    },
+    {
+      "subject": "Picture_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Pen_1",
+      "predicate": "next to",
+      "object": "Telephone_1"
+    },
+    {
+      "subject": "Photos_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Cables_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Picture_2",
+      "predicate": "on",
+      "object": "DividingScreen_1"
+    },
+    {
+      "subject": "Girl_1",
+      "predicate": "wearing",
+      "object": "Necklace_1"
+    },
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Outlet_1",
+    "Plug_1",
+    "Handle_1",
+    "Drawer_1",
+    "FilingCabinet_1",
+    "Cabinet_1",
+    "Plug_2",
+    "MultipleOutlet_1",
+    "Pluged_1",
+    "Outlet_2",
+    "Plug_3",
+    "Drawer_2",
+    "Cables_1",
+    "Plug_4",
+    "Cable_1",
+    "Cable_2",
+    "Monitor_1",
+    "Picture_1",
+    "Keyboard_1",
+    "GreyKeys_1",
+    "Cpu_1",
+    "ComputerTower_1",
+    "Mouse_1",
+    "Photos_1",
+    "Cubicles_1",
+    "Desk_1",
+    "Desktop_1",
+    "Table_1",
+    "DividingScreen_1",
+    "Pen_1",
+    "Monitor_2",
+    "Computer_1",
+    "Picture_2",
+    "WirelessPhone_1",
+    "OfficePhoneBase_1",
+    "OfficePhone_1",
+    "Telephone_1",
+    "Desk_2",
+    "Girl_1",
+    "Strap_1",
+    "ComputerCase_1",
+    "Bag_1"
+  ]
+}

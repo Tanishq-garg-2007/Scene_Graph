@@ -1,0 +1,138 @@
+{
+  "image_id": 13,
+  "prompt_text": "### Relational Edges:\n- [Telephone_1] --[on]--> [Desk_2: wooden, cluttered]\n- [Baby_1] --[on]--> [Picture_1: unframed]\n- [Scissors_1] --[on]--> [Desk_1]\n- [Book_1] --[on]--> [Desk_2: wooden, cluttered]\n- [OrangeCloth_1] --[on]--> [Chair_1]\n- [Mouse_1] --[on]--> [Pad_1: blue]\n- [Calendar_1] --[on]--> [Photo_1]\n- [Photo_2] --[on]--> [Desk_2: wooden, cluttered]\n- [Computer_1] --[on]--> [Floor_1]\n- [Rolodex_1] --[on]--> [Desk_2: wooden, cluttered]\n- [Cup_1] --[on]--> [Desk_2: wooden, cluttered]\n- [Frame_1] --[on]--> [Desk_2: wooden, cluttered]\n- [Monitor_1] --[on]--> [Desk_2: wooden, cluttered]\n- [Picture_1] --[on]--> [Desk_2: wooden, cluttered]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Scissors_1: pair ] -> [Pen_1] -> [Cup_1] -> [Tray_1] -> [Pens_1] -> [Desk_1] -> [Pen_2: ballpoint] -> [Paper_1: printed] -> [Rolodex_1: file] -> [Book_1] -> [Monitor_1: on, computer , flat screened] -> [Picture_1: unframed] -> [Baby_1] -> [Desk_2: wooden, cluttered] -> [PostItNote_1] -> [Keyboard_1: white, gray] -> [Photo_1] -> [Computer_1: on, central processing unit] -> [Frame_1: black] -> [Photo_2: framed] -> [Picture_2] -> [Mouse_1: white] -> [Pad_1: blue] -> [Cord_1: spiral, long] -> [Telephone_1: black, push buttoned, corded, grey] -> [OrangeCloth_1: red] -> [Chair_1] -> [Calendar_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Calendar_1] -> [Monitor_1: on, computer , flat screened] -> [Tray_1] -> [Scissors_1: pair ] -> [Desk_1] -> [Photo_2: framed] -> [Frame_1: black] -> [Picture_2] -> [Telephone_1: black, push buttoned, corded, grey] -> [Photo_1] -> [Pen_2: ballpoint] -> [Pens_1] -> [Pen_1] -> [Mouse_1: white] -> [Pad_1: blue] -> [Picture_1: unframed] -> [Baby_1] -> [Cup_1] -> [Rolodex_1: file] -> [Keyboard_1: white, gray] -> [OrangeCloth_1: red] -> [Desk_2: wooden, cluttered] -> [Chair_1] -> [Cord_1: spiral, long] -> [PostItNote_1] -> [Book_1] -> [Computer_1: on, central processing unit] -> [Paper_1: printed]",
+  "semantic_id_mapping": {
+    "1060661": "Baby_1",
+    "1060666": "Book_1",
+    "1060680": "Calendar_1",
+    "1060670": "Chair_1",
+    "1060676": "Computer_1",
+    "1060692": "Cord_1",
+    "1060672": "Cup_1",
+    "5314": "Desk_1",
+    "1060686": "Desk_2",
+    "1060689": "Floor_1",
+    "1060697": "Frame_1",
+    "1060668": "Keyboard_1",
+    "1060673": "Monitor_1",
+    "1060674": "Mouse_1",
+    "1060669": "OrangeCloth_1",
+    "1060675": "Pad_1",
+    "1060698": "Paper_1",
+    "1060694": "Pen_1",
+    "1060693": "Pen_2",
+    "5319": "Pens_1",
+    "3798613": "Photo_1",
+    "1060685": "Photo_2",
+    "1060662": "Picture_1",
+    "1060696": "Picture_2",
+    "1060695": "PostItNote_1",
+    "1060690": "Rolodex_1",
+    "1060664": "Scissors_1",
+    "1060659": "Telephone_1",
+    "1060691": "Tray_1",
+    "1060663": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Baby_1",
+      "predicate": "on",
+      "object": "Picture_1"
+    },
+    {
+      "subject": "Scissors_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "OrangeCloth_1",
+      "predicate": "on",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Pad_1"
+    },
+    {
+      "subject": "Calendar_1",
+      "predicate": "on",
+      "object": "Photo_1"
+    },
+    {
+      "subject": "Photo_2",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Computer_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Rolodex_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Cup_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Frame_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Monitor_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Picture_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Scissors_1",
+    "Pen_1",
+    "Cup_1",
+    "Tray_1",
+    "Pens_1",
+    "Desk_1",
+    "Pen_2",
+    "Paper_1",
+    "Rolodex_1",
+    "Book_1",
+    "Monitor_1",
+    "Picture_1",
+    "Baby_1",
+    "Desk_2",
+    "PostItNote_1",
+    "Keyboard_1",
+    "Photo_1",
+    "Computer_1",
+    "Frame_1",
+    "Photo_2",
+    "Picture_2",
+    "Mouse_1",
+    "Pad_1",
+    "Cord_1",
+    "Telephone_1",
+    "OrangeCloth_1",
+    "Chair_1",
+    "Calendar_1"
+  ]
+}

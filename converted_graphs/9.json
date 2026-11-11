@@ -1,0 +1,168 @@
+{
+  "image_id": 9,
+  "prompt_text": "### Relational Edges:\n- [MousePad_1] --[on]--> [Desk_1]\n- [Bottle_1] --[on]--> [Desk_2]\n- [Blinds_1] --[on]--> [Window_1]\n- [Posters_1] --[on]--> [Wall_1: green]\n- [Monitor_2] --[on]--> [Desk_4]\n- [Keyboard_1] --[on]--> [Desk_6]\n- [Bin_1] --[on]--> [Floor_1: grey, clean]\n- [Baby_1] --[on]--> [Shelves_1: wooden, brown]\n- [Computer_1] --[on]--> [Desk_6]\n- [Corkboard_1] --[on]--> [Wall_1: green]\n- [Tower_1] --[on]--> [Floor_1: grey, clean]\n- [Bin_1] --[next to]--> [Desk_3]\n- [Books_1] --[on]--> [Shelves_1: wooden, brown]\n- [Cables_1] --[on]--> [Floor_1: grey, clean]\n- [Book_1] --[on]--> [Desk_5: white, cluttered]\n- [Tube_1] --[on]--> [Shelves_1: wooden, brown]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Corkboard_1: empty, framed, blank] -> [Desk_1] -> [MousePad_1] -> [Posters_1] -> [Bottle_1: water, empty, plastic] -> [Monitor_1: white] -> [Desk_2] -> [Tube_1: white] -> [Chair_1: grey, rolling, office] -> [Shelves_1: wooden, brown] -> [Books_1] -> [Wheels_1] -> [Baby_1: beanie] -> [Lights_1: on] -> [Tower_1: white] -> [Monitor_2: white, flat, dark, off] -> [Room_1: indoors] -> [Desk_3] -> [Desk_4] -> [Lights_2: on] -> [Cables_1: white] -> [Lights_3: on] -> [Blinds_1: drawn] -> [Window_1] -> [Bin_1: blue, recycling] -> [Book_1: red, on desk] -> [Papers_1] -> [Lights_4: on] -> [Lights_5: on] -> [Chair_2: gray] -> [Desk_5: white, cluttered] -> [Keyboard_1: black] -> [Computer_1: laptop, grey] -> [Desk_6] -> [Building_1: large, white] -> [Outside_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Lights_4: on] -> [Lights_1: on] -> [Lights_3: on] -> [Lights_5: on] -> [Lights_2: on] -> [Baby_1: beanie] -> [Tube_1: white] -> [Blinds_1: drawn] -> [Window_1] -> [Outside_1] -> [Corkboard_1: empty, framed, blank] -> [Building_1: large, white] -> [Books_1] -> [Room_1: indoors] -> [Monitor_2: white, flat, dark, off] -> [Shelves_1: wooden, brown] -> [Chair_2: gray] -> [Monitor_1: white] -> [Desk_3] -> [Computer_1: laptop, grey] -> [Desk_6] -> [Keyboard_1: black] -> [Bottle_1: water, empty, plastic] -> [Desk_4] -> [Desk_2] -> [Tower_1: white] -> [Cables_1: white] -> [Bin_1: blue, recycling] -> [Chair_1: grey, rolling, office] -> [Posters_1] -> [Papers_1] -> [Book_1: red, on desk] -> [Wheels_1] -> [Desk_5: white, cluttered] -> [Desk_1] -> [MousePad_1]",
+  "semantic_id_mapping": {
+    "1060534": "Baby_1",
+    "1060511": "Bin_1",
+    "5227": "Blinds_1",
+    "1060521": "Book_1",
+    "1060518": "Books_1",
+    "1060498": "Bottle_1",
+    "1060538": "Building_1",
+    "1060537": "Cables_1",
+    "1060513": "Ceiling_1",
+    "1060497": "Chair_1",
+    "5236": "Chair_2",
+    "1060505": "Computer_1",
+    "1060514": "Corkboard_1",
+    "5221": "Desk_1",
+    "1060499": "Desk_2",
+    "1060536": "Desk_3",
+    "5232": "Desk_4",
+    "1060533": "Desk_5",
+    "1060520": "Desk_6",
+    "1060532": "Floor_1",
+    "1060519": "Keyboard_1",
+    "1060526": "Lights_1",
+    "1060528": "Lights_2",
+    "1024074": "Lights_3",
+    "1060527": "Lights_4",
+    "1060529": "Lights_5",
+    "1060530": "Monitor_1",
+    "1060508": "Monitor_2",
+    "5220": "MousePad_1",
+    "5226": "Outside_1",
+    "1060540": "Papers_1",
+    "5230": "Posters_1",
+    "1024073": "Room_1",
+    "1060517": "Shelves_1",
+    "1060535": "Tower_1",
+    "1060542": "Tube_1",
+    "1060507": "Wall_1",
+    "1060531": "Wall_2",
+    "1060541": "Wheels_1",
+    "5228": "Window_1",
+    "1060500": "Windows_1",
+    "1060539": "Windows_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "MousePad_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Bottle_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Blinds_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Posters_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Monitor_2",
+      "predicate": "on",
+      "object": "Desk_4"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "on",
+      "object": "Desk_6"
+    },
+    {
+      "subject": "Bin_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Baby_1",
+      "predicate": "on",
+      "object": "Shelves_1"
+    },
+    {
+      "subject": "Computer_1",
+      "predicate": "on",
+      "object": "Desk_6"
+    },
+    {
+      "subject": "Corkboard_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Tower_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Bin_1",
+      "predicate": "next to",
+      "object": "Desk_3"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Shelves_1"
+    },
+    {
+      "subject": "Cables_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Desk_5"
+    },
+    {
+      "subject": "Tube_1",
+      "predicate": "on",
+      "object": "Shelves_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Corkboard_1",
+    "Desk_1",
+    "MousePad_1",
+    "Posters_1",
+    "Bottle_1",
+    "Monitor_1",
+    "Desk_2",
+    "Tube_1",
+    "Chair_1",
+    "Shelves_1",
+    "Books_1",
+    "Wheels_1",
+    "Baby_1",
+    "Lights_1",
+    "Tower_1",
+    "Monitor_2",
+    "Room_1",
+    "Desk_3",
+    "Desk_4",
+    "Lights_2",
+    "Cables_1",
+    "Lights_3",
+    "Blinds_1",
+    "Window_1",
+    "Bin_1",
+    "Book_1",
+    "Papers_1",
+    "Lights_4",
+    "Lights_5",
+    "Chair_2",
+    "Desk_5",
+    "Keyboard_1",
+    "Computer_1",
+    "Desk_6",
+    "Building_1",
+    "Outside_1"
+  ]
+}

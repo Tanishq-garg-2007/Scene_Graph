@@ -1,0 +1,77 @@
+{
+  "image_id": 201,
+  "prompt_text": "### Relational Edges:\n- [Line_1] --[on]--> [Road_1: close, paved, wet]\n- [Sign_1] --[near]--> [Road_1: close, paved, wet]\n- [Sign_1] --[on]--> [Pole_1]\n- [Sign_1] --[on]--> [Road_1: close, paved, wet]\n- [Pole_1] --[holding]--> [Sign_1: red, white]\n- [People_1] --[on]--> [Road_1: close, paved, wet]\n- [People_1] --[near]--> [Road_1: close, paved, wet]\n- [Car_1] --[on]--> [Road_1: close, paved, wet]\n- [Dumpster_1] --[near]--> [Road_1: close, paved, wet]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Car_1: parked, sitting] -> [People_1] -> [Line_1] -> [Sign_1: red, white] -> [Pole_1] -> [Trees_1: tall, alive, lush, green, full] -> [Dumpster_1: close, blue] -> [Trashcan_1: blue] -> [Dumpster_2: green] -> [Trashcan_2: green]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Trees_1: tall, alive, lush, green, full] -> [Sign_1: red, white] -> [People_1] -> [Pole_1] -> [Line_1] -> [Car_1: parked, sitting] -> [Dumpster_1: close, blue] -> [Trashcan_1: blue] -> [Trashcan_2: green] -> [Dumpster_2: green]",
+  "semantic_id_mapping": {
+    "1062656": "Car_1",
+    "1062654": "Dumpster_1",
+    "3787402": "Dumpster_2",
+    "1062652": "Line_1",
+    "1062659": "People_1",
+    "1062658": "Pole_1",
+    "1062651": "Road_1",
+    "1062653": "Sign_1",
+    "1062657": "Sky_1",
+    "3787403": "Trashcan_1",
+    "3787404": "Trashcan_2",
+    "1062655": "Trees_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Line_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "near",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Pole_1",
+      "predicate": "holding",
+      "object": "Sign_1"
+    },
+    {
+      "subject": "People_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "People_1",
+      "predicate": "near",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Dumpster_1",
+      "predicate": "near",
+      "object": "Road_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Car_1",
+    "People_1",
+    "Line_1",
+    "Sign_1",
+    "Pole_1",
+    "Trees_1",
+    "Dumpster_1",
+    "Trashcan_1",
+    "Dumpster_2",
+    "Trashcan_2"
+  ]
+}

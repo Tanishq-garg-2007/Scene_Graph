@@ -1,0 +1,153 @@
+{
+  "image_id": 5,
+  "prompt_text": "### Relational Edges:\n- [Cables_1] --[on]--> [Floor_1: wooden, woods, wood, brown]\n- [Books_1] --[on]--> [Shelf_1]\n- [Cpu_1] --[on]--> [Floor_1: wooden, woods, wood, brown]\n- [Printer_1] --[near]--> [ComputerMonitor_1: off, grey]\n- [Books_1] --[on]--> [Shelves_1: brown]\n- [Chair_1] --[near]--> [Desk_1: brown]\n- [ComputerMonitor_1] --[on]--> [Desk_1: brown]\n- [Books_1] --[on]--> [Wall_2: white, cream colour, cream]\n- [FaxMachine_1] --[on]--> [Desk_1: brown]\n- [Keyboard_1] --[on]--> [Desk_1: brown]\n- [Paper_1] --[on]--> [Cork-board_1: leaning]\n- [AirConditioner_1] --[on]--> [Wall_1: white]\n- [Shelves_1] --[on]--> [Wall_2: white, cream colour, cream]\n- [Railing_1] --[on]--> [Balcony_1]\n- [Clothes_1] --[on]--> [Chair_2: wood]\n- [Heater_1] --[on]--> [Floor_1: wooden, woods, wood, brown]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Door_1: locked, white] -> [Window_1] -> [Window_2: square] -> [Balcony_1] -> [Railing_1] -> [Light_1: on] -> [Color_1: brown] -> [Chair_1: brown, wood] -> [ComputerMonitor_1: off, grey] -> [AirConditioner_1: mini-split, white] -> [Desk_1: brown] -> [Keyboard_1] -> [Cables_1: white] -> [Printer_1] -> [Chairs_1: wooden, empty] -> [FaxMachine_1] -> [Cpu_1] -> [Computer_1] -> [Room_1] -> [Area_1: cluttered] -> [Clothes_1] -> [Chair_2: wood] -> [Heater_1] -> [Shelves_1: brown] -> [Shelf_1] -> [Books_1: arranged] -> [Cork-board_1: leaning] -> [Paper_1] -> [Colour_1: cream]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Light_1: on] -> [AirConditioner_1: mini-split, white] -> [Shelf_1] -> [Books_1: arranged] -> [Shelves_1: brown] -> [Window_2: square] -> [Window_1] -> [Door_1: locked, white] -> [Room_1] -> [ComputerMonitor_1: off, grey] -> [Printer_1] -> [Colour_1: cream] -> [Railing_1] -> [Balcony_1] -> [FaxMachine_1] -> [Area_1: cluttered] -> [Desk_1: brown] -> [Keyboard_1] -> [Chairs_1: wooden, empty] -> [Color_1: brown] -> [Chair_2: wood] -> [Chair_1: brown, wood] -> [Cables_1: white] -> [Cork-board_1: leaning] -> [Paper_1] -> [Clothes_1] -> [Cpu_1] -> [Computer_1] -> [Heater_1]",
+  "semantic_id_mapping": {
+    "1060362": "AirConditioner_1",
+    "5147": "Area_1",
+    "1060376": "Balcony_1",
+    "1060345": "Books_1",
+    "5142": "Cables_1",
+    "1060348": "Chair_1",
+    "1060371": "Chair_2",
+    "1060342": "Chairs_1",
+    "1060377": "Clothes_1",
+    "5155": "Color_1",
+    "5154": "Colour_1",
+    "1060351": "Computer_1",
+    "1060350": "ComputerMonitor_1",
+    "1060367": "Cork-board_1",
+    "5150": "Cpu_1",
+    "1060368": "Desk_1",
+    "1060354": "Door_1",
+    "1060369": "FaxMachine_1",
+    "1060359": "Floor_1",
+    "1060378": "Heater_1",
+    "1060370": "Keyboard_1",
+    "1060344": "Light_1",
+    "1060373": "Paper_1",
+    "1060363": "Printer_1",
+    "1060365": "Railing_1",
+    "1060375": "Room_1",
+    "3798574": "Shelf_1",
+    "1060364": "Shelves_1",
+    "1060374": "Wall_1",
+    "1060360": "Wall_2",
+    "1060366": "Window_1",
+    "1060372": "Window_2",
+    "5153": "Windows_1",
+    "5152": "Windows_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Cables_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Cpu_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Printer_1",
+      "predicate": "near",
+      "object": "ComputerMonitor_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Shelves_1"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "near",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "ComputerMonitor_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "FaxMachine_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Paper_1",
+      "predicate": "on",
+      "object": "Cork-board_1"
+    },
+    {
+      "subject": "AirConditioner_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Shelves_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Railing_1",
+      "predicate": "on",
+      "object": "Balcony_1"
+    },
+    {
+      "subject": "Clothes_1",
+      "predicate": "on",
+      "object": "Chair_2"
+    },
+    {
+      "subject": "Heater_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Door_1",
+    "Window_1",
+    "Window_2",
+    "Balcony_1",
+    "Railing_1",
+    "Light_1",
+    "Color_1",
+    "Chair_1",
+    "ComputerMonitor_1",
+    "AirConditioner_1",
+    "Desk_1",
+    "Keyboard_1",
+    "Cables_1",
+    "Printer_1",
+    "Chairs_1",
+    "FaxMachine_1",
+    "Cpu_1",
+    "Computer_1",
+    "Room_1",
+    "Area_1",
+    "Clothes_1",
+    "Chair_2",
+    "Heater_1",
+    "Shelves_1",
+    "Shelf_1",
+    "Books_1",
+    "Cork-board_1",
+    "Paper_1",
+    "Colour_1"
+  ]
+}

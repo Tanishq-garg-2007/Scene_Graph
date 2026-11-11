@@ -1,0 +1,108 @@
+{
+  "image_id": 60,
+  "prompt_text": "### Relational Edges:\n- [LicensePlate_3] --[on]--> [Moped_2: blue, large, parked]\n- [LicensePlate_2] --[on]--> [Bike_1: silver, parked, white]\n- [Pole_2] --[on]--> [Wall_2: gray, yellow, grey]\n- [Lamp_1] --[on]--> [Wall_1]\n- [Bars_1] --[on]--> [Window_1]\n- [Pole_1] --[on]--> [Wall_2: gray, yellow, grey]\n- [Drain_1] --[on]--> [Street_1: brick]\n- [Mirror_2] --[on]--> [RightSide_1]\n- [Tire_1] --[on]--> [Bike_1: silver, parked, white]\n- [Tire_2] --[on]--> [Moped_2: blue, large, parked]\n- [Pole_2] --[attached to]--> [Wall_2: gray, yellow, grey]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Lamp_1: victorian, hanging] -> [Drain_1: metal] -> [Moped_1: yellow, large, parked] -> [LicensePlate_1: yellow, small] -> [Mirror_1] -> [Bike_1: silver, parked, white] -> [RightSide_1] -> [Mirror_2: rear view] -> [Tire_1] -> [TailLight_1: red] -> [LicensePlate_2: small] -> [Reflector_1: shiny, red] -> [Pole_1: metal, grey] -> [Moped_2: blue, large, parked] -> [Seat_1: grey] -> [Window_1] -> [Bars_1] -> [Tire_2] -> [LicensePlate_3: yellow, small] -> [Pole_2: metal]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Lamp_1: victorian, hanging] -> [Bars_1] -> [Window_1] -> [Pole_1: metal, grey] -> [Mirror_2: rear view] -> [RightSide_1] -> [Mirror_1] -> [Moped_1: yellow, large, parked] -> [LicensePlate_1: yellow, small] -> [Pole_2: metal] -> [Bike_1: silver, parked, white] -> [TailLight_1: red] -> [LicensePlate_2: small] -> [Seat_1: grey] -> [Reflector_1: shiny, red] -> [Tire_1] -> [Moped_2: blue, large, parked] -> [LicensePlate_3: yellow, small] -> [Tire_2] -> [Drain_1: metal]",
+  "semantic_id_mapping": {
+    "1025632": "Bars_1",
+    "1025619": "Bike_1",
+    "1025624": "Drain_1",
+    "1025626": "Lamp_1",
+    "1025623": "LicensePlate_1",
+    "1025622": "LicensePlate_2",
+    "1025621": "LicensePlate_3",
+    "1025640": "Mirror_1",
+    "1025627": "Mirror_2",
+    "1025620": "Moped_1",
+    "1025618": "Moped_2",
+    "1025635": "Pole_1",
+    "1025629": "Pole_2",
+    "1025628": "Reflector_1",
+    "1025636": "RightSide_1",
+    "1025634": "Seat_1",
+    "1025625": "Street_1",
+    "1025639": "TailLight_1",
+    "1025638": "Tire_1",
+    "1025637": "Tire_2",
+    "1025631": "Wall_1",
+    "1025630": "Wall_2",
+    "1025633": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "LicensePlate_3",
+      "predicate": "on",
+      "object": "Moped_2"
+    },
+    {
+      "subject": "LicensePlate_2",
+      "predicate": "on",
+      "object": "Bike_1"
+    },
+    {
+      "subject": "Pole_2",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Bars_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Pole_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Drain_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Mirror_2",
+      "predicate": "on",
+      "object": "RightSide_1"
+    },
+    {
+      "subject": "Tire_1",
+      "predicate": "on",
+      "object": "Bike_1"
+    },
+    {
+      "subject": "Tire_2",
+      "predicate": "on",
+      "object": "Moped_2"
+    },
+    {
+      "subject": "Pole_2",
+      "predicate": "attached to",
+      "object": "Wall_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Lamp_1",
+    "Drain_1",
+    "Moped_1",
+    "LicensePlate_1",
+    "Mirror_1",
+    "Bike_1",
+    "RightSide_1",
+    "Mirror_2",
+    "Tire_1",
+    "TailLight_1",
+    "LicensePlate_2",
+    "Reflector_1",
+    "Pole_1",
+    "Moped_2",
+    "Seat_1",
+    "Window_1",
+    "Bars_1",
+    "Tire_2",
+    "LicensePlate_3",
+    "Pole_2"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "image_id": 122,
+  "prompt_text": "### Relational Edges:\n- [GreenBroccoli_1] --[on]--> [Plate_2]\n- [Grapes_1] --[on]--> [Plate_3]\n- [SliverKettle_1] --[on]--> [Counter_1]\n- [Knife_1] --[on]--> [Plate_1]\n- [Bread_3] --[on]--> [BluePlate_1: blue]\n- [WineBottle_1] --[next to]--> [Glasses_1]\n- [Burner_1] --[on]--> [Stove_1]\n- [Bowl_1] --[on]--> [Counter_1]\n- [Teapot_1] --[on]--> [Stove_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [StoolPad_1: black, white] -> [BottleOfWine_1] -> [WineBottle_1] -> [Cups_1: blue] -> [WineGlasses_1: blue] -> [Plate_1] -> [Knife_1] -> [Bread_1] -> [Napkin_1: yellow] -> [Refrigerator_1: white] -> [WhiteRefrigerator_1: white] -> [GreenBroccoli_1: green] -> [Vegetables_1] -> [Bread_2] -> [BroccoliAndPotatoes_1] -> [Bowl_1] -> [Plate_2] -> [Plate_3] -> [BluePlate_1: blue] -> [BreadAndGrapes_1] -> [GreenGrapes_1: green] -> [Grapes_1] -> [Bread_3] -> [Kitchen_1] -> [Counter_1] -> [Countertop_1: grey, marble, dark] -> [Bowl_2: stainless steel] -> [Door_1: black] -> [Oven_1: black] -> [Stove_1] -> [SliverKettle_1: silver] -> [Teapot_1] -> [Table_1] -> [Chairs_1] -> [Chair_1: wicker] -> [Burner_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Refrigerator_1: white] -> [WhiteRefrigerator_1: white] -> [Door_1: black] -> [Oven_1: black] -> [WineGlasses_1: blue] -> [WineBottle_1] -> [Cups_1: blue] -> [BottleOfWine_1] -> [Table_1] -> [Kitchen_1] -> [Chair_1: wicker] -> [Chairs_1] -> [Bowl_2: stainless steel] -> [Vegetables_1] -> [BroccoliAndPotatoes_1] -> [Plate_2] -> [Bowl_1] -> [GreenBroccoli_1: green] -> [Teapot_1] -> [SliverKettle_1: silver] -> [Burner_1] -> [Stove_1] -> [Knife_1] -> [Countertop_1: grey, marble, dark] -> [Counter_1] -> [Plate_1] -> [Bread_1] -> [Napkin_1: yellow] -> [StoolPad_1: black, white] -> [Bread_2] -> [Grapes_1] -> [GreenGrapes_1: green] -> [BluePlate_1: blue] -> [Plate_3] -> [BreadAndGrapes_1] -> [Bread_3]",
+  "semantic_id_mapping": {
+    "1535154": "BluePlate_1",
+    "1535142": "BottleOfWine_1",
+    "3786992": "Bowl_1",
+    "1535132": "Bowl_2",
+    "1535128": "Bread_1",
+    "1535137": "Bread_2",
+    "1535153": "Bread_3",
+    "1535129": "BreadAndGrapes_1",
+    "1535145": "BroccoliAndPotatoes_1",
+    "1535159": "Burner_1",
+    "1535133": "Chair_1",
+    "1535160": "Chairs_1",
+    "1535166": "Counter_1",
+    "1535140": "Countertop_1",
+    "1535141": "Cups_1",
+    "1535157": "Door_1",
+    "1535156": "Glasses_1",
+    "1535147": "Grapes_1",
+    "1535146": "GreenBroccoli_1",
+    "1535138": "GreenGrapes_1",
+    "1535164": "Kitchen_1",
+    "1535151": "Knife_1",
+    "1535130": "Napkin_1",
+    "1535135": "Oven_1",
+    "1535152": "Plate_1",
+    "3786993": "Plate_2",
+    "1535169": "Plate_3",
+    "1535163": "Refrigerator_1",
+    "1535149": "SliverKettle_1",
+    "1535143": "StoolPad_1",
+    "1535158": "Stove_1",
+    "3786994": "Table_1",
+    "1535167": "Teapot_1",
+    "1535162": "Vegetables_1",
+    "1535126": "WhiteRefrigerator_1",
+    "1535144": "Windows_1",
+    "1535155": "WineBottle_1",
+    "1535134": "WineGlasses_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "GreenBroccoli_1",
+      "predicate": "on",
+      "object": "Plate_2"
+    },
+    {
+      "subject": "Grapes_1",
+      "predicate": "on",
+      "object": "Plate_3"
+    },
+    {
+      "subject": "SliverKettle_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Knife_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Bread_3",
+      "predicate": "on",
+      "object": "BluePlate_1"
+    },
+    {
+      "subject": "WineBottle_1",
+      "predicate": "next to",
+      "object": "Glasses_1"
+    },
+    {
+      "subject": "Burner_1",
+      "predicate": "on",
+      "object": "Stove_1"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Teapot_1",
+      "predicate": "on",
+      "object": "Stove_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "StoolPad_1",
+    "BottleOfWine_1",
+    "WineBottle_1",
+    "Cups_1",
+    "WineGlasses_1",
+    "Plate_1",
+    "Knife_1",
+    "Bread_1",
+    "Napkin_1",
+    "Refrigerator_1",
+    "WhiteRefrigerator_1",
+    "GreenBroccoli_1",
+    "Vegetables_1",
+    "Bread_2",
+    "BroccoliAndPotatoes_1",
+    "Bowl_1",
+    "Plate_2",
+    "Plate_3",
+    "BluePlate_1",
+    "BreadAndGrapes_1",
+    "GreenGrapes_1",
+    "Grapes_1",
+    "Bread_3",
+    "Kitchen_1",
+    "Counter_1",
+    "Countertop_1",
+    "Bowl_2",
+    "Door_1",
+    "Oven_1",
+    "Stove_1",
+    "SliverKettle_1",
+    "Teapot_1",
+    "Table_1",
+    "Chairs_1",
+    "Chair_1",
+    "Burner_1"
+  ]
+}

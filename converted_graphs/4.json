@@ -1,0 +1,96 @@
+{
+  "image_id": 4,
+  "prompt_text": "### Relational Edges:\n- [Carpet_1] --[on]--> [Floor_1: wood, wooden]\n- [Pillow_1] --[on]--> [Couch_1: purple, wooden, cloth]\n- [TableTop_1] --[near]--> [Window_1]\n- [Chair_1] --[next to]--> [Table_1: glass, metal]\n- [Lamp_1] --[behind]--> [Couch_1: purple, wooden, cloth]\n- [TeddyBear_1] --[on]--> [Couch_1: purple, wooden, cloth]\n- [TableTop_1] --[on]--> [Table_1: glass, metal]\n- [Lamp_1] --[on]--> [Floor_1: wood, wooden]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Desk_1: wooden] -> [Picture_1: water, poster, black, art] -> [Couch_1: purple, wooden, cloth] -> [Frame_1: wooden] -> [TeddyBear_1: stuffed, forward] -> [Pillow_1: white] -> [Cloths_1: red] -> [Lamp_1: tall, chrome, black, standing] -> [Color_1: purple] -> [Door_1: glass, sliding] -> [Chair_1: black, slender, purple, blue] -> [Colour_1: blue] -> [Drape_1: tied, designed, blue] -> [Padding_1: blue] -> [Box_1: empty] -> [Patio_1] -> [Curtains_1: blue, drawn] -> [Table_1: glass, metal] -> [Seats_1: blue] -> [TableTop_1: glass, empty] -> [Window_1] -> [Color_2: blue]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Color_2: blue] -> [Lamp_1: tall, chrome, black, standing] -> [Drape_1: tied, designed, blue] -> [Curtains_1: blue, drawn] -> [Window_1] -> [Door_1: glass, sliding] -> [Box_1: empty] -> [Color_1: purple] -> [Patio_1] -> [Pillow_1: white] -> [TableTop_1: glass, empty] -> [TeddyBear_1: stuffed, forward] -> [Cloths_1: red] -> [Chair_1: black, slender, purple, blue] -> [Picture_1: water, poster, black, art] -> [Couch_1: purple, wooden, cloth] -> [Colour_1: blue] -> [Padding_1: blue] -> [Seats_1: blue] -> [Frame_1: wooden] -> [Table_1: glass, metal] -> [Desk_1: wooden]",
+  "semantic_id_mapping": {
+    "1060338": "Box_1",
+    "1060306": "Carpet_1",
+    "1060303": "Chair_1",
+    "5138": "Cloths_1",
+    "5130": "Color_1",
+    "5137": "Color_2",
+    "5140": "Colour_1",
+    "1060310": "Couch_1",
+    "1060302": "Curtains_1",
+    "1060308": "Desk_1",
+    "5135": "Door_1",
+    "1060335": "Drape_1",
+    "1060307": "Floor_1",
+    "1060322": "Frame_1",
+    "1060337": "Lamp_1",
+    "5123": "Padding_1",
+    "5136": "Patio_1",
+    "1060336": "Picture_1",
+    "1060318": "Pillow_1",
+    "5139": "Seats_1",
+    "1060324": "Table_1",
+    "1060316": "TableTop_1",
+    "1060311": "TeddyBear_1",
+    "5132": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Carpet_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Pillow_1",
+      "predicate": "on",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "TableTop_1",
+      "predicate": "near",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "next to",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "behind",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "TeddyBear_1",
+      "predicate": "on",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "TableTop_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Desk_1",
+    "Picture_1",
+    "Couch_1",
+    "Frame_1",
+    "TeddyBear_1",
+    "Pillow_1",
+    "Cloths_1",
+    "Lamp_1",
+    "Color_1",
+    "Door_1",
+    "Chair_1",
+    "Colour_1",
+    "Drape_1",
+    "Padding_1",
+    "Box_1",
+    "Patio_1",
+    "Curtains_1",
+    "Table_1",
+    "Seats_1",
+    "TableTop_1",
+    "Window_1",
+    "Color_2"
+  ]
+}

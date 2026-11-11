@@ -1,0 +1,210 @@
+{
+  "image_id": 93,
+  "prompt_text": "### Relational Edges:\n- [ShotGlass_1] --[on]--> [Table_1]\n- [Glass_12] --[on]--> [Table_1]\n- [Glass_9] --[on]--> [Table_1]\n- [Glass_6] --[on]--> [Table_1]\n- [Glass_10] --[on]--> [Table_1]\n- [Glass_11] --[on]--> [Table_1]\n- [Glass_13] --[on]--> [Table_1]\n- [Glass_7] --[on]--> [Table_1]\n- [Glass_14] --[on]--> [Table_1]\n- [Glass_16] --[on]--> [Table_1]\n- [Glass_4] --[on]--> [Table_1]\n- [Glass_2] --[on]--> [Table_1]\n- [Glass_8] --[on]--> [Table_1]\n- [Glass_15] --[on]--> [Table_1]\n- [Glass_1] --[on]--> [Table_1]\n- [Glass_5] --[on]--> [Table_1]\n- [Glass_3] --[on]--> [Table_1]\n- [ShotGlass_1] --[on]--> [TableCloth_1: red]\n- [TableCloth_1] --[on]--> [Table_1]\n- [Knife_1] --[on]--> [TableCloth_1: red]\n- [Spoon_1] --[on]--> [TableCloth_1: red]\n- [Spoon_1] --[next to]--> [Knife_1]\n- [Plate_1] --[on]--> [TableCloth_1: red]\n- [Knife_1] --[next to]--> [Plate_1: silver]\n- [Napkin_1] --[on]--> [Plate_1: silver]\n- [SmallFork_1] --[next to]--> [LargeFork_1]\n- [LargeFork_2] --[next to]--> [SmallFork_2]\n- [Centerpiece_1] --[on]--> [Table_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Glass_1] -> [Glass_2] -> [Glass_3] -> [SmallFork_1] -> [Glass_4] -> [LargeFork_1] -> [Glass_5] -> [Glass_6] -> [Glass_7] -> [Napkin_1: folded, red] -> [Plate_1: silver] -> [Centerpiece_1] -> [TableCloth_1: red] -> [Table_1] -> [LongStem_1] -> [Glass_8] -> [ShotGlass_1] -> [Glass_9] -> [Glass_10] -> [Glass_11] -> [Knife_1] -> [Glass_12] -> [Spoon_1] -> [LongStem_2] -> [Glass_13] -> [Glass_14] -> [LargeFork_2] -> [SmallFork_2] -> [Glass_15] -> [Glass_16]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Glass_6] -> [Glass_8] -> [Glass_10] -> [Glass_2] -> [Glass_13] -> [Glass_7] -> [Centerpiece_1] -> [Glass_11] -> [LongStem_1] -> [Glass_14] -> [Glass_16] -> [Glass_4] -> [LongStem_2] -> [Glass_1] -> [Glass_9] -> [Glass_15] -> [Glass_5] -> [Glass_12] -> [Glass_3] -> [ShotGlass_1] -> [Table_1] -> [LargeFork_2] -> [TableCloth_1: red] -> [SmallFork_2] -> [Knife_1] -> [Spoon_1] -> [Plate_1: silver] -> [SmallFork_1] -> [LargeFork_1] -> [Napkin_1: folded, red]",
+  "semantic_id_mapping": {
+    "1025857": "Centerpiece_1",
+    "1025845": "Glass_1",
+    "1025841": "Glass_2",
+    "1025847": "Glass_3",
+    "1025842": "Glass_4",
+    "1025846": "Glass_5",
+    "1025834": "Glass_6",
+    "1025838": "Glass_7",
+    "1025843": "Glass_8",
+    "1025833": "Glass_9",
+    "1025835": "Glass_10",
+    "1025836": "Glass_11",
+    "1025832": "Glass_12",
+    "1025837": "Glass_13",
+    "1025839": "Glass_14",
+    "1025844": "Glass_15",
+    "1025840": "Glass_16",
+    "1025850": "Knife_1",
+    "1025854": "LargeFork_1",
+    "1025855": "LargeFork_2",
+    "1025858": "LongStem_1",
+    "1025859": "LongStem_2",
+    "1025852": "Napkin_1",
+    "1025851": "Plate_1",
+    "1025830": "ShotGlass_1",
+    "1025853": "SmallFork_1",
+    "1025856": "SmallFork_2",
+    "1025849": "Spoon_1",
+    "1025831": "Table_1",
+    "1025848": "TableCloth_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "ShotGlass_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_12",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_9",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_6",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_10",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_11",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_13",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_7",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_14",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_16",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_4",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_8",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_15",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_5",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_3",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "ShotGlass_1",
+      "predicate": "on",
+      "object": "TableCloth_1"
+    },
+    {
+      "subject": "TableCloth_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Knife_1",
+      "predicate": "on",
+      "object": "TableCloth_1"
+    },
+    {
+      "subject": "Spoon_1",
+      "predicate": "on",
+      "object": "TableCloth_1"
+    },
+    {
+      "subject": "Spoon_1",
+      "predicate": "next to",
+      "object": "Knife_1"
+    },
+    {
+      "subject": "Plate_1",
+      "predicate": "on",
+      "object": "TableCloth_1"
+    },
+    {
+      "subject": "Knife_1",
+      "predicate": "next to",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Napkin_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "SmallFork_1",
+      "predicate": "next to",
+      "object": "LargeFork_1"
+    },
+    {
+      "subject": "LargeFork_2",
+      "predicate": "next to",
+      "object": "SmallFork_2"
+    },
+    {
+      "subject": "Centerpiece_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Glass_1",
+    "Glass_2",
+    "Glass_3",
+    "SmallFork_1",
+    "Glass_4",
+    "LargeFork_1",
+    "Glass_5",
+    "Glass_6",
+    "Glass_7",
+    "Napkin_1",
+    "Plate_1",
+    "Centerpiece_1",
+    "TableCloth_1",
+    "Table_1",
+    "LongStem_1",
+    "Glass_8",
+    "ShotGlass_1",
+    "Glass_9",
+    "Glass_10",
+    "Glass_11",
+    "Knife_1",
+    "Glass_12",
+    "Spoon_1",
+    "LongStem_2",
+    "Glass_13",
+    "Glass_14",
+    "LargeFork_2",
+    "SmallFork_2",
+    "Glass_15",
+    "Glass_16"
+  ]
+}

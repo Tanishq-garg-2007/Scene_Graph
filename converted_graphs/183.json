@@ -1,0 +1,99 @@
+{
+  "image_id": 183,
+  "prompt_text": "### Relational Edges:\n- [Knob_3] --[on]--> [Stove_1: Small ]\n- [Knob_2] --[on]--> [Stove_1: Small ]\n- [Knob_1] --[on]--> [Stove_1: Small ]\n- [Chair_5] --[holding]--> [Booster_1]\n- [Chair_2] --[next to]--> [ColorfulChair_1: colorful]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Knob_1: Small , white] -> [Stove_1: Small ] -> [Oven_1: clean, white, closed] -> [OvenDoor_1] -> [Knob_2: white] -> [Knob_3: Small , white] -> [HeadRest_1: yellow] -> [Chair_1: brown , wooden ] -> [Drawer_1: brown, wooden] -> [Cabinet_1] -> [Chair_2] -> [Handle_1] -> [Chair_3: booster seat] -> [Booster_1] -> [Seat_1: BOOSTER] -> [Chair_4: blue, small ] -> [ChairLeg_1: blue] -> [Chair_5: colorful ] -> [ColorfulChair_1: colorful] -> [Room_1] -> [Doorway_1: open] -> [TableLeg_1: black] -> [Tabletop_1: brown] -> [TableTop_1: brown, colored] -> [Table_1: wooden, brown] -> [Chair_6: wood] -> [Rod_1: small, wooden] -> [Item_1: small, green] -> [Chair_7: small, wood, light brown] -> [Rod_2: wooden] -> [Rod_3: small, wooden]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Knob_3: Small , white] -> [Knob_2: white] -> [Drawer_1: brown, wooden] -> [Handle_1] -> [Knob_1: Small , white] -> [Room_1] -> [Doorway_1: open] -> [Cabinet_1] -> [Chair_6: wood] -> [OvenDoor_1] -> [Stove_1: Small ] -> [Oven_1: clean, white, closed] -> [Rod_2: wooden] -> [Rod_3: small, wooden] -> [Chair_1: brown , wooden ] -> [Chair_2] -> [HeadRest_1: yellow] -> [Tabletop_1: brown] -> [TableTop_1: brown, colored] -> [Chair_7: small, wood, light brown] -> [Chair_3: booster seat] -> [Table_1: wooden, brown] -> [Chair_4: blue, small ] -> [Booster_1] -> [Seat_1: BOOSTER] -> [Chair_5: colorful ] -> [ColorfulChair_1: colorful] -> [Rod_1: small, wooden] -> [ChairLeg_1: blue] -> [TableLeg_1: black] -> [Item_1: small, green]",
+  "semantic_id_mapping": {
+    "4520695": "Booster_1",
+    "4520700": "Cabinet_1",
+    "4291913": "Chair_1",
+    "4520696": "Chair_2",
+    "4291886": "Chair_3",
+    "4291909": "Chair_4",
+    "4520693": "Chair_5",
+    "4291905": "Chair_6",
+    "4291904": "Chair_7",
+    "4291907": "ChairLeg_1",
+    "4520697": "ColorfulChair_1",
+    "4291888": "Doorway_1",
+    "4291884": "Drawer_1",
+    "4291885": "Handle_1",
+    "4291887": "HeadRest_1",
+    "4291917": "Item_1",
+    "4291900": "Knob_1",
+    "4291899": "Knob_2",
+    "4291896": "Knob_3",
+    "4291881": "Leg_1",
+    "4291882": "Leg_2",
+    "4520699": "Oven_1",
+    "4291916": "OvenDoor_1",
+    "4291890": "Rod_1",
+    "4291893": "Rod_2",
+    "4291894": "Rod_3",
+    "4291889": "Room_1",
+    "4520692": "Seat_1",
+    "4291901": "Stove_1",
+    "4291914": "Table_1",
+    "4291906": "TableLeg_1",
+    "4291915": "TableTop_1",
+    "4520701": "Tabletop_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Knob_3",
+      "predicate": "on",
+      "object": "Stove_1"
+    },
+    {
+      "subject": "Knob_2",
+      "predicate": "on",
+      "object": "Stove_1"
+    },
+    {
+      "subject": "Knob_1",
+      "predicate": "on",
+      "object": "Stove_1"
+    },
+    {
+      "subject": "Chair_5",
+      "predicate": "holding",
+      "object": "Booster_1"
+    },
+    {
+      "subject": "Chair_2",
+      "predicate": "next to",
+      "object": "ColorfulChair_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Knob_1",
+    "Stove_1",
+    "Oven_1",
+    "OvenDoor_1",
+    "Knob_2",
+    "Knob_3",
+    "HeadRest_1",
+    "Chair_1",
+    "Drawer_1",
+    "Cabinet_1",
+    "Chair_2",
+    "Handle_1",
+    "Chair_3",
+    "Booster_1",
+    "Seat_1",
+    "Chair_4",
+    "ChairLeg_1",
+    "Chair_5",
+    "ColorfulChair_1",
+    "Room_1",
+    "Doorway_1",
+    "TableLeg_1",
+    "Tabletop_1",
+    "TableTop_1",
+    "Table_1",
+    "Chair_6",
+    "Rod_1",
+    "Item_1",
+    "Chair_7",
+    "Rod_2",
+    "Rod_3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "image_id": 202,
+  "prompt_text": "### Relational Edges:\n- [Building_1] --[behind]--> [Bridge_1: gray, stone]\n- [Boat_1] --[on]--> [Water_1]\n- [Tree_1] --[behind]--> [Pole_1: gray, tall]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Tree_1: green] -> [Pole_1: gray, tall] -> [LightFixture_1: blue, yellow] -> [Boat_1: white] -> [Cables_1] -> [LightFixture_2] -> [Wave_1] -> [Window_1] -> [LightFixture_3] -> [Water_1] -> [Bridge_1: gray, stone] -> [Window_2] -> [Window_3] -> [Building_1: red, brick] -> [Window_4] -> [Window_5] -> [LightFixture_4] -> [Railing_1: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Cables_1] -> [Pole_1: gray, tall] -> [Tree_1: green] -> [LightFixture_1: blue, yellow] -> [LightFixture_3] -> [Building_1: red, brick] -> [LightFixture_4] -> [LightFixture_2] -> [Window_4] -> [Window_3] -> [Window_2] -> [Window_1] -> [Bridge_1: gray, stone] -> [Window_5] -> [Boat_1: white] -> [Water_1] -> [Wave_1] -> [Railing_1: white]",
+  "semantic_id_mapping": {
+    "1026227": "Boat_1",
+    "1026221": "Bridge_1",
+    "1026214": "Building_1",
+    "1026230": "Cables_1",
+    "1026223": "LightFixture_1",
+    "1026226": "LightFixture_2",
+    "1026224": "LightFixture_3",
+    "1026225": "LightFixture_4",
+    "1026229": "Pole_1",
+    "1026232": "Railing_1",
+    "1026220": "Sky_1",
+    "1026228": "Tree_1",
+    "1026222": "Water_1",
+    "1026231": "Wave_1",
+    "1026219": "Window_1",
+    "1026216": "Window_2",
+    "1026215": "Window_3",
+    "1026217": "Window_4",
+    "1026218": "Window_5"
+  },
+  "relational_edges": [
+    {
+      "subject": "Building_1",
+      "predicate": "behind",
+      "object": "Bridge_1"
+    },
+    {
+      "subject": "Boat_1",
+      "predicate": "on",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "behind",
+      "object": "Pole_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Tree_1",
+    "Pole_1",
+    "LightFixture_1",
+    "Boat_1",
+    "Cables_1",
+    "LightFixture_2",
+    "Wave_1",
+    "Window_1",
+    "LightFixture_3",
+    "Water_1",
+    "Bridge_1",
+    "Window_2",
+    "Window_3",
+    "Building_1",
+    "Window_4",
+    "Window_5",
+    "LightFixture_4",
+    "Railing_1"
+  ]
+}

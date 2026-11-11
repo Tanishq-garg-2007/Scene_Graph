@@ -1,0 +1,61 @@
+{
+  "image_id": 135,
+  "prompt_text": "### Relational Edges:\n- [Stairs_1] --[on]--> [Building_2: yellow, black]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Girl_1] -> [Umbrella_1] -> [Umbrella_2: brown] -> [Ivy_1] -> [Building_1] -> [Umbrella_3] -> [Ladder_1: large, long] -> [Umbrella_4] -> [Stairs_1] -> [Water_1] -> [Letters_1: red] -> [Person_1] -> [Person_2] -> [Person_3] -> [Person_4] -> [Person_5] -> [Window_1: white] -> [Window_2: white] -> [Roof_1] -> [Building_2: yellow, black] -> [Balcony_1] -> [Window_3: white] -> [Window_4: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Roof_1] -> [Window_2: white] -> [Window_4: white] -> [Building_1] -> [Letters_1: red] -> [Ivy_1] -> [Window_1: white] -> [Window_3: white] -> [Building_2: yellow, black] -> [Ladder_1: large, long] -> [Stairs_1] -> [Umbrella_1] -> [Umbrella_3] -> [Balcony_1] -> [Umbrella_2: brown] -> [Umbrella_4] -> [Girl_1] -> [Person_3] -> [Person_4] -> [Person_5] -> [Person_2] -> [Person_1] -> [Water_1]",
+  "semantic_id_mapping": {
+    "1621235": "Balcony_1",
+    "1621221": "Building_1",
+    "1621242": "Building_2",
+    "1621219": "Girl_1",
+    "1621222": "Ivy_1",
+    "1621227": "Ladder_1",
+    "1621224": "Letters_1",
+    "1621232": "Person_1",
+    "1621231": "Person_2",
+    "1621230": "Person_3",
+    "1621229": "Person_4",
+    "1621228": "Person_5",
+    "1621241": "Roof_1",
+    "1621225": "Stairs_1",
+    "1621240": "Umbrella_1",
+    "1621237": "Umbrella_2",
+    "1621239": "Umbrella_3",
+    "1621238": "Umbrella_4",
+    "1621233": "Water_1",
+    "1621244": "Window_1",
+    "1621243": "Window_2",
+    "1621246": "Window_3",
+    "1621245": "Window_4"
+  },
+  "relational_edges": [
+    {
+      "subject": "Stairs_1",
+      "predicate": "on",
+      "object": "Building_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Girl_1",
+    "Umbrella_1",
+    "Umbrella_2",
+    "Ivy_1",
+    "Building_1",
+    "Umbrella_3",
+    "Ladder_1",
+    "Umbrella_4",
+    "Stairs_1",
+    "Water_1",
+    "Letters_1",
+    "Person_1",
+    "Person_2",
+    "Person_3",
+    "Person_4",
+    "Person_5",
+    "Window_1",
+    "Window_2",
+    "Roof_1",
+    "Building_2",
+    "Balcony_1",
+    "Window_3",
+    "Window_4"
+  ]
+}

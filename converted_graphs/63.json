@@ -1,0 +1,109 @@
+{
+  "image_id": 63,
+  "prompt_text": "### Relational Edges:\n- [Fork_2] --[on]--> [Table_1: cracked, wooden]\n- [Fork_1] --[on]--> [Table_1: cracked, wooden]\n- [Knife_1] --[on]--> [Table_1: cracked, wooden]\n- [Knife_3] --[on]--> [Table_1: cracked, wooden]\n- [Plate_1] --[on]--> [Table_1: cracked, wooden]\n- [Plate_2] --[on]--> [Table_1: cracked, wooden]\n- [Plate_3] --[on]--> [Table_1: cracked, wooden]\n- [Forks_1] --[on]--> [Table_1: cracked, wooden]\n- [Handle_5] --[on]--> [Fork_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Handle_1: black] -> [Knife_1] -> [Cutlery_1] -> [HandleGrip_1: black] -> [Handle_2] -> [Plate_1: round, white] -> [Fork_1] -> [Cutlery_2] -> [Forks_1] -> [Knife_2] -> [Handle_3] -> [Cutlery_3] -> [Forks_2] -> [Fork_2] -> [Handle_4: white] -> [Handle_5] -> [Counter_1] -> [Top_1: white] -> [Table_1: cracked, wooden] -> [Plate_2] -> [Cutlery_4] -> [Knife_3] -> [Handle_6] -> [Handle_7] -> [Handle_8] -> [Border_1] -> [Plate_3: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Top_1: white] -> [Counter_1] -> [Plate_2] -> [Knife_2] -> [Forks_1] -> [Cutlery_2] -> [Fork_1] -> [Handle_3] -> [Plate_1: round, white] -> [Table_1: cracked, wooden] -> [Plate_3: white] -> [Knife_3] -> [Forks_2] -> [Cutlery_3] -> [Cutlery_4] -> [Fork_2] -> [Border_1] -> [Handle_4: white] -> [Handle_6] -> [Handle_5] -> [Handle_7] -> [Knife_1] -> [Cutlery_1] -> [Handle_8] -> [HandleGrip_1: black] -> [Handle_1: black] -> [Handle_2]",
+  "semantic_id_mapping": {
+    "3786836": "Border_1",
+    "1533912": "Counter_1",
+    "1533907": "Cutlery_1",
+    "1533906": "Cutlery_2",
+    "1533904": "Cutlery_3",
+    "1533905": "Cutlery_4",
+    "1533891": "Fork_1",
+    "1533901": "Fork_2",
+    "1533880": "Forks_1",
+    "1533879": "Forks_2",
+    "1533899": "Handle_1",
+    "3786834": "Handle_2",
+    "3786837": "Handle_3",
+    "3786830": "Handle_4",
+    "3786840": "Handle_5",
+    "1533867": "Handle_6",
+    "3786831": "Handle_7",
+    "3786838": "Handle_8",
+    "3786828": "HandleGrip_1",
+    "3786825": "Knife_1",
+    "1533896": "Knife_2",
+    "3786824": "Knife_3",
+    "1533910": "Plate_1",
+    "1533909": "Plate_2",
+    "1533908": "Plate_3",
+    "1533887": "Table_1",
+    "1533913": "Top_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Fork_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Fork_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Knife_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Knife_3",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Plate_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Plate_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Plate_3",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Forks_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Handle_5",
+      "predicate": "on",
+      "object": "Fork_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Handle_1",
+    "Knife_1",
+    "Cutlery_1",
+    "HandleGrip_1",
+    "Handle_2",
+    "Plate_1",
+    "Fork_1",
+    "Cutlery_2",
+    "Forks_1",
+    "Knife_2",
+    "Handle_3",
+    "Cutlery_3",
+    "Forks_2",
+    "Fork_2",
+    "Handle_4",
+    "Handle_5",
+    "Counter_1",
+    "Top_1",
+    "Table_1",
+    "Plate_2",
+    "Cutlery_4",
+    "Knife_3",
+    "Handle_6",
+    "Handle_7",
+    "Handle_8",
+    "Border_1",
+    "Plate_3"
+  ]
+}

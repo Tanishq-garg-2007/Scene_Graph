@@ -1,0 +1,38 @@
+{
+  "image_id": 68,
+  "prompt_text": "### Relational Edges:\n- [Wire_2] --[on]--> [Wall_1: grey, white]\n- [Socket_1] --[on]--> [Wall_1: grey, white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Wire_1: black, skinny] -> [Socket_1: open, white] -> [Console_1: black] -> [Controller_1: black] -> [Tv_1: blank, small, off, flat, huge, big, black] -> [Vcr_1: new, grey] -> [Wire_2: white, skinny] -> [Laptop_1: silver, grey]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Socket_1: open, white] -> [Wire_2: white, skinny] -> [Tv_1: blank, small, off, flat, huge, big, black] -> [Wire_1: black, skinny] -> [Console_1: black] -> [Laptop_1: silver, grey] -> [Controller_1: black] -> [Vcr_1: new, grey]",
+  "semantic_id_mapping": {
+    "1062098": "Console_1",
+    "1062097": "Controller_1",
+    "1062099": "Floor_1",
+    "1062100": "Laptop_1",
+    "1062102": "Socket_1",
+    "1062093": "Tv_1",
+    "1062094": "Vcr_1",
+    "1062101": "Wall_1",
+    "1062096": "Wire_1",
+    "1062095": "Wire_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Wire_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Socket_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Wire_1",
+    "Socket_1",
+    "Console_1",
+    "Controller_1",
+    "Tv_1",
+    "Vcr_1",
+    "Wire_2",
+    "Laptop_1"
+  ]
+}

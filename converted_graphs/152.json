@@ -1,0 +1,91 @@
+{
+  "image_id": 152,
+  "prompt_text": "### Relational Edges:\n- [Tie_1] --[on]--> [Shirt_1]\n- [Bottle_3] --[on]--> [CoffeeTable_1]\n- [Bottle_2] --[on]--> [CoffeeTable_1]\n- [Bottle_1] --[on]--> [CoffeeTable_1]\n- [Plant_1] --[behind]--> [Chair_1]\n- [Flower_1] --[on]--> [Poster_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Person_1] -> [Woman_1] -> [Person_2] -> [Person_3] -> [Woman_2] -> [Woman_3] -> [Woman_4] -> [Poster_1] -> [Woman_5] -> [Flower_1] -> [Woman_6] -> [Woman_7] -> [Woman_8] -> [Chair_1] -> [CoffeeTable_1] -> [Plant_1] -> [Bottle_1] -> [Bottle_2] -> [Bottle_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Poster_1] -> [Flower_1] -> [Person_2] -> [Person_3] -> [Plant_1] -> [Person_1] -> [Woman_3] -> [Woman_8] -> [Woman_6] -> [Woman_4] -> [Woman_7] -> [Woman_5] -> [Woman_2] -> [Woman_1] -> [Chair_1] -> [Bottle_2] -> [Bottle_1] -> [Bottle_3] -> [CoffeeTable_1]",
+  "semantic_id_mapping": {
+    "1535775": "Bottle_1",
+    "1535776": "Bottle_2",
+    "1535777": "Bottle_3",
+    "1535782": "Chair_1",
+    "1535781": "CoffeeTable_1",
+    "1535785": "Flower_1",
+    "1535801": "Head_1",
+    "1535787": "Head_2",
+    "1535804": "Head_3",
+    "1535789": "Head_4",
+    "1535805": "Head_5",
+    "1535799": "Head_6",
+    "1535791": "Head_7",
+    "1535798": "Head_8",
+    "1535794": "Head_9",
+    "1535795": "Head_10",
+    "1535807": "Person_1",
+    "1535803": "Person_2",
+    "1535806": "Person_3",
+    "1535779": "Plant_1",
+    "1535786": "Poster_1",
+    "1535774": "Shirt_1",
+    "1535773": "Tie_1",
+    "1535784": "Wall_1",
+    "1535788": "Woman_1",
+    "1535790": "Woman_2",
+    "3787160": "Woman_3",
+    "1535800": "Woman_4",
+    "1535792": "Woman_5",
+    "1535797": "Woman_6",
+    "1535793": "Woman_7",
+    "1535796": "Woman_8"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tie_1",
+      "predicate": "on",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Bottle_3",
+      "predicate": "on",
+      "object": "CoffeeTable_1"
+    },
+    {
+      "subject": "Bottle_2",
+      "predicate": "on",
+      "object": "CoffeeTable_1"
+    },
+    {
+      "subject": "Bottle_1",
+      "predicate": "on",
+      "object": "CoffeeTable_1"
+    },
+    {
+      "subject": "Plant_1",
+      "predicate": "behind",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Flower_1",
+      "predicate": "on",
+      "object": "Poster_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Person_1",
+    "Woman_1",
+    "Person_2",
+    "Person_3",
+    "Woman_2",
+    "Woman_3",
+    "Woman_4",
+    "Poster_1",
+    "Woman_5",
+    "Flower_1",
+    "Woman_6",
+    "Woman_7",
+    "Woman_8",
+    "Chair_1",
+    "CoffeeTable_1",
+    "Plant_1",
+    "Bottle_1",
+    "Bottle_2",
+    "Bottle_3"
+  ]
+}

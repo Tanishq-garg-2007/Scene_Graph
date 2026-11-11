@@ -1,0 +1,133 @@
+{
+  "image_id": 41,
+  "prompt_text": "### Relational Edges:\n- [ToasterOven_1] --[next to]--> [MicrowaveOven_1: white, on, microwave oven]\n- [CanOpener_1] --[on]--> [MicrowaveOven_1: white, on, microwave oven]\n- [MicrowaveOven_1] --[on]--> [Counter_1: tiled, wooden, white]\n- [Jerrycan_1] --[on]--> [Counter_1: tiled, wooden, white]\n- [Tiles_1] --[on]--> [Wall_1: tiled, cream]\n- [Tiles_2] --[on]--> [Counter_1: tiled, wooden, white]\n- [GallonJug_1] --[on]--> [Counter_1: tiled, wooden, white]\n- [Bowl_1] --[on]--> [Stand_1]\n- [Cup_1] --[on]--> [MicrowaveOven_1: white, on, microwave oven]\n- [Mixer_1] --[on]--> [ToasterOven_1]\n- [Knife_1] --[on]--> [KnifeBlock_1: almost empty]\n- [Tin_1] --[on]--> [ToasterOven_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Handle_1: metal, silver] -> [Jerrycan_1] -> [Lid_1: blue] -> [GallonJug_1: empty, clean] -> [Handle_2: metal, silver] -> [Handle_3: metal, silver] -> [KitchenDrawer_1: wooden, brown] -> [Cabinet_1: wooden, brown, cabinet, wood] -> [Tin_1] -> [Mixer_1: white] -> [ToasterOven_1] -> [PowerCord_1: unplugged] -> [Switch_1: red] -> [PowerOutlet_1: red, power outlet] -> [Handle_4: metal, silver] -> [Tiles_1: tiles] -> [KitchenDrawer_2: closed, wooden] -> [Drawers_1: brown] -> [Kitchen_1: full, indoors, interior, kitchen, neat, inside, ready] -> [Counter_1: tiled, wooden, white] -> [Tiles_2] -> [Matches_1] -> [Box_1: closed, match box] -> [Stand_1] -> [Bowl_1: empty] -> [MicrowaveOven_1: white, on, microwave oven] -> [Cup_1] -> [KitchenDrawer_3: wooden, brown] -> [CanOpener_1] -> [Knife_1] -> [KnifeBlock_1: almost empty]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Handle_3: metal, silver] -> [Handle_1: metal, silver] -> [Cabinet_1: wooden, brown, cabinet, wood] -> [Stand_1] -> [Box_1: closed, match box] -> [Matches_1] -> [Bowl_1: empty] -> [Cup_1] -> [CanOpener_1] -> [Mixer_1: white] -> [Tiles_1: tiles] -> [Tin_1] -> [Switch_1: red] -> [PowerOutlet_1: red, power outlet] -> [Kitchen_1: full, indoors, interior, kitchen, neat, inside, ready] -> [Knife_1] -> [Lid_1: blue] -> [MicrowaveOven_1: white, on, microwave oven] -> [Jerrycan_1] -> [ToasterOven_1] -> [KnifeBlock_1: almost empty] -> [GallonJug_1: empty, clean] -> [PowerCord_1: unplugged] -> [Counter_1: tiled, wooden, white] -> [Tiles_2] -> [KitchenDrawer_2: closed, wooden] -> [Drawers_1: brown] -> [KitchenDrawer_1: wooden, brown] -> [Handle_4: metal, silver] -> [KitchenDrawer_3: wooden, brown] -> [Handle_2: metal, silver]",
+  "semantic_id_mapping": {
+    "1061600": "Bowl_1",
+    "1061569": "Box_1",
+    "1061580": "Cabinet_1",
+    "5920": "CanOpener_1",
+    "1061574": "Counter_1",
+    "1061598": "Cup_1",
+    "1061573": "Drawers_1",
+    "1061562": "GallonJug_1",
+    "1061581": "Handle_1",
+    "1061584": "Handle_2",
+    "1061582": "Handle_3",
+    "1061583": "Handle_4",
+    "5931": "Jerrycan_1",
+    "1061592": "Kitchen_1",
+    "1061586": "KitchenDrawer_1",
+    "5921": "KitchenDrawer_2",
+    "1061579": "KitchenDrawer_3",
+    "1061599": "Knife_1",
+    "1061567": "KnifeBlock_1",
+    "5913": "Lid_1",
+    "1061570": "Matches_1",
+    "1061588": "MicrowaveOven_1",
+    "1061594": "Mixer_1",
+    "5917": "PowerCord_1",
+    "1061566": "PowerOutlet_1",
+    "1061602": "Stand_1",
+    "1061597": "Switch_1",
+    "1061595": "Tiles_1",
+    "1061596": "Tiles_2",
+    "1061601": "Tin_1",
+    "1061564": "ToasterOven_1",
+    "1061575": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "ToasterOven_1",
+      "predicate": "next to",
+      "object": "MicrowaveOven_1"
+    },
+    {
+      "subject": "CanOpener_1",
+      "predicate": "on",
+      "object": "MicrowaveOven_1"
+    },
+    {
+      "subject": "MicrowaveOven_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Jerrycan_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Tiles_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Tiles_2",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "GallonJug_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Stand_1"
+    },
+    {
+      "subject": "Cup_1",
+      "predicate": "on",
+      "object": "MicrowaveOven_1"
+    },
+    {
+      "subject": "Mixer_1",
+      "predicate": "on",
+      "object": "ToasterOven_1"
+    },
+    {
+      "subject": "Knife_1",
+      "predicate": "on",
+      "object": "KnifeBlock_1"
+    },
+    {
+      "subject": "Tin_1",
+      "predicate": "on",
+      "object": "ToasterOven_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Handle_1",
+    "Jerrycan_1",
+    "Lid_1",
+    "GallonJug_1",
+    "Handle_2",
+    "Handle_3",
+    "KitchenDrawer_1",
+    "Cabinet_1",
+    "Tin_1",
+    "Mixer_1",
+    "ToasterOven_1",
+    "PowerCord_1",
+    "Switch_1",
+    "PowerOutlet_1",
+    "Handle_4",
+    "Tiles_1",
+    "KitchenDrawer_2",
+    "Drawers_1",
+    "Kitchen_1",
+    "Counter_1",
+    "Tiles_2",
+    "Matches_1",
+    "Box_1",
+    "Stand_1",
+    "Bowl_1",
+    "MicrowaveOven_1",
+    "Cup_1",
+    "KitchenDrawer_3",
+    "CanOpener_1",
+    "Knife_1",
+    "KnifeBlock_1"
+  ]
+}

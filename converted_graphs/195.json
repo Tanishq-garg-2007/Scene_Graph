@@ -1,0 +1,67 @@
+{
+  "image_id": 195,
+  "prompt_text": "### Relational Edges:\n- [Knife_1] --[on]--> [Board_1]\n- [Meat_1] --[on]--> [Board_1]\n- [Cake_1] --[on]--> [Plate_2]\n- [Plate_1] --[on]--> [Table_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Handle_1: black] -> [Knife_1] -> [Plate_1] -> [Board_1] -> [CuttingBoard_1: white, plastic] -> [Sausage_1: sliced] -> [Meat_1] -> [Glass_1: small, orange juice] -> [Mat_1: woven, wicker place] -> [Table_1] -> [Plate_2] -> [Cheese_1: brie] -> [Cake_1] -> [Fireplace_1: small, black, portable] -> [Fire_1] -> [Fireplace_2] -> [Building_1] -> [Couch_1: black, leather]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Fireplace_1: small, black, portable] -> [Fireplace_2] -> [Building_1] -> [Fire_1] -> [Glass_1: small, orange juice] -> [Couch_1: black, leather] -> [Cake_1] -> [Cheese_1: brie] -> [Plate_2] -> [Handle_1: black] -> [Table_1] -> [Meat_1] -> [Sausage_1: sliced] -> [Board_1] -> [Plate_1] -> [CuttingBoard_1: white, plastic] -> [Knife_1] -> [Mat_1: woven, wicker place]",
+  "semantic_id_mapping": {
+    "3787379": "Arm_1",
+    "3787382": "Board_1",
+    "1536752": "Building_1",
+    "3787385": "Cake_1",
+    "3787399": "Cheese_1",
+    "3787398": "Couch_1",
+    "3787396": "CuttingBoard_1",
+    "3787389": "Fire_1",
+    "3787400": "Fireplace_1",
+    "3787390": "Fireplace_2",
+    "3787395": "Glass_1",
+    "3787392": "Handle_1",
+    "3787381": "Knife_1",
+    "3787394": "Mat_1",
+    "3787383": "Meat_1",
+    "3787387": "Plate_1",
+    "3787386": "Plate_2",
+    "3787397": "Sausage_1",
+    "3787388": "Table_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Knife_1",
+      "predicate": "on",
+      "object": "Board_1"
+    },
+    {
+      "subject": "Meat_1",
+      "predicate": "on",
+      "object": "Board_1"
+    },
+    {
+      "subject": "Cake_1",
+      "predicate": "on",
+      "object": "Plate_2"
+    },
+    {
+      "subject": "Plate_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Handle_1",
+    "Knife_1",
+    "Plate_1",
+    "Board_1",
+    "CuttingBoard_1",
+    "Sausage_1",
+    "Meat_1",
+    "Glass_1",
+    "Mat_1",
+    "Table_1",
+    "Plate_2",
+    "Cheese_1",
+    "Cake_1",
+    "Fireplace_1",
+    "Fire_1",
+    "Fireplace_2",
+    "Building_1",
+    "Couch_1"
+  ]
+}

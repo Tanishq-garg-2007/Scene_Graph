@@ -1,0 +1,52 @@
+{
+  "image_id": 121,
+  "prompt_text": "### Relational Edges:\n- [ElectricalOutlet_1] --[on]--> [Wall_2]\n- [Sun_1] --[on]--> [Floor_1: wood]\n- [Book_1] --[on]--> [Shelves_1: wooed, empty, white, wooden]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Dvd_1: in their cases, a row] -> [Book_1: a set] -> [Shelf_1] -> [Shelves_1: wooed, empty, white, wooden] -> [Basket_1: three, brown, small, wicker] -> [HousePlant_1: potted, house] -> [Box_1] -> [Sun_1] -> [Hole_1] -> [Guitar_1: brown, large] -> [ElectricalOutlet_1] -> [SheetHolder_1: metal, music]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [HousePlant_1: potted, house] -> [Book_1: a set] -> [Basket_1: three, brown, small, wicker] -> [Box_1] -> [Shelves_1: wooed, empty, white, wooden] -> [Shelf_1] -> [Guitar_1: brown, large] -> [Dvd_1: in their cases, a row] -> [ElectricalOutlet_1] -> [Hole_1] -> [SheetHolder_1: metal, music] -> [Sun_1]",
+  "semantic_id_mapping": {
+    "1025996": "Basket_1",
+    "1025998": "Book_1",
+    "1026002": "Box_1",
+    "1025999": "Dvd_1",
+    "3786986": "ElectricalOutlet_1",
+    "1026000": "Floor_1",
+    "1025994": "Guitar_1",
+    "3786991": "Hole_1",
+    "1026001": "HousePlant_1",
+    "1025993": "SheetHolder_1",
+    "3786990": "Shelf_1",
+    "1025997": "Shelves_1",
+    "3786987": "Sun_1",
+    "3786988": "Wall_1",
+    "1025995": "Wall_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "ElectricalOutlet_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Sun_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Shelves_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Dvd_1",
+    "Book_1",
+    "Shelf_1",
+    "Shelves_1",
+    "Basket_1",
+    "HousePlant_1",
+    "Box_1",
+    "Sun_1",
+    "Hole_1",
+    "Guitar_1",
+    "ElectricalOutlet_1",
+    "SheetHolder_1"
+  ]
+}

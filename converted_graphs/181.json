@@ -1,0 +1,230 @@
+{
+  "image_id": 181,
+  "prompt_text": "### Relational Edges:\n- [Doll_3] --[on]--> [Shelf_1]\n- [Doll_2] --[on]--> [Shelf_1]\n- [Doll_1] --[on]--> [Shelf_1]\n- [Clothes_1] --[on]--> [Shelf_3]\n- [Chair_6] --[next to]--> [Table_2: round]\n- [Chair_4] --[next to]--> [Table_2: round]\n- [Chair_5] --[next to]--> [Table_2: round]\n- [Chair_7] --[next to]--> [Table_2: round]\n- [Cabinet_1] --[on]--> [Wall_1]\n- [Aquarium_1] --[on]--> [Stand_1: cream colored]\n- [Chair_4] --[next to]--> [Chair_6: green]\n- [Light_3] --[on]--> [Ceiling_1]\n- [Light_1] --[on]--> [Ceiling_1]\n- [Light_4] --[on]--> [Ceiling_1]\n- [Light_2] --[on]--> [Ceiling_1]\n- [Poster_1] --[on]--> [Wall_1]\n- [Painting_1] --[on]--> [Wall_1]\n- [Circle_1] --[on]--> [Table_2: round]\n- [Shape_3] --[on]--> [Wall_2]\n- [Shape_2] --[on]--> [Wall_2]\n- [Shape_5] --[on]--> [Wall_2]\n- [Shape_4] --[on]--> [Wall_2]\n- [Shape_1] --[on]--> [Wall_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [HardHat_1: yellow] -> [Doll_1: baby] -> [Doll_2: baby] -> [Shelf_1] -> [HardHat_2: yellow] -> [Shelf_2] -> [Doll_3: baby] -> [Poster_1] -> [HardHat_3: orange] -> [Board_1: framed ] -> [Fabric_1] -> [Wreath_1] -> [Painting_1] -> [Clothes_1] -> [Shelf_3] -> [ShoppingBasket_1: pink] -> [StorageBin_1: green] -> [Container_1: green] -> [Aquarium_1] -> [Stand_1: cream colored] -> [Light_1] -> [Handle_1: red] -> [Handle_2: red] -> [Light_2] -> [Chair_1] -> [Chair_2] -> [Cabinet_1: wooden] -> [Chair_3: yellow] -> [Classroom_1] -> [Table_1] -> [Light_3] -> [BulletinBoard_1] -> [Chair_4: yellow] -> [Light_4] -> [Pumpkin_1: orange, crepe paper] -> [Building_1] -> [Building_2] -> [Chair_5] -> [Shape_1: Colorful ] -> [Chair_6: green] -> [Shape_2: Colorful ] -> [Shape_3: Colorful ] -> [Shape_4: Colorful ] -> [Shape_5: Colorful ] -> [Table_2: round] -> [Circle_1: blue ] -> [Chair_7] -> [TrashCan_1: white ] -> [TrashBin_1: White ]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Light_2] -> [Light_4] -> [Light_1] -> [Light_3] -> [Cabinet_1: wooden] -> [BulletinBoard_1] -> [Wreath_1] -> [Poster_1] -> [Painting_1] -> [Fabric_1] -> [Board_1: framed ] -> [Shape_1: Colorful ] -> [Shape_4: Colorful ] -> [Shape_5: Colorful ] -> [Shape_2: Colorful ] -> [Shape_3: Colorful ] -> [Aquarium_1] -> [Building_1] -> [Building_2] -> [Classroom_1] -> [Stand_1: cream colored] -> [Pumpkin_1: orange, crepe paper] -> [Table_1] -> [Chair_2] -> [Chair_3: yellow] -> [ShoppingBasket_1: pink] -> [HardHat_3: orange] -> [HardHat_2: yellow] -> [HardHat_1: yellow] -> [Chair_5] -> [TrashBin_1: White ] -> [TrashCan_1: white ] -> [Chair_7] -> [StorageBin_1: green] -> [Container_1: green] -> [Handle_2: red] -> [Handle_1: red] -> [Doll_3: baby] -> [Circle_1: blue ] -> [Doll_2: baby] -> [Doll_1: baby] -> [Shelf_2] -> [Shelf_1] -> [Chair_1] -> [Table_2: round] -> [Chair_4: yellow] -> [Clothes_1] -> [Chair_6: green] -> [Shelf_3]",
+  "semantic_id_mapping": {
+    "3787322": "Aquarium_1",
+    "1536536": "Board_1",
+    "1536494": "Building_1",
+    "1536507": "Building_2",
+    "1536517": "BulletinBoard_1",
+    "3787317": "Cabinet_1",
+    "3787333": "Ceiling_1",
+    "1536512": "Chair_1",
+    "1536529": "Chair_2",
+    "3787335": "Chair_3",
+    "1536523": "Chair_4",
+    "3787313": "Chair_5",
+    "3787328": "Chair_6",
+    "3787312": "Chair_7",
+    "1536533": "Circle_1",
+    "1536520": "Classroom_1",
+    "3787300": "Clothes_1",
+    "3787298": "Container_1",
+    "3787307": "Doll_1",
+    "3787308": "Doll_2",
+    "3787309": "Doll_3",
+    "1536537": "Fabric_1",
+    "3787302": "Handle_1",
+    "3787303": "Handle_2",
+    "3787324": "HardHat_1",
+    "3787325": "HardHat_2",
+    "3787326": "HardHat_3",
+    "3787290": "Hat_1",
+    "3787299": "Hat_2",
+    "3787291": "Hat_3",
+    "3787292": "Hat_4",
+    "3787331": "Light_1",
+    "3787329": "Light_2",
+    "3787332": "Light_3",
+    "3787330": "Light_4",
+    "1536521": "Painting_1",
+    "1536513": "Poster_1",
+    "3787316": "Pumpkin_1",
+    "1536538": "Shape_1",
+    "1536541": "Shape_2",
+    "1536542": "Shape_3",
+    "1536539": "Shape_4",
+    "1536540": "Shape_5",
+    "3787310": "Shelf_1",
+    "1536532": "Shelf_2",
+    "3787301": "Shelf_3",
+    "3787293": "ShoppingBasket_1",
+    "3787323": "Stand_1",
+    "3787319": "StorageBin_1",
+    "1536530": "Table_1",
+    "1536528": "Table_2",
+    "1536519": "TrashBin_1",
+    "1536535": "TrashCan_1",
+    "1536522": "Wall_1",
+    "1536543": "Wall_2",
+    "3787320": "Wreath_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Doll_3",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Doll_2",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Doll_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Clothes_1",
+      "predicate": "on",
+      "object": "Shelf_3"
+    },
+    {
+      "subject": "Chair_6",
+      "predicate": "next to",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Chair_4",
+      "predicate": "next to",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Chair_5",
+      "predicate": "next to",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Chair_7",
+      "predicate": "next to",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Cabinet_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Aquarium_1",
+      "predicate": "on",
+      "object": "Stand_1"
+    },
+    {
+      "subject": "Chair_4",
+      "predicate": "next to",
+      "object": "Chair_6"
+    },
+    {
+      "subject": "Light_3",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Light_1",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Light_4",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Light_2",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Poster_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Circle_1",
+      "predicate": "on",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Shape_3",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Shape_2",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Shape_5",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Shape_4",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Shape_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "HardHat_1",
+    "Doll_1",
+    "Doll_2",
+    "Shelf_1",
+    "HardHat_2",
+    "Shelf_2",
+    "Doll_3",
+    "Poster_1",
+    "HardHat_3",
+    "Board_1",
+    "Fabric_1",
+    "Wreath_1",
+    "Painting_1",
+    "Clothes_1",
+    "Shelf_3",
+    "ShoppingBasket_1",
+    "StorageBin_1",
+    "Container_1",
+    "Aquarium_1",
+    "Stand_1",
+    "Light_1",
+    "Handle_1",
+    "Handle_2",
+    "Light_2",
+    "Chair_1",
+    "Chair_2",
+    "Cabinet_1",
+    "Chair_3",
+    "Classroom_1",
+    "Table_1",
+    "Light_3",
+    "BulletinBoard_1",
+    "Chair_4",
+    "Light_4",
+    "Pumpkin_1",
+    "Building_1",
+    "Building_2",
+    "Chair_5",
+    "Shape_1",
+    "Chair_6",
+    "Shape_2",
+    "Shape_3",
+    "Shape_4",
+    "Shape_5",
+    "Table_2",
+    "Circle_1",
+    "Chair_7",
+    "TrashCan_1",
+    "TrashBin_1"
+  ]
+}

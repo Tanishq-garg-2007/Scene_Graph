@@ -1,0 +1,71 @@
+{
+  "image_id": 81,
+  "prompt_text": "### Relational Edges:\n- [Door_9] --[on]--> [Cabinet_9]\n- [Door_7] --[on]--> [Cabinet_7]\n- [Door_2] --[on]--> [Cabinet_2]\n- [Door_3] --[on]--> [Cabinet_4]\n- [Door_5] --[on]--> [Cabinet_5]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Cabinet_1] -> [Door_1] -> [Cabinet_2] -> [Door_2] -> [Cabinet_3] -> [Door_3] -> [Cabinet_4] -> [Door_4] -> [Cabinet_5] -> [Door_5] -> [Door_6] -> [Cabinet_6] -> [Cabinet_7] -> [Door_7] -> [Cabinet_8] -> [Door_8] -> [Cabinet_9] -> [Door_9]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Door_1] -> [Cabinet_1] -> [Cabinet_6] -> [Door_6] -> [Cabinet_7] -> [Door_7] -> [Door_4] -> [Cabinet_3] -> [Cabinet_9] -> [Door_9] -> [Door_8] -> [Cabinet_8] -> [Cabinet_5] -> [Door_5] -> [Cabinet_4] -> [Door_3] -> [Cabinet_2] -> [Door_2]",
+  "semantic_id_mapping": {
+    "1534243": "Cabinet_1",
+    "1534235": "Cabinet_2",
+    "1534245": "Cabinet_3",
+    "1534237": "Cabinet_4",
+    "1534239": "Cabinet_5",
+    "1534247": "Cabinet_6",
+    "1534233": "Cabinet_7",
+    "1534241": "Cabinet_8",
+    "1534231": "Cabinet_9",
+    "1534242": "Door_1",
+    "1534234": "Door_2",
+    "1534236": "Door_3",
+    "1534244": "Door_4",
+    "1534238": "Door_5",
+    "1534246": "Door_6",
+    "1534232": "Door_7",
+    "1534240": "Door_8",
+    "1534230": "Door_9"
+  },
+  "relational_edges": [
+    {
+      "subject": "Door_9",
+      "predicate": "on",
+      "object": "Cabinet_9"
+    },
+    {
+      "subject": "Door_7",
+      "predicate": "on",
+      "object": "Cabinet_7"
+    },
+    {
+      "subject": "Door_2",
+      "predicate": "on",
+      "object": "Cabinet_2"
+    },
+    {
+      "subject": "Door_3",
+      "predicate": "on",
+      "object": "Cabinet_4"
+    },
+    {
+      "subject": "Door_5",
+      "predicate": "on",
+      "object": "Cabinet_5"
+    }
+  ],
+  "horizontal_ordering": [
+    "Cabinet_1",
+    "Door_1",
+    "Cabinet_2",
+    "Door_2",
+    "Cabinet_3",
+    "Door_3",
+    "Cabinet_4",
+    "Door_4",
+    "Cabinet_5",
+    "Door_5",
+    "Door_6",
+    "Cabinet_6",
+    "Cabinet_7",
+    "Door_7",
+    "Cabinet_8",
+    "Door_8",
+    "Cabinet_9",
+    "Door_9"
+  ]
+}

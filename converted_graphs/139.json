@@ -1,0 +1,80 @@
+{
+  "image_id": 139,
+  "prompt_text": "### Relational Edges:\n- [Crane_1] --[next to]--> [Building_3]\n- [Sky_1] --[behind]--> [Building_2]\n- [Crane_1] --[behind]--> [Building_1: large, medieval, white, stone]\n- [Cables_1] --[attached to]--> [Crane_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Window_1] -> [Window_2] -> [Window_3] -> [Crane_1: tall, metal] -> [Window_4] -> [Window_5: dark] -> [Window_6] -> [Cables_1: metal] -> [Window_7] -> [Window_8] -> [Crane_2] -> [Crane_3] -> [Building_1: large, medieval, white, stone] -> [Window_9] -> [Window_10: dark] -> [Window_11] -> [Building_2] -> [Window_12] -> [Window_13] -> [Building_3] -> [Spire_1: tall, illuminated] -> [Window_14: dark] -> [Window_15] -> [Window_16]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Cables_1: metal] -> [Spire_1: tall, illuminated] -> [Window_11] -> [Building_2] -> [Crane_1: tall, metal] -> [Window_14: dark] -> [Crane_2] -> [Window_15] -> [Window_13] -> [Building_1: large, medieval, white, stone] -> [Building_3] -> [Crane_3] -> [Window_12] -> [Window_16] -> [Window_4] -> [Window_8] -> [Window_3] -> [Window_5: dark] -> [Window_2] -> [Window_6] -> [Window_1] -> [Window_10: dark] -> [Window_7] -> [Window_9]",
+  "semantic_id_mapping": {
+    "1535486": "Arm_1",
+    "3787101": "Building_1",
+    "3787096": "Building_2",
+    "1535477": "Building_3",
+    "1535487": "Cables_1",
+    "1535484": "Crane_1",
+    "3787098": "Crane_2",
+    "3787097": "Crane_3",
+    "1535478": "Sky_1",
+    "1535479": "Spire_1",
+    "1535506": "Window_1",
+    "1535510": "Window_2",
+    "1535511": "Window_3",
+    "1535500": "Window_4",
+    "1535490": "Window_5",
+    "1535508": "Window_6",
+    "1535509": "Window_7",
+    "1535481": "Window_8",
+    "1535502": "Window_9",
+    "1535494": "Window_10",
+    "1535504": "Window_11",
+    "1535498": "Window_12",
+    "1535503": "Window_13",
+    "1535488": "Window_14",
+    "1535507": "Window_15",
+    "1535499": "Window_16"
+  },
+  "relational_edges": [
+    {
+      "subject": "Crane_1",
+      "predicate": "next to",
+      "object": "Building_3"
+    },
+    {
+      "subject": "Sky_1",
+      "predicate": "behind",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Crane_1",
+      "predicate": "behind",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Cables_1",
+      "predicate": "attached to",
+      "object": "Crane_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Window_1",
+    "Window_2",
+    "Window_3",
+    "Crane_1",
+    "Window_4",
+    "Window_5",
+    "Window_6",
+    "Cables_1",
+    "Window_7",
+    "Window_8",
+    "Crane_2",
+    "Crane_3",
+    "Building_1",
+    "Window_9",
+    "Window_10",
+    "Window_11",
+    "Building_2",
+    "Window_12",
+    "Window_13",
+    "Building_3",
+    "Spire_1",
+    "Window_14",
+    "Window_15",
+    "Window_16"
+  ]
+}

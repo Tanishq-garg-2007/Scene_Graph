@@ -1,0 +1,83 @@
+{
+  "image_id": 151,
+  "prompt_text": "### Relational Edges:\n- [MilkCarton_1] --[on]--> [Table_3]\n- [Bowl_1] --[on]--> [Table_3]\n- [Bowl_1] --[on]--> [Table_1]\n- [Spoon_1] --[on]--> [Table_2]\n- [Bowl_1] --[on]--> [Table_2]\n- [Man_1] --[wearing]--> [Shirt_1: blue, tan, striped]\n- [Ring_1] --[on]--> [Finger_1]\n- [Watch_1] --[on]--> [Wrist_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Cereal_1: open, box] -> [InformationPanel_1: ingredients, nutrition] -> [Table_1] -> [Wrist_1] -> [Mirror_1] -> [Table_2] -> [Table_3] -> [Finger_1] -> [Bowl_1] -> [Ring_1] -> [Man_1] -> [Spoon_1: plastic] -> [Building_1] -> [MilkCarton_1] -> [Milk_1: quart]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Building_1] -> [InformationPanel_1: ingredients, nutrition] -> [Man_1] -> [Cereal_1: open, box] -> [Mirror_1] -> [Wrist_1] -> [Milk_1: quart] -> [MilkCarton_1] -> [Finger_1] -> [Ring_1] -> [Spoon_1: plastic] -> [Bowl_1] -> [Table_1] -> [Table_3] -> [Table_2]",
+  "semantic_id_mapping": {
+    "3792911": "Bowl_1",
+    "1535757": "Building_1",
+    "1634708": "Cereal_1",
+    "3632913": "Finger_1",
+    "3632916": "Hand_1",
+    "1634715": "InformationPanel_1",
+    "3632912": "Man_1",
+    "1634714": "Milk_1",
+    "3792908": "MilkCarton_1",
+    "3632915": "Mirror_1",
+    "1634712": "Ring_1",
+    "1634711": "Shirt_1",
+    "1634705": "Spoon_1",
+    "3792913": "Table_1",
+    "3632911": "Table_2",
+    "3792910": "Table_3",
+    "1634713": "Watch_1",
+    "3632914": "Wrist_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "MilkCarton_1",
+      "predicate": "on",
+      "object": "Table_3"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Table_3"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Spoon_1",
+      "predicate": "on",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Ring_1",
+      "predicate": "on",
+      "object": "Finger_1"
+    },
+    {
+      "subject": "Watch_1",
+      "predicate": "on",
+      "object": "Wrist_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Cereal_1",
+    "InformationPanel_1",
+    "Table_1",
+    "Wrist_1",
+    "Mirror_1",
+    "Table_2",
+    "Table_3",
+    "Finger_1",
+    "Bowl_1",
+    "Ring_1",
+    "Man_1",
+    "Spoon_1",
+    "Building_1",
+    "MilkCarton_1",
+    "Milk_1"
+  ]
+}

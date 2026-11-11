@@ -1,0 +1,120 @@
+{
+  "image_id": 184,
+  "prompt_text": "### Relational Edges:\n- [Books_1] --[on]--> [Table_2: wooden , large ]\n- [Vase_1] --[on]--> [Table_1]\n- [ReadingMaterial_1] --[on]--> [CoffeeTable_1]\n- [ThrowPillow_1] --[on]--> [Sofa_1]\n- [Coaster_1] --[on]--> [CoffeeTable_1]\n- [ThermostatControl_1] --[on]--> [Wall_1: pale blue, white]\n- [Picture_3] --[on]--> [Wall_1: pale blue, white]\n- [Picture_2] --[on]--> [Wall_1: pale blue, white]\n- [Picture_1] --[on]--> [Wall_1: pale blue, white]\n- [Lightswitch_1] --[on]--> [Wall_1: pale blue, white]\n- [Chair_1] --[next to]--> [Lamp_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [ThermostatControl_1] -> [Lightswitch_1] -> [Picture_1] -> [Fabric_1: white, over] -> [Picture_2] -> [EasyChair_1: golden tan] -> [Chair_1: gold] -> [Picture_3: framed] -> [FloorLamp_1: tall ] -> [Lamp_1] -> [Lampshade_1: white] -> [ReadingMaterial_1] -> [Books_1] -> [Table_1] -> [Flowers_1: vibrant ] -> [Vase_1] -> [CoffeeTable_1] -> [Table_2: wooden , large ] -> [Coaster_1: black ] -> [Curtain_1: long, white, clean] -> [Curtains_1: white] -> [ThrowPillow_1: pale blue] -> [Pillows_1] -> [Sofa_1] -> [Couch_1: large , brown ] -> [Window_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Picture_1] -> [Picture_2] -> [Lampshade_1: white] -> [Picture_3: framed] -> [Lightswitch_1] -> [ThermostatControl_1] -> [Window_1] -> [Curtains_1: white] -> [Curtain_1: long, white, clean] -> [Lamp_1] -> [FloorLamp_1: tall ] -> [Flowers_1: vibrant ] -> [Vase_1] -> [EasyChair_1: golden tan] -> [Chair_1: gold] -> [ThrowPillow_1: pale blue] -> [Fabric_1: white, over] -> [Table_1] -> [Pillows_1] -> [Couch_1: large , brown ] -> [Sofa_1] -> [Books_1] -> [ReadingMaterial_1] -> [CoffeeTable_1] -> [Table_2: wooden , large ] -> [Coaster_1: black ]",
+  "semantic_id_mapping": {
+    "1536596": "Arm_1",
+    "1536598": "Books_1",
+    "1536612": "Chair_1",
+    "1536585": "Coaster_1",
+    "1536586": "CoffeeTable_1",
+    "1536576": "Couch_1",
+    "1536587": "Curtain_1",
+    "1536614": "Curtains_1",
+    "1536591": "EasyChair_1",
+    "1536595": "Fabric_1",
+    "1536577": "FloorLamp_1",
+    "1536602": "Flowers_1",
+    "1536613": "Lamp_1",
+    "1536604": "Lampshade_1",
+    "1536610": "Lightswitch_1",
+    "1536588": "Picture_1",
+    "1536607": "Picture_2",
+    "1536608": "Picture_3",
+    "1536600": "Pillows_1",
+    "1536582": "ReadingMaterial_1",
+    "1536578": "Shade_1",
+    "1536601": "Sofa_1",
+    "1536572": "Table_1",
+    "1536609": "Table_2",
+    "1536593": "ThermostatControl_1",
+    "1536583": "ThrowPillow_1",
+    "1536571": "Vase_1",
+    "1536611": "Wall_1",
+    "1536615": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Vase_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "ReadingMaterial_1",
+      "predicate": "on",
+      "object": "CoffeeTable_1"
+    },
+    {
+      "subject": "ThrowPillow_1",
+      "predicate": "on",
+      "object": "Sofa_1"
+    },
+    {
+      "subject": "Coaster_1",
+      "predicate": "on",
+      "object": "CoffeeTable_1"
+    },
+    {
+      "subject": "ThermostatControl_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Picture_3",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Picture_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Picture_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Lightswitch_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "next to",
+      "object": "Lamp_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "ThermostatControl_1",
+    "Lightswitch_1",
+    "Picture_1",
+    "Fabric_1",
+    "Picture_2",
+    "EasyChair_1",
+    "Chair_1",
+    "Picture_3",
+    "FloorLamp_1",
+    "Lamp_1",
+    "Lampshade_1",
+    "ReadingMaterial_1",
+    "Books_1",
+    "Table_1",
+    "Flowers_1",
+    "Vase_1",
+    "CoffeeTable_1",
+    "Table_2",
+    "Coaster_1",
+    "Curtain_1",
+    "Curtains_1",
+    "ThrowPillow_1",
+    "Pillows_1",
+    "Sofa_1",
+    "Couch_1",
+    "Window_1"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "image_id": 112,
+  "prompt_text": "### Relational Edges:\n- [Keyboard_4] --[on]--> [Table_1]\n- [Keyboard_1] --[on]--> [Table_1]\n- [Keyboard_3] --[on]--> [Table_1]\n- [Keyboard_2] --[on]--> [Table_1]\n- [Paper_1] --[on]--> [ComputerMonitor_2]\n- [Text_1] --[on]--> [Screen_3: on, black]\n- [Screen_3] --[on]--> [Monitor_3: old]\n- [Screen_2] --[on]--> [Monitor_2: old]\n- [Screen_1] --[on]--> [Monitor_1: old]\n- [Socket_1] --[on]--> [Wall_1: blue]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [TowerCase_1] -> [ComputerTower_1: yellowed] -> [Armrest_1] -> [Screen_1: black] -> [Keyboard_1] -> [ComputerMonitor_1] -> [Monitor_1: old] -> [Chair_1: black, blue] -> [OfficeChair_1: black, blue] -> [ComputerChair_1] -> [ComputerMouse_1: white] -> [Socket_1] -> [Armrest_2] -> [TowerCase_2] -> [Keyboard_2] -> [Monitor_2: old] -> [Screen_2: black] -> [ComputerMonitor_2] -> [Table_1] -> [Paper_1] -> [ComputerMouse_2] -> [Mousepad_1: blue] -> [TowerCase_3] -> [Keyboard_3] -> [Armrest_3] -> [Seat_1: orange] -> [Keyboard_4] -> [Screen_3: on, black] -> [Text_1] -> [Monitor_3: old] -> [ComputerMonitor_3] -> [OfficeChair_2] -> [Chair_2] -> [ComputerChair_2] -> [ComputerMouse_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Paper_1] -> [Text_1] -> [Screen_3: on, black] -> [Screen_1: black] -> [Screen_2: black] -> [ComputerMonitor_3] -> [Monitor_3: old] -> [ComputerMonitor_2] -> [Monitor_1: old] -> [Monitor_2: old] -> [ComputerMonitor_1] -> [Keyboard_3] -> [ComputerMouse_1: white] -> [Keyboard_1] -> [Keyboard_2] -> [ComputerMouse_2] -> [Keyboard_4] -> [Mousepad_1: blue] -> [ComputerMouse_3] -> [Table_1] -> [Socket_1] -> [Armrest_1] -> [Armrest_3] -> [Armrest_2] -> [TowerCase_3] -> [TowerCase_1] -> [ComputerTower_1: yellowed] -> [TowerCase_2] -> [Seat_1: orange] -> [OfficeChair_2] -> [ComputerChair_2] -> [Chair_2] -> [Chair_1: black, blue] -> [OfficeChair_1: black, blue] -> [ComputerChair_1]",
+  "semantic_id_mapping": {
+    "1534874": "Armrest_1",
+    "1534872": "Armrest_2",
+    "1534873": "Armrest_3",
+    "1534878": "Back_1",
+    "1534877": "Back_2",
+    "1534942": "Carpet_1",
+    "1534950": "Chair_1",
+    "1534951": "Chair_2",
+    "1534936": "ComputerChair_1",
+    "1534935": "ComputerChair_2",
+    "1534890": "ComputerMonitor_1",
+    "1534902": "ComputerMonitor_2",
+    "1534888": "ComputerMonitor_3",
+    "1534899": "ComputerMouse_1",
+    "1534898": "ComputerMouse_2",
+    "1534897": "ComputerMouse_3",
+    "1534900": "ComputerTower_1",
+    "1534943": "Floor_1",
+    "1534885": "Keyboard_1",
+    "1534883": "Keyboard_2",
+    "1534884": "Keyboard_3",
+    "1534882": "Keyboard_4",
+    "1534931": "Leg_1",
+    "1534940": "Leg_2",
+    "1534930": "Leg_3",
+    "1534934": "Leg_4",
+    "1534933": "Leg_5",
+    "1534939": "Leg_6",
+    "1534944": "Monitor_1",
+    "1534945": "Monitor_2",
+    "1534946": "Monitor_3",
+    "1534906": "Mousepad_1",
+    "1534895": "OfficeChair_1",
+    "1534896": "OfficeChair_2",
+    "1534901": "Paper_1",
+    "1534947": "Screen_1",
+    "1534948": "Screen_2",
+    "1534949": "Screen_3",
+    "1534893": "Seat_1",
+    "1534952": "Socket_1",
+    "1534887": "Table_1",
+    "1534904": "Text_1",
+    "1534925": "TowerCase_1",
+    "1534926": "TowerCase_2",
+    "1534924": "TowerCase_3",
+    "1534953": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Keyboard_4",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Keyboard_3",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Keyboard_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Paper_1",
+      "predicate": "on",
+      "object": "ComputerMonitor_2"
+    },
+    {
+      "subject": "Text_1",
+      "predicate": "on",
+      "object": "Screen_3"
+    },
+    {
+      "subject": "Screen_3",
+      "predicate": "on",
+      "object": "Monitor_3"
+    },
+    {
+      "subject": "Screen_2",
+      "predicate": "on",
+      "object": "Monitor_2"
+    },
+    {
+      "subject": "Screen_1",
+      "predicate": "on",
+      "object": "Monitor_1"
+    },
+    {
+      "subject": "Socket_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "TowerCase_1",
+    "ComputerTower_1",
+    "Armrest_1",
+    "Screen_1",
+    "Keyboard_1",
+    "ComputerMonitor_1",
+    "Monitor_1",
+    "Chair_1",
+    "OfficeChair_1",
+    "ComputerChair_1",
+    "ComputerMouse_1",
+    "Socket_1",
+    "Armrest_2",
+    "TowerCase_2",
+    "Keyboard_2",
+    "Monitor_2",
+    "Screen_2",
+    "ComputerMonitor_2",
+    "Table_1",
+    "Paper_1",
+    "ComputerMouse_2",
+    "Mousepad_1",
+    "TowerCase_3",
+    "Keyboard_3",
+    "Armrest_3",
+    "Seat_1",
+    "Keyboard_4",
+    "Screen_3",
+    "Text_1",
+    "Monitor_3",
+    "ComputerMonitor_3",
+    "OfficeChair_2",
+    "Chair_2",
+    "ComputerChair_2",
+    "ComputerMouse_3"
+  ]
+}

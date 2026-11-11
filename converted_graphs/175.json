@@ -1,0 +1,95 @@
+{
+  "image_id": 175,
+  "prompt_text": "### Relational Edges:\n- [Windows_1] --[on]--> [Bus_3: two story, blue, double decker, white]\n- [Numbers_1] --[on]--> [Bus_3: two story, blue, double decker, white]\n- [Tree_1] --[behind]--> [Bus_3: two story, blue, double decker, white]\n- [LicensePlate_3] --[on]--> [Bus_3: two story, blue, double decker, white]\n- [LicensePlate_2] --[on]--> [Bus_2: blue, white, van]\n- [LicensePlate_1] --[on]--> [Bus_1: blue, white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Roof_1: grey] -> [LicensePlate_1: rectangular, white] -> [Wipers_1: black] -> [Headlights_1] -> [Windshield_1: large] -> [Strip_1: red] -> [Bus_1: blue, white] -> [Mirror_1: yellow] -> [Door_1: open] -> [Tire_1: black] -> [Tree_1: green] -> [LicensePlate_2: rectangular, white] -> [Headlights_2] -> [Concrete_1: cracked] -> [Bus_2: blue, white, van] -> [Wipers_2: black] -> [Mirror_2: yellow] -> [LicensePlate_3: rectangular, white] -> [Wipers_3: black] -> [Headlights_3] -> [Letters_1: white] -> [Windshield_2] -> [Sign_1] -> [Numbers_1: white] -> [Bus_3: two story, blue, double decker, white] -> [Mirror_3: yellow]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Tree_1: green] -> [Roof_1: grey] -> [Numbers_1: white] -> [Sign_1] -> [Mirror_1: yellow] -> [Bus_3: two story, blue, double decker, white] -> [Windshield_1: large] -> [Mirror_2: yellow] -> [Mirror_3: yellow] -> [Wipers_1: black] -> [Bus_1: blue, white] -> [Windshield_2] -> [Wipers_2: black] -> [Door_1: open] -> [Bus_2: blue, white, van] -> [Wipers_3: black] -> [Strip_1: red] -> [Headlights_2] -> [Headlights_1] -> [Letters_1: white] -> [Headlights_3] -> [LicensePlate_2: rectangular, white] -> [Tire_1: black] -> [LicensePlate_1: rectangular, white] -> [LicensePlate_3: rectangular, white] -> [Concrete_1: cracked]",
+  "semantic_id_mapping": {
+    "1062482": "Bus_1",
+    "1062481": "Bus_2",
+    "1026174": "Bus_3",
+    "1062498": "Concrete_1",
+    "1062486": "Door_1",
+    "1062502": "Headlights_1",
+    "1062501": "Headlights_2",
+    "1062492": "Headlights_3",
+    "1062503": "Letters_1",
+    "1062488": "LicensePlate_1",
+    "1062489": "LicensePlate_2",
+    "1062490": "LicensePlate_3",
+    "1062506": "Mirror_1",
+    "1062505": "Mirror_2",
+    "1062504": "Mirror_3",
+    "1062480": "Numbers_1",
+    "1062500": "Roof_1",
+    "1062479": "Sign_1",
+    "1062485": "Sky_1",
+    "1062483": "Strip_1",
+    "1062493": "Tire_1",
+    "1062494": "Tree_1",
+    "1062499": "Wall_1",
+    "1062487": "Windows_1",
+    "1062484": "Windshield_1",
+    "1062491": "Windshield_2",
+    "1062495": "Wipers_1",
+    "1062497": "Wipers_2",
+    "1062496": "Wipers_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Windows_1",
+      "predicate": "on",
+      "object": "Bus_3"
+    },
+    {
+      "subject": "Numbers_1",
+      "predicate": "on",
+      "object": "Bus_3"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "behind",
+      "object": "Bus_3"
+    },
+    {
+      "subject": "LicensePlate_3",
+      "predicate": "on",
+      "object": "Bus_3"
+    },
+    {
+      "subject": "LicensePlate_2",
+      "predicate": "on",
+      "object": "Bus_2"
+    },
+    {
+      "subject": "LicensePlate_1",
+      "predicate": "on",
+      "object": "Bus_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Roof_1",
+    "LicensePlate_1",
+    "Wipers_1",
+    "Headlights_1",
+    "Windshield_1",
+    "Strip_1",
+    "Bus_1",
+    "Mirror_1",
+    "Door_1",
+    "Tire_1",
+    "Tree_1",
+    "LicensePlate_2",
+    "Headlights_2",
+    "Concrete_1",
+    "Bus_2",
+    "Wipers_2",
+    "Mirror_2",
+    "LicensePlate_3",
+    "Wipers_3",
+    "Headlights_3",
+    "Letters_1",
+    "Windshield_2",
+    "Sign_1",
+    "Numbers_1",
+    "Bus_3",
+    "Mirror_3"
+  ]
+}

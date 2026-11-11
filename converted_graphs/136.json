@@ -1,0 +1,53 @@
+{
+  "image_id": 136,
+  "prompt_text": "### Relational Edges:\n- [Ramp_1] --[near]--> [Building_1: tall, long]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Pole_1: metal] -> [Tree_1: in back] -> [Window_1: dark, long] -> [Archway_1] -> [Person_1: walking] -> [Ramp_1] -> [Window_2: short] -> [Building_1: tall, long] -> [Vent_1: red, metal] -> [Building_2] -> [Lettering_1: words, sign, black] -> [Doorway_1] -> [Stairway_1] -> [Railing_1: grey, metal] -> [C_1: black] -> [TrashCan_1] -> [Sign_1: no smoking sign] -> [Bench_1: stone, concrete, cement]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Vent_1: red, metal] -> [Window_1: dark, long] -> [Window_2: short] -> [C_1: black] -> [Lettering_1: words, sign, black] -> [Building_1: tall, long] -> [Building_2] -> [Tree_1: in back] -> [Archway_1] -> [Doorway_1] -> [Stairway_1] -> [Ramp_1] -> [Person_1: walking] -> [Pole_1: metal] -> [TrashCan_1] -> [Railing_1: grey, metal] -> [Sign_1: no smoking sign] -> [Bench_1: stone, concrete, cement]",
+  "semantic_id_mapping": {
+    "1026033": "Archway_1",
+    "1026032": "Bench_1",
+    "1026034": "Building_1",
+    "1026050": "Building_2",
+    "1026049": "C_1",
+    "1026044": "Doorway_1",
+    "1026042": "Ground_1",
+    "1026035": "Lettering_1",
+    "1026037": "Person_1",
+    "1026048": "Pole_1",
+    "1026038": "Railing_1",
+    "1026051": "Ramp_1",
+    "1026040": "Sign_1",
+    "1026045": "Sky_1",
+    "1026039": "Stairway_1",
+    "1026043": "TrashCan_1",
+    "1026047": "Tree_1",
+    "1026041": "Vent_1",
+    "1026036": "Window_1",
+    "1026046": "Window_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Ramp_1",
+      "predicate": "near",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Pole_1",
+    "Tree_1",
+    "Window_1",
+    "Archway_1",
+    "Person_1",
+    "Ramp_1",
+    "Window_2",
+    "Building_1",
+    "Vent_1",
+    "Building_2",
+    "Lettering_1",
+    "Doorway_1",
+    "Stairway_1",
+    "Railing_1",
+    "C_1",
+    "TrashCan_1",
+    "Sign_1",
+    "Bench_1"
+  ]
+}

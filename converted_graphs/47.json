@@ -1,0 +1,121 @@
+{
+  "image_id": 47,
+  "prompt_text": "### Relational Edges:\n- [Sign_1] --[on]--> [Building_1: large, tall, white]\n- [Headlights_1] --[on]--> [Taxi_1: driving, yellow]\n- [Clocktower_1] --[on]--> [Sidewalk_2: wet]\n- [Flags`_1] --[on]--> [Building_1: large, tall, white]\n- [Trashbin_1] --[on]--> [Sidewalk_1: wet]\n- [Cars_1] --[on]--> [Road_1: black, wet, dark]\n- [Buildings_1] --[on]--> [Street_1: wet]\n- [Person_1] --[on]--> [Street_1: wet]\n- [Man_1] --[on]--> [Street_1: wet]\n- [Taxi_1] --[on]--> [Road_1: black, wet, dark]\n- [TrafficLights_2] --[on]--> [Road_1: black, wet, dark]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Buses_1] -> [Trashbin_1: Staples ] -> [TrafficLights_1: hanging] -> [Store_1: Staples ] -> [Sign_1: business] -> [Building_1: large, tall, white] -> [Flags`_1: american, high, flying, hanging] -> [Cover_1: manhole] -> [Cars_1] -> [Buildings_1: multistory] -> [Asphalt_1: wet] -> [Headlights_1: on] -> [Taxi_1: driving, yellow] -> [Scene_1: outdoor, daytime, raining] -> [Buses_2] -> [Sign_2: crosswalk] -> [Turn_1] -> [Umbrella_1: black] -> [Person_1: walking, crossing] -> [Man_1: walking, crossing] -> [Clocktower_1: left turn, black, white, small, far] -> [Clock_1: elevated ] -> [Car_1] -> [Corner_1: street ] -> [Trees_1: green] -> [TrafficLights_2: hanging, on street, yellow]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [TrafficLights_1: hanging] -> [Buildings_1: multistory] -> [Building_1: large, tall, white] -> [TrafficLights_2: hanging, on street, yellow] -> [Flags`_1: american, high, flying, hanging] -> [Sign_1: business] -> [Clock_1: elevated ] -> [Corner_1: street ] -> [Store_1: Staples ] -> [Trees_1: green] -> [Clocktower_1: left turn, black, white, small, far] -> [Buses_1] -> [Sign_2: crosswalk] -> [Scene_1: outdoor, daytime, raining] -> [Buses_2] -> [Umbrella_1: black] -> [Taxi_1: driving, yellow] -> [Cars_1] -> [Headlights_1: on] -> [Car_1] -> [Turn_1] -> [Person_1: walking, crossing] -> [Man_1: walking, crossing] -> [Asphalt_1: wet] -> [Trashbin_1: Staples ] -> [Cover_1: manhole]",
+  "semantic_id_mapping": {
+    "6053": "Asphalt_1",
+    "1061800": "Building_1",
+    "6062": "Buildings_1",
+    "6055": "Buses_1",
+    "6054": "Buses_2",
+    "3798671": "Car_1",
+    "1061826": "Cars_1",
+    "3798673": "Clock_1",
+    "1061803": "Clocktower_1",
+    "3798674": "Corner_1",
+    "6051": "Cover_1",
+    "1061805": "Flags`_1",
+    "1061801": "Headlights_1",
+    "1061819": "Man_1",
+    "1061796": "Person_1",
+    "1061821": "Road_1",
+    "6056": "Scene_1",
+    "6050": "Sidewalk_1",
+    "6047": "Sidewalk_2",
+    "3798669": "Sign_1",
+    "6052": "Sign_2",
+    "3798670": "Store_1",
+    "1061829": "Street_1",
+    "1061802": "Taxi_1",
+    "6060": "TrafficLights_1",
+    "1061823": "TrafficLights_2",
+    "1061807": "Trashbin_1",
+    "6063": "Trees_1",
+    "3798672": "Turn_1",
+    "1061798": "Umbrella_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Headlights_1",
+      "predicate": "on",
+      "object": "Taxi_1"
+    },
+    {
+      "subject": "Clocktower_1",
+      "predicate": "on",
+      "object": "Sidewalk_2"
+    },
+    {
+      "subject": "Flags`_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Trashbin_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Cars_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Buildings_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Taxi_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "TrafficLights_2",
+      "predicate": "on",
+      "object": "Road_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Buses_1",
+    "Trashbin_1",
+    "TrafficLights_1",
+    "Store_1",
+    "Sign_1",
+    "Building_1",
+    "Flags`_1",
+    "Cover_1",
+    "Cars_1",
+    "Buildings_1",
+    "Asphalt_1",
+    "Headlights_1",
+    "Taxi_1",
+    "Scene_1",
+    "Buses_2",
+    "Sign_2",
+    "Turn_1",
+    "Umbrella_1",
+    "Person_1",
+    "Man_1",
+    "Clocktower_1",
+    "Clock_1",
+    "Car_1",
+    "Corner_1",
+    "Trees_1",
+    "TrafficLights_2"
+  ]
+}

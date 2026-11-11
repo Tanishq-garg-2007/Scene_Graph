@@ -1,0 +1,103 @@
+{
+  "image_id": 85,
+  "prompt_text": "### Relational Edges:\n- [Lampshade_1] --[on]--> [Lamp_1: black]\n- [Knob_2] --[on]--> [Cabinet_2: wooden]\n- [Knob_1] --[on]--> [Cabinet_1: wooden]\n- [Reflections_1] --[on]--> [Screen_1]\n- [Apple_1] --[on]--> [TableTop_1]\n- [Cushion_1] --[on]--> [Chair_1: gray, cushioned]\n- [Lamp_2] --[on]--> [Table_2]\n- [Tray_1] --[on]--> [Table_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Knob_1] -> [Cabinet_1: wooden] -> [Blinds_1: brown, closed] -> [Knob_2] -> [Plant_1: Small ] -> [Flowers_1: pink] -> [Pot_1] -> [Cabinet_2: wooden] -> [Blinds_2: brown, closed] -> [Cabinet_3: Built in] -> [Chair_1: gray, cushioned] -> [Ladder_1: Wooden ] -> [Cushion_1: gray] -> [Television_1: gray] -> [Reflections_1] -> [Screen_1] -> [Table_1] -> [Tray_1] -> [TableTop_1] -> [Apple_1: yellow] -> [Table_2] -> [Lamp_1: black] -> [Lampshade_1: white] -> [Lamp_2] -> [Couch_1: white, leather] -> [Sofa_1: Off white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Ladder_1: Wooden ] -> [Blinds_2: brown, closed] -> [Blinds_1: brown, closed] -> [Flowers_1: pink] -> [Plant_1: Small ] -> [Lampshade_1: white] -> [Screen_1] -> [Reflections_1] -> [Lamp_2] -> [Television_1: gray] -> [Pot_1] -> [Lamp_1: black] -> [Table_2] -> [Knob_2] -> [Chair_1: gray, cushioned] -> [Knob_1] -> [Cushion_1: gray] -> [Apple_1: yellow] -> [Tray_1] -> [Cabinet_3: Built in] -> [Cabinet_2: wooden] -> [TableTop_1] -> [Sofa_1: Off white] -> [Couch_1: white, leather] -> [Cabinet_1: wooden] -> [Table_1]",
+  "semantic_id_mapping": {
+    "4050361": "Apple_1",
+    "4290362": "Back_1",
+    "4290352": "Blinds_1",
+    "4290351": "Blinds_2",
+    "4290356": "Cabinet_1",
+    "4290355": "Cabinet_2",
+    "4520338": "Cabinet_3",
+    "4290368": "Chair_1",
+    "4290361": "Couch_1",
+    "4290367": "Cushion_1",
+    "4290346": "Flowers_1",
+    "4290354": "Knob_1",
+    "4290353": "Knob_2",
+    "4520337": "Ladder_1",
+    "4290349": "Lamp_1",
+    "4520335": "Lamp_2",
+    "4290348": "Lampshade_1",
+    "4520339": "Plant_1",
+    "4290347": "Pot_1",
+    "4290358": "Reflections_1",
+    "4290359": "Screen_1",
+    "4520334": "Sofa_1",
+    "4520341": "Table_1",
+    "4520336": "Table_2",
+    "4050362": "TableTop_1",
+    "4290365": "Television_1",
+    "4520340": "Tray_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Lampshade_1",
+      "predicate": "on",
+      "object": "Lamp_1"
+    },
+    {
+      "subject": "Knob_2",
+      "predicate": "on",
+      "object": "Cabinet_2"
+    },
+    {
+      "subject": "Knob_1",
+      "predicate": "on",
+      "object": "Cabinet_1"
+    },
+    {
+      "subject": "Reflections_1",
+      "predicate": "on",
+      "object": "Screen_1"
+    },
+    {
+      "subject": "Apple_1",
+      "predicate": "on",
+      "object": "TableTop_1"
+    },
+    {
+      "subject": "Cushion_1",
+      "predicate": "on",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Lamp_2",
+      "predicate": "on",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Tray_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Knob_1",
+    "Cabinet_1",
+    "Blinds_1",
+    "Knob_2",
+    "Plant_1",
+    "Flowers_1",
+    "Pot_1",
+    "Cabinet_2",
+    "Blinds_2",
+    "Cabinet_3",
+    "Chair_1",
+    "Ladder_1",
+    "Cushion_1",
+    "Television_1",
+    "Reflections_1",
+    "Screen_1",
+    "Table_1",
+    "Tray_1",
+    "TableTop_1",
+    "Apple_1",
+    "Table_2",
+    "Lamp_1",
+    "Lampshade_1",
+    "Lamp_2",
+    "Couch_1",
+    "Sofa_1"
+  ]
+}

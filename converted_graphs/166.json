@@ -1,0 +1,191 @@
+{
+  "image_id": 166,
+  "prompt_text": "### Relational Edges:\n- [Sign_1] --[on]--> [Building_1: red, brick]\n- [Roof_1] --[on]--> [Building_1: red, brick]\n- [SatelliteDish_1] --[on]--> [FireEscape_1]\n- [Window_9] --[on]--> [Building_1: red, brick]\n- [Window_15] --[on]--> [Building_1: red, brick]\n- [Window_2] --[on]--> [Building_1: red, brick]\n- [Window_8] --[on]--> [Building_1: red, brick]\n- [Window_6] --[on]--> [Building_1: red, brick]\n- [Window_16] --[on]--> [Building_1: red, brick]\n- [Window_17] --[on]--> [Building_1: red, brick]\n- [Window_3] --[on]--> [Building_1: red, brick]\n- [Window_1] --[on]--> [Building_1: red, brick]\n- [Window_14] --[on]--> [Building_1: red, brick]\n- [Window_13] --[on]--> [Building_1: red, brick]\n- [Window_12] --[on]--> [Building_1: red, brick]\n- [Window_4] --[on]--> [Building_1: red, brick]\n- [Window_5] --[on]--> [Building_1: red, brick]\n- [Sign_1] --[next to]--> [Door_1: framed]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [SatelliteDish_1] -> [Window_1] -> [Rails_1: black] -> [Window_2] -> [Balcony_1] -> [FireEscape_1] -> [Window_3] -> [Balcony_2] -> [Rails_2: black] -> [Balcony_3] -> [Rails_3: black] -> [Window_4] -> [Branch_1] -> [Branch_2: leafless, bare] -> [Window_5] -> [Branch_3: leafless, bare] -> [Tree_1: leafless, bare] -> [Trunk_1: grey] -> [Lamp_1] -> [Branch_4: leafless, bare] -> [Building_1: red, brick] -> [Entryway_1] -> [Frame_1: grey] -> [Door_1: framed] -> [Window_6] -> [Window_7] -> [Window_8] -> [Window_9] -> [Roof_1: decorative, black] -> [Branch_5: leafless, bare] -> [Overhang_1: black] -> [Car_1: grey, silver] -> [Window_10] -> [Sign_1] -> [Window_11] -> [Window_12] -> [Window_13] -> [Window_14] -> [Balcony_4] -> [Balcony_5] -> [Rails_4] -> [Rails_5: black] -> [Window_15] -> [Window_16] -> [Window_17]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Overhang_1: black] -> [Roof_1: decorative, black] -> [Window_15] -> [Window_9] -> [Window_3] -> [Window_5] -> [Window_13] -> [Balcony_5] -> [Rails_5: black] -> [Rails_3: black] -> [Balcony_3] -> [SatelliteDish_1] -> [Window_16] -> [Window_8] -> [Window_2] -> [Rails_4] -> [Rails_2: black] -> [Balcony_2] -> [Balcony_4] -> [Branch_3: leafless, bare] -> [Building_1: red, brick] -> [FireEscape_1] -> [Branch_4: leafless, bare] -> [Window_17] -> [Branch_2: leafless, bare] -> [Window_6] -> [Window_12] -> [Tree_1: leafless, bare] -> [Rails_1: black] -> [Balcony_1] -> [Branch_5: leafless, bare] -> [Branch_1] -> [Window_1] -> [Window_4] -> [Sign_1] -> [Window_14] -> [Lamp_1] -> [Trunk_1: grey] -> [Entryway_1] -> [Frame_1: grey] -> [Door_1: framed] -> [Car_1: grey, silver] -> [Window_7] -> [Window_10] -> [Window_11]",
+  "semantic_id_mapping": {
+    "1026091": "Balcony_1",
+    "1026097": "Balcony_2",
+    "1026092": "Balcony_3",
+    "1026090": "Balcony_4",
+    "1026088": "Balcony_5",
+    "1026086": "Branch_1",
+    "1026087": "Branch_2",
+    "1026085": "Branch_3",
+    "1026084": "Branch_4",
+    "1026083": "Branch_5",
+    "1026057": "Building_1",
+    "1026056": "Car_1",
+    "1026100": "Door_1",
+    "1026059": "Entryway_1",
+    "1026064": "FireEscape_1",
+    "1026101": "Frame_1",
+    "1026062": "Lamp_1",
+    "1026099": "Overhang_1",
+    "1026093": "Rails_1",
+    "1026098": "Rails_2",
+    "1026094": "Rails_3",
+    "1026095": "Rails_4",
+    "1026096": "Rails_5",
+    "1026061": "Roof_1",
+    "1026063": "SatelliteDish_1",
+    "1026058": "Sign_1",
+    "1026102": "Sky_1",
+    "1026065": "Tree_1",
+    "1026066": "Trunk_1",
+    "1026077": "Window_1",
+    "1026071": "Window_2",
+    "1026076": "Window_3",
+    "1026081": "Window_4",
+    "1026082": "Window_5",
+    "1026073": "Window_6",
+    "1026067": "Window_7",
+    "1026072": "Window_8",
+    "1026069": "Window_9",
+    "1026068": "Window_10",
+    "1026060": "Window_11",
+    "1026080": "Window_12",
+    "1026079": "Window_13",
+    "1026078": "Window_14",
+    "1026070": "Window_15",
+    "1026074": "Window_16",
+    "1026075": "Window_17"
+  },
+  "relational_edges": [
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Roof_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "SatelliteDish_1",
+      "predicate": "on",
+      "object": "FireEscape_1"
+    },
+    {
+      "subject": "Window_9",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_15",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_8",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_6",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_16",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_17",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_3",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_14",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_13",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_12",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_5",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "next to",
+      "object": "Door_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "SatelliteDish_1",
+    "Window_1",
+    "Rails_1",
+    "Window_2",
+    "Balcony_1",
+    "FireEscape_1",
+    "Window_3",
+    "Balcony_2",
+    "Rails_2",
+    "Balcony_3",
+    "Rails_3",
+    "Window_4",
+    "Branch_1",
+    "Branch_2",
+    "Window_5",
+    "Branch_3",
+    "Tree_1",
+    "Trunk_1",
+    "Lamp_1",
+    "Branch_4",
+    "Building_1",
+    "Entryway_1",
+    "Frame_1",
+    "Door_1",
+    "Window_6",
+    "Window_7",
+    "Window_8",
+    "Window_9",
+    "Roof_1",
+    "Branch_5",
+    "Overhang_1",
+    "Car_1",
+    "Window_10",
+    "Sign_1",
+    "Window_11",
+    "Window_12",
+    "Window_13",
+    "Window_14",
+    "Balcony_4",
+    "Balcony_5",
+    "Rails_4",
+    "Rails_5",
+    "Window_15",
+    "Window_16",
+    "Window_17"
+  ]
+}

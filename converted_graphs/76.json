@@ -1,0 +1,52 @@
+{
+  "image_id": 76,
+  "prompt_text": "### Relational Edges:\n- [FramedPicture_2] --[on]--> [Wall_1: yellow, red]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Chair_1: desk, white, student] -> [FramedPicture_1] -> [RectangularPicture_1] -> [Chair_2: desk, white, student] -> [Chair_3: desk, white, student] -> [WhiteBoard_1: white] -> [Board_1: white] -> [Whiteboard_1] -> [RedWall_1: red, yellow] -> [YellowWall_1: yellow] -> [Chair_4: white] -> [Chair_5: desk, white, student] -> [FramedPicture_2] -> [RectangularPicture_2: rectangular] -> [Chair_6: white] -> [Chair_7: white] -> [Chair_8: white] -> [Chair_9: student, white, desk]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [FramedPicture_2] -> [RectangularPicture_2: rectangular] -> [FramedPicture_1] -> [RectangularPicture_1] -> [YellowWall_1: yellow] -> [WhiteBoard_1: white] -> [Board_1: white] -> [Whiteboard_1] -> [RedWall_1: red, yellow] -> [Chair_7: white] -> [Chair_4: white] -> [Chair_8: white] -> [Chair_1: desk, white, student] -> [Chair_3: desk, white, student] -> [Chair_6: white] -> [Chair_9: student, white, desk] -> [Chair_5: desk, white, student] -> [Chair_2: desk, white, student]",
+  "semantic_id_mapping": {
+    "1534085": "Board_1",
+    "1534080": "Chair_1",
+    "1534087": "Chair_2",
+    "1534081": "Chair_3",
+    "1534073": "Chair_4",
+    "1534088": "Chair_5",
+    "1534089": "Chair_6",
+    "1534076": "Chair_7",
+    "1534071": "Chair_8",
+    "1534090": "Chair_9",
+    "1534057": "FramedPicture_1",
+    "1534058": "FramedPicture_2",
+    "1534047": "RectangularPicture_1",
+    "1534048": "RectangularPicture_2",
+    "1534051": "RedWall_1",
+    "1534059": "Wall_1",
+    "1534052": "WhiteBoard_1",
+    "1534055": "Whiteboard_1",
+    "1534053": "YellowWall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "FramedPicture_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Chair_1",
+    "FramedPicture_1",
+    "RectangularPicture_1",
+    "Chair_2",
+    "Chair_3",
+    "WhiteBoard_1",
+    "Board_1",
+    "Whiteboard_1",
+    "RedWall_1",
+    "YellowWall_1",
+    "Chair_4",
+    "Chair_5",
+    "FramedPicture_2",
+    "RectangularPicture_2",
+    "Chair_6",
+    "Chair_7",
+    "Chair_8",
+    "Chair_9"
+  ]
+}

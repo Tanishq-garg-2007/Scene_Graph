@@ -1,0 +1,236 @@
+{
+  "image_id": 88,
+  "prompt_text": "### Relational Edges:\n- [Pillow_1] --[on]--> [Chair_1]\n- [Book_4] --[on]--> [Shelf_4]\n- [Book_3] --[on]--> [Shelf_3]\n- [Book_1] --[on]--> [Shelf_2]\n- [Book_2] --[on]--> [Shelf_1]\n- [Book_2] --[on]--> [Shelf_4]\n- [Curtains_1] --[on]--> [Window_1: open]\n- [Trinket_1] --[on]--> [Fireplace_1: brick]\n- [Trinket_2] --[on]--> [Fireplace_1: brick]\n- [Trinket_3] --[on]--> [Fireplace_1: brick]\n- [Trinket_4] --[on]--> [Fireplace_1: brick]\n- [Trinket_5] --[on]--> [Fireplace_1: brick]\n- [Photo_1] --[on]--> [Table_1]\n- [Dome_1] --[on]--> [CoffeeTable_1: decorative]\n- [Chair_2] --[next to]--> [Fireplace_2: dark]\n- [Lamp_1] --[on]--> [EndTable_1]\n- [EndTable_1] --[next to]--> [Window_1: open]\n- [Pillows_1] --[on]--> [Sofa_1: Dark blue]\n- [Books_1] --[on]--> [Bookshelf_1: full  ]\n- [Frame_1] --[on]--> [Photo_1]\n- [Photo_1] --[on]--> [EndTable_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Trinket_1] -> [Trinket_2] -> [Picture_1: dark, framed] -> [Painting_1] -> [Trinket_3] -> [VelvetThrowPillow_1: dark, green, velvet] -> [Mantle_1: brick] -> [Fireplace_1: brick] -> [Fireplace_2: dark] -> [Pillow_1: Green , puffy ] -> [Fireplace_3] -> [Chair_1] -> [Trinket_4] -> [Trinket_5] -> [Book_1] -> [Book_2] -> [Shelf_1] -> [Shelves_1] -> [Shelf_2] -> [Shelf_3] -> [Books_1] -> [Shelf_4] -> [Book_3] -> [Bookshelf_1: full  ] -> [Book_4] -> [Chair_2: Green , white ] -> [Window_1: open] -> [Curtains_1: white, lacy, gauze, window, pale ] -> [Frame_1: Framed ] -> [Photo_1] -> [EndTable_1] -> [Table_1] -> [RoundTop_1: round] -> [Top_1: round] -> [Base_1: yellow, black] -> [Lamp_1: Small ] -> [Pillows_1] -> [Flower_1: red, blue] -> [Flower_2: red, blue] -> [Painting_2] -> [Dome_1: glass] -> [Vase_1: Pale blue] -> [Flower_3: red, blue] -> [CoffeeTable_1: decorative] -> [Sofa_1: Dark blue] -> [Tip_1: pointed] -> [Flower_4: red, blue] -> [Leaf_1] -> [Tip_2: pointed] -> [Leaf_2] -> [Botanical_1: tall, green, botanical] -> [Leaf_3] -> [Tip_3: pointed] -> [Plant_1: Green ] -> [Curtains_2: white, lacy, gauze, window] -> [Tip_4: pointed] -> [Tip_5: pointed] -> [Leaf_4] -> [Leaf_5]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Shelf_1] -> [Book_1] -> [Book_3] -> [Tip_4: pointed] -> [Painting_2] -> [Shelf_2] -> [Curtains_2: white, lacy, gauze, window] -> [Curtains_1: white, lacy, gauze, window, pale ] -> [Books_1] -> [Leaf_5] -> [Picture_1: dark, framed] -> [Window_1: open] -> [Painting_1] -> [Bookshelf_1: full  ] -> [Shelf_3] -> [Shelves_1] -> [Tip_3: pointed] -> [Book_2] -> [Book_4] -> [Trinket_5] -> [Lamp_1: Small ] -> [Trinket_4] -> [Trinket_3] -> [Tip_5: pointed] -> [Trinket_1] -> [Mantle_1: brick] -> [Trinket_2] -> [Frame_1: Framed ] -> [Shelf_4] -> [Photo_1] -> [Base_1: yellow, black] -> [Leaf_3] -> [RoundTop_1: round] -> [Top_1: round] -> [Flower_3: red, blue] -> [Flower_2: red, blue] -> [Flower_4: red, blue] -> [Plant_1: Green ] -> [Pillows_1] -> [Fireplace_2: dark] -> [Flower_1: red, blue] -> [Botanical_1: tall, green, botanical] -> [Tip_1: pointed] -> [Sofa_1: Dark blue] -> [Tip_2: pointed] -> [Table_1] -> [EndTable_1] -> [Fireplace_1: brick] -> [Leaf_4] -> [Fireplace_3] -> [Chair_2: Green , white ] -> [Dome_1: glass] -> [Vase_1: Pale blue] -> [CoffeeTable_1: decorative] -> [VelvetThrowPillow_1: dark, green, velvet] -> [Pillow_1: Green , puffy ] -> [Leaf_2] -> [Leaf_1] -> [Chair_1]",
+  "semantic_id_mapping": {
+    "1534435": "Base_1",
+    "1534393": "Book_1",
+    "1534391": "Book_2",
+    "1534394": "Book_3",
+    "1534395": "Book_4",
+    "1534443": "Books_1",
+    "1534463": "Bookshelf_1",
+    "1534429": "Botanical_1",
+    "1534462": "Chair_1",
+    "1534457": "Chair_2",
+    "1534437": "CoffeeTable_1",
+    "1534427": "Curtains_1",
+    "1534428": "Curtains_2",
+    "1534436": "Dome_1",
+    "1534472": "EndTable_1",
+    "1534412": "Fireplace_1",
+    "1534430": "Fireplace_2",
+    "1534452": "Fireplace_3",
+    "1534401": "Flower_1",
+    "1534402": "Flower_2",
+    "1534403": "Flower_3",
+    "1534404": "Flower_4",
+    "1534471": "Frame_1",
+    "1534468": "Lamp_1",
+    "1534417": "Leaf_1",
+    "1534420": "Leaf_2",
+    "1534419": "Leaf_3",
+    "1534421": "Leaf_4",
+    "1534418": "Leaf_5",
+    "1534431": "Mantle_1",
+    "1534450": "Painting_1",
+    "1534453": "Painting_2",
+    "1534470": "Photo_1",
+    "1534432": "Picture_1",
+    "1534461": "Pillow_1",
+    "1534460": "Pillows_1",
+    "1534465": "Plant_1",
+    "1534445": "RoundTop_1",
+    "1534386": "Shade_1",
+    "1534396": "Shelf_1",
+    "1534397": "Shelf_2",
+    "1534398": "Shelf_3",
+    "1534399": "Shelf_4",
+    "1534441": "Shelves_1",
+    "1534459": "Sofa_1",
+    "1534466": "Table_1",
+    "1534422": "Tip_1",
+    "1534426": "Tip_2",
+    "1534424": "Tip_3",
+    "1534423": "Tip_4",
+    "1534425": "Tip_5",
+    "1534388": "Top_1",
+    "1534411": "Trinket_1",
+    "1534410": "Trinket_2",
+    "1534409": "Trinket_3",
+    "1534408": "Trinket_4",
+    "1534407": "Trinket_5",
+    "1534458": "Vase_1",
+    "1534440": "VelvetThrowPillow_1",
+    "1534442": "Wall_1",
+    "1534454": "Wall_2",
+    "1534455": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Pillow_1",
+      "predicate": "on",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Book_4",
+      "predicate": "on",
+      "object": "Shelf_4"
+    },
+    {
+      "subject": "Book_3",
+      "predicate": "on",
+      "object": "Shelf_3"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Book_2",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Book_2",
+      "predicate": "on",
+      "object": "Shelf_4"
+    },
+    {
+      "subject": "Curtains_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Trinket_1",
+      "predicate": "on",
+      "object": "Fireplace_1"
+    },
+    {
+      "subject": "Trinket_2",
+      "predicate": "on",
+      "object": "Fireplace_1"
+    },
+    {
+      "subject": "Trinket_3",
+      "predicate": "on",
+      "object": "Fireplace_1"
+    },
+    {
+      "subject": "Trinket_4",
+      "predicate": "on",
+      "object": "Fireplace_1"
+    },
+    {
+      "subject": "Trinket_5",
+      "predicate": "on",
+      "object": "Fireplace_1"
+    },
+    {
+      "subject": "Photo_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Dome_1",
+      "predicate": "on",
+      "object": "CoffeeTable_1"
+    },
+    {
+      "subject": "Chair_2",
+      "predicate": "next to",
+      "object": "Fireplace_2"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "EndTable_1"
+    },
+    {
+      "subject": "EndTable_1",
+      "predicate": "next to",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Pillows_1",
+      "predicate": "on",
+      "object": "Sofa_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Bookshelf_1"
+    },
+    {
+      "subject": "Frame_1",
+      "predicate": "on",
+      "object": "Photo_1"
+    },
+    {
+      "subject": "Photo_1",
+      "predicate": "on",
+      "object": "EndTable_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Trinket_1",
+    "Trinket_2",
+    "Picture_1",
+    "Painting_1",
+    "Trinket_3",
+    "VelvetThrowPillow_1",
+    "Mantle_1",
+    "Fireplace_1",
+    "Fireplace_2",
+    "Pillow_1",
+    "Fireplace_3",
+    "Chair_1",
+    "Trinket_4",
+    "Trinket_5",
+    "Book_1",
+    "Book_2",
+    "Shelf_1",
+    "Shelves_1",
+    "Shelf_2",
+    "Shelf_3",
+    "Books_1",
+    "Shelf_4",
+    "Book_3",
+    "Bookshelf_1",
+    "Book_4",
+    "Chair_2",
+    "Window_1",
+    "Curtains_1",
+    "Frame_1",
+    "Photo_1",
+    "EndTable_1",
+    "Table_1",
+    "RoundTop_1",
+    "Top_1",
+    "Base_1",
+    "Lamp_1",
+    "Pillows_1",
+    "Flower_1",
+    "Flower_2",
+    "Painting_2",
+    "Dome_1",
+    "Vase_1",
+    "Flower_3",
+    "CoffeeTable_1",
+    "Sofa_1",
+    "Tip_1",
+    "Flower_4",
+    "Leaf_1",
+    "Tip_2",
+    "Leaf_2",
+    "Botanical_1",
+    "Leaf_3",
+    "Tip_3",
+    "Plant_1",
+    "Curtains_2",
+    "Tip_4",
+    "Tip_5",
+    "Leaf_4",
+    "Leaf_5"
+  ]
+}

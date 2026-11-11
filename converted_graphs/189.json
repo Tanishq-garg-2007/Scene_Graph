@@ -1,0 +1,37 @@
+{
+  "image_id": 189,
+  "prompt_text": "### Relational Edges:\n- [Clouds_1] --[on]--> [Horizon_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Tree_1: tall, green] -> [Horizon_1] -> [Field_1] -> [Horizon_2] -> [Clouds_1: low] -> [Bush_1] -> [Fur_1] -> [Lion_1] -> [Tail_1: brown]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Clouds_1: low] -> [Horizon_2] -> [Horizon_1] -> [Bush_1] -> [Tree_1: tall, green] -> [Field_1] -> [Fur_1] -> [Lion_1] -> [Tail_1: brown]",
+  "semantic_id_mapping": {
+    "1621449": "Bush_1",
+    "1621440": "Clouds_1",
+    "1621454": "Field_1",
+    "1621445": "Fur_1",
+    "1621450": "Grass_1",
+    "1621442": "Grass_2",
+    "1621451": "Ground_1",
+    "3787376": "Horizon_1",
+    "1621452": "Horizon_2",
+    "1621446": "Lion_1",
+    "1621443": "Sky_1",
+    "1621447": "Tail_1",
+    "1621448": "Tree_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Clouds_1",
+      "predicate": "on",
+      "object": "Horizon_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Tree_1",
+    "Horizon_1",
+    "Field_1",
+    "Horizon_2",
+    "Clouds_1",
+    "Bush_1",
+    "Fur_1",
+    "Lion_1",
+    "Tail_1"
+  ]
+}

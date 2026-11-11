@@ -1,0 +1,60 @@
+{
+  "image_id": 78,
+  "prompt_text": "### Relational Edges:\n- [Monitor_1] --[on]--> [Table_1]\n- [Sign_1] --[on]--> [Panel_1: brown]\n- [Keyboard_1] --[on]--> [Table_1]\n- [Mouse_1] --[on]--> [Table_1]\n- [Computer_1] --[on]--> [Table_3]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Sign_1] -> [Panel_1: brown] -> [Chair_1: brown.] -> [Table_1] -> [Keyboard_1: grey, white.] -> [Monitor_1: on, flat, flat.] -> [Mouse_1: white, white.] -> [Table_2: brown, brown.] -> [Screen_1: on, big, on., projected., large.] -> [Computer_1: white] -> [Monitor._1] -> [Table_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Screen_1: on, big, on., projected., large.] -> [Panel_1: brown] -> [Sign_1] -> [Monitor._1] -> [Monitor_1: on, flat, flat.] -> [Computer_1: white] -> [Keyboard_1: grey, white.] -> [Mouse_1: white, white.] -> [Table_1] -> [Table_3] -> [Table_2: brown, brown.] -> [Chair_1: brown.]",
+  "semantic_id_mapping": {
+    "1025790": "Chair_1",
+    "1025780": "Computer_1",
+    "1025787": "Keyboard_1",
+    "1025791": "Leg_1",
+    "1025782": "Monitor_1",
+    "1025781": "Monitor._1",
+    "1025788": "Mouse_1",
+    "1025786": "Panel_1",
+    "1025784": "Screen_1",
+    "1025785": "Sign_1",
+    "1025783": "Table_1",
+    "1025779": "Table_2",
+    "1025789": "Table_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Monitor_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Panel_1"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Computer_1",
+      "predicate": "on",
+      "object": "Table_3"
+    }
+  ],
+  "horizontal_ordering": [
+    "Sign_1",
+    "Panel_1",
+    "Chair_1",
+    "Table_1",
+    "Keyboard_1",
+    "Monitor_1",
+    "Mouse_1",
+    "Table_2",
+    "Screen_1",
+    "Computer_1",
+    "Monitor._1",
+    "Table_3"
+  ]
+}

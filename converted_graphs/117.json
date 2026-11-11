@@ -1,0 +1,125 @@
+{
+  "image_id": 117,
+  "prompt_text": "### Relational Edges:\n- [Mirror_1] --[on]--> [Doors_1]\n- [Phone_1] --[on]--> [Desk_1]\n- [Sheet_2] --[on]--> [Bed_2]\n- [Light_1] --[on]--> [Wall_1]\n- [Mirror_1] --[on]--> [Door_1]\n- [Mirror_2] --[on]--> [Door_1]\n- [Headboard_2] --[on]--> [Bed_2]\n- [Knob_1] --[on]--> [Backboard_1]\n- [Lamp_1] --[on]--> [Building_1: gold]\n- [Painting_1] --[on]--> [Building_1: gold]\n- [Backboard_2] --[on]--> [Bed_2]\n- [Backboard_1] --[on]--> [Bed_1]\n- [Building_1] --[on]--> [Wall_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Backboard_1] -> [Headboard_1] -> [Bed_1] -> [Knob_1] -> [Sheet_1] -> [Painting_1] -> [Posts_1: round] -> [Backboard_2] -> [Wood_1: tan] -> [Headboard_2] -> [Room_1] -> [Bed_2] -> [Light_1] -> [Lamp_1] -> [Phone_1] -> [Pen_1] -> [Desk_1] -> [Sheet_2] -> [Comforter_1: gold] -> [Building_1: gold] -> [Mirror_1] -> [Doors_1] -> [Door_1] -> [Mirror_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Painting_1] -> [Building_1: gold] -> [Light_1] -> [Lamp_1] -> [Doors_1] -> [Mirror_1] -> [Mirror_2] -> [Door_1] -> [Room_1] -> [Posts_1: round] -> [Phone_1] -> [Knob_1] -> [Pen_1] -> [Headboard_2] -> [Desk_1] -> [Wood_1: tan] -> [Bed_2] -> [Backboard_2] -> [Headboard_1] -> [Backboard_1] -> [Bed_1] -> [Comforter_1: gold] -> [Sheet_2] -> [Sheet_1]",
+  "semantic_id_mapping": {
+    "3792854": "Backboard_1",
+    "3792853": "Backboard_2",
+    "3792855": "Bed_1",
+    "3786978": "Bed_2",
+    "1535054": "Building_1",
+    "3786966": "Comforter_1",
+    "3786968": "Desk_1",
+    "3786976": "Door_1",
+    "1634428": "Doors_1",
+    "3786979": "Headboard_1",
+    "3786977": "Headboard_2",
+    "3792842": "Knob_1",
+    "3792844": "Lamp_1",
+    "3786972": "Light_1",
+    "3792856": "Mirror_1",
+    "3786975": "Mirror_2",
+    "3792847": "Painting_1",
+    "3786964": "Pen_1",
+    "3786967": "Phone_1",
+    "3786963": "Posts_1",
+    "3792850": "Room_1",
+    "3786980": "Sheet_1",
+    "3786969": "Sheet_2",
+    "3792846": "Wall_1",
+    "3792857": "Wall_2",
+    "3786965": "Wood_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Mirror_1",
+      "predicate": "on",
+      "object": "Doors_1"
+    },
+    {
+      "subject": "Phone_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Sheet_2",
+      "predicate": "on",
+      "object": "Bed_2"
+    },
+    {
+      "subject": "Light_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Mirror_1",
+      "predicate": "on",
+      "object": "Door_1"
+    },
+    {
+      "subject": "Mirror_2",
+      "predicate": "on",
+      "object": "Door_1"
+    },
+    {
+      "subject": "Headboard_2",
+      "predicate": "on",
+      "object": "Bed_2"
+    },
+    {
+      "subject": "Knob_1",
+      "predicate": "on",
+      "object": "Backboard_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Backboard_2",
+      "predicate": "on",
+      "object": "Bed_2"
+    },
+    {
+      "subject": "Backboard_1",
+      "predicate": "on",
+      "object": "Bed_1"
+    },
+    {
+      "subject": "Building_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Backboard_1",
+    "Headboard_1",
+    "Bed_1",
+    "Knob_1",
+    "Sheet_1",
+    "Painting_1",
+    "Posts_1",
+    "Backboard_2",
+    "Wood_1",
+    "Headboard_2",
+    "Room_1",
+    "Bed_2",
+    "Light_1",
+    "Lamp_1",
+    "Phone_1",
+    "Pen_1",
+    "Desk_1",
+    "Sheet_2",
+    "Comforter_1",
+    "Building_1",
+    "Mirror_1",
+    "Doors_1",
+    "Door_1",
+    "Mirror_2"
+  ]
+}

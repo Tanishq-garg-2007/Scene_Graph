@@ -1,0 +1,88 @@
+{
+  "image_id": 171,
+  "prompt_text": "### Relational Edges:\n- [Boy_1] --[near]--> [Plate_1]\n- [Bin_2] --[behind]--> [Fence_1: steel]\n- [Bin_1] --[behind]--> [Fence_1: steel]\n- [Man_1] --[behind]--> [Fence_1: steel]\n- [Dirt_1] --[on]--> [Ballfield_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Padding_1] -> [Man_1] -> [LegGear_1: protective] -> [Catcher_1] -> [Padding_2] -> [Mitt_1] -> [Bin_1] -> [Bin_2] -> [BaseballField_1] -> [Fence_1: steel] -> [Field_1] -> [Ballfield_1] -> [Car_1] -> [HomePlate_1] -> [Plate_1] -> [Helmet_1: red] -> [Baseball_1: flying] -> [Waist_1] -> [Boy_1] -> [Batter_1] -> [Car_2] -> [Car_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Car_2] -> [Helmet_1: red] -> [Car_1] -> [Fence_1: steel] -> [Car_3] -> [Man_1] -> [Waist_1] -> [Boy_1] -> [Bin_1] -> [Batter_1] -> [Baseball_1: flying] -> [Bin_2] -> [Mitt_1] -> [Catcher_1] -> [Padding_1] -> [LegGear_1: protective] -> [Field_1] -> [BaseballField_1] -> [Ballfield_1] -> [Padding_2] -> [HomePlate_1] -> [Plate_1]",
+  "semantic_id_mapping": {
+    "1621414": "Ballfield_1",
+    "1621380": "Baseball_1",
+    "1621377": "BaseballField_1",
+    "1621412": "Batter_1",
+    "3562500": "Belt_1",
+    "1621382": "Bin_1",
+    "1621381": "Bin_2",
+    "1621379": "Boy_1",
+    "1621373": "Car_1",
+    "1621374": "Car_2",
+    "1621375": "Car_3",
+    "1621392": "Catcher_1",
+    "1621415": "Dirt_1",
+    "1621386": "Eye_1",
+    "1621385": "Eye_2",
+    "1621401": "Fence_1",
+    "1621397": "Field_1",
+    "1621402": "Hand_1",
+    "1621411": "Head_1",
+    "1621387": "Head_2",
+    "1621408": "Helmet_1",
+    "1621391": "HomePlate_1",
+    "1621406": "Leg_1",
+    "1621407": "Leg_2",
+    "1621388": "LegGear_1",
+    "1621394": "Man_1",
+    "1621393": "Mitt_1",
+    "1621405": "Padding_1",
+    "1621404": "Padding_2",
+    "1621378": "Plate_1",
+    "1621413": "Waist_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Boy_1",
+      "predicate": "near",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Bin_2",
+      "predicate": "behind",
+      "object": "Fence_1"
+    },
+    {
+      "subject": "Bin_1",
+      "predicate": "behind",
+      "object": "Fence_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "behind",
+      "object": "Fence_1"
+    },
+    {
+      "subject": "Dirt_1",
+      "predicate": "on",
+      "object": "Ballfield_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Padding_1",
+    "Man_1",
+    "LegGear_1",
+    "Catcher_1",
+    "Padding_2",
+    "Mitt_1",
+    "Bin_1",
+    "Bin_2",
+    "BaseballField_1",
+    "Fence_1",
+    "Field_1",
+    "Ballfield_1",
+    "Car_1",
+    "HomePlate_1",
+    "Plate_1",
+    "Helmet_1",
+    "Baseball_1",
+    "Waist_1",
+    "Boy_1",
+    "Batter_1",
+    "Car_2",
+    "Car_3"
+  ]
+}

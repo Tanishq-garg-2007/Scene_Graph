@@ -1,0 +1,168 @@
+{
+  "image_id": 116,
+  "prompt_text": "### Relational Edges:\n- [Window_1] --[on]--> [Building_1]\n- [Window_3] --[on]--> [Building_1]\n- [Window_5] --[on]--> [Building_1]\n- [Window_6] --[on]--> [Building_1]\n- [Window_4] --[on]--> [Building_1]\n- [Window_2] --[on]--> [Building_1]\n- [Window_8] --[on]--> [Building_5: brick]\n- [Window_7] --[on]--> [Building_5: brick]\n- [Bikes_1] --[near]--> [Building_1]\n- [Bikes_2] --[near]--> [Building_5: brick]\n- [Person_1] --[wearing]--> [Shirt_2]\n- [Woman_2] --[wearing]--> [Shirt_2]\n- [Woman_3] --[wearing]--> [Shirt_3: blue]\n- [Woman_1] --[wearing]--> [Shirt_1: white]\n- [Woman_2] --[wearing]--> [White_1]\n- [Woman_2] --[wearing]--> [Black_1]\n- [Woman_3] --[wearing]--> [Blue_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Stairs_1] -> [Rails_1: black, safety] -> [Window_1: white, large] -> [Window_2] -> [Building_1] -> [Rail_1] -> [Window_3] -> [Window_4] -> [Bikes_1] -> [Window_5] -> [Window_6] -> [Rack_1: bike] -> [Row_1] -> [Yard_1] -> [Building_2] -> [Woman_1] -> [Corner_1] -> [Person_1] -> [Woman_2] -> [Table_1] -> [Woman_3] -> [Building_3] -> [Building_4: large, red, brick] -> [Tree_1: empty] -> [Bikes_2] -> [Bikes_3] -> [Rack_2: bike] -> [Window_7] -> [Building_5: brick] -> [Door_1: over] -> [Light_1: on] -> [Window_8: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_2] -> [Building_3] -> [Building_2] -> [Window_4] -> [Building_4: large, red, brick] -> [Window_6] -> [Building_5: brick] -> [Building_1] -> [Window_1: white, large] -> [Tree_1: empty] -> [Window_3] -> [Window_5] -> [Window_8: white] -> [Window_7] -> [Woman_1] -> [Table_1] -> [Woman_3] -> [Bikes_1] -> [Woman_2] -> [Person_1] -> [Light_1: on] -> [Bikes_2] -> [Row_1] -> [Rack_1: bike] -> [Rail_1] -> [Rack_2: bike] -> [Bikes_3] -> [Door_1: over] -> [Rails_1: black, safety] -> [Stairs_1] -> [Corner_1] -> [Yard_1]",
+  "semantic_id_mapping": {
+    "1535011": "Bikes_1",
+    "1535008": "Bikes_2",
+    "1535041": "Bikes_3",
+    "3786957": "Black_1",
+    "3786961": "Blue_1",
+    "1534998": "Building_1",
+    "1535044": "Building_2",
+    "1535043": "Building_3",
+    "1535048": "Building_4",
+    "1535042": "Building_5",
+    "1535022": "Corner_1",
+    "1535034": "Door_1",
+    "1535013": "Hair_1",
+    "3786960": "Light_1",
+    "1535027": "Pants_1",
+    "1535012": "Person_1",
+    "3786952": "Rack_1",
+    "3786953": "Rack_2",
+    "1535018": "Rail_1",
+    "3786954": "Rails_1",
+    "3786950": "Row_1",
+    "1535039": "Shirt_1",
+    "1535014": "Shirt_2",
+    "1535036": "Shirt_3",
+    "1535032": "Sidewalk_1",
+    "3786955": "Stairs_1",
+    "1535037": "Table_1",
+    "3786959": "Tree_1",
+    "3786958": "White_1",
+    "1535016": "Window_1",
+    "1535000": "Window_2",
+    "1534992": "Window_3",
+    "1534997": "Window_4",
+    "1534993": "Window_5",
+    "1534996": "Window_6",
+    "1535004": "Window_7",
+    "1535028": "Window_8",
+    "1535038": "Woman_1",
+    "1535010": "Woman_2",
+    "1535035": "Woman_3",
+    "1535023": "Yard_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_3",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_5",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_6",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_8",
+      "predicate": "on",
+      "object": "Building_5"
+    },
+    {
+      "subject": "Window_7",
+      "predicate": "on",
+      "object": "Building_5"
+    },
+    {
+      "subject": "Bikes_1",
+      "predicate": "near",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Bikes_2",
+      "predicate": "near",
+      "object": "Building_5"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Shirt_2"
+    },
+    {
+      "subject": "Woman_2",
+      "predicate": "wearing",
+      "object": "Shirt_2"
+    },
+    {
+      "subject": "Woman_3",
+      "predicate": "wearing",
+      "object": "Shirt_3"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Woman_2",
+      "predicate": "wearing",
+      "object": "White_1"
+    },
+    {
+      "subject": "Woman_2",
+      "predicate": "wearing",
+      "object": "Black_1"
+    },
+    {
+      "subject": "Woman_3",
+      "predicate": "wearing",
+      "object": "Blue_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Stairs_1",
+    "Rails_1",
+    "Window_1",
+    "Window_2",
+    "Building_1",
+    "Rail_1",
+    "Window_3",
+    "Window_4",
+    "Bikes_1",
+    "Window_5",
+    "Window_6",
+    "Rack_1",
+    "Row_1",
+    "Yard_1",
+    "Building_2",
+    "Woman_1",
+    "Corner_1",
+    "Person_1",
+    "Woman_2",
+    "Table_1",
+    "Woman_3",
+    "Building_3",
+    "Building_4",
+    "Tree_1",
+    "Bikes_2",
+    "Bikes_3",
+    "Rack_2",
+    "Window_7",
+    "Building_5",
+    "Door_1",
+    "Light_1",
+    "Window_8"
+  ]
+}

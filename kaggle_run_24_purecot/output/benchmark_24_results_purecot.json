@@ -1,0 +1,829 @@
+{
+  "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "total_queries": 24,
+  "valid_json_count": 24,
+  "results": [
+    {
+      "idx": 1,
+      "image": "167.jpg",
+      "question": "Is the metal staircase positioned higher or lower than the wooden cabinet?",
+      "ground_truth": "The metal staircase is positioned higher than the wooden cabinet.",
+      "verified_answer": "The metal staircase is positioned higher than the wooden cabinet.",
+      "latency_seconds": 13.1,
+      "tokens": 116,
+      "tokens_per_sec": 8.85,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "metal staircase",
+        "spatial_relation_trace": "the metal staircase is positioned higher than the wooden cabinet",
+        "nearby_landmarks": [
+          "wooden cabinet",
+          "man wearing blue jeans"
+        ],
+        "visual_evidence_and_text": "The metal staircase is elevated above the wooden cabinet."
+      },
+      "parsed_json": {
+        "query": "Is the metal staircase positioned higher or lower than the wooden cabinet?",
+        "micro_inspection_cot": {
+          "focal_landmark": "metal staircase",
+          "spatial_relation_trace": "the metal staircase is positioned higher than the wooden cabinet",
+          "nearby_landmarks": [
+            "wooden cabinet",
+            "man wearing blue jeans"
+          ],
+          "visual_evidence_and_text": "The metal staircase is elevated above the wooden cabinet."
+        },
+        "verified_answer": "The metal staircase is positioned higher than the wooden cabinet."
+      },
+      "raw_output": "{\n  \"query\": \"Is the metal staircase positioned higher or lower than the wooden cabinet?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"metal staircase\",\n    \"spatial_relation_trace\": \"the metal staircase is positioned higher than the wooden cabinet\",\n    \"nearby_landmarks\": [\"wooden cabinet\", \"man wearing blue jeans\"],\n    \"visual_evidence_and_text\": \"The metal staircase is elevated above the wooden cabinet.\"\n  },\n  \"verified_answer\": \"The metal staircase is positioned higher than the wooden cabinet.\"\n}"
+    },
+    {
+      "idx": 2,
+      "image": "29.jpg",
+      "question": "What object is located between the woman in the white tank top and the woman in the red shirt?",
+      "ground_truth": "The white boat labeled \"BLUE ART\".",
+      "verified_answer": "boat",
+      "latency_seconds": 6.82,
+      "tokens": 118,
+      "tokens_per_sec": 17.31,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "woman in the white tank top",
+        "spatial_relation_trace": "between the woman in the white tank top and the woman in the red shirt",
+        "nearby_landmarks": [
+          "beach",
+          "water",
+          "boat"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "What object is located between the woman in the white tank top and the woman in the red shirt?",
+        "micro_inspection_cot": {
+          "focal_landmark": "woman in the white tank top",
+          "spatial_relation_trace": "between the woman in the white tank top and the woman in the red shirt",
+          "nearby_landmarks": [
+            "beach",
+            "water",
+            "boat"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "boat"
+      },
+      "raw_output": "```json\n{\n  \"query\": \"What object is located between the woman in the white tank top and the woman in the red shirt?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"woman in the white tank top\",\n    \"spatial_relation_trace\": \"between the woman in the white tank top and the woman in the red shirt\",\n    \"nearby_landmarks\": [\"beach\", \"water\", \"boat\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"boat\"\n}\n```"
+    },
+    {
+      "idx": 3,
+      "image": "7.jpg",
+      "question": "Is the whiteboard positioned higher or lower than the desk?",
+      "ground_truth": "Higher",
+      "verified_answer": "The whiteboard is positioned higher than the desk.",
+      "latency_seconds": 5.67,
+      "tokens": 99,
+      "tokens_per_sec": 17.46,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "whiteboard",
+        "spatial_relation_trace": "the whiteboard is positioned above the desk",
+        "nearby_landmarks": [
+          "desk",
+          "wall"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "Is the whiteboard positioned higher or lower than the desk?",
+        "micro_inspection_cot": {
+          "focal_landmark": "whiteboard",
+          "spatial_relation_trace": "the whiteboard is positioned above the desk",
+          "nearby_landmarks": [
+            "desk",
+            "wall"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "The whiteboard is positioned higher than the desk."
+      },
+      "raw_output": "{\n  \"query\": \"Is the whiteboard positioned higher or lower than the desk?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"whiteboard\",\n    \"spatial_relation_trace\": \"the whiteboard is positioned above the desk\",\n    \"nearby_landmarks\": [\"desk\", \"wall\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"The whiteboard is positioned higher than the desk.\"\n}"
+    },
+    {
+      "idx": 4,
+      "image": "193.jpg",
+      "question": "What object is located between the rows of seats and the large screen?",
+      "ground_truth": "The stage.",
+      "verified_answer": "stage",
+      "latency_seconds": 5.57,
+      "tokens": 103,
+      "tokens_per_sec": 18.49,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "rows of seats",
+        "spatial_relation_trace": "between the rows of seats and the large screen",
+        "nearby_landmarks": [
+          "stage",
+          "curtains"
+        ],
+        "visual_evidence_and_text": "rows of seats, stage, curtains"
+      },
+      "parsed_json": {
+        "query": "What object is located between the rows of seats and the large screen?",
+        "micro_inspection_cot": {
+          "focal_landmark": "rows of seats",
+          "spatial_relation_trace": "between the rows of seats and the large screen",
+          "nearby_landmarks": [
+            "stage",
+            "curtains"
+          ],
+          "visual_evidence_and_text": "rows of seats, stage, curtains"
+        },
+        "verified_answer": "stage"
+      },
+      "raw_output": "{\n  \"query\": \"What object is located between the rows of seats and the large screen?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"rows of seats\",\n    \"spatial_relation_trace\": \"between the rows of seats and the large screen\",\n    \"nearby_landmarks\": [\"stage\", \"curtains\"],\n    \"visual_evidence_and_text\": \"rows of seats, stage, curtains\"\n  },\n  \"verified_answer\": \"stage\"\n}"
+    },
+    {
+      "idx": 5,
+      "image": "73.jpg",
+      "question": "Is the white plastic chair in the foreground positioned higher or lower than the table surface?",
+      "ground_truth": "The chair is positioned lower than the table surface.",
+      "verified_answer": "The white plastic chair in the foreground is positioned lower than the table surface.",
+      "latency_seconds": 6.59,
+      "tokens": 117,
+      "tokens_per_sec": 17.76,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "white plastic chair in the foreground",
+        "spatial_relation_trace": "the chair is positioned on top of the table surface",
+        "nearby_landmarks": [
+          "table surface",
+          "other chairs"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "Is the white plastic chair in the foreground positioned higher or lower than the table surface?",
+        "micro_inspection_cot": {
+          "focal_landmark": "white plastic chair in the foreground",
+          "spatial_relation_trace": "the chair is positioned on top of the table surface",
+          "nearby_landmarks": [
+            "table surface",
+            "other chairs"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "The white plastic chair in the foreground is positioned lower than the table surface."
+      },
+      "raw_output": "{\n  \"query\": \"Is the white plastic chair in the foreground positioned higher or lower than the table surface?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"white plastic chair in the foreground\",\n    \"spatial_relation_trace\": \"the chair is positioned on top of the table surface\",\n    \"nearby_landmarks\": [\"table surface\", \"other chairs\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"The white plastic chair in the foreground is positioned lower than the table surface.\"\n}"
+    },
+    {
+      "idx": 6,
+      "image": "65.jpg",
+      "question": "What vehicle is positioned between the white van and the grey car?",
+      "ground_truth": "A man (wearing a grey sweater) is standing between the white van and the grey car.",
+      "verified_answer": "The vehicle positioned between the white van and the grey car is a white car.",
+      "latency_seconds": 6.4,
+      "tokens": 113,
+      "tokens_per_sec": 17.66,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "white car",
+        "spatial_relation_trace": "between the white van and the grey car",
+        "nearby_landmarks": [
+          "white van",
+          "grey car"
+        ],
+        "visual_evidence_and_text": "white car"
+      },
+      "parsed_json": {
+        "query": "What vehicle is positioned between the white van and the grey car?",
+        "micro_inspection_cot": {
+          "focal_landmark": "white car",
+          "spatial_relation_trace": "between the white van and the grey car",
+          "nearby_landmarks": [
+            "white van",
+            "grey car"
+          ],
+          "visual_evidence_and_text": "white car"
+        },
+        "verified_answer": "The vehicle positioned between the white van and the grey car is a white car."
+      },
+      "raw_output": "```json\n{\n  \"query\": \"What vehicle is positioned between the white van and the grey car?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"white car\",\n    \"spatial_relation_trace\": \"between the white van and the grey car\",\n    \"nearby_landmarks\": [\"white van\", \"grey car\"],\n    \"visual_evidence_and_text\": \"white car\"\n  },\n  \"verified_answer\": \"The vehicle positioned between the white van and the grey car is a white car.\"\n}\n```"
+    },
+    {
+      "idx": 7,
+      "image": "59.jpg",
+      "question": "Is the \"EROSKI center\" sign positioned higher or lower than the \"ELITE RESTAURANTE\" sign?",
+      "ground_truth": "Lower",
+      "verified_answer": "\"EROSKI center\" sign is positioned higher than the \"ELITE RESTAURANTE\" sign.",
+      "latency_seconds": 8.15,
+      "tokens": 147,
+      "tokens_per_sec": 18.04,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "\"EROSKI center\"",
+        "spatial_relation_trace": "above",
+        "nearby_landmarks": [
+          "\"ELITE RESTAURANTE\" sign"
+        ],
+        "visual_evidence_and_text": "The \"EROSKI center\" sign is positioned above the \"ELITE RESTAURANTE\" sign."
+      },
+      "parsed_json": {
+        "query": "Is the \"EROSKI center\" sign positioned higher or lower than the \"ELITE RESTAURANTE\" sign?",
+        "micro_inspection_cot": {
+          "focal_landmark": "\"EROSKI center\"",
+          "spatial_relation_trace": "above",
+          "nearby_landmarks": [
+            "\"ELITE RESTAURANTE\" sign"
+          ],
+          "visual_evidence_and_text": "The \"EROSKI center\" sign is positioned above the \"ELITE RESTAURANTE\" sign."
+        },
+        "verified_answer": "\"EROSKI center\" sign is positioned higher than the \"ELITE RESTAURANTE\" sign."
+      },
+      "raw_output": "```json\n{\n  \"query\": \"Is the \\\"EROSKI center\\\" sign positioned higher or lower than the \\\"ELITE RESTAURANTE\\\" sign?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"\\\"EROSKI center\\\"\",\n    \"spatial_relation_trace\": \"above\",\n    \"nearby_landmarks\": [\"\\\"ELITE RESTAURANTE\\\" sign\"],\n    \"visual_evidence_and_text\": \"The \\\"EROSKI center\\\" sign is positioned above the \\\"ELITE RESTAURANTE\\\" sign.\"\n  },\n  \"verified_answer\": \"\\\"EROSKI center\\\" sign is positioned higher than the \\\"ELITE RESTAURANTE\\\" sign.\"\n}\n```"
+    },
+    {
+      "idx": 8,
+      "image": "36.jpg",
+      "question": "What object is located between the dark green hutch and the refrigerator?",
+      "ground_truth": "There is no object between them; they are positioned directly adjacent to each other.",
+      "verified_answer": "dark green hutch",
+      "latency_seconds": 5.96,
+      "tokens": 103,
+      "tokens_per_sec": 17.27,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "dark green hutch",
+        "spatial_relation_trace": "between the dark green hutch and the refrigerator",
+        "nearby_landmarks": [
+          "refrigerator",
+          "countertop"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "What object is located between the dark green hutch and the refrigerator?",
+        "micro_inspection_cot": {
+          "focal_landmark": "dark green hutch",
+          "spatial_relation_trace": "between the dark green hutch and the refrigerator",
+          "nearby_landmarks": [
+            "refrigerator",
+            "countertop"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "dark green hutch"
+      },
+      "raw_output": "{\n  \"query\": \"What object is located between the dark green hutch and the refrigerator?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"dark green hutch\",\n    \"spatial_relation_trace\": \"between the dark green hutch and the refrigerator\",\n    \"nearby_landmarks\": [\"refrigerator\", \"countertop\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"dark green hutch\"\n}"
+    },
+    {
+      "idx": 9,
+      "image": "192.jpg",
+      "question": "Is the yellow taxi sign on the roof of the center car positioned higher or lower than the blue \"TAXI\" street sign on the right?",
+      "ground_truth": "The yellow taxi sign on the roof is positioned lower than the blue \"TAXI\" street sign.",
+      "verified_answer": "The yellow taxi sign on the roof of the center car is positioned higher than the blue \"TAXI\" street sign on the right.",
+      "latency_seconds": 9.76,
+      "tokens": 188,
+      "tokens_per_sec": 19.27,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "yellow taxi sign on the roof of the center car",
+        "spatial_relation_trace": "the yellow taxi sign is positioned higher than the blue \"TAXI\" street sign on the right.",
+        "nearby_landmarks": [
+          "blue \"TAXI\" street sign on the right",
+          "green building with many windows"
+        ],
+        "visual_evidence_and_text": "The yellow taxi sign is positioned higher than the blue \"TAXI\" street sign on the right."
+      },
+      "parsed_json": {
+        "query": "Is the yellow taxi sign on the roof of the center car positioned higher or lower than the blue \"TAXI\" street sign on the right?",
+        "micro_inspection_cot": {
+          "focal_landmark": "yellow taxi sign on the roof of the center car",
+          "spatial_relation_trace": "the yellow taxi sign is positioned higher than the blue \"TAXI\" street sign on the right.",
+          "nearby_landmarks": [
+            "blue \"TAXI\" street sign on the right",
+            "green building with many windows"
+          ],
+          "visual_evidence_and_text": "The yellow taxi sign is positioned higher than the blue \"TAXI\" street sign on the right."
+        },
+        "verified_answer": "The yellow taxi sign on the roof of the center car is positioned higher than the blue \"TAXI\" street sign on the right."
+      },
+      "raw_output": "{\n  \"query\": \"Is the yellow taxi sign on the roof of the center car positioned higher or lower than the blue \\\"TAXI\\\" street sign on the right?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"yellow taxi sign on the roof of the center car\",\n    \"spatial_relation_trace\": \"the yellow taxi sign is positioned higher than the blue \\\"TAXI\\\" street sign on the right.\",\n    \"nearby_landmarks\": [\"blue \\\"TAXI\\\" street sign on the right\", \"green building with many windows\"],\n    \"visual_evidence_and_text\": \"The yellow taxi sign is positioned higher than the blue \\\"TAXI\\\" street sign on the right.\"\n  },\n  \"verified_answer\": \"The yellow taxi sign on the roof of the center car is positioned higher than the blue \\\"TAXI\\\" street sign on the right.\"\n}"
+    },
+    {
+      "idx": 10,
+      "image": "27.jpg",
+      "question": "What object is located between the table and the wall?",
+      "ground_truth": "The radiator",
+      "verified_answer": "chair",
+      "latency_seconds": 5.66,
+      "tokens": 92,
+      "tokens_per_sec": 16.25,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "the table",
+        "spatial_relation_trace": "between the table and the wall",
+        "nearby_landmarks": [
+          "wall",
+          "chair"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "What object is located between the table and the wall?",
+        "micro_inspection_cot": {
+          "focal_landmark": "the table",
+          "spatial_relation_trace": "between the table and the wall",
+          "nearby_landmarks": [
+            "wall",
+            "chair"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "chair"
+      },
+      "raw_output": "```json\n{\n  \"query\": \"What object is located between the table and the wall?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"the table\",\n    \"spatial_relation_trace\": \"between the table and the wall\",\n    \"nearby_landmarks\": [\"wall\", \"chair\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"chair\"\n}\n```"
+    },
+    {
+      "idx": 11,
+      "image": "177.jpg",
+      "question": "Is the dental light positioned higher or lower than the dental chair?",
+      "ground_truth": "Higher",
+      "verified_answer": "The dental light is positioned higher than the dental chair.",
+      "latency_seconds": 6.13,
+      "tokens": 107,
+      "tokens_per_sec": 17.45,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "dental light",
+        "spatial_relation_trace": "above dental chair",
+        "nearby_landmarks": [
+          "dental chair",
+          "plant"
+        ],
+        "visual_evidence_and_text": "The dental light is positioned above the dental chair."
+      },
+      "parsed_json": {
+        "query": "Is the dental light positioned higher or lower than the dental chair?",
+        "micro_inspection_cot": {
+          "focal_landmark": "dental light",
+          "spatial_relation_trace": "above dental chair",
+          "nearby_landmarks": [
+            "dental chair",
+            "plant"
+          ],
+          "visual_evidence_and_text": "The dental light is positioned above the dental chair."
+        },
+        "verified_answer": "The dental light is positioned higher than the dental chair."
+      },
+      "raw_output": "{\n  \"query\": \"Is the dental light positioned higher or lower than the dental chair?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"dental light\",\n    \"spatial_relation_trace\": \"above dental chair\",\n    \"nearby_landmarks\": [\"dental chair\", \"plant\"],\n    \"visual_evidence_and_text\": \"The dental light is positioned above the dental chair.\"\n  },\n  \"verified_answer\": \"The dental light is positioned higher than the dental chair.\"\n}"
+    },
+    {
+      "idx": 12,
+      "image": "142.jpg",
+      "question": "What object is located between the fountain and the row of benches?",
+      "ground_truth": "A black lamp post",
+      "verified_answer": "a paved walkway",
+      "latency_seconds": 6.88,
+      "tokens": 114,
+      "tokens_per_sec": 16.56,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "the fountain",
+        "spatial_relation_trace": "between the fountain and the row of benches",
+        "nearby_landmarks": [
+          "a paved walkway",
+          "a row of trees",
+          "a building"
+        ],
+        "visual_evidence_and_text": "a paved walkway leading to a row of benches"
+      },
+      "parsed_json": {
+        "query": "What object is located between the fountain and the row of benches?",
+        "micro_inspection_cot": {
+          "focal_landmark": "the fountain",
+          "spatial_relation_trace": "between the fountain and the row of benches",
+          "nearby_landmarks": [
+            "a paved walkway",
+            "a row of trees",
+            "a building"
+          ],
+          "visual_evidence_and_text": "a paved walkway leading to a row of benches"
+        },
+        "verified_answer": "a paved walkway"
+      },
+      "raw_output": "{\n  \"query\": \"What object is located between the fountain and the row of benches?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"the fountain\",\n    \"spatial_relation_trace\": \"between the fountain and the row of benches\",\n    \"nearby_landmarks\": [\"a paved walkway\", \"a row of trees\", \"a building\"],\n    \"visual_evidence_and_text\": \"a paved walkway leading to a row of benches\"\n  },\n  \"verified_answer\": \"a paved walkway\"\n}"
+    },
+    {
+      "idx": 13,
+      "image": "23.jpg",
+      "question": "Is the blue parking sign positioned higher or lower than the top of the black car?",
+      "ground_truth": "Higher",
+      "verified_answer": "The blue parking sign is positioned higher than the top of the black car.",
+      "latency_seconds": 6.58,
+      "tokens": 110,
+      "tokens_per_sec": 16.73,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "blue parking sign",
+        "spatial_relation_trace": "above the black car",
+        "nearby_landmarks": [
+          "black car",
+          "white car"
+        ],
+        "visual_evidence_and_text": "blue parking sign"
+      },
+      "parsed_json": {
+        "query": "Is the blue parking sign positioned higher or lower than the top of the black car?",
+        "micro_inspection_cot": {
+          "focal_landmark": "blue parking sign",
+          "spatial_relation_trace": "above the black car",
+          "nearby_landmarks": [
+            "black car",
+            "white car"
+          ],
+          "visual_evidence_and_text": "blue parking sign"
+        },
+        "verified_answer": "The blue parking sign is positioned higher than the top of the black car."
+      },
+      "raw_output": "{\n  \"query\": \"Is the blue parking sign positioned higher or lower than the top of the black car?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"blue parking sign\",\n    \"spatial_relation_trace\": \"above the black car\",\n    \"nearby_landmarks\": [\"black car\", \"white car\"],\n    \"visual_evidence_and_text\": \"blue parking sign\"\n  },\n  \"verified_answer\": \"The blue parking sign is positioned higher than the top of the black car.\"\n}"
+    },
+    {
+      "idx": 14,
+      "image": "154.jpg",
+      "question": "What object is located between the red cup and the white toaster?",
+      "ground_truth": "The coffee pot",
+      "verified_answer": "black coffee pot",
+      "latency_seconds": 5.67,
+      "tokens": 101,
+      "tokens_per_sec": 17.81,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "red cup",
+        "spatial_relation_trace": "between the red cup and the white toaster",
+        "nearby_landmarks": [
+          "white toaster",
+          "black coffee pot"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "What object is located between the red cup and the white toaster?",
+        "micro_inspection_cot": {
+          "focal_landmark": "red cup",
+          "spatial_relation_trace": "between the red cup and the white toaster",
+          "nearby_landmarks": [
+            "white toaster",
+            "black coffee pot"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "black coffee pot"
+      },
+      "raw_output": "```json\n{\n  \"query\": \"What object is located between the red cup and the white toaster?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"red cup\",\n    \"spatial_relation_trace\": \"between the red cup and the white toaster\",\n    \"nearby_landmarks\": [\"white toaster\", \"black coffee pot\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"black coffee pot\"\n}\n```"
+    },
+    {
+      "idx": 15,
+      "image": "111.jpg",
+      "question": "Is the spatula positioned higher or lower than the orange?",
+      "ground_truth": "Higher",
+      "verified_answer": "higher",
+      "latency_seconds": 5.77,
+      "tokens": 97,
+      "tokens_per_sec": 16.81,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "spatula",
+        "spatial_relation_trace": "above the orange",
+        "nearby_landmarks": [
+          "orange",
+          "bottle",
+          "container"
+        ],
+        "visual_evidence_and_text": "The spatula is above the orange."
+      },
+      "parsed_json": {
+        "query": "Is the spatula positioned higher or lower than the orange?",
+        "micro_inspection_cot": {
+          "focal_landmark": "spatula",
+          "spatial_relation_trace": "above the orange",
+          "nearby_landmarks": [
+            "orange",
+            "bottle",
+            "container"
+          ],
+          "visual_evidence_and_text": "The spatula is above the orange."
+        },
+        "verified_answer": "higher"
+      },
+      "raw_output": "{\n  \"query\": \"Is the spatula positioned higher or lower than the orange?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"spatula\",\n    \"spatial_relation_trace\": \"above the orange\",\n    \"nearby_landmarks\": [\"orange\", \"bottle\", \"container\"],\n    \"visual_evidence_and_text\": \"The spatula is above the orange.\"\n  },\n  \"verified_answer\": \"higher\"\n}"
+    },
+    {
+      "idx": 16,
+      "image": "9.jpg",
+      "question": "What object is located between the corkboard on the wall and the window?",
+      "ground_truth": "Bookshelf",
+      "verified_answer": "bookshelf",
+      "latency_seconds": 6.02,
+      "tokens": 106,
+      "tokens_per_sec": 17.61,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "corkboard on the wall",
+        "spatial_relation_trace": "between the corkboard on the wall and the window",
+        "nearby_landmarks": [
+          "bookshelf",
+          "window"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "What object is located between the corkboard on the wall and the window?",
+        "micro_inspection_cot": {
+          "focal_landmark": "corkboard on the wall",
+          "spatial_relation_trace": "between the corkboard on the wall and the window",
+          "nearby_landmarks": [
+            "bookshelf",
+            "window"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "bookshelf"
+      },
+      "raw_output": "```json\n{\n  \"query\": \"What object is located between the corkboard on the wall and the window?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"corkboard on the wall\",\n    \"spatial_relation_trace\": \"between the corkboard on the wall and the window\",\n    \"nearby_landmarks\": [\"bookshelf\", \"window\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"bookshelf\"\n}\n```"
+    },
+    {
+      "idx": 17,
+      "image": "8.jpg",
+      "question": "Is the white mug positioned higher or lower than the keyboard?",
+      "ground_truth": "The white mug is positioned higher than the keyboard.",
+      "verified_answer": "The white mug is positioned lower than the keyboard.",
+      "latency_seconds": 5.82,
+      "tokens": 98,
+      "tokens_per_sec": 16.83,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "white mug",
+        "spatial_relation_trace": "on the desk",
+        "nearby_landmarks": [
+          "keyboard",
+          "desk"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "Is the white mug positioned higher or lower than the keyboard?",
+        "micro_inspection_cot": {
+          "focal_landmark": "white mug",
+          "spatial_relation_trace": "on the desk",
+          "nearby_landmarks": [
+            "keyboard",
+            "desk"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "The white mug is positioned lower than the keyboard."
+      },
+      "raw_output": "```json\n{\n  \"query\": \"Is the white mug positioned higher or lower than the keyboard?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"white mug\",\n    \"spatial_relation_trace\": \"on the desk\",\n    \"nearby_landmarks\": [\"keyboard\", \"desk\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"The white mug is positioned lower than the keyboard.\"\n}\n```"
+    },
+    {
+      "idx": 18,
+      "image": "24.jpg",
+      "question": "What vehicle is parked directly in front of the red car, and what type of vehicle is parked in front of that one?",
+      "ground_truth": "A white van is parked in front of the red car, and a row of motorcycles is parked in front of the white van.",
+      "verified_answer": "The motorcycle is parked directly in front of the red car, and there are bicycles parked in front of that one.",
+      "latency_seconds": 8.16,
+      "tokens": 145,
+      "tokens_per_sec": 17.78,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "red car",
+        "spatial_relation_trace": "the motorcycle is parked directly in front of the red car",
+        "nearby_landmarks": [
+          "motorcycle",
+          "red car",
+          "bicycles"
+        ],
+        "visual_evidence_and_text": "motorcycle, red car, bicycles"
+      },
+      "parsed_json": {
+        "query": "What vehicle is parked directly in front of the red car, and what type of vehicle is parked in front of that one?",
+        "micro_inspection_cot": {
+          "focal_landmark": "red car",
+          "spatial_relation_trace": "the motorcycle is parked directly in front of the red car",
+          "nearby_landmarks": [
+            "motorcycle",
+            "red car",
+            "bicycles"
+          ],
+          "visual_evidence_and_text": "motorcycle, red car, bicycles"
+        },
+        "verified_answer": "The motorcycle is parked directly in front of the red car, and there are bicycles parked in front of that one."
+      },
+      "raw_output": "```json\n{\n  \"query\": \"What vehicle is parked directly in front of the red car, and what type of vehicle is parked in front of that one?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"red car\",\n    \"spatial_relation_trace\": \"the motorcycle is parked directly in front of the red car\",\n    \"nearby_landmarks\": [\"motorcycle\", \"red car\", \"bicycles\"],\n    \"visual_evidence_and_text\": \"motorcycle, red car, bicycles\"\n  },\n  \"verified_answer\": \"The motorcycle is parked directly in front of the red car, and there are bicycles parked in front of that one.\"\n}\n```"
+    },
+    {
+      "idx": 19,
+      "image": "57.jpg",
+      "question": "Is the man in the suit positioned higher or lower than the parked car?",
+      "ground_truth": "Lower",
+      "verified_answer": "The man in the suit is positioned lower than the parked car.",
+      "latency_seconds": 6.62,
+      "tokens": 118,
+      "tokens_per_sec": 17.82,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "man in a suit",
+        "spatial_relation_trace": "the man is walking on the sidewalk, which is parallel to the parked car",
+        "nearby_landmarks": [
+          "parked car",
+          "sidewalk"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "Is the man in the suit positioned higher or lower than the parked car?",
+        "micro_inspection_cot": {
+          "focal_landmark": "man in a suit",
+          "spatial_relation_trace": "the man is walking on the sidewalk, which is parallel to the parked car",
+          "nearby_landmarks": [
+            "parked car",
+            "sidewalk"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "The man in the suit is positioned lower than the parked car."
+      },
+      "raw_output": "{\n  \"query\": \"Is the man in the suit positioned higher or lower than the parked car?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"man in a suit\",\n    \"spatial_relation_trace\": \"the man is walking on the sidewalk, which is parallel to the parked car\",\n    \"nearby_landmarks\": [\"parked car\", \"sidewalk\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"The man in the suit is positioned lower than the parked car.\"\n}"
+    },
+    {
+      "idx": 20,
+      "image": "62.jpg",
+      "question": "What object is located between the large planter and the beige car?",
+      "ground_truth": "A metal pole (or street lamp post).",
+      "verified_answer": "a person wearing a white shirt and blue jeans",
+      "latency_seconds": 6.66,
+      "tokens": 107,
+      "tokens_per_sec": 16.06,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "large planter",
+        "spatial_relation_trace": "between the large planter and the beige car",
+        "nearby_landmarks": [
+          "beige car",
+          "large planter"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "What object is located between the large planter and the beige car?",
+        "micro_inspection_cot": {
+          "focal_landmark": "large planter",
+          "spatial_relation_trace": "between the large planter and the beige car",
+          "nearby_landmarks": [
+            "beige car",
+            "large planter"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "a person wearing a white shirt and blue jeans"
+      },
+      "raw_output": "{\n  \"query\": \"What object is located between the large planter and the beige car?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"large planter\",\n    \"spatial_relation_trace\": \"between the large planter and the beige car\",\n    \"nearby_landmarks\": [\"beige car\", \"large planter\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"a person wearing a white shirt and blue jeans\"\n}"
+    },
+    {
+      "idx": 21,
+      "image": "132.jpg",
+      "question": "Is the street lamp positioned higher or lower than the car?",
+      "ground_truth": "Higher",
+      "verified_answer": "The street lamp is positioned higher than the car.",
+      "latency_seconds": 6.52,
+      "tokens": 110,
+      "tokens_per_sec": 16.88,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "street lamp",
+        "spatial_relation_trace": "the street lamp is on the left side of the car",
+        "nearby_landmarks": [
+          "car",
+          "beach"
+        ],
+        "visual_evidence_and_text": "the street lamp is taller than the car"
+      },
+      "parsed_json": {
+        "query": "Is the street lamp positioned higher or lower than the car?",
+        "micro_inspection_cot": {
+          "focal_landmark": "street lamp",
+          "spatial_relation_trace": "the street lamp is on the left side of the car",
+          "nearby_landmarks": [
+            "car",
+            "beach"
+          ],
+          "visual_evidence_and_text": "the street lamp is taller than the car"
+        },
+        "verified_answer": "The street lamp is positioned higher than the car."
+      },
+      "raw_output": "{\n  \"query\": \"Is the street lamp positioned higher or lower than the car?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"street lamp\",\n    \"spatial_relation_trace\": \"the street lamp is on the left side of the car\",\n    \"nearby_landmarks\": [\"car\", \"beach\"],\n    \"visual_evidence_and_text\": \"the street lamp is taller than the car\"\n  },\n  \"verified_answer\": \"The street lamp is positioned higher than the car.\"\n}"
+    },
+    {
+      "idx": 22,
+      "image": "158.jpg",
+      "question": "What object is located between the orange flower on the left and the pink flower in the background?",
+      "ground_truth": "The red flower (with the butterfly on it).",
+      "verified_answer": "red flower with butterfly",
+      "latency_seconds": 6.97,
+      "tokens": 132,
+      "tokens_per_sec": 18.93,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "orange flower on the left",
+        "spatial_relation_trace": "between the orange flower on the left and the pink flower in the background",
+        "nearby_landmarks": [
+          "red flower with butterfly",
+          "pink flower in the background"
+        ],
+        "visual_evidence_and_text": "orange flower on the left, red flower with butterfly, pink flower in the background"
+      },
+      "parsed_json": {
+        "query": "What object is located between the orange flower on the left and the pink flower in the background?",
+        "micro_inspection_cot": {
+          "focal_landmark": "orange flower on the left",
+          "spatial_relation_trace": "between the orange flower on the left and the pink flower in the background",
+          "nearby_landmarks": [
+            "red flower with butterfly",
+            "pink flower in the background"
+          ],
+          "visual_evidence_and_text": "orange flower on the left, red flower with butterfly, pink flower in the background"
+        },
+        "verified_answer": "red flower with butterfly"
+      },
+      "raw_output": "{\n  \"query\": \"What object is located between the orange flower on the left and the pink flower in the background?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"orange flower on the left\",\n    \"spatial_relation_trace\": \"between the orange flower on the left and the pink flower in the background\",\n    \"nearby_landmarks\": [\"red flower with butterfly\", \"pink flower in the background\"],\n    \"visual_evidence_and_text\": \"orange flower on the left, red flower with butterfly, pink flower in the background\"\n  },\n  \"verified_answer\": \"red flower with butterfly\"\n}"
+    },
+    {
+      "idx": 23,
+      "image": "201.jpg",
+      "question": "Is the blue trash bin positioned to the left or right of the green trash bin?",
+      "ground_truth": "The blue trash bin is to the left of the green trash bin.",
+      "verified_answer": "The blue trash bin is positioned to the right of the green trash bin.",
+      "latency_seconds": 6.76,
+      "tokens": 118,
+      "tokens_per_sec": 17.46,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "blue trash bin",
+        "spatial_relation_trace": "to the right of the green trash bin",
+        "nearby_landmarks": [
+          "green trash bin",
+          "road"
+        ],
+        "visual_evidence_and_text": "blue trash bin, green trash bin"
+      },
+      "parsed_json": {
+        "query": "Is the blue trash bin positioned to the left or right of the green trash bin?",
+        "micro_inspection_cot": {
+          "focal_landmark": "blue trash bin",
+          "spatial_relation_trace": "to the right of the green trash bin",
+          "nearby_landmarks": [
+            "green trash bin",
+            "road"
+          ],
+          "visual_evidence_and_text": "blue trash bin, green trash bin"
+        },
+        "verified_answer": "The blue trash bin is positioned to the right of the green trash bin."
+      },
+      "raw_output": "{\n  \"query\": \"Is the blue trash bin positioned to the left or right of the green trash bin?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"blue trash bin\",\n    \"spatial_relation_trace\": \"to the right of the green trash bin\",\n    \"nearby_landmarks\": [\"green trash bin\", \"road\"],\n    \"visual_evidence_and_text\": \"blue trash bin, green trash bin\"\n  },\n  \"verified_answer\": \"The blue trash bin is positioned to the right of the green trash bin.\"\n}"
+    },
+    {
+      "idx": 24,
+      "image": "146.jpg",
+      "question": "What object is located between the motorcycle and the broom?",
+      "ground_truth": "The wall",
+      "verified_answer": "None of the objects are located between the motorcycle and the broom.",
+      "latency_seconds": 6.38,
+      "tokens": 107,
+      "tokens_per_sec": 16.78,
+      "json_valid": true,
+      "micro_inspection_cot": {
+        "focal_landmark": "motorcycle",
+        "spatial_relation_trace": "between the motorcycle and the broom",
+        "nearby_landmarks": [
+          "broom",
+          "wall"
+        ],
+        "visual_evidence_and_text": "none"
+      },
+      "parsed_json": {
+        "query": "What object is located between the motorcycle and the broom?",
+        "micro_inspection_cot": {
+          "focal_landmark": "motorcycle",
+          "spatial_relation_trace": "between the motorcycle and the broom",
+          "nearby_landmarks": [
+            "broom",
+            "wall"
+          ],
+          "visual_evidence_and_text": "none"
+        },
+        "verified_answer": "None of the objects are located between the motorcycle and the broom."
+      },
+      "raw_output": "```json\n{\n  \"query\": \"What object is located between the motorcycle and the broom?\",\n  \"micro_inspection_cot\": {\n    \"focal_landmark\": \"motorcycle\",\n    \"spatial_relation_trace\": \"between the motorcycle and the broom\",\n    \"nearby_landmarks\": [\"broom\", \"wall\"],\n    \"visual_evidence_and_text\": \"none\"\n  },\n  \"verified_answer\": \"None of the objects are located between the motorcycle and the broom.\"\n}\n```"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "image_id": 182,
+  "prompt_text": "### Relational Edges:\n- [Rug_1] --[on]--> [Floor_1]\n- [Handle_1] --[on]--> [Door_1]\n- [Kettle_1] --[on]--> [Stove_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Container_1: silver] -> [Holder_1: stainless steel] -> [Utensils_1] -> [Countertop_1: maroon, laminated] -> [Counter_1] -> [Drawer_1] -> [MicrowaveOven_1: black] -> [Stove_1] -> [Stove_2] -> [Drawer_2: wooden] -> [Microwave_1: black] -> [Cooktop_1: smooth, glass] -> [Kettle_1: silver] -> [Knob_1: small, red] -> [TeaKettle_1: shiny, stainless steel, tea] -> [Keypad_1] -> [Microwave_2] -> [Holder_2: small, metal] -> [Door_1] -> [Handle_1] -> [Rug_1: dark]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [MicrowaveOven_1: black] -> [Stove_1] -> [Microwave_1: black] -> [Microwave_2] -> [Keypad_1] -> [Holder_2: small, metal] -> [Utensils_1] -> [Kettle_1: silver] -> [TeaKettle_1: shiny, stainless steel, tea] -> [Cooktop_1: smooth, glass] -> [Holder_1: stainless steel] -> [Container_1: silver] -> [Handle_1] -> [Stove_2] -> [Door_1] -> [Countertop_1: maroon, laminated] -> [Knob_1: small, red] -> [Counter_1] -> [Drawer_2: wooden] -> [Drawer_1] -> [Rug_1: dark]",
+  "semantic_id_mapping": {
+    "1621422": "Container_1",
+    "1621437": "Cooktop_1",
+    "1621431": "Counter_1",
+    "1621439": "Countertop_1",
+    "1621419": "Door_1",
+    "1621432": "Drawer_1",
+    "1621429": "Drawer_2",
+    "1621417": "Floor_1",
+    "1621418": "Handle_1",
+    "1621436": "Holder_1",
+    "1621434": "Holder_2",
+    "1621421": "Kettle_1",
+    "1621425": "Keypad_1",
+    "1621427": "Knob_1",
+    "3632955": "Microwave_1",
+    "1621424": "Microwave_2",
+    "1621430": "MicrowaveOven_1",
+    "1621416": "Rug_1",
+    "1621438": "Stove_1",
+    "1621420": "Stove_2",
+    "1621433": "TeaKettle_1",
+    "1621435": "Utensils_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Rug_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Handle_1",
+      "predicate": "on",
+      "object": "Door_1"
+    },
+    {
+      "subject": "Kettle_1",
+      "predicate": "on",
+      "object": "Stove_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Container_1",
+    "Holder_1",
+    "Utensils_1",
+    "Countertop_1",
+    "Counter_1",
+    "Drawer_1",
+    "MicrowaveOven_1",
+    "Stove_1",
+    "Stove_2",
+    "Drawer_2",
+    "Microwave_1",
+    "Cooktop_1",
+    "Kettle_1",
+    "Knob_1",
+    "TeaKettle_1",
+    "Keypad_1",
+    "Microwave_2",
+    "Holder_2",
+    "Door_1",
+    "Handle_1",
+    "Rug_1"
+  ]
+}

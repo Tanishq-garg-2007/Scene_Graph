@@ -1,0 +1,125 @@
+{
+  "image_id": 2,
+  "prompt_text": "### Relational Edges:\n- [Man_1] --[wearing]--> [Backpack_1: silver]\n- [Car_1] --[on]--> [Road_1: grey]\n- [Tree_1] --[next to]--> [Road_1: grey]\n- [Tree_2] --[next to]--> [Road_1: grey]\n- [Tree_3] --[next to]--> [Road_1: grey]\n- [Car_2] --[on]--> [Road_1: grey]\n- [Sign_1] --[next to]--> [Road_1: grey]\n- [Tree_1] --[along]--> [Road_1: grey]\n- [Tree_2] --[along]--> [Road_1: grey]\n- [Tree_3] --[along]--> [Road_1: grey]\n- [Man_1] --[wearing]--> [Sneakers_1]\n- [Bike_1] --[next to]--> [Car_1: red, parked]\n- [Crosswalk_1] --[on]--> [Road_1: grey]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Tree_1: green] -> [Tree_2: green] -> [Trees_1: green] -> [Tree_3: green] -> [Crosswalk_1: white] -> [Sign_1: black] -> [Lights_1: off] -> [StreetLight_1: white] -> [Building_1: brown, red] -> [Car_1: red, parked] -> [Car_2: white] -> [Man_1: walking, white] -> [Bike_1] -> [StreetLight_2: brown] -> [Pole_1: brown] -> [WalkSign_1: on, lit \"walk\"] -> [\"walk\"_1] -> [Window_1: glass] -> [Building_2: orange, brown, tall] -> [Window_2: glass] -> [Window_3: glass] -> [Window_4: glass] -> [Window_5: glass]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_2: glass] -> [Window_4: glass] -> [Window_1: glass] -> [Building_1: brown, red] -> [WalkSign_1: on, lit \"walk\"] -> [Building_2: orange, brown, tall] -> [\"walk\"_1] -> [StreetLight_2: brown] -> [Trees_1: green] -> [Pole_1: brown] -> [Tree_2: green] -> [Tree_1: green] -> [Tree_3: green] -> [StreetLight_1: white] -> [Lights_1: off] -> [Window_5: glass] -> [Window_3: glass] -> [Sign_1: black] -> [Car_2: white] -> [Car_1: red, parked] -> [Bike_1] -> [Man_1: walking, white] -> [Crosswalk_1: white]",
+  "semantic_id_mapping": {
+    "5090": "\"walk\"_1",
+    "5071": "Backpack_1",
+    "5089": "Bike_1",
+    "1023846": "Building_1",
+    "1023819": "Building_2",
+    "1023836": "Car_1",
+    "5085": "Car_2",
+    "5077": "Crosswalk_1",
+    "1023848": "Lights_1",
+    "1023838": "Man_1",
+    "1023847": "Pole_1",
+    "1023841": "Road_1",
+    "1023813": "Sidewalk_1",
+    "1023823": "Sign_1",
+    "5088": "Sneakers_1",
+    "5086": "StreetLight_1",
+    "1023845": "StreetLight_2",
+    "5074": "Tree_1",
+    "5075": "Tree_2",
+    "5076": "Tree_3",
+    "1023844": "Trees_1",
+    "5069": "WalkSign_1",
+    "5084": "Window_1",
+    "5080": "Window_2",
+    "5082": "Window_3",
+    "5081": "Window_4",
+    "5083": "Window_5"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Backpack_1"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "next to",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Tree_2",
+      "predicate": "next to",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Tree_3",
+      "predicate": "next to",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "next to",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "along",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Tree_2",
+      "predicate": "along",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Tree_3",
+      "predicate": "along",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Sneakers_1"
+    },
+    {
+      "subject": "Bike_1",
+      "predicate": "next to",
+      "object": "Car_1"
+    },
+    {
+      "subject": "Crosswalk_1",
+      "predicate": "on",
+      "object": "Road_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Tree_1",
+    "Tree_2",
+    "Trees_1",
+    "Tree_3",
+    "Crosswalk_1",
+    "Sign_1",
+    "Lights_1",
+    "StreetLight_1",
+    "Building_1",
+    "Car_1",
+    "Car_2",
+    "Man_1",
+    "Bike_1",
+    "StreetLight_2",
+    "Pole_1",
+    "WalkSign_1",
+    "\"walk\"_1",
+    "Window_1",
+    "Building_2",
+    "Window_2",
+    "Window_3",
+    "Window_4",
+    "Window_5"
+  ]
+}

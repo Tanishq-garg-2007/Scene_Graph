@@ -1,0 +1,88 @@
+{
+  "image_id": 156,
+  "prompt_text": "### Relational Edges:\n- [Man_1] --[wearing]--> [Pants_1: black]\n- [Can_1] --[on]--> [Table_1]\n- [Container_1] --[on]--> [Table_1]\n- [Blinds_1] --[on]--> [Window_1]\n- [Wall_1] --[behind]--> [Man_1]\n- [Tile_1] --[on]--> [Ceiling_1: tiled]\n- [Tile_2] --[on]--> [Ceiling_1: tiled]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [TrashBin_1] -> [Blinds_1: white] -> [TrashBin_2] -> [Container_1: white] -> [Table_1] -> [Window_1] -> [Can_1] -> [Chair_1: brown, thin] -> [Tile_1] -> [Tile_2] -> [Room_1] -> [Torso_1] -> [Sweatshirt_1: gold] -> [Man_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Tile_1] -> [Tile_2] -> [Window_1] -> [Blinds_1: white] -> [Room_1] -> [Torso_1] -> [Sweatshirt_1: gold] -> [Man_1] -> [Chair_1: brown, thin] -> [Can_1] -> [Container_1: white] -> [Table_1] -> [TrashBin_2] -> [TrashBin_1]",
+  "semantic_id_mapping": {
+    "1535895": "Blinds_1",
+    "1535888": "Can_1",
+    "1535926": "Ceiling_1",
+    "1535886": "Chair_1",
+    "1535891": "Container_1",
+    "1535916": "Ear_1",
+    "1535906": "Eye_1",
+    "1535907": "Eye_2",
+    "1535921": "Face_1",
+    "1535922": "Glasses_1",
+    "1535904": "Hair_1",
+    "1535900": "Hand_1",
+    "1535901": "Hand_2",
+    "1535913": "Head_1",
+    "1535899": "Man_1",
+    "1535912": "Mouth_1",
+    "1535909": "Nose_1",
+    "1535885": "Pants_1",
+    "1535920": "Room_1",
+    "1535883": "Sweater_1",
+    "1535923": "Sweatshirt_1",
+    "1535890": "Table_1",
+    "1535925": "Tile_1",
+    "1535928": "Tile_2",
+    "1535918": "Torso_1",
+    "1535893": "TrashBin_1",
+    "1535892": "TrashBin_2",
+    "1535897": "Wall_1",
+    "1535896": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Pants_1"
+    },
+    {
+      "subject": "Can_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Container_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Blinds_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Wall_1",
+      "predicate": "behind",
+      "object": "Man_1"
+    },
+    {
+      "subject": "Tile_1",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Tile_2",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "TrashBin_1",
+    "Blinds_1",
+    "TrashBin_2",
+    "Container_1",
+    "Table_1",
+    "Window_1",
+    "Can_1",
+    "Chair_1",
+    "Tile_1",
+    "Tile_2",
+    "Room_1",
+    "Torso_1",
+    "Sweatshirt_1",
+    "Man_1"
+  ]
+}

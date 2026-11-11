@@ -1,0 +1,15 @@
+# Secrets and environment variables
+.ENV
+.env
+.env.*
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw datasets and compressed archives (hosted separately on Kaggle)
+images/
+dataset_upload/*.jpg
+dataset_upload/*.png
+*.zip

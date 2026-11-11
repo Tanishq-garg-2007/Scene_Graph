@@ -1,0 +1,168 @@
+{
+  "image_id": 89,
+  "prompt_text": "### Relational Edges:\n- [Lamp_2] --[on]--> [Dresser_1]\n- [ZebraSkin_1] --[on]--> [Floor_3]\n- [Rug_1] --[on]--> [Floor_1: hardwood]\n- [Speaker_1] --[next to]--> [Television_1: flat screen]\n- [Speaker_3] --[next to]--> [Television_1: flat screen]\n- [Dvd's_1] --[on]--> [Table_1: red, metal, locker style]\n- [Lamp_1] --[on]--> [Table_1: red, metal, locker style]\n- [Shelf_1] --[on]--> [Table_3: circular ]\n- [Shelf_2] --[on]--> [Table_3: circular ]\n- [Shelf_3] --[on]--> [Table_3: circular ]\n- [Lamp_1] --[on]--> [Cabinet_1: red]\n- [Door_2] --[on]--> [Cabinet_1: red]\n- [Door_1] --[on]--> [Cabinet_1: red]\n- [Rug_1] --[on]--> [Floor_2: light, wood]\n- [Flowers_1] --[on]--> [Table_3: circular ]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Lampshade_1: red] -> [Dresser_1] -> [Lamp_1: red] -> [Door_1] -> [Dvd's_1] -> [Lamp_2: red] -> [Cabinet_1: red] -> [Table_1: red, metal, locker style] -> [Case_1: red ] -> [Radio_1: silver ] -> [Door_2] -> [Table_2: red, metal] -> [Couch_1: black, leather, tufted ] -> [Chair_1: large, black] -> [Flowers_1] -> [Shelf_1] -> [Shelf_2] -> [Vase_1: red, black, plaid, for flower] -> [Flowers_2: red] -> [Shelf_3] -> [Table_3: circular ] -> [Flowers_3: red ] -> [Vase_2: black ] -> [LampBase_1: round, white] -> [Base_1: white] -> [Lamp_3: Floor lamp, white, chrome] -> [Lampshade_2: white] -> [LampTop_1: large, oval shaped, illuminated] -> [Bookcase_1: black, white, oval shaped] -> [Unit_1: shelving, brown, white] -> [Legs_1: silver, black] -> [ZebraSkin_1] -> [Rug_1: zebra print] -> [Speaker_1] -> [TopStand_1: long] -> [Television_1: flat screen] -> [Television_2] -> [Speaker_2: rectangle , Grey ] -> [Speaker_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Lampshade_2: white] -> [LampTop_1: large, oval shaped, illuminated] -> [Flowers_2: red] -> [Flowers_3: red ] -> [Speaker_1] -> [Flowers_1] -> [Lampshade_1: red] -> [Lamp_3: Floor lamp, white, chrome] -> [Dresser_1] -> [Lamp_1: red] -> [Speaker_3] -> [Television_2] -> [Vase_2: black ] -> [Radio_1: silver ] -> [Vase_1: red, black, plaid, for flower] -> [Television_1: flat screen] -> [Dvd's_1] -> [Shelf_1] -> [Unit_1: shelving, brown, white] -> [Bookcase_1: black, white, oval shaped] -> [Shelf_2] -> [Table_3: circular ] -> [Door_2] -> [Case_1: red ] -> [Cabinet_1: red] -> [Table_1: red, metal, locker style] -> [Table_2: red, metal] -> [Speaker_2: rectangle , Grey ] -> [LampBase_1: round, white] -> [Base_1: white] -> [TopStand_1: long] -> [Door_1] -> [Lamp_2: red] -> [Shelf_3] -> [Legs_1: silver, black] -> [Chair_1: large, black] -> [Couch_1: black, leather, tufted ] -> [ZebraSkin_1] -> [Rug_1: zebra print]",
+  "semantic_id_mapping": {
+    "4290389": "Base_1",
+    "4290388": "Bookcase_1",
+    "4290423": "Cabinet_1",
+    "4290391": "Carpet_1",
+    "4520345": "Case_1",
+    "4290393": "Chair_1",
+    "4520344": "Couch_1",
+    "4290425": "Door_1",
+    "4290424": "Door_2",
+    "4290369": "Dresser_1",
+    "4290410": "Dvd's_1",
+    "4290380": "Floor_1",
+    "4520343": "Floor_2",
+    "4290374": "Floor_3",
+    "4520349": "Flowers_1",
+    "4290407": "Flowers_2",
+    "4140006": "Flowers_3",
+    "4290421": "Lamp_1",
+    "4290370": "Lamp_2",
+    "4520352": "Lamp_3",
+    "4290375": "LampBase_1",
+    "4290372": "LampTop_1",
+    "4290384": "Lampshade_1",
+    "4290386": "Lampshade_2",
+    "4290376": "Legs_1",
+    "4520347": "Radio_1",
+    "4520342": "Rug_1",
+    "4290414": "Shelf_1",
+    "4290415": "Shelf_2",
+    "4290416": "Shelf_3",
+    "4290401": "Speaker_1",
+    "4140004": "Speaker_2",
+    "4290396": "Speaker_3",
+    "4290412": "Table_1",
+    "4290387": "Table_2",
+    "4520351": "Table_3",
+    "4520353": "Television_1",
+    "4140005": "Television_2",
+    "4290377": "TopStand_1",
+    "4050879": "Unit_1",
+    "4290378": "Vase_1",
+    "4140007": "Vase_2",
+    "4290404": "Wall_1",
+    "4290373": "ZebraSkin_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Lamp_2",
+      "predicate": "on",
+      "object": "Dresser_1"
+    },
+    {
+      "subject": "ZebraSkin_1",
+      "predicate": "on",
+      "object": "Floor_3"
+    },
+    {
+      "subject": "Rug_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Speaker_1",
+      "predicate": "next to",
+      "object": "Television_1"
+    },
+    {
+      "subject": "Speaker_3",
+      "predicate": "next to",
+      "object": "Television_1"
+    },
+    {
+      "subject": "Dvd's_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Shelf_1",
+      "predicate": "on",
+      "object": "Table_3"
+    },
+    {
+      "subject": "Shelf_2",
+      "predicate": "on",
+      "object": "Table_3"
+    },
+    {
+      "subject": "Shelf_3",
+      "predicate": "on",
+      "object": "Table_3"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Cabinet_1"
+    },
+    {
+      "subject": "Door_2",
+      "predicate": "on",
+      "object": "Cabinet_1"
+    },
+    {
+      "subject": "Door_1",
+      "predicate": "on",
+      "object": "Cabinet_1"
+    },
+    {
+      "subject": "Rug_1",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "on",
+      "object": "Table_3"
+    }
+  ],
+  "horizontal_ordering": [
+    "Lampshade_1",
+    "Dresser_1",
+    "Lamp_1",
+    "Door_1",
+    "Dvd's_1",
+    "Lamp_2",
+    "Cabinet_1",
+    "Table_1",
+    "Case_1",
+    "Radio_1",
+    "Door_2",
+    "Table_2",
+    "Couch_1",
+    "Chair_1",
+    "Flowers_1",
+    "Shelf_1",
+    "Shelf_2",
+    "Vase_1",
+    "Flowers_2",
+    "Shelf_3",
+    "Table_3",
+    "Flowers_3",
+    "Vase_2",
+    "LampBase_1",
+    "Base_1",
+    "Lamp_3",
+    "Lampshade_2",
+    "LampTop_1",
+    "Bookcase_1",
+    "Unit_1",
+    "Legs_1",
+    "ZebraSkin_1",
+    "Rug_1",
+    "Speaker_1",
+    "TopStand_1",
+    "Television_1",
+    "Television_2",
+    "Speaker_2",
+    "Speaker_3"
+  ]
+}

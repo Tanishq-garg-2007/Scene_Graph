@@ -1,0 +1,94 @@
+{
+  "image_id": 119,
+  "prompt_text": "### Relational Edges:\n- [Knob_1] --[on]--> [Door_2]\n- [Flowers_2] --[on]--> [Window_1]\n- [Picture_1] --[on]--> [Wall_2: yellow]\n- [Picture_2] --[on]--> [Wall_2: yellow]\n- [Picture_3] --[on]--> [Wall_1]\n- [Window_2] --[on]--> [Building._1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Knob_1] -> [Door_1: white] -> [Door_2] -> [Picture_1: framed] -> [Photo_1: one] -> [Picture_2] -> [Frame_1] -> [Photo_2] -> [Picture_3] -> [Chair_1: black] -> [Building._1] -> [Table_1: brown, black] -> [Room_1] -> [Oranges_1] -> [Bowl_1] -> [Orange_1] -> [Bowl_2: green, blue, red] -> [Bowl_3: green, red, black] -> [Flowers_1: yellow] -> [Flowers_2] -> [Basket_1: black wicker] -> [Window_1] -> [Window_2] -> [Chair_2: black, folding] -> [Window_3: panes] -> [Baseboard_1: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Photo_2] -> [Picture_3] -> [Frame_1] -> [Door_1: white] -> [Window_1] -> [Photo_1: one] -> [Picture_2] -> [Flowers_2] -> [Picture_1: framed] -> [Flowers_1: yellow] -> [Window_2] -> [Door_2] -> [Knob_1] -> [Basket_1: black wicker] -> [Window_3: panes] -> [Building._1] -> [Room_1] -> [Chair_1: black] -> [Bowl_2: green, blue, red] -> [Oranges_1] -> [Orange_1] -> [Bowl_3: green, red, black] -> [Bowl_1] -> [Table_1: brown, black] -> [Chair_2: black, folding] -> [Baseboard_1: white]",
+  "semantic_id_mapping": {
+    "1624913": "Baseboard_1",
+    "1624906": "Basket_1",
+    "3562136": "Bowl_1",
+    "1624910": "Bowl_2",
+    "1624920": "Bowl_3",
+    "3632876": "Building._1",
+    "1624915": "Chair_1",
+    "1624912": "Chair_2",
+    "1624903": "Door_1",
+    "3786982": "Door_2",
+    "3562130": "Flowers_1",
+    "3786983": "Flowers_2",
+    "3562140": "Frame_1",
+    "3786981": "Knob_1",
+    "3562133": "Orange_1",
+    "1624914": "Oranges_1",
+    "1624904": "Photo_1",
+    "1624905": "Photo_2",
+    "1624911": "Picture_1",
+    "1624917": "Picture_2",
+    "1624918": "Picture_3",
+    "3562125": "Room_1",
+    "1624909": "Table_1",
+    "3562138": "Wall_1",
+    "3562134": "Wall_2",
+    "1624907": "Window_1",
+    "1624925": "Window_2",
+    "1624908": "Window_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Knob_1",
+      "predicate": "on",
+      "object": "Door_2"
+    },
+    {
+      "subject": "Flowers_2",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Picture_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Picture_2",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Picture_3",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building._1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Knob_1",
+    "Door_1",
+    "Door_2",
+    "Picture_1",
+    "Photo_1",
+    "Picture_2",
+    "Frame_1",
+    "Photo_2",
+    "Picture_3",
+    "Chair_1",
+    "Building._1",
+    "Table_1",
+    "Room_1",
+    "Oranges_1",
+    "Bowl_1",
+    "Orange_1",
+    "Bowl_2",
+    "Bowl_3",
+    "Flowers_1",
+    "Flowers_2",
+    "Basket_1",
+    "Window_1",
+    "Window_2",
+    "Chair_2",
+    "Window_3",
+    "Baseboard_1"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "1.jpg_q1": {
+    "image": "1.jpg",
+    "image_id": "1",
+    "question_id": 1,
+    "question": "What object is located between the man in the red shirt and the white van?",
+    "ground_truth": "The man in the grey hoodie.",
+    "relation_or_feature": "[Man in red shirt] -> [Man in grey hoodie] -> [White van]",
+    "category": "Betweenness / Object",
+    "extracted_answer": "The object(s) located between the man in the red shirt and the white van are ParkingMeter_1 and Car_1.",
+    "is_correct": true,
+    "evaluation_reason": "Correct: Matched Man_2 / grey jacket in reasoning trace",
+    "eval_count": 441,
+    "duration_seconds": 24.75,
+    "model_response": "**Step 1 - Entity Matching:**\n*   **Man in the red shirt**: Identified as **[Man_1]** (wearing [Shirt_1: red, orange]).\n*   **White van**: Identified as **[Van_1: parked, white]**.\n\n**Step 2 - Chain Selection:**\nThe question asks for an object located \"between\" these two entities. Based on the provided Horizontal Ordering chain:\n`[Building_1] -> [Sign_1] -> [Man_1] -> [Bike_1] -> [Tree_1] -> [Bikes_1] -> [Bike_2] -> [Man_2] -> [Clock_1] -> [Trees_1] -> [Car_1] -> [LampPost_1] -> [ParkingMeter_1] -> [Van_1]`\n\nThe entities involved are:\n1.  **Man_1** (Red Shirt) - Position: Left of Van_1.\n2.  **Van_1** (White) - Position: Right of Man_1.\n\n**Step 3 - Path Tracing:**\nWe need to list the intermediate entities strictly between **[Man_1]** and **[Van_1]** in this chain.\n*   Entities immediately preceding Van_1 are: `ParkingMeter_1`, `Car_1`.\n*   Entities immediately following Man_1 are: `[Building_1]`, `[Sign_1]`, `[Bike_1]`, `[Tree_1]`, `[Bikes_1]`, `[Bike_2]`, `[Man_2]`, `[Clock_1]`, `[Trees_1]`, `[Car_1]`.\n*   The segment between Man_1 and Van_1 includes: `ParkingMeter_1` (behind Man_2), `Car_1` (to the right of LampPost).\n\n**Step 4 - Final Answer:**\nThe object(s) located between the man in the red shirt and the white van are **ParkingMeter_1** and **Car_1**."
+  },
+  "1.jpg_q2": {
+    "image": "1.jpg",
+    "image_id": "1",
+    "question_id": 2,
+    "question": "Is the green clock positioned higher or lower than the heads of the two men standing on the sidewalk?",
+    "ground_truth": "Higher.",
+    "relation_or_feature": "Elevation",
+    "category": "Elevation",
+    "extracted_answer": "Since the clock is higher in the chain than the men, it is positioned higher.",
+    "is_correct": true,
+    "evaluation_reason": "Correct: Identified 'higher/above'",
+    "eval_count": 361,
+    "duration_seconds": 17.19,
+    "model_response": "**Step 1 - Entity Matching:**\n*   **Entity 1 (Green Clock):** `Clock_1: green, tall`\n*   **Entities 2 & 3 (Men):** `Man_1`, `Man_2`\n*   **Clothing/Accessories for Men:**\n    *   `Shirt_1: red, orange` (Worn by Man_1)\n    *   `Jacket_1: gray, grey` (Worn by Man_2)\n    *   `Pants_1: black` (Worn by Man_1)\n    *   `Pants_2: gray, grey` (Worn by Man_2)\n\n**Step 2 - Chain Selection:**\nThe question asks about the relative position of the clock compared to the heads of the men. This requires comparing vertical height (Highest-to-Lowest). The provided Vertical Ordering chain is:\n`[Sign_1] -> [Tree_1] -> [Clock_1] -> [Building_1] ...`\n\n**Step 3 - Path Tracing:**\nFollowing the chain from the top to the bottom:\n1.  `Sign_1` (Top)\n2.  `Tree_1`\n3.  `Clock_1` (Green, tall)\n4.  `Building_1`\n5.  ...and so on down to `Man_1`, `Man_2`.\n\nThe clock (`Clock_1`) is located directly above the men (`Man_1` and `Man_2`).\n\n**Step 4 - Final Answer:**\nSince the clock is higher in the chain than the men, it is positioned **higher**."
+  }
+}

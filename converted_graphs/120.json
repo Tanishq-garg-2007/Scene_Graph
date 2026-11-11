@@ -1,0 +1,102 @@
+{
+  "image_id": 120,
+  "prompt_text": "### Relational Edges:\n- [Art_1] --[on]--> [Wall_2]\n- [Pillow_4] --[on]--> [Sofa_1]\n- [Pillow_1] --[on]--> [Sofa_1]\n- [Pillow_1] --[on]--> [Sofa_2]\n- [Window_1] --[on]--> [Building._1]\n- [Window_2] --[on]--> [Building_1]\n- [Window_3] --[on]--> [Building_1]\n- [Chair_1] --[on]--> [Ground_1]\n- [Lamp_1] --[on]--> [Table_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Art_1: large] -> [Painting_1] -> [Lamp_1] -> [Pillow_1: soft] -> [Table_1] -> [Pillow_2: pink] -> [Sofa_1] -> [Pillow_3: square] -> [Pillow_4: soft] -> [Lamp_2] -> [Table_2] -> [Building._1] -> [Building_1] -> [Carpetry_1] -> [Lamp_3: lighted] -> [Pillow_5: square] -> [Sofa_2] -> [Chair_1] -> [Table_3] -> [Window_1] -> [Window_2] -> [Window_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_2] -> [Window_3] -> [Lamp_3: lighted] -> [Art_1: large] -> [Painting_1] -> [Lamp_2] -> [Window_1] -> [Building_1] -> [Building._1] -> [Pillow_4: soft] -> [Pillow_5: square] -> [Pillow_3: square] -> [Sofa_2] -> [Pillow_2: pink] -> [Chair_1] -> [Sofa_1] -> [Table_3] -> [Pillow_1: soft] -> [Table_2] -> [Carpetry_1] -> [Lamp_1] -> [Table_1]",
+  "semantic_id_mapping": {
+    "1624933": "Art_1",
+    "3792858": "Building_1",
+    "3632878": "Building._1",
+    "3562150": "Carpetry_1",
+    "1535119": "Chair_1",
+    "3792859": "Ground_1",
+    "1535123": "Lamp_1",
+    "1535118": "Lamp_2",
+    "1624941": "Lamp_3",
+    "1624942": "Painting_1",
+    "1624938": "Pillow_1",
+    "1535121": "Pillow_2",
+    "1624932": "Pillow_3",
+    "1624934": "Pillow_4",
+    "1624930": "Pillow_5",
+    "3562147": "Sofa_1",
+    "3562148": "Sofa_2",
+    "3792860": "Table_1",
+    "1624943": "Table_2",
+    "1535125": "Table_3",
+    "3562149": "Wall_1",
+    "3786985": "Wall_2",
+    "1624944": "Window_1",
+    "1535114": "Window_2",
+    "1535116": "Window_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Art_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Pillow_4",
+      "predicate": "on",
+      "object": "Sofa_1"
+    },
+    {
+      "subject": "Pillow_1",
+      "predicate": "on",
+      "object": "Sofa_1"
+    },
+    {
+      "subject": "Pillow_1",
+      "predicate": "on",
+      "object": "Sofa_2"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building._1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_3",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Art_1",
+    "Painting_1",
+    "Lamp_1",
+    "Pillow_1",
+    "Table_1",
+    "Pillow_2",
+    "Sofa_1",
+    "Pillow_3",
+    "Pillow_4",
+    "Lamp_2",
+    "Table_2",
+    "Building._1",
+    "Building_1",
+    "Carpetry_1",
+    "Lamp_3",
+    "Pillow_5",
+    "Sofa_2",
+    "Chair_1",
+    "Table_3",
+    "Window_1",
+    "Window_2",
+    "Window_3"
+  ]
+}

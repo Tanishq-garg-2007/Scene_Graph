@@ -1,0 +1,109 @@
+{
+  "image_id": 148,
+  "prompt_text": "### Relational Edges:\n- [Tree_1] --[next to]--> [Woman_4]\n- [Can_1] --[on]--> [Walkway_1]\n- [Woman_1] --[wearing]--> [Skirt_1]\n- [Leaf_1] --[on]--> [Ground_1]\n- [Purse_1] --[on]--> [Shoulder_1]\n- [People_1] --[on]--> [Sidewalk_1: brick]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Door_1] -> [Shops_1] -> [Trunk_1: bare] -> [Tree_1] -> [TreeTrunk_1: thick] -> [Person_1] -> [Person_2] -> [Trees_1] -> [Can_1] -> [Cam_1: black] -> [Leaf_1] -> [Walkway_1] -> [Dress_1: white] -> [Woman_1] -> [People_1] -> [Sign_1: rectangular] -> [Woman_2] -> [Bag_1] -> [Woman_3] -> [Shoulder_1] -> [Purse_1] -> [Markings_1: purple] -> [Stroller_1] -> [Woman_4] -> [Sandal_1] -> [OldLady_1] -> [Door_2] -> [Window_1: glass] -> [Reflection_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Sign_1: rectangular] -> [Shops_1] -> [Door_1] -> [Person_2] -> [Shoulder_1] -> [Person_1] -> [Bag_1] -> [Purse_1] -> [Woman_3] -> [Door_2] -> [Tree_1] -> [Woman_2] -> [Trees_1] -> [Trunk_1: bare] -> [People_1] -> [TreeTrunk_1: thick] -> [Dress_1: white] -> [Woman_1] -> [Markings_1: purple] -> [Cam_1: black] -> [Can_1] -> [Window_1: glass] -> [OldLady_1] -> [Reflection_1] -> [Woman_4] -> [Walkway_1] -> [Stroller_1] -> [Sandal_1] -> [Leaf_1]",
+  "semantic_id_mapping": {
+    "1621327": "Bag_1",
+    "1625019": "Cam_1",
+    "1621318": "Can_1",
+    "1621328": "Door_1",
+    "1621322": "Door_2",
+    "1621343": "Dress_1",
+    "1621341": "Foot_1",
+    "1621330": "Ground_1",
+    "1621317": "Jeans_1",
+    "1621329": "Leaf_1",
+    "1621339": "Leg_1",
+    "1621336": "Leg_2",
+    "1621332": "Markings_1",
+    "1621316": "OldLady_1",
+    "1621323": "Pants_1",
+    "1625021": "People_1",
+    "1621314": "Person_1",
+    "1621315": "Person_2",
+    "1621334": "Purse_1",
+    "1621309": "Reflection_1",
+    "1621312": "Road_1",
+    "1621340": "Sandal_1",
+    "1621331": "Shirt_1",
+    "1621321": "Shirt_2",
+    "1625023": "Shops_1",
+    "1621335": "Shoulder_1",
+    "3792883": "Sidewalk_1",
+    "1625020": "Sign_1",
+    "1621325": "Skirt_1",
+    "1621345": "Stroller_1",
+    "1621310": "Tree_1",
+    "1621346": "TreeTrunk_1",
+    "1625026": "Trees_1",
+    "1621308": "Trunk_1",
+    "1621319": "Walkway_1",
+    "1625022": "Window_1",
+    "1621324": "Woman_1",
+    "1621326": "Woman_2",
+    "1621333": "Woman_3",
+    "1621311": "Woman_4"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tree_1",
+      "predicate": "next to",
+      "object": "Woman_4"
+    },
+    {
+      "subject": "Can_1",
+      "predicate": "on",
+      "object": "Walkway_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Skirt_1"
+    },
+    {
+      "subject": "Leaf_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Purse_1",
+      "predicate": "on",
+      "object": "Shoulder_1"
+    },
+    {
+      "subject": "People_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Door_1",
+    "Shops_1",
+    "Trunk_1",
+    "Tree_1",
+    "TreeTrunk_1",
+    "Person_1",
+    "Person_2",
+    "Trees_1",
+    "Can_1",
+    "Cam_1",
+    "Leaf_1",
+    "Walkway_1",
+    "Dress_1",
+    "Woman_1",
+    "People_1",
+    "Sign_1",
+    "Woman_2",
+    "Bag_1",
+    "Woman_3",
+    "Shoulder_1",
+    "Purse_1",
+    "Markings_1",
+    "Stroller_1",
+    "Woman_4",
+    "Sandal_1",
+    "OldLady_1",
+    "Door_2",
+    "Window_1",
+    "Reflection_1"
+  ]
+}

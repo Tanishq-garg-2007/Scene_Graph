@@ -1,0 +1,61 @@
+{
+  "image_id": 118,
+  "prompt_text": "### Relational Edges:\n- [CoffeeTable_1] --[on]--> [Floor_1: carpeted]\n- [Book_1] --[on]--> [CoffeeTable_1: made of wood, wooden]\n- [Sofa_1] --[on]--> [Floor_1: carpeted]\n- [Cord_1] --[on]--> [Wall_1: bare, white]\n- [Cord_1] --[on]--> [Floor_1: carpeted]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [ArmRest_1] -> [Sofa_1: purple, old, plaid] -> [ArmRest_2] -> [LampShade_1: white] -> [Stand_1: green] -> [Lamp_1: green] -> [CoffeeTable_1: made of wood, wooden] -> [Cord_1] -> [Book_1] -> [Plastic_1] -> [Sofa_2: matching]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [LampShade_1: white] -> [Lamp_1: green] -> [Stand_1: green] -> [ArmRest_1] -> [ArmRest_2] -> [Book_1] -> [Sofa_1: purple, old, plaid] -> [Plastic_1] -> [Sofa_2: matching] -> [CoffeeTable_1: made of wood, wooden] -> [Cord_1]",
+  "semantic_id_mapping": {
+    "1062373": "ArmRest_1",
+    "1062374": "ArmRest_2",
+    "1062368": "Book_1",
+    "1062365": "CoffeeTable_1",
+    "1062369": "Cord_1",
+    "1062366": "Floor_1",
+    "1062367": "Lamp_1",
+    "1062371": "LampShade_1",
+    "1062376": "Leg_1",
+    "1062377": "Leg_2",
+    "1062379": "Plastic_1",
+    "1062370": "Sofa_1",
+    "1062378": "Sofa_2",
+    "1062375": "Stand_1",
+    "1062372": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "CoffeeTable_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "CoffeeTable_1"
+    },
+    {
+      "subject": "Sofa_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Cord_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Cord_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "ArmRest_1",
+    "Sofa_1",
+    "ArmRest_2",
+    "LampShade_1",
+    "Stand_1",
+    "Lamp_1",
+    "CoffeeTable_1",
+    "Cord_1",
+    "Book_1",
+    "Plastic_1",
+    "Sofa_2"
+  ]
+}

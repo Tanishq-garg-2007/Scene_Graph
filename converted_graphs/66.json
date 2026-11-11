@@ -1,0 +1,97 @@
+{
+  "image_id": 66,
+  "prompt_text": "### Relational Edges:\n- [Tv_1] --[on]--> [Stand_1]\n- [Dvd_3] --[on]--> [Shelf_3]\n- [Dvd_8] --[on]--> [Shelf_1]\n- [Dvd_4] --[on]--> [Shelf_2]\n- [Dvd_6] --[on]--> [Shelf_2]\n- [Dvd_2] --[on]--> [Shelf_2]\n- [Dvd_7] --[on]--> [Shelf_2]\n- [Dvd_1] --[on]--> [Shelf_2]\n- [Dvd_9] --[on]--> [Shelf_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Door_1: white, paneled] -> [Hinges_1: black] -> [Rug_1] -> [BrownRug_1: brown] -> [BlueCarpet_1: blue] -> [Television_1] -> [Tv_1] -> [Stand_1] -> [Shelf_1] -> [Dvd_1] -> [Dvd_2] -> [Dvd_3] -> [Dvd_4] -> [Dvd_5] -> [Shelf_2] -> [Shelf_3] -> [Dvd_6] -> [Dvd_7] -> [Dvd_8] -> [Dvd_9]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Hinges_1: black] -> [Dvd_8] -> [Dvd_3] -> [Door_1: white, paneled] -> [Shelf_3] -> [Tv_1] -> [Television_1] -> [Dvd_4] -> [Shelf_2] -> [Dvd_6] -> [Dvd_9] -> [Dvd_2] -> [Dvd_5] -> [Shelf_1] -> [Stand_1] -> [Dvd_1] -> [Dvd_7] -> [Rug_1] -> [BrownRug_1: brown] -> [BlueCarpet_1: blue]",
+  "semantic_id_mapping": {
+    "1533976": "BlueCarpet_1",
+    "1533977": "BrownRug_1",
+    "1533975": "Carpet_1",
+    "1533961": "Door_1",
+    "1533972": "Dvd_1",
+    "1533970": "Dvd_2",
+    "1533964": "Dvd_3",
+    "1533967": "Dvd_4",
+    "1533969": "Dvd_5",
+    "1533968": "Dvd_6",
+    "1533971": "Dvd_7",
+    "1533966": "Dvd_8",
+    "1533973": "Dvd_9",
+    "1533958": "Hinges_1",
+    "1533974": "Rug_1",
+    "3792780": "Shelf_1",
+    "3792786": "Shelf_2",
+    "1533965": "Shelf_3",
+    "1533963": "Stand_1",
+    "1533978": "Television_1",
+    "1533962": "Tv_1",
+    "1533960": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tv_1",
+      "predicate": "on",
+      "object": "Stand_1"
+    },
+    {
+      "subject": "Dvd_3",
+      "predicate": "on",
+      "object": "Shelf_3"
+    },
+    {
+      "subject": "Dvd_8",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Dvd_4",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Dvd_6",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Dvd_2",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Dvd_7",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Dvd_1",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Dvd_9",
+      "predicate": "on",
+      "object": "Shelf_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Door_1",
+    "Hinges_1",
+    "Rug_1",
+    "BrownRug_1",
+    "BlueCarpet_1",
+    "Television_1",
+    "Tv_1",
+    "Stand_1",
+    "Shelf_1",
+    "Dvd_1",
+    "Dvd_2",
+    "Dvd_3",
+    "Dvd_4",
+    "Dvd_5",
+    "Shelf_2",
+    "Shelf_3",
+    "Dvd_6",
+    "Dvd_7",
+    "Dvd_8",
+    "Dvd_9"
+  ]
+}

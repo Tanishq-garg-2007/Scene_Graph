@@ -1,0 +1,146 @@
+[{"stream_name":"stdout","time":9.877803798,"data":"[INFO] Upgrading transformers and installing qwen-vl-utils...\n"}
+,{"stream_name":"stdout","time":39.710608569,"data":"[INFO] PyTorch: 2.11.0+cu130, Transformers: 5.20.2\n"}
+,{"stream_name":"stdout","time":39.999814738,"data":"[INFO] GPU: Tesla T4 (15.64 GB)\n"}
+,{"stream_name":"stdout","time":40.118344278,"data":"[INFO] Using dataset directory: /kaggle/input/datasets/tanishqgarg2007/spatial-benchmark-24-images\n"}
+,{"stream_name":"stdout","time":40.118369096,"data":"[INFO] Loading model Qwen/Qwen2.5-VL-3B-Instruct...\n"}
+,{"stream_name":"stderr","time":40.343161399,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":81.578444538,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:  50%|█████     | 1/2 [00:39\u003c00:39, 39.09s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:39\u003c00:00, 19.54s/it]\n"}
+,{"stream_name":"stderr","time":86.482825456,"data":"\rLoading weights:   0%|          | 0/824 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/824 [00:00\u003c13:33,  1.01it/s]\rLoading weights:  11%|█         | 87/824 [00:01\u003c00:06, 107.61it/s]\rLoading weights:  16%|█▌        | 132/824 [00:01\u003c00:05, 131.35it/s]\rLoading weights:  20%|██        | 165/824 [00:01\u003c00:05, 124.93it/s]\rLoading weights:  23%|██▎       | 190/824 [00:01\u003c00:04, 128.72it/s]\rLoading weights:  26%|██▌       | 211/824 [00:02\u003c00:04, 123.04it/s]\rLoading weights:  28%|██▊       | 231/824 [00:02\u003c00:04, 128.31it/s]\rLoading weights:  30%|███       | 248/824 [00:02\u003c00:04, 131.10it/s]\rLoading weights:  32%|███▏      | 267/824 [00:02\u003c00:04, 134.04it/s]\rLoading weights:  34%|███▍      | 283/824 [00:02\u003c00:04, 130.95it/s]\rLoading weights:  36%|███▌      | 298/824 [00:02\u003c00:03, 132.35it/s]\rLoading weights:  38%|███▊      | 313/824 [00:02\u003c00:03, 135.22it/s]\rLoading weights:  40%|███▉      | 328/824 [00:02\u003c00:04, 115.36it/s]\rLoading weights:  43%|████▎     | 351/824 [00:03\u003c00:03, 132.59it/s]\rLoading weights:  45%|████▌     | 374/824 [00:03\u003c00:02, 155.04it/s]\rLoading weights:  47%|████▋     | 391/824 [00:03\u003c00:03, 118.56it/s]\rLoading weights:  50%|████▉     | 411/824 [00:03\u003c00:03, 126.57it/s]\rLoading weights:  54%|█████▍    | 444/824 [00:03\u003c00:02, 169.25it/s]\rLoading weights:  63%|██████▎   | 516/824 [00:03\u003c00:01, 298.67it/s]\rLoading weights:  71%|███████   | 582/824 [00:03\u003c00:00, 386.49it/s]\rLoading weights:  78%|███████▊  | 644/824 [00:03\u003c00:00, 446.67it/s]\rLoading weights:  87%|████████▋ | 714/824 [00:04\u003c00:00, 511.10it/s]\rLoading weights:  95%|█████████▌| 783/824 [00:04\u003c00:00, 560.86it/s]\rLoading weights: 100%|██████████| 824/824 [00:04\u003c00:00, 194.38it/s]\n"}
+,{"stream_name":"stdout","time":86.70402167,"data":"[INFO] Model loaded successfully in 46.59s\n"}
+,{"stream_name":"stdout","time":86.704051312,"data":"\n"}
+,{"stream_name":"stdout","time":86.70405748,"data":"================================================================================\n"}
+,{"stream_name":"stdout","time":86.704062862,"data":"EXECUTING 24-QUERY BENCHMARK (PURE COT: NO SCENE GRAPH, NO BOUNDING BOXES)\n"}
+,{"stream_name":"stdout","time":86.704067449,"data":"================================================================================\n"}
+,{"stream_name":"stdout","time":99.996868231,"data":"\n"}
+,{"stream_name":"stdout","time":99.996906621,"data":"[01/24] Image: 167.jpg | Latency: 13.10s | Tokens: 116 (8.85 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":99.996949878,"data":"  Q:  Is the metal staircase positioned higher or lower than the wooden cabinet?\n"}
+,{"stream_name":"stdout","time":99.996956174,"data":"  GT: The metal staircase is positioned higher than the wooden cabinet.\n"}
+,{"stream_name":"stdout","time":99.996960097,"data":"  A:  The metal staircase is positioned higher than the wooden cabinet.\n"}
+,{"stream_name":"stdout","time":106.88735239,"data":"\n"}
+,{"stream_name":"stdout","time":106.887397915,"data":"[02/24] Image: 29.jpg | Latency: 6.82s | Tokens: 118 (17.31 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":106.887402663,"data":"  Q:  What object is located between the woman in the white tank top and the woman in the red shirt?\n"}
+,{"stream_name":"stdout","time":106.887406498,"data":"  GT: The white boat labeled \"BLUE ART\".\n"}
+,{"stream_name":"stdout","time":106.887411193,"data":"  A:  boat\n"}
+,{"stream_name":"stdout","time":112.68735715,"data":"\n"}
+,{"stream_name":"stdout","time":112.687416939,"data":"[03/24] Image: 7.jpg | Latency: 5.67s | Tokens: 99 (17.46 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":112.687424621,"data":"  Q:  Is the whiteboard positioned higher or lower than the desk?\n"}
+,{"stream_name":"stdout","time":112.687430171,"data":"  GT: Higher\n"}
+,{"stream_name":"stdout","time":112.687434507,"data":"  A:  The whiteboard is positioned higher than the desk.\n"}
+,{"stream_name":"stdout","time":118.308153018,"data":"\n"}
+,{"stream_name":"stdout","time":118.308196756,"data":"[04/24] Image: 193.jpg | Latency: 5.57s | Tokens: 103 (18.49 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":118.308214416,"data":"  Q:  What object is located between the rows of seats and the large screen?\n"}
+,{"stream_name":"stdout","time":118.308218822,"data":"  GT: The stage.\n"}
+,{"stream_name":"stdout","time":118.308236991,"data":"  A:  stage\n"}
+,{"stream_name":"stdout","time":124.961208719,"data":"\n"}
+,{"stream_name":"stdout","time":124.9612473,"data":"[05/24] Image: 73.jpg | Latency: 6.59s | Tokens: 117 (17.76 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":124.961253402,"data":"  Q:  Is the white plastic chair in the foreground positioned higher or lower than the table surface?\n"}
+,{"stream_name":"stdout","time":124.961258441,"data":"  GT: The chair is positioned lower than the table surface.\n"}
+,{"stream_name":"stdout","time":124.961263458,"data":"  A:  The white plastic chair in the foreground is positioned lower than the table surface.\n"}
+,{"stream_name":"stdout","time":131.416077037,"data":"\n"}
+,{"stream_name":"stdout","time":131.416139481,"data":"[06/24] Image: 65.jpg | Latency: 6.40s | Tokens: 113 (17.66 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":131.416146836,"data":"  Q:  What vehicle is positioned between the white van and the grey car?\n"}
+,{"stream_name":"stdout","time":131.416152528,"data":"  GT: A man (wearing a grey sweater) is standing between the white van and the grey car.\n"}
+,{"stream_name":"stdout","time":131.416157924,"data":"  A:  The vehicle positioned between the white van and the grey car is a white car.\n"}
+,{"stream_name":"stdout","time":139.622102915,"data":"\n"}
+,{"stream_name":"stdout","time":139.622155744,"data":"[07/24] Image: 59.jpg | Latency: 8.15s | Tokens: 147 (18.04 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":139.622168528,"data":"  Q:  Is the \"EROSKI center\" sign positioned higher or lower than the \"ELITE RESTAURANTE\" sign?\n"}
+,{"stream_name":"stdout","time":139.622174532,"data":"  GT: Lower\n"}
+,{"stream_name":"stdout","time":139.622179545,"data":"  A:  \"EROSKI center\" sign is positioned higher than the \"ELITE RESTAURANTE\" sign.\n"}
+,{"stream_name":"stdout","time":145.678966258,"data":"\n"}
+,{"stream_name":"stdout","time":145.679007032,"data":"[08/24] Image: 36.jpg | Latency: 5.96s | Tokens: 103 (17.27 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":145.679013048,"data":"  Q:  What object is located between the dark green hutch and the refrigerator?\n"}
+,{"stream_name":"stdout","time":145.679017868,"data":"  GT: There is no object between them; they are positioned directly adjacent to each other.\n"}
+,{"stream_name":"stdout","time":145.679022457,"data":"  A:  dark green hutch\n"}
+,{"stream_name":"stdout","time":155.522668158,"data":"\n"}
+,{"stream_name":"stdout","time":155.522708042,"data":"[09/24] Image: 192.jpg | Latency: 9.76s | Tokens: 188 (19.27 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":155.522714437,"data":"  Q:  Is the yellow taxi sign on the roof of the center car positioned higher or lower than the blue \"TAXI\" street sign on the right?\n"}
+,{"stream_name":"stdout","time":155.522719703,"data":"  GT: The yellow taxi sign on the roof is positioned lower than the blue \"TAXI\" street sign.\n"}
+,{"stream_name":"stdout","time":155.522724658,"data":"  A:  The yellow taxi sign on the roof of the center car is positioned higher than the blue \"TAXI\" street sign on the right.\n"}
+,{"stream_name":"stdout","time":161.267799186,"data":"\n"}
+,{"stream_name":"stdout","time":161.267857347,"data":"[10/24] Image: 27.jpg | Latency: 5.66s | Tokens: 92 (16.25 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":161.267900139,"data":"  Q:  What object is located between the table and the wall?\n"}
+,{"stream_name":"stdout","time":161.267918039,"data":"  GT: The radiator\n"}
+,{"stream_name":"stdout","time":161.267922599,"data":"  A:  chair\n"}
+,{"stream_name":"stdout","time":167.477007922,"data":"\n"}
+,{"stream_name":"stdout","time":167.4771437,"data":"[11/24] Image: 177.jpg | Latency: 6.13s | Tokens: 107 (17.45 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":167.477154081,"data":"  Q:  Is the dental light positioned higher or lower than the dental chair?\n"}
+,{"stream_name":"stdout","time":167.477160515,"data":"  GT: Higher\n"}
+,{"stream_name":"stdout","time":167.477165888,"data":"  A:  The dental light is positioned higher than the dental chair.\n"}
+,{"stream_name":"stdout","time":174.43374039,"data":"\n"}
+,{"stream_name":"stdout","time":174.433779395,"data":"[12/24] Image: 142.jpg | Latency: 6.88s | Tokens: 114 (16.56 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":174.43378501,"data":"  Q:  What object is located between the fountain and the row of benches?\n"}
+,{"stream_name":"stdout","time":174.433791536,"data":"  GT: A black lamp post\n"}
+,{"stream_name":"stdout","time":174.433810345,"data":"  A:  a paved walkway\n"}
+,{"stream_name":"stdout","time":181.106655618,"data":"\n"}
+,{"stream_name":"stdout","time":181.106701528,"data":"[13/24] Image: 23.jpg | Latency: 6.58s | Tokens: 110 (16.73 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":181.106706627,"data":"  Q:  Is the blue parking sign positioned higher or lower than the top of the black car?\n"}
+,{"stream_name":"stdout","time":181.10671008,"data":"  GT: Higher\n"}
+,{"stream_name":"stdout","time":181.106713545,"data":"  A:  The blue parking sign is positioned higher than the top of the black car.\n"}
+,{"stream_name":"stdout","time":186.895256625,"data":"\n"}
+,{"stream_name":"stdout","time":186.895295493,"data":"[14/24] Image: 154.jpg | Latency: 5.67s | Tokens: 101 (17.81 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":186.895302225,"data":"  Q:  What object is located between the red cup and the white toaster?\n"}
+,{"stream_name":"stdout","time":186.89532492,"data":"  GT: The coffee pot\n"}
+,{"stream_name":"stdout","time":186.895329755,"data":"  A:  black coffee pot\n"}
+,{"stream_name":"stdout","time":192.775613473,"data":"\n"}
+,{"stream_name":"stdout","time":192.775655528,"data":"[15/24] Image: 111.jpg | Latency: 5.77s | Tokens: 97 (16.81 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":192.775659677,"data":"  Q:  Is the spatula positioned higher or lower than the orange?\n"}
+,{"stream_name":"stdout","time":192.775662326,"data":"  GT: Higher\n"}
+,{"stream_name":"stdout","time":192.775664794,"data":"  A:  higher\n"}
+,{"stream_name":"stdout","time":198.897447075,"data":"\n"}
+,{"stream_name":"stdout","time":198.897485488,"data":"[16/24] Image: 9.jpg | Latency: 6.02s | Tokens: 106 (17.61 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":198.897491114,"data":"  Q:  What object is located between the corkboard on the wall and the window?\n"}
+,{"stream_name":"stdout","time":198.897494915,"data":"  GT: Bookshelf\n"}
+,{"stream_name":"stdout","time":198.897498728,"data":"  A:  bookshelf\n"}
+,{"stream_name":"stdout","time":204.817563259,"data":"\n"}
+,{"stream_name":"stdout","time":204.817602955,"data":"[17/24] Image: 8.jpg | Latency: 5.82s | Tokens: 98 (16.83 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":204.817608481,"data":"  Q:  Is the white mug positioned higher or lower than the keyboard?\n"}
+,{"stream_name":"stdout","time":204.817611853,"data":"  GT: The white mug is positioned higher than the keyboard.\n"}
+,{"stream_name":"stdout","time":204.817615013,"data":"  A:  The white mug is positioned lower than the keyboard.\n"}
+,{"stream_name":"stdout","time":213.04097238,"data":"\n"}
+,{"stream_name":"stdout","time":213.041017575,"data":"[18/24] Image: 24.jpg | Latency: 8.16s | Tokens: 145 (17.78 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":213.041022414,"data":"  Q:  What vehicle is parked directly in front of the red car, and what type of vehicle is parked in front of that one?\n"}
+,{"stream_name":"stdout","time":213.041025927,"data":"  GT: A white van is parked in front of the red car, and a row of motorcycles is parked in front of the white van.\n"}
+,{"stream_name":"stdout","time":213.041029343,"data":"  A:  The motorcycle is parked directly in front of the red car, and there are bicycles parked in front of that one.\n"}
+,{"stream_name":"stdout","time":219.729794137,"data":"\n"}
+,{"stream_name":"stdout","time":219.729831438,"data":"[19/24] Image: 57.jpg | Latency: 6.62s | Tokens: 118 (17.82 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":219.729838949,"data":"  Q:  Is the man in the suit positioned higher or lower than the parked car?\n"}
+,{"stream_name":"stdout","time":219.729847148,"data":"  GT: Lower\n"}
+,{"stream_name":"stdout","time":219.729850698,"data":"  A:  The man in the suit is positioned lower than the parked car.\n"}
+,{"stream_name":"stdout","time":226.448215943,"data":"\n"}
+,{"stream_name":"stdout","time":226.448256169,"data":"[20/24] Image: 62.jpg | Latency: 6.66s | Tokens: 107 (16.06 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":226.448260554,"data":"  Q:  What object is located between the large planter and the beige car?\n"}
+,{"stream_name":"stdout","time":226.448264208,"data":"  GT: A metal pole (or street lamp post).\n"}
+,{"stream_name":"stdout","time":226.44828437,"data":"  A:  a person wearing a white shirt and blue jeans\n"}
+,{"stream_name":"stdout","time":233.053782828,"data":"\n"}
+,{"stream_name":"stdout","time":233.05381836,"data":"[21/24] Image: 132.jpg | Latency: 6.52s | Tokens: 110 (16.88 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":233.053843827,"data":"  Q:  Is the street lamp positioned higher or lower than the car?\n"}
+,{"stream_name":"stdout","time":233.053848575,"data":"  GT: Higher\n"}
+,{"stream_name":"stdout","time":233.053852543,"data":"  A:  The street lamp is positioned higher than the car.\n"}
+,{"stream_name":"stdout","time":240.07068348,"data":"\n"}
+,{"stream_name":"stdout","time":240.070722258,"data":"[22/24] Image: 158.jpg | Latency: 6.97s | Tokens: 132 (18.93 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":240.070728349,"data":"  Q:  What object is located between the orange flower on the left and the pink flower in the background?\n"}
+,{"stream_name":"stdout","time":240.070731928,"data":"  GT: The red flower (with the butterfly on it).\n"}
+,{"stream_name":"stdout","time":240.070735992,"data":"  A:  red flower with butterfly\n"}
+,{"stream_name":"stdout","time":246.927295993,"data":"\n"}
+,{"stream_name":"stdout","time":246.927339293,"data":"[23/24] Image: 201.jpg | Latency: 6.76s | Tokens: 118 (17.46 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":246.927348594,"data":"  Q:  Is the blue trash bin positioned to the left or right of the green trash bin?\n"}
+,{"stream_name":"stdout","time":246.927353758,"data":"  GT: The blue trash bin is to the left of the green trash bin.\n"}
+,{"stream_name":"stdout","time":246.927358649,"data":"  A:  The blue trash bin is positioned to the right of the green trash bin.\n"}
+,{"stream_name":"stdout","time":253.371287881,"data":"\n"}
+,{"stream_name":"stdout","time":253.371322473,"data":"[24/24] Image: 146.jpg | Latency: 6.38s | Tokens: 107 (16.78 tok/s) | JSON Valid: True\n"}
+,{"stream_name":"stdout","time":253.371335777,"data":"  Q:  What object is located between the motorcycle and the broom?\n"}
+,{"stream_name":"stdout","time":253.371339873,"data":"  GT: The wall\n"}
+,{"stream_name":"stdout","time":253.371343257,"data":"  A:  None of the objects are located between the motorcycle and the broom.\n"}
+,{"stream_name":"stdout","time":253.371346822,"data":"\n"}
+,{"stream_name":"stdout","time":253.371350106,"data":"================================================================================\n"}
+,{"stream_name":"stdout","time":253.371353632,"data":"BENCHMARK COMPLETED: 24/24 QUERIES EXECUTED\n"}
+,{"stream_name":"stdout","time":253.371356987,"data":"Valid JSON Rate: 24/24 (100.0%)\n"}
+,{"stream_name":"stdout","time":253.371360347,"data":"================================================================================\n"}
+,{"stream_name":"stdout","time":253.372984872,"data":"[INFO] Results saved to benchmark_24_results_purecot.json successfully.\n"}
+,{"stream_name":"stderr","time":262.069973658,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":262.070011626,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":262.334204509,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":262.334247333,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":263.120471833,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":264.178889859,"data":"[NbConvertApp] Writing 315800 bytes to __results__.html\n"}
+]

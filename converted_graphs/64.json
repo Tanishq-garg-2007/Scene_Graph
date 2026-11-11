@@ -1,0 +1,139 @@
+{
+  "image_id": 64,
+  "prompt_text": "### Relational Edges:\n- [Woman_1] --[wearing]--> [Jacket_1: black]\n- [Man_1] --[wearing]--> [Jacket_3: brown]\n- [Pole_1] --[on]--> [Ground_1]\n- [Blade_2] --[on]--> [Windmill_1]\n- [Blade_1] --[on]--> [Windmill_1]\n- [Blade_3] --[on]--> [Windmill_1]\n- [Blade_4] --[on]--> [Windmill_1]\n- [Blade_6] --[on]--> [Windmill_1]\n- [Blade_5] --[on]--> [Windmill_1]\n- [Woman_1] --[on]--> [Sidewalk_1]\n- [Person_1] --[wearing]--> [Jacket_2: white, blue]\n- [Woman_1] --[holding]--> [Purse_1: black]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Pole_1: green, tall] -> [Pole_2: black] -> [Balcony_1] -> [Blade_1] -> [Building_1: long, short] -> [Blade_2] -> [Blade_3] -> [Entrance_1: arched] -> [Blades_1] -> [Windmill_1] -> [Building_2] -> [Purse_1: black] -> [Woman_1: old, walking] -> [Blade_4] -> [Blade_5] -> [Tree_1: small, green] -> [Blade_6] -> [Planter_1: cement] -> [Trunk_1] -> [Platform_1] -> [Stairs_1: cement] -> [Light_1] -> [Post_1] -> [Building_3: yellow, multi colored, tall] -> [Entryway_1] -> [Awning_1] -> [Balcony_2] -> [Person_1: walking] -> [Line_1: white] -> [Man_1: walking]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Blade_2] -> [Blade_5] -> [Blades_1] -> [Blade_1] -> [Building_3: yellow, multi colored, tall] -> [Blade_6] -> [Balcony_2] -> [Blade_3] -> [Blade_4] -> [Balcony_1] -> [Windmill_1] -> [Building_2] -> [Building_1: long, short] -> [Pole_1: green, tall] -> [Light_1] -> [Tree_1: small, green] -> [Awning_1] -> [Entrance_1: arched] -> [Platform_1] -> [Post_1] -> [Stairs_1: cement] -> [Entryway_1] -> [Trunk_1] -> [Man_1: walking] -> [Person_1: walking] -> [Planter_1: cement] -> [Woman_1: old, walking] -> [Purse_1: black] -> [Pole_2: black] -> [Line_1: white]",
+  "semantic_id_mapping": {
+    "1062082": "Awning_1",
+    "1062090": "Balcony_1",
+    "1062067": "Balcony_2",
+    "1025712": "Blade_1",
+    "1025706": "Blade_2",
+    "1025711": "Blade_3",
+    "1025710": "Blade_4",
+    "1025708": "Blade_5",
+    "1025709": "Blade_6",
+    "1062061": "Blades_1",
+    "1062089": "Building_1",
+    "1062078": "Building_2",
+    "1062066": "Building_3",
+    "1062091": "Entrance_1",
+    "1062081": "Entryway_1",
+    "1062075": "Ground_1",
+    "1062065": "Jacket_1",
+    "1062088": "Jacket_2",
+    "1062074": "Jacket_3",
+    "1062072": "Light_1",
+    "1062070": "Line_1",
+    "1062073": "Man_1",
+    "1062087": "Person_1",
+    "1062084": "Planter_1",
+    "1062085": "Platform_1",
+    "1062068": "Pole_1",
+    "1062079": "Pole_2",
+    "1062071": "Post_1",
+    "1062092": "Purse_1",
+    "1062069": "Road_1",
+    "1062077": "Sidewalk_1",
+    "1062062": "Sky_1",
+    "1062086": "Stairs_1",
+    "1062080": "Street_1",
+    "1062063": "Tree_1",
+    "1062076": "Trunk_1",
+    "1025707": "Windmill_1",
+    "1062083": "Windows_1",
+    "1062064": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Jacket_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Jacket_3"
+    },
+    {
+      "subject": "Pole_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Blade_2",
+      "predicate": "on",
+      "object": "Windmill_1"
+    },
+    {
+      "subject": "Blade_1",
+      "predicate": "on",
+      "object": "Windmill_1"
+    },
+    {
+      "subject": "Blade_3",
+      "predicate": "on",
+      "object": "Windmill_1"
+    },
+    {
+      "subject": "Blade_4",
+      "predicate": "on",
+      "object": "Windmill_1"
+    },
+    {
+      "subject": "Blade_6",
+      "predicate": "on",
+      "object": "Windmill_1"
+    },
+    {
+      "subject": "Blade_5",
+      "predicate": "on",
+      "object": "Windmill_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Jacket_2"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "holding",
+      "object": "Purse_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Pole_1",
+    "Pole_2",
+    "Balcony_1",
+    "Blade_1",
+    "Building_1",
+    "Blade_2",
+    "Blade_3",
+    "Entrance_1",
+    "Blades_1",
+    "Windmill_1",
+    "Building_2",
+    "Purse_1",
+    "Woman_1",
+    "Blade_4",
+    "Blade_5",
+    "Tree_1",
+    "Blade_6",
+    "Planter_1",
+    "Trunk_1",
+    "Platform_1",
+    "Stairs_1",
+    "Light_1",
+    "Post_1",
+    "Building_3",
+    "Entryway_1",
+    "Awning_1",
+    "Balcony_2",
+    "Person_1",
+    "Line_1",
+    "Man_1"
+  ]
+}

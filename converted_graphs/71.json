@@ -1,0 +1,72 @@
+{
+  "image_id": 71,
+  "prompt_text": "### Relational Edges:\n- [Woman_2] --[wearing]--> [Bangs_1]\n- [Woman_1] --[wearing]--> [Pants_1: purple]\n- [Stripe_1] --[on]--> [Floor_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Line_1: green] -> [Stripe_1: green] -> [Tray_1: red] -> [Light_1: lit, long] -> [Desk_1] -> [Woman_1: sitting, asian, working] -> [Table_1] -> [Tape_1: white] -> [Tube_1: blue] -> [AsianWoman_1: working] -> [Woman_2: asian, working] -> [Desk_2] -> [Desktop_1: green] -> [Bowl_1: plastic, red, small] -> [Box_1] -> [Metal_1] -> [Woman_3: asian, working, reaching] -> [Cord_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Light_1: lit, long] -> [Tube_1: blue] -> [Woman_3: asian, working, reaching] -> [Tray_1: red] -> [Tape_1: white] -> [Metal_1] -> [Woman_1: sitting, asian, working] -> [Box_1] -> [Woman_2: asian, working] -> [AsianWoman_1: working] -> [Cord_1] -> [Bowl_1: plastic, red, small] -> [Table_1] -> [Stripe_1: green] -> [Desk_1] -> [Line_1: green] -> [Desktop_1: green] -> [Desk_2]",
+  "semantic_id_mapping": {
+    "1062129": "AsianWoman_1",
+    "1062109": "Bangs_1",
+    "1062112": "Bowl_1",
+    "1062119": "Box_1",
+    "1062122": "Cord_1",
+    "1025738": "Desk_1",
+    "1062104": "Desk_2",
+    "1062133": "Desktop_1",
+    "1062127": "Floor_1",
+    "1062111": "Hair_1",
+    "1062110": "Hair_2",
+    "1062124": "Hand_1",
+    "1062113": "Jacket_1",
+    "1062107": "Jacket_2",
+    "1062131": "Jeans_1",
+    "1062117": "Light_1",
+    "1062132": "Line_1",
+    "1062120": "Metal_1",
+    "1062114": "Pants_1",
+    "1062118": "Shade_1",
+    "1062115": "Shirt_1",
+    "1062116": "Stripe_1",
+    "1062130": "Table_1",
+    "1062126": "Tape_1",
+    "1062128": "Tray_1",
+    "1062125": "Tube_1",
+    "1025737": "Woman_1",
+    "1062105": "Woman_2",
+    "1062108": "Woman_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Woman_2",
+      "predicate": "wearing",
+      "object": "Bangs_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Pants_1"
+    },
+    {
+      "subject": "Stripe_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Line_1",
+    "Stripe_1",
+    "Tray_1",
+    "Light_1",
+    "Desk_1",
+    "Woman_1",
+    "Table_1",
+    "Tape_1",
+    "Tube_1",
+    "AsianWoman_1",
+    "Woman_2",
+    "Desk_2",
+    "Desktop_1",
+    "Bowl_1",
+    "Box_1",
+    "Metal_1",
+    "Woman_3",
+    "Cord_1"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "image_id": 22,
+  "prompt_text": "### Relational Edges:\n- [Car_4] --[on]--> [Street_1: paved]\n- [Car_3] --[on]--> [Street_1: paved]\n- [Car_2] --[on]--> [Street_1: paved]\n- [Car_1] --[on]--> [Street_1: paved]\n- [Train_1] --[on]--> [Grass_1: green, manicured]\n- [PalmTree_1] --[on]--> [Grass_1: green, manicured]\n- [PalmTree_2] --[on]--> [Grass_1: green, manicured]\n- [Balcony_3] --[on]--> [HighRiseBuilding_1: tall, present]\n- [Balcony_1] --[on]--> [HighRiseBuilding_1: tall, present]\n- [Balcony_2] --[on]--> [HighRiseBuilding_1: tall, present]\n- [Balcony_4] --[on]--> [HighRiseBuilding_1: tall, present]\n- [Balcony_5] --[on]--> [HighRiseBuilding_1: tall, present]\n- [Grass_1] --[next to]--> [Street_1: paved]\n- [Shadow_1] --[on]--> [Road_1: empty, carless, grey, tarmaced]\n- [Shadow_2] --[on]--> [Road_1: empty, carless, grey, tarmaced]\n- [Pole_2] --[on]--> [Grass_1: green, manicured]\n- [Window_1] --[on]--> [Building_1: tall, present, to the right]\n- [Building_1] --[behind]--> [PalmTree_2]\n- [PaintedLines_1] --[on]--> [Road_1: empty, carless, grey, tarmaced]\n- [Train_1] --[next to]--> [Road_1: empty, carless, grey, tarmaced]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Shadow_1: tree shadow] -> [PalmTree_1] -> [Door_1] -> [Shadow_2: tree shadow] -> [Pole_1] -> [Door_2] -> [PalmTree_2] -> [StopSign_1: red, in the corner] -> [Door_3] -> [Door_4] -> [Train_1: four-car] -> [Door_5] -> [Balcony_1] -> [Balcony_2] -> [Balcony_3] -> [Balcony_4] -> [Balcony_5] -> [PaintedLines_1: white] -> [Lights_1: red] -> [HighRiseBuilding_1: tall, present] -> [Photo_1] -> [Car_1: parked, waiting] -> [Car_2: parked, white] -> [Cars_1] -> [CoverPlate_1: for utilities] -> [Car_3: parked] -> [Building_1: tall, present, to the right] -> [Pole_2: tall, metallic, present] -> [Car_4: parked, silver] -> [Window_1] -> [Building_2: tall, yellow]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Balcony_5] -> [Balcony_4] -> [Window_1] -> [Balcony_2] -> [Balcony_1] -> [Balcony_3] -> [HighRiseBuilding_1: tall, present] -> [Building_2: tall, yellow] -> [Building_1: tall, present, to the right] -> [PalmTree_2] -> [PalmTree_1] -> [Pole_2: tall, metallic, present] -> [StopSign_1: red, in the corner] -> [Pole_1] -> [Photo_1] -> [Train_1: four-car] -> [Door_2] -> [Door_1] -> [Door_4] -> [Door_3] -> [Door_5] -> [Car_4: parked, silver] -> [Car_1: parked, waiting] -> [Car_2: parked, white] -> [Cars_1] -> [Car_3: parked] -> [Lights_1: red] -> [CoverPlate_1: for utilities] -> [Shadow_1: tree shadow] -> [Shadow_2: tree shadow] -> [PaintedLines_1: white]",
+  "semantic_id_mapping": {
+    "5508": "Balcony_1",
+    "5509": "Balcony_2",
+    "5506": "Balcony_3",
+    "5510": "Balcony_4",
+    "1061108": "Balcony_5",
+    "1061110": "Building_1",
+    "1061111": "Building_2",
+    "1061129": "Car_1",
+    "5500": "Car_2",
+    "5499": "Car_3",
+    "1061126": "Car_4",
+    "1061096": "Cars_1",
+    "1061146": "CoverPlate_1",
+    "5526": "Door_1",
+    "5525": "Door_2",
+    "5524": "Door_3",
+    "5523": "Door_4",
+    "5522": "Door_5",
+    "1061124": "Grass_1",
+    "1061104": "HighRiseBuilding_1",
+    "1061145": "Lights_1",
+    "1061131": "PaintedLines_1",
+    "5504": "PalmTree_1",
+    "1061119": "PalmTree_2",
+    "3798665": "Photo_1",
+    "1061147": "Pole_1",
+    "1061120": "Pole_2",
+    "1061144": "Road_1",
+    "5514": "Shadow_1",
+    "1061134": "Shadow_2",
+    "1061130": "Sky_1",
+    "1061125": "StopSign_1",
+    "1061094": "Street_1",
+    "1061098": "Train_1",
+    "5518": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Car_4",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_3",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Train_1",
+      "predicate": "on",
+      "object": "Grass_1"
+    },
+    {
+      "subject": "PalmTree_1",
+      "predicate": "on",
+      "object": "Grass_1"
+    },
+    {
+      "subject": "PalmTree_2",
+      "predicate": "on",
+      "object": "Grass_1"
+    },
+    {
+      "subject": "Balcony_3",
+      "predicate": "on",
+      "object": "HighRiseBuilding_1"
+    },
+    {
+      "subject": "Balcony_1",
+      "predicate": "on",
+      "object": "HighRiseBuilding_1"
+    },
+    {
+      "subject": "Balcony_2",
+      "predicate": "on",
+      "object": "HighRiseBuilding_1"
+    },
+    {
+      "subject": "Balcony_4",
+      "predicate": "on",
+      "object": "HighRiseBuilding_1"
+    },
+    {
+      "subject": "Balcony_5",
+      "predicate": "on",
+      "object": "HighRiseBuilding_1"
+    },
+    {
+      "subject": "Grass_1",
+      "predicate": "next to",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Shadow_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Shadow_2",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Pole_2",
+      "predicate": "on",
+      "object": "Grass_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Building_1",
+      "predicate": "behind",
+      "object": "PalmTree_2"
+    },
+    {
+      "subject": "PaintedLines_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Train_1",
+      "predicate": "next to",
+      "object": "Road_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Shadow_1",
+    "PalmTree_1",
+    "Door_1",
+    "Shadow_2",
+    "Pole_1",
+    "Door_2",
+    "PalmTree_2",
+    "StopSign_1",
+    "Door_3",
+    "Door_4",
+    "Train_1",
+    "Door_5",
+    "Balcony_1",
+    "Balcony_2",
+    "Balcony_3",
+    "Balcony_4",
+    "Balcony_5",
+    "PaintedLines_1",
+    "Lights_1",
+    "HighRiseBuilding_1",
+    "Photo_1",
+    "Car_1",
+    "Car_2",
+    "Cars_1",
+    "CoverPlate_1",
+    "Car_3",
+    "Building_1",
+    "Pole_2",
+    "Car_4",
+    "Window_1",
+    "Building_2"
+  ]
+}

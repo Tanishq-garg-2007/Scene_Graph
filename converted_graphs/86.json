@@ -1,0 +1,97 @@
+{
+  "image_id": 86,
+  "prompt_text": "### Relational Edges:\n- [Shoe_1] --[on]--> [Floor_1]\n- [Shoes_1] --[on]--> [Floor_1]\n- [Window_1] --[behind]--> [Woman_1]\n- [Man_2] --[wearing]--> [Pants_1: tan]\n- [Sign_1] --[attached to]--> [Wall_1]\n- [Person_3] --[wearing]--> [Hat_1: black]\n- [Person_4] --[wearing]--> [Hat_1: black]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Sign_1] -> [Person_1] -> [Person_2] -> [Window_1: large] -> [Purse_1: black] -> [Woman_1] -> [Person_3] -> [Person_4] -> [Handle_1] -> [Man_1] -> [Person_5] -> [Man_2] -> [Man_3] -> [Person_6] -> [Light_1: flourescent, on] -> [Shoe_1: brown] -> [Subway_1] -> [Train_1: subway] -> [Advertisement_1] -> [Man_4] -> [Book_1: black]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Handle_1] -> [Light_1: flourescent, on] -> [Advertisement_1] -> [Book_1: black] -> [Sign_1] -> [Window_1: large] -> [Subway_1] -> [Train_1: subway] -> [Man_4] -> [Person_2] -> [Man_1] -> [Person_4] -> [Person_6] -> [Man_3] -> [Man_2] -> [Person_5] -> [Person_3] -> [Woman_1] -> [Purse_1: black] -> [Person_1] -> [Shoe_1: brown]",
+  "semantic_id_mapping": {
+    "1534380": "Advertisement_1",
+    "1534368": "Book_1",
+    "1534357": "Floor_1",
+    "1534370": "Glasses_1",
+    "1534379": "Handle_1",
+    "1534384": "Hat_1",
+    "1534376": "Head_1",
+    "1534377": "Head_2",
+    "1534378": "Head_3",
+    "1534362": "Light_1",
+    "1534373": "Man_1",
+    "1534360": "Man_2",
+    "1534375": "Man_3",
+    "1534369": "Man_4",
+    "1534361": "Pants_1",
+    "1534352": "Person_1",
+    "1534353": "Person_2",
+    "1534381": "Person_3",
+    "1534383": "Person_4",
+    "1534349": "Person_5",
+    "1534355": "Person_6",
+    "1534372": "Purse_1",
+    "3786887": "Shoe_1",
+    "1534356": "Shoes_1",
+    "1534371": "Shoes_2",
+    "1534363": "Sign_1",
+    "3786885": "Subway_1",
+    "3786884": "Train_1",
+    "1534364": "Wall_1",
+    "1534358": "Window_1",
+    "1534359": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Shoe_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Shoes_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "behind",
+      "object": "Woman_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Pants_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "attached to",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Person_3",
+      "predicate": "wearing",
+      "object": "Hat_1"
+    },
+    {
+      "subject": "Person_4",
+      "predicate": "wearing",
+      "object": "Hat_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Sign_1",
+    "Person_1",
+    "Person_2",
+    "Window_1",
+    "Purse_1",
+    "Woman_1",
+    "Person_3",
+    "Person_4",
+    "Handle_1",
+    "Man_1",
+    "Person_5",
+    "Man_2",
+    "Man_3",
+    "Person_6",
+    "Light_1",
+    "Shoe_1",
+    "Subway_1",
+    "Train_1",
+    "Advertisement_1",
+    "Man_4",
+    "Book_1"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "image_id": 167,
+  "prompt_text": "### Relational Edges:\n- [Man_1] --[wearing]--> [Overalls_1: blue, blue jean]\n- [Man_1] --[wearing]--> [Headphones_1: green]\n- [Woman_1] --[wearing]--> [Coat_1: brown]\n- [Light_2] --[on]--> [Ceiling_1]\n- [Light_1] --[on]--> [Ceiling_1]\n- [Man_1] --[wearing]--> [Smile_1: big]\n- [Woman_1] --[wearing]--> [Scarf_1: yellow]\n- [Wood_1] --[holding]--> [PieceOfCloth_1: dirty]\n- [Man_1] --[wearing]--> [Shoes_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Stairs_1: wooden, old, metal] -> [Shelf_1: filing cabinet] -> [Woman_1: smiling, crouched, sitting] -> [DrillPress_1: in the background] -> [Chair_1: maroon] -> [Loft_1] -> [Chair_2: blue] -> [Light_1] -> [PieceOfCloth_1: dirty] -> [Wood_1: old, covered in paint] -> [Shelves_1: brown, in rows] -> [ElectricalCord_1: orange] -> [Man_1: smiling, holding something, standing] -> [Light_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Loft_1] -> [Light_2] -> [Light_1] -> [ElectricalCord_1: orange] -> [Stairs_1: wooden, old, metal] -> [DrillPress_1: in the background] -> [Man_1: smiling, holding something, standing] -> [Shelves_1: brown, in rows] -> [Shelf_1: filing cabinet] -> [Chair_1: maroon] -> [Chair_2: blue] -> [Woman_1: smiling, crouched, sitting] -> [Wood_1: old, covered in paint] -> [PieceOfCloth_1: dirty]",
+  "semantic_id_mapping": {
+    "1026114": "Ceiling_1",
+    "1026119": "Chair_1",
+    "1026112": "Chair_2",
+    "1026106": "Coat_1",
+    "1026116": "DrillPress_1",
+    "1026117": "ElectricalCord_1",
+    "1026110": "Hair_1",
+    "1026127": "Hair_2",
+    "1026123": "Hand_1",
+    "1026124": "Hand_2",
+    "1026111": "Headphones_1",
+    "1026113": "Light_1",
+    "1026115": "Light_2",
+    "1026121": "Loft_1",
+    "1026104": "Man_1",
+    "1026105": "Overalls_1",
+    "1026107": "PieceOfCloth_1",
+    "1026128": "Scarf_1",
+    "1026125": "Shelf_1",
+    "1026109": "Shelves_1",
+    "1026129": "Shoes_1",
+    "1026122": "Smile_1",
+    "1026120": "Stairs_1",
+    "1026126": "Wall_1",
+    "1026118": "Wall_2",
+    "1026103": "Woman_1",
+    "1026108": "Wood_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Overalls_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Headphones_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Coat_1"
+    },
+    {
+      "subject": "Light_2",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Light_1",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Smile_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Scarf_1"
+    },
+    {
+      "subject": "Wood_1",
+      "predicate": "holding",
+      "object": "PieceOfCloth_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shoes_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Stairs_1",
+    "Shelf_1",
+    "Woman_1",
+    "DrillPress_1",
+    "Chair_1",
+    "Loft_1",
+    "Chair_2",
+    "Light_1",
+    "PieceOfCloth_1",
+    "Wood_1",
+    "Shelves_1",
+    "ElectricalCord_1",
+    "Man_1",
+    "Light_2"
+  ]
+}

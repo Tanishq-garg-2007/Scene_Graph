@@ -1,0 +1,185 @@
+{
+  "image_id": 19,
+  "prompt_text": "### Relational Edges:\n- [ComputerMonitor_1] --[behind]--> [Mouse_1: white]\n- [Tape_1] --[on]--> [Wall_2: white]\n- [Tape_2] --[on]--> [Wall_2: white]\n- [Tape_3] --[on]--> [Wall_2: white]\n- [Tape_4] --[on]--> [Wall_2: white]\n- [Tape_5] --[on]--> [Wall_2: white]\n- [ElectricalOutlet_1] --[on]--> [Wall_2: white]\n- [ComputerMouse_1] --[on]--> [Mousepad_2]\n- [DesktopComputer_1] --[on]--> [Desk_1: white]\n- [DesktopComputer_4] --[on]--> [Desk_1: white]\n- [DesktopComputer_2] --[on]--> [Desk_1: white]\n- [DesktopComputer_3] --[on]--> [Desk_1: white]\n- [ComputerPrinter_1] --[on]--> [Desk_1: white]\n- [Tape_5] --[holding]--> [Cords_1]\n- [Computers_1] --[on]--> [Desk_1: white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Hallway_1] -> [FireAlarm_1: red] -> [ComputerPrinter_1: white] -> [Printer_1: white] -> [Chair_1: tan, brown, orange] -> [ElectricalOutlet_1] -> [Keyboard_1: black] -> [DesktopComputer_1] -> [ComputerMonitor_1: black, screen, off] -> [Monitor_1: black] -> [ComputerScreen_1: off] -> [DesktopComputer_2] -> [ConnectionWire_1: cable] -> [Tape_1: blue] -> [Mousepad_1] -> [Mouse_1: white] -> [Tape_2: blue] -> [Computer_1] -> [ConnectionWire_2: cable] -> [Office_1: bright, lit] -> [Scene_1: indoor] -> [Desk_1: white] -> [Roof_1: well lit] -> [Computers_1] -> [Tape_3: blue] -> [Speaker_1: black] -> [Tube_1: metal] -> [Pipe_1] -> [Cords_1] -> [Wires_1: cables] -> [Tape_4: blue] -> [Cables_1: wire ] -> [Tape_5: blue] -> [DesktopComputer_3: off] -> [Computer_2] -> [DesktopComputer_4] -> [Monitor_2: off] -> [ComputerMonitor_2: off] -> [Monitor_3: white, grey] -> [Desk_2: rectangular] -> [Keyboard_2] -> [Electonics_1] -> [Cable_1] -> [PrinterCable_1: white] -> [Cords_2] -> [Mouse_2: black] -> [ComputerMouse_1: black] -> [Printer_2: white] -> [Mousepad_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Roof_1: well lit] -> [FireAlarm_1: red] -> [Hallway_1] -> [Cords_1] -> [Tape_5: blue] -> [Tape_3: blue] -> [Tube_1: metal] -> [Pipe_1] -> [ElectricalOutlet_1] -> [Tape_2: blue] -> [Wires_1: cables] -> [Tape_4: blue] -> [Tape_1: blue] -> [ComputerScreen_1: off] -> [Office_1: bright, lit] -> [Scene_1: indoor] -> [ComputerMonitor_2: off] -> [Monitor_3: white, grey] -> [DesktopComputer_3: off] -> [DesktopComputer_2] -> [Printer_2: white] -> [Computers_1] -> [DesktopComputer_4] -> [Monitor_2: off] -> [Computer_1] -> [Electonics_1] -> [PrinterCable_1: white] -> [Speaker_1: black] -> [ComputerMonitor_1: black, screen, off] -> [Monitor_1: black] -> [DesktopComputer_1] -> [Computer_2] -> [ComputerPrinter_1: white] -> [Printer_1: white] -> [Cords_2] -> [Cable_1] -> [Desk_1: white] -> [ConnectionWire_1: cable] -> [Desk_2: rectangular] -> [ConnectionWire_2: cable] -> [ComputerMouse_1: black] -> [Mouse_2: black] -> [Mousepad_2] -> [Keyboard_2] -> [Keyboard_1: black] -> [Mouse_1: white] -> [Mousepad_1] -> [Cables_1: wire ] -> [Chair_1: tan, brown, orange]",
+  "semantic_id_mapping": {
+    "5461": "Cable_1",
+    "1060978": "Cables_1",
+    "1060959": "Chair_1",
+    "1024456": "Computer_1",
+    "1024455": "Computer_2",
+    "5436": "ComputerMonitor_1",
+    "5463": "ComputerMonitor_2",
+    "5450": "ComputerMouse_1",
+    "5452": "ComputerPrinter_1",
+    "5447": "ComputerScreen_1",
+    "1060979": "Computers_1",
+    "5445": "ConnectionWire_1",
+    "5443": "ConnectionWire_2",
+    "1060976": "Cords_1",
+    "1060971": "Cords_2",
+    "1060961": "Desk_1",
+    "1060970": "Desk_2",
+    "5455": "DesktopComputer_1",
+    "5457": "DesktopComputer_2",
+    "5458": "DesktopComputer_3",
+    "5456": "DesktopComputer_4",
+    "1060972": "Electonics_1",
+    "5446": "ElectricalOutlet_1",
+    "1060974": "FireAlarm_1",
+    "1060975": "Hallway_1",
+    "1060930": "Keyboard_1",
+    "5460": "Keyboard_2",
+    "1060920": "Monitor_1",
+    "1060947": "Monitor_2",
+    "1060963": "Monitor_3",
+    "1060928": "Mouse_1",
+    "1060977": "Mouse_2",
+    "5435": "Mousepad_1",
+    "5451": "Mousepad_2",
+    "5453": "Office_1",
+    "1060937": "Pipe_1",
+    "1024429": "Printer_1",
+    "1024454": "Printer_2",
+    "5459": "PrinterCable_1",
+    "1060980": "Roof_1",
+    "1060943": "Scene_1",
+    "1060973": "Speaker_1",
+    "1060922": "Tape_1",
+    "1060923": "Tape_2",
+    "5440": "Tape_3",
+    "5441": "Tape_4",
+    "1060926": "Tape_5",
+    "5448": "Tube_1",
+    "1060981": "Wall_1",
+    "1060942": "Wall_2",
+    "5449": "Wires_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "ComputerMonitor_1",
+      "predicate": "behind",
+      "object": "Mouse_1"
+    },
+    {
+      "subject": "Tape_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Tape_2",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Tape_3",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Tape_4",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Tape_5",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "ElectricalOutlet_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "ComputerMouse_1",
+      "predicate": "on",
+      "object": "Mousepad_2"
+    },
+    {
+      "subject": "DesktopComputer_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "DesktopComputer_4",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "DesktopComputer_2",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "DesktopComputer_3",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "ComputerPrinter_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Tape_5",
+      "predicate": "holding",
+      "object": "Cords_1"
+    },
+    {
+      "subject": "Computers_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Hallway_1",
+    "FireAlarm_1",
+    "ComputerPrinter_1",
+    "Printer_1",
+    "Chair_1",
+    "ElectricalOutlet_1",
+    "Keyboard_1",
+    "DesktopComputer_1",
+    "ComputerMonitor_1",
+    "Monitor_1",
+    "ComputerScreen_1",
+    "DesktopComputer_2",
+    "ConnectionWire_1",
+    "Tape_1",
+    "Mousepad_1",
+    "Mouse_1",
+    "Tape_2",
+    "Computer_1",
+    "ConnectionWire_2",
+    "Office_1",
+    "Scene_1",
+    "Desk_1",
+    "Roof_1",
+    "Computers_1",
+    "Tape_3",
+    "Speaker_1",
+    "Tube_1",
+    "Pipe_1",
+    "Cords_1",
+    "Wires_1",
+    "Tape_4",
+    "Cables_1",
+    "Tape_5",
+    "DesktopComputer_3",
+    "Computer_2",
+    "DesktopComputer_4",
+    "Monitor_2",
+    "ComputerMonitor_2",
+    "Monitor_3",
+    "Desk_2",
+    "Keyboard_2",
+    "Electonics_1",
+    "Cable_1",
+    "PrinterCable_1",
+    "Cords_2",
+    "Mouse_2",
+    "ComputerMouse_1",
+    "Printer_2",
+    "Mousepad_2"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "image_id": 100,
+  "prompt_text": "### Relational Edges:\n- [MonitorButtons_1] --[on]--> [ComputerMonitor_1]\n- [Logo_1] --[on]--> [XBox_1]\n- [Logo_3] --[on]--> [Controller_1: black]\n- [Circle_1] --[on]--> [Xbox_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [GreenLogo_1] -> [Logo_1: green] -> [Circle_1: bright, green] -> [XBox_1] -> [This_1] -> [XBoxConsole_1] -> [Xbox_1] -> [GamingSystem_1] -> [System_1: gaming] -> [Logo_2] -> [Screen_1: computer] -> [GreyComputerMonitor_1: grey] -> [This_2] -> [HaloGame_1] -> [HaloLogo_1] -> [ComputerMonitor_1] -> [StartingMenu_1] -> [MonitorButtons_1] -> [Table_1] -> [SmallLogo_1] -> [Logo_3: small] -> [This_3] -> [BlackController_1] -> [XBoxController_1] -> [Controller_1: black] -> [Remote_1: xbox] -> [Buttons_1: colored] -> [GamingAdapter_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [HaloLogo_1] -> [Logo_2] -> [GreyComputerMonitor_1: grey] -> [HaloGame_1] -> [Screen_1: computer] -> [This_2] -> [ComputerMonitor_1] -> [StartingMenu_1] -> [MonitorButtons_1] -> [Logo_3: small] -> [Buttons_1: colored] -> [SmallLogo_1] -> [This_3] -> [Controller_1: black] -> [BlackController_1] -> [Remote_1: xbox] -> [XBoxController_1] -> [This_1] -> [Circle_1: bright, green] -> [GreenLogo_1] -> [Logo_1: green] -> [GamingSystem_1] -> [XBox_1] -> [Xbox_1] -> [System_1: gaming] -> [XBoxConsole_1] -> [GamingAdapter_1] -> [Table_1]",
+  "semantic_id_mapping": {
+    "1534630": "BlackController_1",
+    "3792816": "Buttons_1",
+    "1534639": "Circle_1",
+    "3792811": "ComputerMonitor_1",
+    "3792815": "Controller_1",
+    "1534626": "GamingAdapter_1",
+    "1534638": "GamingSystem_1",
+    "1534629": "GreenLogo_1",
+    "1534624": "GreyComputerMonitor_1",
+    "1534625": "HaloLogo_1",
+    "3792812": "HaloGame_1",
+    "3792813": "Logo_1",
+    "1534621": "Logo_2",
+    "3792817": "Logo_3",
+    "1534627": "MonitorButtons_1",
+    "3792821": "Remote_1",
+    "3792825": "Screen_1",
+    "1534631": "SmallLogo_1",
+    "1534628": "StartingMenu_1",
+    "3792827": "System_1",
+    "3792828": "Table_1",
+    "1534632": "This_1",
+    "1534634": "This_2",
+    "1534633": "This_3",
+    "1534620": "Wall_1",
+    "1534611": "Wall_2",
+    "1534640": "Wall_3",
+    "3792814": "XBox_1",
+    "1534622": "XBoxConsole_1",
+    "1534623": "XBoxController_1",
+    "3792819": "Xbox_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "MonitorButtons_1",
+      "predicate": "on",
+      "object": "ComputerMonitor_1"
+    },
+    {
+      "subject": "Logo_1",
+      "predicate": "on",
+      "object": "XBox_1"
+    },
+    {
+      "subject": "Logo_3",
+      "predicate": "on",
+      "object": "Controller_1"
+    },
+    {
+      "subject": "Circle_1",
+      "predicate": "on",
+      "object": "Xbox_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "GreenLogo_1",
+    "Logo_1",
+    "Circle_1",
+    "XBox_1",
+    "This_1",
+    "XBoxConsole_1",
+    "Xbox_1",
+    "GamingSystem_1",
+    "System_1",
+    "Logo_2",
+    "Screen_1",
+    "GreyComputerMonitor_1",
+    "This_2",
+    "HaloGame_1",
+    "HaloLogo_1",
+    "ComputerMonitor_1",
+    "StartingMenu_1",
+    "MonitorButtons_1",
+    "Table_1",
+    "SmallLogo_1",
+    "Logo_3",
+    "This_3",
+    "BlackController_1",
+    "XBoxController_1",
+    "Controller_1",
+    "Remote_1",
+    "Buttons_1",
+    "GamingAdapter_1"
+  ]
+}

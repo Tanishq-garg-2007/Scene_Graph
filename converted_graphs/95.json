@@ -1,0 +1,79 @@
+{
+  "image_id": 95,
+  "prompt_text": "### Relational Edges:\n- [Glass_4] --[on]--> [Table_1]\n- [Glass_2] --[on]--> [Table_1]\n- [Glass_1] --[on]--> [Table_1]\n- [Trim_1] --[on]--> [Plate_1]\n- [SaladFork_1] --[on]--> [Table_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [SaladFork_1] -> [Fork_1: silver] -> [Glass_1] -> [Spoon_1] -> [Glass_2] -> [Fork_2] -> [Table_1] -> [Tablecloth_1: white] -> [DinnerPlate_1: white] -> [String_1] -> [Trim_1: gold] -> [Plate_1] -> [Napkin_1: white, folded] -> [Glass_3] -> [CandyBag_1] -> [Wrapper_1] -> [Building_1] -> [Building_2] -> [Building_3] -> [Glass_4] -> [Knife_1] -> [Knife_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Building_1] -> [Building_3] -> [Glass_3] -> [Glass_2] -> [Building_2] -> [Glass_1] -> [Glass_4] -> [Spoon_1] -> [Fork_2] -> [Table_1] -> [Tablecloth_1: white] -> [String_1] -> [Knife_2] -> [Knife_1] -> [CandyBag_1] -> [Wrapper_1] -> [DinnerPlate_1: white] -> [Napkin_1: white, folded] -> [Plate_1] -> [Trim_1: gold] -> [SaladFork_1] -> [Fork_1: silver]",
+  "semantic_id_mapping": {
+    "1534541": "Building_1",
+    "1534549": "Building_2",
+    "1534557": "Building_3",
+    "3792798": "CandyBag_1",
+    "3792794": "DinnerPlate_1",
+    "3792793": "Fork_1",
+    "3792801": "Fork_2",
+    "3792807": "Glass_1",
+    "3792806": "Glass_2",
+    "3792805": "Glass_3",
+    "3792787": "Glass_4",
+    "3792808": "Knife_1",
+    "3792809": "Knife_2",
+    "3792797": "Napkin_1",
+    "3792795": "Plate_1",
+    "3792803": "SaladFork_1",
+    "3792802": "Spoon_1",
+    "3792799": "String_1",
+    "3792804": "Table_1",
+    "3792810": "Tablecloth_1",
+    "3792796": "Trim_1",
+    "3792800": "Wrapper_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Glass_4",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glass_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Trim_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "SaladFork_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "SaladFork_1",
+    "Fork_1",
+    "Glass_1",
+    "Spoon_1",
+    "Glass_2",
+    "Fork_2",
+    "Table_1",
+    "Tablecloth_1",
+    "DinnerPlate_1",
+    "String_1",
+    "Trim_1",
+    "Plate_1",
+    "Napkin_1",
+    "Glass_3",
+    "CandyBag_1",
+    "Wrapper_1",
+    "Building_1",
+    "Building_2",
+    "Building_3",
+    "Glass_4",
+    "Knife_1",
+    "Knife_2"
+  ]
+}

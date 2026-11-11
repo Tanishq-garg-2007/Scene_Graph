@@ -1,0 +1,76 @@
+{
+  "image_id": 153,
+  "prompt_text": "### Relational Edges:\n- [Glasses_1] --[on]--> [Man_1]\n- [Jacket_1] --[on]--> [Man_1]\n- [Sweater_1] --[on]--> [Man_1]\n- [OrangeJuice_1] --[on]--> [Shelf_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Chair_1: brown] -> [Blinds_1: closed] -> [Man_1] -> [Countertop_1] -> [Flowers_1: purple] -> [Counter_1] -> [Plant_1: purple, flowering] -> [Cup_1: red] -> [Can_1: green] -> [Container_1] -> [WateringCan_1: green, plastic] -> [Box_1: yellow , cereal ] -> [Bottle_1: green, yellow] -> [CoffeeMaker_1: silver, black] -> [Shelf_1] -> [Carton_1] -> [OrangeJuice_1: Orange ] -> [Toaster_1: white] -> [DishSoap_1] -> [Bottle_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Blinds_1: closed] -> [Flowers_1: purple] -> [Plant_1: purple, flowering] -> [CoffeeMaker_1: silver, black] -> [Man_1] -> [WateringCan_1: green, plastic] -> [Container_1] -> [Can_1: green] -> [Box_1: yellow , cereal ] -> [OrangeJuice_1: Orange ] -> [Carton_1] -> [Shelf_1] -> [Counter_1] -> [Countertop_1] -> [Bottle_2] -> [DishSoap_1] -> [Bottle_1: green, yellow] -> [Chair_1: brown] -> [Cup_1: red] -> [Toaster_1: white]",
+  "semantic_id_mapping": {
+    "1535833": "Blinds_1",
+    "1535835": "Bottle_1",
+    "3787161": "Bottle_2",
+    "1535830": "Box_1",
+    "1535840": "Can_1",
+    "1535824": "Carton_1",
+    "1535817": "Chair_1",
+    "1535826": "CoffeeMaker_1",
+    "1535841": "Container_1",
+    "1535844": "Counter_1",
+    "1535809": "Countertop_1",
+    "1535808": "Cup_1",
+    "1535829": "DishSoap_1",
+    "1535834": "Flowers_1",
+    "1535816": "Glasses_1",
+    "1535813": "Hand_1",
+    "1535837": "Jacket_1",
+    "1535838": "Jeans_1",
+    "1535831": "Man_1",
+    "1535836": "OrangeJuice_1",
+    "1535825": "Plant_1",
+    "3787162": "Shelf_1",
+    "1535842": "Shirt_1",
+    "1535821": "Sweater_1",
+    "1535839": "Toaster_1",
+    "1535843": "WateringCan_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Glasses_1",
+      "predicate": "on",
+      "object": "Man_1"
+    },
+    {
+      "subject": "Jacket_1",
+      "predicate": "on",
+      "object": "Man_1"
+    },
+    {
+      "subject": "Sweater_1",
+      "predicate": "on",
+      "object": "Man_1"
+    },
+    {
+      "subject": "OrangeJuice_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Chair_1",
+    "Blinds_1",
+    "Man_1",
+    "Countertop_1",
+    "Flowers_1",
+    "Counter_1",
+    "Plant_1",
+    "Cup_1",
+    "Can_1",
+    "Container_1",
+    "WateringCan_1",
+    "Box_1",
+    "Bottle_1",
+    "CoffeeMaker_1",
+    "Shelf_1",
+    "Carton_1",
+    "OrangeJuice_1",
+    "Toaster_1",
+    "DishSoap_1",
+    "Bottle_2"
+  ]
+}

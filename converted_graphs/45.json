@@ -1,0 +1,105 @@
+{
+  "image_id": 45,
+  "prompt_text": "### Relational Edges:\n- [Awning_1] --[on]--> [Building_2: wide, tall]\n- [Man_1] --[on]--> [Sidewalk_1]\n- [Brick_1] --[on]--> [Building_1]\n- [ParkingMeter_1] --[on]--> [Sidewalk_1]\n- [Wastebasket_1] --[on]--> [Sidewalk_1]\n- [Line_1] --[on]--> [Intersection_1: grey, dark grey, busy]\n- [StopLight_1] --[on]--> [Corner_1]\n- [Wastebasket_1] --[on]--> [Curb_1]\n- [ParkingMeter_1] --[next to]--> [Street_1]\n- [Entrance_1] --[on]--> [Corner_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Man_1: walking, brown] -> [Wastebasket_1: metal, full, black, short] -> [Entrance_1: black] -> [Building_1] -> [StopLight_1: yellow, dark yellow, tall] -> [Curb_1] -> [Corner_1] -> [Brick_1: decorative] -> [ParkingMeter_1] -> [Line_1: pedestrian line, white, faded] -> [Van_1: parked, green] -> [Car_1: grey] -> [RightBuilding_1: tall, brown] -> [Car_2: dark, black] -> [Intersection_1: grey, dark grey, busy] -> [Light_1: on] -> [Building_2: wide, tall] -> [Suv_1: driving, white, moving, new, long] -> [Light_2] -> [Awning_1: green, large, dark green] -> [Light_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [RightBuilding_1: tall, brown] -> [Building_2: wide, tall] -> [Awning_1: green, large, dark green] -> [Brick_1: decorative] -> [Building_1] -> [Entrance_1: black] -> [Light_2] -> [Light_3] -> [StopLight_1: yellow, dark yellow, tall] -> [Light_1: on] -> [Car_1: grey] -> [Van_1: parked, green] -> [Man_1: walking, brown] -> [Car_2: dark, black] -> [ParkingMeter_1] -> [Suv_1: driving, white, moving, new, long] -> [Wastebasket_1: metal, full, black, short] -> [Corner_1] -> [Curb_1] -> [Intersection_1: grey, dark grey, busy] -> [Line_1: pedestrian line, white, faded]",
+  "semantic_id_mapping": {
+    "1058684": "Awning_1",
+    "5990": "Brick_1",
+    "5991": "Building_1",
+    "1058710": "Building_2",
+    "1058718": "Car_1",
+    "1058716": "Car_2",
+    "6000": "Corner_1",
+    "6001": "Curb_1",
+    "1058719": "Entrance_1",
+    "1058682": "Intersection_1",
+    "1058699": "Light_1",
+    "5997": "Light_2",
+    "5998": "Light_3",
+    "1058694": "Line_1",
+    "1058686": "Man_1",
+    "5992": "ParkingMeter_1",
+    "1058715": "RightBuilding_1",
+    "5989": "Sidewalk_1",
+    "1058696": "Sky_1",
+    "1058703": "StopLight_1",
+    "6002": "Street_1",
+    "1058681": "Suv_1",
+    "5985": "Van_1",
+    "1058692": "Wastebasket_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Awning_1",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Brick_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "ParkingMeter_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Wastebasket_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Line_1",
+      "predicate": "on",
+      "object": "Intersection_1"
+    },
+    {
+      "subject": "StopLight_1",
+      "predicate": "on",
+      "object": "Corner_1"
+    },
+    {
+      "subject": "Wastebasket_1",
+      "predicate": "on",
+      "object": "Curb_1"
+    },
+    {
+      "subject": "ParkingMeter_1",
+      "predicate": "next to",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Entrance_1",
+      "predicate": "on",
+      "object": "Corner_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Man_1",
+    "Wastebasket_1",
+    "Entrance_1",
+    "Building_1",
+    "StopLight_1",
+    "Curb_1",
+    "Corner_1",
+    "Brick_1",
+    "ParkingMeter_1",
+    "Line_1",
+    "Van_1",
+    "Car_1",
+    "RightBuilding_1",
+    "Car_2",
+    "Intersection_1",
+    "Light_1",
+    "Building_2",
+    "Suv_1",
+    "Light_2",
+    "Awning_1",
+    "Light_3"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "image_id": 1,
+  "prompt_text": "### Relational Edges:\n- [Shade_1] --[on]--> [Street_1: sidewalk]\n- [Man_1] --[wearing]--> [Sneakers_1: grey]\n- [Sign_1] --[on]--> [Building_1: tall, brick, made of bricks]\n- [TreeTrunk_1] --[on]--> [Sidewalk_2: brick]\n- [Man_1] --[wearing]--> [Shirt_1: red, orange]\n- [Sidewalk_2] --[next to]--> [Street_2: clean]\n- [Man_1] --[wearing]--> [Glasses_1]\n- [ParkingMeter_1] --[on]--> [Sidewalk_2: brick]\n- [Man_2] --[wearing]--> [Shoes_1: brown]\n- [Man_1] --[wearing]--> [Pants_1: black]\n- [Man_2] --[wearing]--> [Jacket_1: gray, grey]\n- [Man_2] --[wearing]--> [Pants_2: gray, grey]\n- [Bike_1] --[on]--> [Sidewalk_2: brick]\n- [Bike_2] --[on]--> [Sidewalk_2: brick]\n- [WorkTruck_1] --[on]--> [Street_2: clean]\n- [Car_2] --[on]--> [Street_2: clean]\n- [Bike_2] --[on]--> [Sidewalk_1]\n- [ParkingMeter_1] --[behind]--> [Man_2]\n- [Bikes_1] --[near]--> [Tree_1]\n- [LampPost_1] --[along]--> [Road_1]\n- [ParkingMeter_1] --[on]--> [Street_2: clean]\n- [Tree_1] --[next to]--> [Street_2: clean]\n- [Bikes_1] --[behind]--> [Man_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Building_1: tall, brick, made of bricks] -> [Sign_1: black] -> [Man_1] -> [Bike_1: parked, far away] -> [Tree_1] -> [Bikes_1] -> [Bike_2: parked, far away, chained] -> [Man_2] -> [Clock_1: green, tall] -> [Trees_1: sparse] -> [Car_1] -> [LampPost_1] -> [ParkingMeter_1: orange] -> [Van_1: parked, white] -> [WorkTruck_1: white] -> [TreeTrunk_1] -> [Car_2: white, parked]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Sign_1: black] -> [Tree_1] -> [Clock_1: green, tall] -> [Building_1: tall, brick, made of bricks] -> [LampPost_1] -> [Trees_1: sparse] -> [Bike_1: parked, far away] -> [Bikes_1] -> [Bike_2: parked, far away, chained] -> [WorkTruck_1: white] -> [Car_1] -> [Van_1: parked, white] -> [Man_1] -> [Man_2] -> [TreeTrunk_1] -> [ParkingMeter_1: orange] -> [Car_2: white, parked]",
+  "semantic_id_mapping": {
+    "1058546": "Arm_1",
+    "5060": "Back_1",
+    "5051": "Bike_1",
+    "1058535": "Bike_2",
+    "1058544": "Bikes_1",
+    "1058508": "Building_1",
+    "5049": "Car_1",
+    "1058515": "Car_2",
+    "1058541": "Chin_1",
+    "1058498": "Clock_1",
+    "1058518": "Glasses_1",
+    "5050": "Headlight_1",
+    "1058530": "Jacket_1",
+    "1058548": "LampPost_1",
+    "3798577": "Man_1",
+    "3798576": "Man_2",
+    "1058528": "Pants_1",
+    "1058531": "Pants_2",
+    "1058519": "ParkingMeter_1",
+    "3798578": "Road_1",
+    "5045": "Shade_1",
+    "1058511": "Shirt_1",
+    "1058547": "Shirt_2",
+    "1058525": "Shoes_1",
+    "3798575": "Sidewalk_1",
+    "1058534": "Sidewalk_2",
+    "1058507": "Sign_1",
+    "5048": "Sneakers_1",
+    "5046": "Street_1",
+    "1058539": "Street_2",
+    "1058545": "Tree_1",
+    "5055": "TreeTrunk_1",
+    "1058549": "Trees_1",
+    "1058542": "Van_1",
+    "1058543": "Wall_1",
+    "3798579": "Windows_1",
+    "1058536": "WorkTruck_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Shade_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Sneakers_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "TreeTrunk_1",
+      "predicate": "on",
+      "object": "Sidewalk_2"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Sidewalk_2",
+      "predicate": "next to",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Glasses_1"
+    },
+    {
+      "subject": "ParkingMeter_1",
+      "predicate": "on",
+      "object": "Sidewalk_2"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Shoes_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Pants_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Jacket_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Pants_2"
+    },
+    {
+      "subject": "Bike_1",
+      "predicate": "on",
+      "object": "Sidewalk_2"
+    },
+    {
+      "subject": "Bike_2",
+      "predicate": "on",
+      "object": "Sidewalk_2"
+    },
+    {
+      "subject": "WorkTruck_1",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Bike_2",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "ParkingMeter_1",
+      "predicate": "behind",
+      "object": "Man_2"
+    },
+    {
+      "subject": "Bikes_1",
+      "predicate": "near",
+      "object": "Tree_1"
+    },
+    {
+      "subject": "LampPost_1",
+      "predicate": "along",
+      "object": "Road_1"
+    },
+    {
+      "subject": "ParkingMeter_1",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "next to",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Bikes_1",
+      "predicate": "behind",
+      "object": "Man_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Building_1",
+    "Sign_1",
+    "Man_1",
+    "Bike_1",
+    "Tree_1",
+    "Bikes_1",
+    "Bike_2",
+    "Man_2",
+    "Clock_1",
+    "Trees_1",
+    "Car_1",
+    "LampPost_1",
+    "ParkingMeter_1",
+    "Van_1",
+    "WorkTruck_1",
+    "TreeTrunk_1",
+    "Car_2"
+  ]
+}

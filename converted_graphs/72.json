@@ -1,0 +1,120 @@
+{
+  "image_id": 72,
+  "prompt_text": "### Relational Edges:\n- [Glass_1] --[on]--> [Table_1: circular]\n- [NameTag_1] --[on]--> [Woman_2]\n- [Glasses_1] --[on]--> [Man_1: old]\n- [Cake_1] --[on]--> [Table_1: circular]\n- [Badge_1] --[on]--> [Man_2: sitting]\n- [Glasses_2] --[on]--> [Woman_3]\n- [Salad_1] --[on]--> [Table_1: circular]\n- [Water_1] --[on]--> [Table_1: circular]\n- [Woman_1] --[wearing]--> [Shirt_1]\n- [Woman_3] --[wearing]--> [Glasses_2: black]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Person_1] -> [Woman_1] -> [Mug_1: here] -> [Salad_1] -> [Person_2] -> [Man_1: old] -> [Glass_1: filled] -> [Water_1] -> [Woman_2] -> [NameTag_1] -> [Cake_1] -> [Person_3] -> [Table_1: circular] -> [People_1] -> [Person_4] -> [Badge_1] -> [Man_2: sitting] -> [Glass_2: filled] -> [Fork_1: silver] -> [Beard_1: grey] -> [Person_5] -> [Woman_3] -> [Woman_4: old]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Person_3] -> [Person_4] -> [Man_2: sitting] -> [Woman_2] -> [Beard_1: grey] -> [Man_1: old] -> [Person_2] -> [Person_1] -> [Person_5] -> [Woman_1] -> [NameTag_1] -> [Badge_1] -> [Glass_2: filled] -> [People_1] -> [Woman_3] -> [Woman_4: old] -> [Mug_1: here] -> [Table_1: circular] -> [Water_1] -> [Glass_1: filled] -> [Fork_1: silver] -> [Cake_1] -> [Salad_1]",
+  "semantic_id_mapping": {
+    "1062159": "Arm_1",
+    "1062149": "Badge_1",
+    "1062158": "Beard_1",
+    "1062148": "Cake_1",
+    "1062156": "Fork_1",
+    "1062141": "Glass_1",
+    "1062157": "Glass_2",
+    "1062146": "Glasses_1",
+    "1062139": "Glasses_2",
+    "1062134": "Hair_1",
+    "1062136": "Hair_2",
+    "1062170": "Head_1",
+    "1062167": "Head_2",
+    "1062166": "Head_3",
+    "1062164": "Head_4",
+    "1062162": "Head_5",
+    "1062137": "Jacket_1",
+    "1062135": "Man_1",
+    "1062143": "Man_2",
+    "1062155": "Mug_1",
+    "1062144": "NameTag_1",
+    "1062147": "People_1",
+    "1062169": "Person_1",
+    "1062168": "Person_2",
+    "1062165": "Person_3",
+    "1062163": "Person_4",
+    "1062161": "Person_5",
+    "1062151": "Salad_1",
+    "1062154": "Shirt_1",
+    "1062160": "Shirt_2",
+    "1062138": "Sweater_1",
+    "1062142": "Table_1",
+    "1062152": "Water_1",
+    "1062153": "Woman_1",
+    "1062145": "Woman_2",
+    "1062150": "Woman_3",
+    "1062140": "Woman_4"
+  },
+  "relational_edges": [
+    {
+      "subject": "Glass_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "NameTag_1",
+      "predicate": "on",
+      "object": "Woman_2"
+    },
+    {
+      "subject": "Glasses_1",
+      "predicate": "on",
+      "object": "Man_1"
+    },
+    {
+      "subject": "Cake_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Badge_1",
+      "predicate": "on",
+      "object": "Man_2"
+    },
+    {
+      "subject": "Glasses_2",
+      "predicate": "on",
+      "object": "Woman_3"
+    },
+    {
+      "subject": "Salad_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Water_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Woman_3",
+      "predicate": "wearing",
+      "object": "Glasses_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Person_1",
+    "Woman_1",
+    "Mug_1",
+    "Salad_1",
+    "Person_2",
+    "Man_1",
+    "Glass_1",
+    "Water_1",
+    "Woman_2",
+    "NameTag_1",
+    "Cake_1",
+    "Person_3",
+    "Table_1",
+    "People_1",
+    "Person_4",
+    "Badge_1",
+    "Man_2",
+    "Glass_2",
+    "Fork_1",
+    "Beard_1",
+    "Person_5",
+    "Woman_3",
+    "Woman_4"
+  ]
+}

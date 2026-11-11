@@ -1,0 +1,158 @@
+{
+  "image_id": 14,
+  "prompt_text": "### Relational Edges:\n- [ComputerMonitor_1] --[on]--> [Desk_1: wooden, brown]\n- [People_1] --[on]--> [JigsawPuzzle_1: completed, glued, assembled, beautiful]\n- [Pen_1] --[on]--> [Desk_1: wooden, brown]\n- [ComputerMouse_1] --[on]--> [MousePad_1]\n- [Picture_1] --[on]--> [Desk_1: wooden, brown]\n- [Envelope_1] --[on]--> [Desk_1: wooden, brown]\n- [SodaCup_1] --[on]--> [Desk_1: wooden, brown]\n- [LampStand_1] --[on]--> [Desk_1: wooden, brown]\n- [Book_1] --[on]--> [Desk_1: wooden, brown]\n- [ComputerKeyboard_1] --[on]--> [Desk_1: wooden, brown]\n- [Bottle_1] --[wearing]--> [Cap_1: black]\n- [Dart_1] --[on]--> [Wall_1]\n- [Bottle_1] --[on]--> [Desk_1: wooden, brown]\n- [ComputerMouse_1] --[on]--> [Desk_1: wooden, brown]\n- [Shade_1] --[on]--> [Desk_1: wooden, brown]\n- [Pen_1] --[next to]--> [ComputerMonitor_1: white, not on, off]\n- [Lamp_1] --[on]--> [Desk_1: wooden, brown]\n- [JigsawPuzzle_1] --[on]--> [Desk_1: wooden, brown]\n- [StickyNote_1] --[on]--> [Desk_1: wooden, brown]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Cd_1: silver] -> [Holder_1: CD disk] -> [CdCase_1: black, open] -> [Book_1] -> [SodaCup_1: red, white, plastic, tall, big] -> [JigsawPuzzle_1: completed, glued, assembled, beautiful] -> [People_1] -> [Envelope_1: white, opened, torn open] -> [ComputerKeyboard_1: gray, white] -> [WristRest_1: black] -> [Bottle_1: black, white] -> [Computer_1: off] -> [Picture_1: indoors] -> [Desk_1: wooden, brown] -> [StickyNote_1: yellow, pad] -> [MarkPen_1: yellow] -> [ComputerMonitor_1: white, not on, off] -> [ComputerMouse_1: white] -> [MousePad_1] -> [WristRest_2] -> [Dart_1] -> [Pen_1: white] -> [Lamp_1: small, brass, green, shaded] -> [Lid_1: reusable] -> [LampStand_1: here, golden]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Dart_1] -> [ComputerMonitor_1: white, not on, off] -> [JigsawPuzzle_1: completed, glued, assembled, beautiful] -> [People_1] -> [SodaCup_1: red, white, plastic, tall, big] -> [Picture_1: indoors] -> [Computer_1: off] -> [Lamp_1: small, brass, green, shaded] -> [LampStand_1: here, golden] -> [Envelope_1: white, opened, torn open] -> [StickyNote_1: yellow, pad] -> [MarkPen_1: yellow] -> [ComputerMouse_1: white] -> [Pen_1: white] -> [MousePad_1] -> [Cd_1: silver] -> [CdCase_1: black, open] -> [Desk_1: wooden, brown] -> [Holder_1: CD disk] -> [WristRest_2] -> [Lid_1: reusable] -> [ComputerKeyboard_1: gray, white] -> [WristRest_1: black] -> [Bottle_1: black, white] -> [Book_1]",
+  "semantic_id_mapping": {
+    "1060732": "Book_1",
+    "1060708": "Bottle_1",
+    "1060734": "Cap_1",
+    "1060710": "Cd_1",
+    "1060711": "CdCase_1",
+    "5345": "Computer_1",
+    "1060706": "ComputerKeyboard_1",
+    "1060699": "ComputerMonitor_1",
+    "1060714": "ComputerMouse_1",
+    "1060736": "Dart_1",
+    "1060700": "Desk_1",
+    "1060731": "Envelope_1",
+    "3798664": "Holder_1",
+    "1060704": "JigsawPuzzle_1",
+    "1060701": "Lamp_1",
+    "1060722": "LampStand_1",
+    "1060735": "Lid_1",
+    "1060733": "MarkPen_1",
+    "1060715": "MousePad_1",
+    "1060712": "Pen_1",
+    "5334": "People_1",
+    "5346": "Picture_1",
+    "1060702": "Shade_1",
+    "1060703": "SodaCup_1",
+    "1060709": "StickyNote_1",
+    "1060737": "Wall_1",
+    "1060707": "WristRest_1",
+    "1060716": "WristRest_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "ComputerMonitor_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "People_1",
+      "predicate": "on",
+      "object": "JigsawPuzzle_1"
+    },
+    {
+      "subject": "Pen_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "ComputerMouse_1",
+      "predicate": "on",
+      "object": "MousePad_1"
+    },
+    {
+      "subject": "Picture_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Envelope_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "SodaCup_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "LampStand_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "ComputerKeyboard_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Bottle_1",
+      "predicate": "wearing",
+      "object": "Cap_1"
+    },
+    {
+      "subject": "Dart_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Bottle_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "ComputerMouse_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Shade_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Pen_1",
+      "predicate": "next to",
+      "object": "ComputerMonitor_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "JigsawPuzzle_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "StickyNote_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Cd_1",
+    "Holder_1",
+    "CdCase_1",
+    "Book_1",
+    "SodaCup_1",
+    "JigsawPuzzle_1",
+    "People_1",
+    "Envelope_1",
+    "ComputerKeyboard_1",
+    "WristRest_1",
+    "Bottle_1",
+    "Computer_1",
+    "Picture_1",
+    "Desk_1",
+    "StickyNote_1",
+    "MarkPen_1",
+    "ComputerMonitor_1",
+    "ComputerMouse_1",
+    "MousePad_1",
+    "WristRest_2",
+    "Dart_1",
+    "Pen_1",
+    "Lamp_1",
+    "Lid_1",
+    "LampStand_1"
+  ]
+}

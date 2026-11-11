@@ -1,0 +1,152 @@
+{
+  "image_id": 185,
+  "prompt_text": "### Relational Edges:\n- [Stick_1] --[on]--> [PianoLid_1]\n- [PianoLid_1] --[on]--> [Piano_1: grand, beautiful, black]\n- [Seats_2] --[on]--> [Balcony_1]\n- [StageLights_1] --[on]--> [BalconyFacing_1]\n- [PianoStrings_1] --[on]--> [Piano_1: grand, beautiful, black]\n- [WhiteKeys_1] --[on]--> [Piano_1: grand, beautiful, black]\n- [BlackKeys_1] --[on]--> [Piano_1: grand, beautiful, black]\n- [Chairs_4] --[on]--> [Balcony_3]\n- [Keys_1] --[on]--> [Piano_1: grand, beautiful, black]\n- [Stick_1] --[on]--> [Piano_1: grand, beautiful, black]\n- [Wall_2] --[behind]--> [Chairs_1]\n- [Piano_1] --[on]--> [Stage_1]\n- [Carpet_1] --[on]--> [Stage_1]\n- [Spots_1] --[on]--> [Carpet_1]\n- [Lights_1] --[on]--> [Balcony_4: top]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Curtain_1: red] -> [PianoLid_1] -> [Piano_1: grand, beautiful, black] -> [Light_1] -> [PianoStrings_1: inside] -> [Auditorium_1] -> [Building_1] -> [Stage_1] -> [Stick_1] -> [Wood_1] -> [BlackKeys_1] -> [Balcony_1] -> [Keys_1: white] -> [WhiteKeys_1] -> [Chairs_1] -> [Building_2] -> [Building_3] -> [Chairs_2: red] -> [Seats_1: red, theatre, lower level] -> [Door_1] -> [Chairs_3: row] -> [Balcony_2: upper] -> [Chair_1: red] -> [Balcony_3] -> [Balcony_4: top] -> [BalconyFacing_1] -> [Seats_2] -> [Chairs_4: red] -> [Lights_1: stage] -> [Spots_1: white, worn out] -> [Window_1: glass, under] -> [StageLights_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Chairs_3: row] -> [Chairs_4: red] -> [Seats_2] -> [Balcony_2: upper] -> [Balcony_1] -> [Balcony_4: top] -> [Curtain_1: red] -> [StageLights_1] -> [Balcony_3] -> [Lights_1: stage] -> [BalconyFacing_1] -> [Light_1] -> [Building_2] -> [Window_1: glass, under] -> [Building_1] -> [Door_1] -> [Building_3] -> [Chairs_1] -> [Stick_1] -> [Wood_1] -> [PianoLid_1] -> [Auditorium_1] -> [Chairs_2: red] -> [Seats_1: red, theatre, lower level] -> [Piano_1: grand, beautiful, black] -> [Chair_1: red] -> [PianoStrings_1: inside] -> [Stage_1] -> [Keys_1: white] -> [BlackKeys_1] -> [WhiteKeys_1] -> [Spots_1: white, worn out]",
+  "semantic_id_mapping": {
+    "3787367": "Auditorium_1",
+    "1536623": "Balcony_1",
+    "3787358": "Balcony_2",
+    "1536639": "Balcony_3",
+    "3787369": "Balcony_4",
+    "1536625": "BalconyFacing_1",
+    "1536635": "BlackKeys_1",
+    "1536644": "Building_1",
+    "1536643": "Building_2",
+    "1536649": "Building_3",
+    "3787362": "Carpet_1",
+    "1536636": "Chair_1",
+    "3787345": "Chairs_1",
+    "1536637": "Chairs_2",
+    "3787351": "Chairs_3",
+    "1536638": "Chairs_4",
+    "1536641": "Curtain_1",
+    "3787366": "Door_1",
+    "3787340": "Keys_1",
+    "3787371": "Light_1",
+    "3787368": "Lights_1",
+    "1536634": "Piano_1",
+    "1536620": "PianoLid_1",
+    "1536628": "PianoStrings_1",
+    "1536627": "Seats_1",
+    "1536622": "Seats_2",
+    "3787363": "Spots_1",
+    "3787361": "Stage_1",
+    "1536624": "StageLights_1",
+    "3787343": "Stick_1",
+    "3787370": "Wall_1",
+    "3787344": "Wall_2",
+    "1536633": "WhiteKeys_1",
+    "1536630": "Window_1",
+    "3787364": "Wood_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Stick_1",
+      "predicate": "on",
+      "object": "PianoLid_1"
+    },
+    {
+      "subject": "PianoLid_1",
+      "predicate": "on",
+      "object": "Piano_1"
+    },
+    {
+      "subject": "Seats_2",
+      "predicate": "on",
+      "object": "Balcony_1"
+    },
+    {
+      "subject": "StageLights_1",
+      "predicate": "on",
+      "object": "BalconyFacing_1"
+    },
+    {
+      "subject": "PianoStrings_1",
+      "predicate": "on",
+      "object": "Piano_1"
+    },
+    {
+      "subject": "WhiteKeys_1",
+      "predicate": "on",
+      "object": "Piano_1"
+    },
+    {
+      "subject": "BlackKeys_1",
+      "predicate": "on",
+      "object": "Piano_1"
+    },
+    {
+      "subject": "Chairs_4",
+      "predicate": "on",
+      "object": "Balcony_3"
+    },
+    {
+      "subject": "Keys_1",
+      "predicate": "on",
+      "object": "Piano_1"
+    },
+    {
+      "subject": "Stick_1",
+      "predicate": "on",
+      "object": "Piano_1"
+    },
+    {
+      "subject": "Wall_2",
+      "predicate": "behind",
+      "object": "Chairs_1"
+    },
+    {
+      "subject": "Piano_1",
+      "predicate": "on",
+      "object": "Stage_1"
+    },
+    {
+      "subject": "Carpet_1",
+      "predicate": "on",
+      "object": "Stage_1"
+    },
+    {
+      "subject": "Spots_1",
+      "predicate": "on",
+      "object": "Carpet_1"
+    },
+    {
+      "subject": "Lights_1",
+      "predicate": "on",
+      "object": "Balcony_4"
+    }
+  ],
+  "horizontal_ordering": [
+    "Curtain_1",
+    "PianoLid_1",
+    "Piano_1",
+    "Light_1",
+    "PianoStrings_1",
+    "Auditorium_1",
+    "Building_1",
+    "Stage_1",
+    "Stick_1",
+    "Wood_1",
+    "BlackKeys_1",
+    "Balcony_1",
+    "Keys_1",
+    "WhiteKeys_1",
+    "Chairs_1",
+    "Building_2",
+    "Building_3",
+    "Chairs_2",
+    "Seats_1",
+    "Door_1",
+    "Chairs_3",
+    "Balcony_2",
+    "Chair_1",
+    "Balcony_3",
+    "Balcony_4",
+    "BalconyFacing_1",
+    "Seats_2",
+    "Chairs_4",
+    "Lights_1",
+    "Spots_1",
+    "Window_1",
+    "StageLights_1"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "image_id": 113,
+  "prompt_text": "### Relational Edges:\n- [Minivan_1] --[on]--> [Road_1]\n- [StreetSign_1] --[on]--> [Pole_1]\n- [Person_3] --[on]--> [Street_1]\n- [Bikes_1] --[on]--> [Pole_3]\n- [Paper_1] --[on]--> [Pole_3]\n- [Paper_2] --[on]--> [Pole_3]\n- [Person_2] --[wearing]--> [Clothes_1]\n- [Person_1] --[wearing]--> [Clothes_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Tree_1] -> [Building_1] -> [Pole_1] -> [Sign_1: red and white] -> [StreetSign_1] -> [Person_1] -> [Couple_1] -> [Clothes_2] -> [Person_2] -> [Window_1] -> [Pole_2: black ] -> [Top_1] -> [Window_2] -> [Car_1: white ] -> [Door_1] -> [Window_3] -> [Window_4] -> [Person_3] -> [Building_2: tall ] -> [Railings_1] -> [Balcony_1] -> [Window_5] -> [People_1] -> [Bikes_1] -> [Pole_3] -> [Paper_1] -> [Paper_2] -> [Minivan_1: blue] -> [Window_6]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_2] -> [Window_3] -> [Window_6] -> [Window_1] -> [Railings_1] -> [Balcony_1] -> [Building_1] -> [Building_2: tall ] -> [Window_5] -> [Window_4] -> [Sign_1: red and white] -> [StreetSign_1] -> [Tree_1] -> [Pole_3] -> [Door_1] -> [Pole_1] -> [Paper_2] -> [Car_1: white ] -> [Person_3] -> [People_1] -> [Person_1] -> [Couple_1] -> [Person_2] -> [Minivan_1: blue] -> [Clothes_2] -> [Paper_1] -> [Top_1] -> [Bikes_1] -> [Pole_2: black ]",
+  "semantic_id_mapping": {
+    "1534983": "Balcony_1",
+    "1534973": "Bikes_1",
+    "1534986": "Building_1",
+    "1534984": "Building_2",
+    "1534987": "Car_1",
+    "1534980": "Clothes_1",
+    "1534979": "Clothes_2",
+    "1534978": "Couple_1",
+    "1534981": "Door_1",
+    "1534954": "Minivan_1",
+    "1534976": "Paper_1",
+    "1534975": "Paper_2",
+    "1534971": "People_1",
+    "3786947": "Person_1",
+    "3786948": "Person_2",
+    "3786946": "Person_3",
+    "1534968": "Pole_1",
+    "1534966": "Pole_2",
+    "1534974": "Pole_3",
+    "1534964": "Railings_1",
+    "1534955": "Road_1",
+    "1534970": "Sign_1",
+    "1534988": "Street_1",
+    "1534969": "StreetSign_1",
+    "1534967": "Top_1",
+    "1534985": "Tree_1",
+    "1534958": "Window_1",
+    "1534961": "Window_2",
+    "1534962": "Window_3",
+    "3786949": "Window_4",
+    "1534959": "Window_5",
+    "1534960": "Window_6",
+    "1534982": "Windows_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Minivan_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "StreetSign_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "Person_3",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Bikes_1",
+      "predicate": "on",
+      "object": "Pole_3"
+    },
+    {
+      "subject": "Paper_1",
+      "predicate": "on",
+      "object": "Pole_3"
+    },
+    {
+      "subject": "Paper_2",
+      "predicate": "on",
+      "object": "Pole_3"
+    },
+    {
+      "subject": "Person_2",
+      "predicate": "wearing",
+      "object": "Clothes_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Clothes_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Tree_1",
+    "Building_1",
+    "Pole_1",
+    "Sign_1",
+    "StreetSign_1",
+    "Person_1",
+    "Couple_1",
+    "Clothes_2",
+    "Person_2",
+    "Window_1",
+    "Pole_2",
+    "Top_1",
+    "Window_2",
+    "Car_1",
+    "Door_1",
+    "Window_3",
+    "Window_4",
+    "Person_3",
+    "Building_2",
+    "Railings_1",
+    "Balcony_1",
+    "Window_5",
+    "People_1",
+    "Bikes_1",
+    "Pole_3",
+    "Paper_1",
+    "Paper_2",
+    "Minivan_1",
+    "Window_6"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "image_id": 102,
+  "prompt_text": "### Relational Edges:\n- [Window_6] --[on]--> [Building_1: red, brick, wide, two story, gray stripe]\n- [Window_4] --[on]--> [Building_1: red, brick, wide, two story, gray stripe]\n- [Window_1] --[on]--> [Building_1: red, brick, wide, two story, gray stripe]\n- [Door_1] --[on]--> [Building_1: red, brick, wide, two story, gray stripe]\n- [Window_5] --[on]--> [Building_1: red, brick, wide, two story, gray stripe]\n- [Wheel_1] --[on]--> [Car_2: green]\n- [Window_2] --[on]--> [Car_2: green]\n- [TailLight_2] --[on]--> [Car_2: green]\n- [Tire_1] --[on]--> [Car_2: green]\n- [Rim_1] --[on]--> [Car_2: green]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [TailLight_1] -> [Car_1: smooth, shiny, blue] -> [Van_1: maroon, shiny, smooth] -> [Bush_1] -> [BrickSidewalk_1] -> [Window_1] -> [FrontLight_1] -> [Tire_1] -> [Rim_1] -> [Wheel_1] -> [FlowerPot_1: gray, small] -> [Door_1: grey, smooth] -> [Building_1: red, brick, wide, two story, gray stripe] -> [Window_2] -> [Car_2: green] -> [Window_3] -> [Window_4] -> [Tire_2] -> [TailLight_2] -> [Window_5] -> [BrickSidewalk_2: red, textured, firm] -> [Window_6]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_5] -> [Building_1: red, brick, wide, two story, gray stripe] -> [Window_6] -> [Window_4] -> [Window_1] -> [Door_1: grey, smooth] -> [FlowerPot_1: gray, small] -> [Window_3] -> [Bush_1] -> [Window_2] -> [TailLight_1] -> [Car_1: smooth, shiny, blue] -> [Van_1: maroon, shiny, smooth] -> [TailLight_2] -> [Car_2: green] -> [FrontLight_1] -> [BrickSidewalk_1] -> [BrickSidewalk_2: red, textured, firm] -> [Tire_2] -> [Wheel_1] -> [Rim_1] -> [Tire_1]",
+  "semantic_id_mapping": {
+    "1534670": "BrickSidewalk_1",
+    "1534671": "BrickSidewalk_2",
+    "1534698": "Building_1",
+    "1534679": "Bush_1",
+    "1534692": "Car_1",
+    "1534711": "Car_2",
+    "1534681": "Door_1",
+    "1534682": "FlowerPot_1",
+    "1534721": "FrontLight_1",
+    "1534719": "Rim_1",
+    "1534669": "Road_1",
+    "1534723": "Street_1",
+    "1534677": "TailLight_1",
+    "1534712": "TailLight_2",
+    "1534667": "Tire_1",
+    "1534683": "Tire_2",
+    "1534678": "Van_1",
+    "1534706": "Wheel_1",
+    "1534697": "Window_1",
+    "1534709": "Window_2",
+    "1534687": "Window_3",
+    "1534675": "Window_4",
+    "1534701": "Window_5",
+    "1534693": "Window_6"
+  },
+  "relational_edges": [
+    {
+      "subject": "Window_6",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Door_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_5",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Wheel_1",
+      "predicate": "on",
+      "object": "Car_2"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Car_2"
+    },
+    {
+      "subject": "TailLight_2",
+      "predicate": "on",
+      "object": "Car_2"
+    },
+    {
+      "subject": "Tire_1",
+      "predicate": "on",
+      "object": "Car_2"
+    },
+    {
+      "subject": "Rim_1",
+      "predicate": "on",
+      "object": "Car_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "TailLight_1",
+    "Car_1",
+    "Van_1",
+    "Bush_1",
+    "BrickSidewalk_1",
+    "Window_1",
+    "FrontLight_1",
+    "Tire_1",
+    "Rim_1",
+    "Wheel_1",
+    "FlowerPot_1",
+    "Door_1",
+    "Building_1",
+    "Window_2",
+    "Car_2",
+    "Window_3",
+    "Window_4",
+    "Tire_2",
+    "TailLight_2",
+    "Window_5",
+    "BrickSidewalk_2",
+    "Window_6"
+  ]
+}

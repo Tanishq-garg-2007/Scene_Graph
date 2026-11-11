@@ -1,0 +1,53 @@
+{
+  "image_id": 92,
+  "prompt_text": "### Relational Edges:\n- [Glass_1] --[next to]--> [Mug_1: white , ceramic ]\n- [Banana_1] --[next to]--> [Strawberry_1]\n- [Blueberries_1] --[next to]--> [Banana_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Fork_1] -> [PaperNapkin_1: paper ] -> [Napkin_1: white ] -> [Knife_1] -> [Plate_1] -> [Blueberries_1] -> [Bowl_1] -> [Placemat_1: yellow , paper ] -> [Banana_1] -> [Strawberry_1] -> [Glass_1: tall ] -> [Spoon_1] -> [Mug_1: white , ceramic ] -> [Coffee_1: brown ]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Glass_1: tall ] -> [Coffee_1: brown ] -> [Mug_1: white , ceramic ] -> [Fork_1] -> [Blueberries_1] -> [Bowl_1] -> [Knife_1] -> [Strawberry_1] -> [Placemat_1: yellow , paper ] -> [Plate_1] -> [PaperNapkin_1: paper ] -> [Napkin_1: white ] -> [Banana_1] -> [Spoon_1]",
+  "semantic_id_mapping": {
+    "1534498": "Banana_1",
+    "1534497": "Blueberries_1",
+    "1534493": "Bowl_1",
+    "1534483": "Coffee_1",
+    "3786889": "Fork_1",
+    "1534484": "Glass_1",
+    "1534488": "Knife_1",
+    "1534482": "Mug_1",
+    "1534487": "Napkin_1",
+    "1534490": "PaperNapkin_1",
+    "1534492": "Placemat_1",
+    "1534494": "Plate_1",
+    "1534491": "Spoon_1",
+    "1534496": "Strawberry_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Glass_1",
+      "predicate": "next to",
+      "object": "Mug_1"
+    },
+    {
+      "subject": "Banana_1",
+      "predicate": "next to",
+      "object": "Strawberry_1"
+    },
+    {
+      "subject": "Blueberries_1",
+      "predicate": "next to",
+      "object": "Banana_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Fork_1",
+    "PaperNapkin_1",
+    "Napkin_1",
+    "Knife_1",
+    "Plate_1",
+    "Blueberries_1",
+    "Bowl_1",
+    "Placemat_1",
+    "Banana_1",
+    "Strawberry_1",
+    "Glass_1",
+    "Spoon_1",
+    "Mug_1",
+    "Coffee_1"
+  ]
+}

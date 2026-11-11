@@ -1,0 +1,140 @@
+{
+  "image_id": 36,
+  "prompt_text": "### Relational Edges:\n- [Bagels_1] --[on]--> [Table_1: blue, ceramic, angled, wooden, cream]\n- [Pot_2] --[on]--> [Cooker_1: mounted, white, electric]\n- [SilverWare_1] --[on]--> [Top_1]\n- [Tablecloth_1] --[on]--> [Table_1: blue, ceramic, angled, wooden, cream]\n- [Food_1] --[near]--> [Sink_1: kitchen ]\n- [Bowl_1] --[on]--> [Table_1: blue, ceramic, angled, wooden, cream]\n- [Bread_1] --[on]--> [CuttingBoard_1]\n- [Flowers_1] --[on]--> [Counter_1]\n- [Plates_1] --[on]--> [Drawers_1: green]\n- [Sink_1] --[on]--> [Table_1: blue, ceramic, angled, wooden, cream]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Kettle_1: white] -> [Cup_1: white] -> [Pot_1: white, cream] -> [WallUnit_1: china , green] -> [Hutch_1: serving pieces] -> [Drawers_1: green] -> [Faucet_1] -> [Sink_1: kitchen ] -> [Dispenser_1] -> [Cabinet_1: wooden] -> [Fridge_1: big, white, side-by-side, freezer] -> [Fruits_1] -> [Bowl_1: white] -> [Food_1] -> [Tablecloth_1: blue] -> [Window_1: open, source , light] -> [Table_1: blue, ceramic, angled, wooden, cream] -> [Counter_1] -> [Flowers_1] -> [Vase_1] -> [Kitchen_1: picture ] -> [Light_1] -> [CuttingBoard_1] -> [Bagels_1] -> [Bread_1] -> [Drawers_2: brown] -> [SilverWare_1: golden] -> [Reflection_1: sun] -> [Top_1] -> [Cooker_1: mounted, white, electric] -> [Greenery_1: artificial] -> [Pot_2: black, enamel] -> [Stove_1: white] -> [CandleHolders_1: iron] -> [Drawers_3: brown] -> [KitchenTop_1: white] -> [Wine_1] -> [Bottle_1] -> [Plates_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Greenery_1: artificial] -> [CandleHolders_1: iron] -> [Pot_1: white, cream] -> [Window_1: open, source , light] -> [Light_1] -> [Kettle_1: white] -> [Cup_1: white] -> [Cabinet_1: wooden] -> [Hutch_1: serving pieces] -> [Fridge_1: big, white, side-by-side, freezer] -> [Flowers_1] -> [WallUnit_1: china , green] -> [Dispenser_1] -> [Reflection_1: sun] -> [Vase_1] -> [Drawers_1: green] -> [Counter_1] -> [Pot_2: black, enamel] -> [Wine_1] -> [Bottle_1] -> [Kitchen_1: picture ] -> [Plates_1] -> [Drawers_2: brown] -> [Faucet_1] -> [Stove_1: white] -> [Sink_1: kitchen ] -> [KitchenTop_1: white] -> [Cooker_1: mounted, white, electric] -> [Drawers_3: brown] -> [Fruits_1] -> [Food_1] -> [Tablecloth_1: blue] -> [Bread_1] -> [Bowl_1: white] -> [Bagels_1] -> [Table_1: blue, ceramic, angled, wooden, cream] -> [SilverWare_1: golden] -> [CuttingBoard_1] -> [Top_1]",
+  "semantic_id_mapping": {
+    "5817": "Bagels_1",
+    "5828": "Bottle_1",
+    "1061508": "Bowl_1",
+    "1061510": "Bread_1",
+    "1061516": "Cabinet_1",
+    "1061514": "CandleHolders_1",
+    "1061497": "Ceiling_1",
+    "1061476": "Cooker_1",
+    "1061513": "Counter_1",
+    "5829": "Cup_1",
+    "1061511": "CuttingBoard_1",
+    "1061515": "Dispenser_1",
+    "1061496": "Drawers_1",
+    "5838": "Drawers_2",
+    "1061498": "Drawers_3",
+    "3798668": "Faucet_1",
+    "1061505": "Floor_1",
+    "1061478": "Flowers_1",
+    "1061506": "Food_1",
+    "1061489": "Fridge_1",
+    "1061509": "Fruits_1",
+    "1061512": "Greenery_1",
+    "3798667": "Hutch_1",
+    "1061487": "Kettle_1",
+    "1061503": "Kitchen_1",
+    "5833": "KitchenTop_1",
+    "5834": "Light_1",
+    "3798680": "Plates_1",
+    "1061502": "Pot_1",
+    "1061475": "Pot_2",
+    "5823": "Reflection_1",
+    "5825": "SilverWare_1",
+    "1061507": "Sink_1",
+    "5832": "Stove_1",
+    "1061501": "Table_1",
+    "5827": "Tablecloth_1",
+    "5826": "Top_1",
+    "1061477": "Vase_1",
+    "1061504": "WallUnit_1",
+    "1061480": "Window_1",
+    "3798600": "Wine_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Bagels_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Pot_2",
+      "predicate": "on",
+      "object": "Cooker_1"
+    },
+    {
+      "subject": "SilverWare_1",
+      "predicate": "on",
+      "object": "Top_1"
+    },
+    {
+      "subject": "Tablecloth_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Food_1",
+      "predicate": "near",
+      "object": "Sink_1"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Bread_1",
+      "predicate": "on",
+      "object": "CuttingBoard_1"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Plates_1",
+      "predicate": "on",
+      "object": "Drawers_1"
+    },
+    {
+      "subject": "Sink_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Kettle_1",
+    "Cup_1",
+    "Pot_1",
+    "WallUnit_1",
+    "Hutch_1",
+    "Drawers_1",
+    "Faucet_1",
+    "Sink_1",
+    "Dispenser_1",
+    "Cabinet_1",
+    "Fridge_1",
+    "Fruits_1",
+    "Bowl_1",
+    "Food_1",
+    "Tablecloth_1",
+    "Window_1",
+    "Table_1",
+    "Counter_1",
+    "Flowers_1",
+    "Vase_1",
+    "Kitchen_1",
+    "Light_1",
+    "CuttingBoard_1",
+    "Bagels_1",
+    "Bread_1",
+    "Drawers_2",
+    "SilverWare_1",
+    "Reflection_1",
+    "Top_1",
+    "Cooker_1",
+    "Greenery_1",
+    "Pot_2",
+    "Stove_1",
+    "CandleHolders_1",
+    "Drawers_3",
+    "KitchenTop_1",
+    "Wine_1",
+    "Bottle_1",
+    "Plates_1"
+  ]
+}

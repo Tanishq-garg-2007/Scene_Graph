@@ -1,0 +1,151 @@
+{
+  "image_id": 20,
+  "prompt_text": "### Relational Edges:\n- [Computer_1] --[on]--> [Desk_1: wooden]\n- [Books_3] --[on]--> [Shelf_1]\n- [Book_1] --[on]--> [Bookshelf_1: wooden]\n- [Mug_1] --[on]--> [Bookshelf_1: wooden]\n- [Can_1] --[on]--> [Desk_1: wooden]\n- [Bottle_1] --[next to]--> [Computer_1: white, on, working]\n- [TapeDispenser_1] --[on]--> [Shelf_1]\n- [Telephone_1] --[on]--> [Desk_1: wooden]\n- [Mouse_1] --[on]--> [MousePad_1]\n- [Keyboard_2] --[on]--> [Desk_1: wooden]\n- [Can_1] --[on]--> [Table_1]\n- [Bottle_1] --[on]--> [Table_1]\n- [Telephone_1] --[on]--> [Picture_1: indoors, daytime, keyboard, socket, empty]\n- [Mug_1] --[on]--> [Self_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Case_1: brown] -> [Can_1: coke] -> [Man_1: working, typing, sitting] -> [Chair_1: black, dark] -> [OnePerson_1] -> [Computer_1: white, on, working] -> [Desk_1: wooden] -> [Keyboard_1: black] -> [Keyboard_2: white] -> [Time_1: daytime] -> [Mouse_1] -> [MousePad_1] -> [Books_1] -> [Mouse_2] -> [Table_1] -> [Picture_1: indoors, daytime, keyboard, socket, empty] -> [Bottle_1: clear, empty] -> [Window_1: open] -> [Shutter_1: closed] -> [FileCabinet_1: black] -> [Telephone_1: landline, old] -> [Book_1] -> [Mug_1: metal] -> [Boxes_1: stacked] -> [TapeDispenser_1: black] -> [Self_1: shut] -> [Books_2] -> [Bookshelf_1: wooden] -> [Shelf_1] -> [Plug_1] -> [Socket_1] -> [Books_3: metal] -> [Self_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Books_2] -> [Book_1] -> [Time_1: daytime] -> [Self_1: shut] -> [Bookshelf_1: wooden] -> [Shutter_1: closed] -> [Window_1: open] -> [Books_3: metal] -> [Mug_1: metal] -> [TapeDispenser_1: black] -> [Picture_1: indoors, daytime, keyboard, socket, empty] -> [Shelf_1] -> [Computer_1: white, on, working] -> [Self_2] -> [Bottle_1: clear, empty] -> [Books_1] -> [Case_1: brown] -> [OnePerson_1] -> [Telephone_1: landline, old] -> [Can_1: coke] -> [Desk_1: wooden] -> [Keyboard_2: white] -> [Mouse_2] -> [Man_1: working, typing, sitting] -> [Table_1] -> [Keyboard_1: black] -> [Mouse_1] -> [MousePad_1] -> [Chair_1: black, dark] -> [Boxes_1: stacked] -> [FileCabinet_1: black] -> [Plug_1] -> [Socket_1]",
+  "semantic_id_mapping": {
+    "1061022": "Back_1",
+    "1061018": "Book_1",
+    "1061035": "Books_1",
+    "1061007": "Books_2",
+    "1061011": "Books_3",
+    "1061019": "Bookshelf_1",
+    "1060994": "Bottle_1",
+    "1061028": "Boxes_1",
+    "1061025": "Can_1",
+    "1061037": "Case_1",
+    "1061021": "Chair_1",
+    "1060988": "Computer_1",
+    "1060989": "Desk_1",
+    "1061029": "FileCabinet_1",
+    "1061015": "Hair_1",
+    "1061026": "Keyboard_1",
+    "1061027": "Keyboard_2",
+    "1061013": "Man_1",
+    "1061030": "Mouse_1",
+    "1061020": "Mouse_2",
+    "1061031": "MousePad_1",
+    "1061023": "Mug_1",
+    "1060992": "OnePerson_1",
+    "1061006": "Picture_1",
+    "1061033": "Plug_1",
+    "5466": "Self_1",
+    "1061038": "Self_2",
+    "1060987": "Shelf_1",
+    "1061017": "Shirt_1",
+    "1061039": "Shutter_1",
+    "1061034": "Socket_1",
+    "1061032": "Table_1",
+    "1061024": "TapeDispenser_1",
+    "1061016": "Telephone_1",
+    "1061036": "Time_1",
+    "5471": "Wall_1",
+    "5472": "Wall_2",
+    "1061014": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Computer_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Books_3",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Bookshelf_1"
+    },
+    {
+      "subject": "Mug_1",
+      "predicate": "on",
+      "object": "Bookshelf_1"
+    },
+    {
+      "subject": "Can_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Bottle_1",
+      "predicate": "next to",
+      "object": "Computer_1"
+    },
+    {
+      "subject": "TapeDispenser_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "MousePad_1"
+    },
+    {
+      "subject": "Keyboard_2",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Can_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Bottle_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Picture_1"
+    },
+    {
+      "subject": "Mug_1",
+      "predicate": "on",
+      "object": "Self_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Case_1",
+    "Can_1",
+    "Man_1",
+    "Chair_1",
+    "OnePerson_1",
+    "Computer_1",
+    "Desk_1",
+    "Keyboard_1",
+    "Keyboard_2",
+    "Time_1",
+    "Mouse_1",
+    "MousePad_1",
+    "Books_1",
+    "Mouse_2",
+    "Table_1",
+    "Picture_1",
+    "Bottle_1",
+    "Window_1",
+    "Shutter_1",
+    "FileCabinet_1",
+    "Telephone_1",
+    "Book_1",
+    "Mug_1",
+    "Boxes_1",
+    "TapeDispenser_1",
+    "Self_1",
+    "Books_2",
+    "Bookshelf_1",
+    "Shelf_1",
+    "Plug_1",
+    "Socket_1",
+    "Books_3",
+    "Self_2"
+  ]
+}

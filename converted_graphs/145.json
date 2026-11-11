@@ -1,0 +1,41 @@
+{
+  "image_id": 145,
+  "prompt_text": "### Relational Edges:\n- [Car_1] --[on]--> [Road_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Car_1: moving] -> [DottedLines_1: dividing] -> [WhiteCar_1: white, parked] -> [Mountains_1: background] -> [Powerlines_1] -> [Billboard_1: covered up] -> [WhiteBillboard_1: white] -> [DottedLines_2] -> [LightPoles_1: light] -> [RedCar_1] -> [Car_2: red, parked]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Powerlines_1] -> [LightPoles_1: light] -> [Mountains_1: background] -> [Billboard_1: covered up] -> [WhiteBillboard_1: white] -> [Car_2: red, parked] -> [RedCar_1] -> [WhiteCar_1: white, parked] -> [Car_1: moving] -> [DottedLines_2] -> [DottedLines_1: dividing]",
+  "semantic_id_mapping": {
+    "1624977": "Billboard_1",
+    "1624986": "Car_1",
+    "3792877": "Car_2",
+    "1624980": "DottedLines_1",
+    "1624979": "DottedLines_2",
+    "1624988": "LightPoles_1",
+    "1624983": "Mountains_1",
+    "1624984": "Powerlines_1",
+    "1624987": "RedCar_1",
+    "1624982": "Road_1",
+    "1624985": "Road_2",
+    "1624992": "Road_3",
+    "1624989": "Street_1",
+    "1624991": "WhiteBillboard_1",
+    "1624990": "WhiteCar_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Road_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Car_1",
+    "DottedLines_1",
+    "WhiteCar_1",
+    "Mountains_1",
+    "Powerlines_1",
+    "Billboard_1",
+    "WhiteBillboard_1",
+    "DottedLines_2",
+    "LightPoles_1",
+    "RedCar_1",
+    "Car_2"
+  ]
+}

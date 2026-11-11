@@ -1,0 +1,165 @@
+{
+  "image_id": 29,
+  "prompt_text": "### Relational Edges:\n- [Building_1] --[on]--> [Beach_1: here, daytime, outdoors, grey]\n- [Boat_1] --[on]--> [Beach_1: here, daytime, outdoors, grey]\n- [Words_2] --[on]--> [Boat_1: small, beached, white, blue art, blue]\n- [Words_1] --[on]--> [Boat_1: small, beached, white, blue art, blue]\n- [Woman_2] --[wearing]--> [Skirt_1: blue]\n- [Woman_1] --[wearing]--> [Attire_1]\n- [Grass_1] --[on]--> [Beach_1: here, daytime, outdoors, grey]\n- [Sailboat_1] --[on]--> [Water_1: background, blue, calm]\n- [Woman_1] --[wearing]--> [Shorts_1: black]\n- [Pole_1] --[on]--> [Beach_1: here, daytime, outdoors, grey]\n- [Footprints_1] --[on]--> [Beach_1: here, daytime, outdoors, grey]\n- [House_1] --[on]--> [Beach_1: here, daytime, outdoors, grey]\n- [Hands_1] --[on]--> [Shorts_1: black]\n- [Shadow_1] --[behind]--> [Woman_1: looking]\n- [Boats_1] --[on]--> [Water_1: background, blue, calm]\n- [Women_2] --[on]--> [Beach_1: here, daytime, outdoors, grey]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [House_1] -> [Footprints_1] -> [Pole_1: green, tall] -> [Building_1: weathered, low] -> [Cottage_1: wooden] -> [Railing_1: low] -> [Shadow_1] -> [TankTop_1: white, red] -> [Woman_1: looking] -> [Sandals_1] -> [Hands_1] -> [Pocket_1] -> [Outside_1] -> [Picture_1] -> [Photo_1] -> [Beach_1: here, daytime, outdoors, grey] -> [Ocean_1] -> [Waves_1] -> [Water_1: background, blue, calm] -> [Words_1] -> [Women_1: outdoors] -> [Shore_1] -> [Women_2] -> [Horizon_1] -> [BlueArt_1] -> [Words_2] -> [Boat_1: small, beached, white, blue art, blue] -> [Boats_1] -> [Raft_1] -> [Clouds_1: few] -> [Woman_2] -> [Blouse_1: red] -> [Sailboat_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Clouds_1: few] -> [Pole_1: green, tall] -> [Horizon_1] -> [Sailboat_1] -> [Railing_1: low] -> [Water_1: background, blue, calm] -> [Building_1: weathered, low] -> [House_1] -> [TankTop_1: white, red] -> [Women_2] -> [Ocean_1] -> [Raft_1] -> [Waves_1] -> [Cottage_1: wooden] -> [Blouse_1: red] -> [Hands_1] -> [Pocket_1] -> [Shore_1] -> [Women_1: outdoors] -> [Woman_1: looking] -> [Picture_1] -> [Outside_1] -> [Woman_2] -> [Photo_1] -> [Boats_1] -> [Words_1] -> [Words_2] -> [BlueArt_1] -> [Boat_1: small, beached, white, blue art, blue] -> [Shadow_1] -> [Sandals_1] -> [Beach_1: here, daytime, outdoors, grey] -> [Footprints_1]",
+  "semantic_id_mapping": {
+    "1061293": "Attire_1",
+    "1061263": "Beach_1",
+    "5699": "Blouse_1",
+    "1061307": "BlueArt_1",
+    "3798627": "Boat_1",
+    "1061299": "Boats_1",
+    "1061262": "Building_1",
+    "5689": "Clouds_1",
+    "1061300": "Cottage_1",
+    "5701": "Feet_1",
+    "1061303": "Footprints_1",
+    "1061274": "Grass_1",
+    "5695": "Grass_2",
+    "1061302": "Hair_1",
+    "5686": "Hand_1",
+    "1061305": "Hands_1",
+    "1061301": "Horizon_1",
+    "1061304": "House_1",
+    "1061258": "Ocean_1",
+    "3798678": "Outside_1",
+    "3798663": "Photo_1",
+    "3798677": "Picture_1",
+    "5687": "Pocket_1",
+    "1061294": "Pole_1",
+    "5682": "Raft_1",
+    "1061295": "Railing_1",
+    "1061296": "Sailboat_1",
+    "5700": "Sandals_1",
+    "1061306": "Shadow_1",
+    "5683": "Shore_1",
+    "1061271": "Shorts_1",
+    "1061283": "Skirt_1",
+    "1061266": "Sky_1",
+    "1061270": "TankTop_1",
+    "1061297": "Water_1",
+    "5702": "Waves_1",
+    "1061257": "Woman_1",
+    "5681": "Woman_2",
+    "1061298": "Women_1",
+    "1061308": "Women_2",
+    "5697": "Words_1",
+    "5693": "Words_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Building_1",
+      "predicate": "on",
+      "object": "Beach_1"
+    },
+    {
+      "subject": "Boat_1",
+      "predicate": "on",
+      "object": "Beach_1"
+    },
+    {
+      "subject": "Words_2",
+      "predicate": "on",
+      "object": "Boat_1"
+    },
+    {
+      "subject": "Words_1",
+      "predicate": "on",
+      "object": "Boat_1"
+    },
+    {
+      "subject": "Woman_2",
+      "predicate": "wearing",
+      "object": "Skirt_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Attire_1"
+    },
+    {
+      "subject": "Grass_1",
+      "predicate": "on",
+      "object": "Beach_1"
+    },
+    {
+      "subject": "Sailboat_1",
+      "predicate": "on",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Shorts_1"
+    },
+    {
+      "subject": "Pole_1",
+      "predicate": "on",
+      "object": "Beach_1"
+    },
+    {
+      "subject": "Footprints_1",
+      "predicate": "on",
+      "object": "Beach_1"
+    },
+    {
+      "subject": "House_1",
+      "predicate": "on",
+      "object": "Beach_1"
+    },
+    {
+      "subject": "Hands_1",
+      "predicate": "on",
+      "object": "Shorts_1"
+    },
+    {
+      "subject": "Shadow_1",
+      "predicate": "behind",
+      "object": "Woman_1"
+    },
+    {
+      "subject": "Boats_1",
+      "predicate": "on",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Women_2",
+      "predicate": "on",
+      "object": "Beach_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "House_1",
+    "Footprints_1",
+    "Pole_1",
+    "Building_1",
+    "Cottage_1",
+    "Railing_1",
+    "Shadow_1",
+    "TankTop_1",
+    "Woman_1",
+    "Sandals_1",
+    "Hands_1",
+    "Pocket_1",
+    "Outside_1",
+    "Picture_1",
+    "Photo_1",
+    "Beach_1",
+    "Ocean_1",
+    "Waves_1",
+    "Water_1",
+    "Words_1",
+    "Women_1",
+    "Shore_1",
+    "Women_2",
+    "Horizon_1",
+    "BlueArt_1",
+    "Words_2",
+    "Boat_1",
+    "Boats_1",
+    "Raft_1",
+    "Clouds_1",
+    "Woman_2",
+    "Blouse_1",
+    "Sailboat_1"
+  ]
+}

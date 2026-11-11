@@ -1,0 +1,144 @@
+{
+  "image_id": 103,
+  "prompt_text": "### Relational Edges:\n- [Car_2] --[on]--> [Road_1]\n- [ManholeCover_1] --[on]--> [Road_1]\n- [Window_1] --[on]--> [Building_2]\n- [Window_4] --[on]--> [Building_2]\n- [Window_7] --[on]--> [Building_2]\n- [Window_5] --[on]--> [Building_2]\n- [Tire_2] --[on]--> [Car_1]\n- [Tire_3] --[on]--> [Car_1]\n- [BlackTire_1] --[on]--> [Car_2: small, marble green]\n- [IronRailing_1] --[on]--> [Step_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [House_1: white] -> [Building_1] -> [Trashcan_1: round, dark] -> [Trashan_1: brown] -> [ManholeCover_1] -> [Rail_1: porch] -> [Stairs_1] -> [IronRailing_1: wrought iron] -> [Step_1] -> [Stairway_1: large] -> [BlackPorchRail_1: black] -> [Window_1] -> [Tree_1: large] -> [Hydrant_1: red, black, fire] -> [FireHydrant_1] -> [Window_2] -> [Curb_1] -> [Home_1] -> [Building_2] -> [Window_3] -> [Stairway_2] -> [Window_4] -> [Window_5] -> [Window_6] -> [Shadow_1: large] -> [Window_7] -> [Tire_1] -> [Car_1] -> [Suv_1: small, black] -> [BlackSuv_1] -> [Vehicle_1: parked] -> [Suv_2: black] -> [Blacktire_1] -> [Tire_2: black] -> [Tire_3] -> [Trunk_1: long, tree] -> [TreeTrunk_1] -> [Tree_2] -> [BlackTire_1] -> [Car_2: small, marble green] -> [Plate_1: red, white, license]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_5] -> [Tree_1: large] -> [House_1: white] -> [Window_3] -> [Building_1] -> [Building_2] -> [Home_1] -> [Window_2] -> [Window_4] -> [Window_1] -> [TreeTrunk_1] -> [Window_6] -> [Tree_2] -> [Trunk_1: long, tree] -> [Window_7] -> [BlackPorchRail_1: black] -> [IronRailing_1: wrought iron] -> [Stairway_1: large] -> [Rail_1: porch] -> [Suv_2: black] -> [BlackSuv_1] -> [Vehicle_1: parked] -> [Car_1] -> [Suv_1: small, black] -> [Step_1] -> [Stairs_1] -> [Tire_2: black] -> [Tire_3] -> [Blacktire_1] -> [Hydrant_1: red, black, fire] -> [Tire_1] -> [FireHydrant_1] -> [Trashan_1: brown] -> [Trashcan_1: round, dark] -> [Car_2: small, marble green] -> [Stairway_2] -> [Curb_1] -> [Plate_1: red, white, license] -> [BlackTire_1] -> [Shadow_1: large] -> [ManholeCover_1]",
+  "semantic_id_mapping": {
+    "1534761": "BlackPorchRail_1",
+    "1534764": "BlackSuv_1",
+    "1534755": "BlackTire_1",
+    "1534752": "Blacktire_1",
+    "1534734": "Building_1",
+    "1534746": "Building_2",
+    "1534754": "Car_1",
+    "1534773": "Car_2",
+    "1534731": "Curb_1",
+    "1534760": "FireHydrant_1",
+    "1534766": "Home_1",
+    "1534777": "House_1",
+    "3792834": "Hydrant_1",
+    "1534776": "IronRailing_1",
+    "1534735": "ManholeCover_1",
+    "1534759": "Plate_1",
+    "3792835": "Rail_1",
+    "3792840": "Road_1",
+    "1534771": "Shadow_1",
+    "3792836": "Sidewalk_1",
+    "1534733": "Stairs_1",
+    "1534762": "Stairway_1",
+    "1534763": "Stairway_2",
+    "3792841": "Step_1",
+    "1534732": "Suv_1",
+    "3792837": "Suv_2",
+    "1534751": "Tire_1",
+    "1534750": "Tire_2",
+    "1534753": "Tire_3",
+    "1534768": "Trashan_1",
+    "1534775": "Trashcan_1",
+    "3792839": "Tree_1",
+    "1534767": "Tree_2",
+    "1534769": "TreeTrunk_1",
+    "3792838": "Trunk_1",
+    "1534772": "Vehicle_1",
+    "1534739": "Window_1",
+    "1534737": "Window_2",
+    "1534744": "Window_3",
+    "1534741": "Window_4",
+    "1534747": "Window_5",
+    "1534743": "Window_6",
+    "1534745": "Window_7"
+  },
+  "relational_edges": [
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "ManholeCover_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_7",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_5",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Tire_2",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "Tire_3",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "BlackTire_1",
+      "predicate": "on",
+      "object": "Car_2"
+    },
+    {
+      "subject": "IronRailing_1",
+      "predicate": "on",
+      "object": "Step_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "House_1",
+    "Building_1",
+    "Trashcan_1",
+    "Trashan_1",
+    "ManholeCover_1",
+    "Rail_1",
+    "Stairs_1",
+    "IronRailing_1",
+    "Step_1",
+    "Stairway_1",
+    "BlackPorchRail_1",
+    "Window_1",
+    "Tree_1",
+    "Hydrant_1",
+    "FireHydrant_1",
+    "Window_2",
+    "Curb_1",
+    "Home_1",
+    "Building_2",
+    "Window_3",
+    "Stairway_2",
+    "Window_4",
+    "Window_5",
+    "Window_6",
+    "Shadow_1",
+    "Window_7",
+    "Tire_1",
+    "Car_1",
+    "Suv_1",
+    "BlackSuv_1",
+    "Vehicle_1",
+    "Suv_2",
+    "Blacktire_1",
+    "Tire_2",
+    "Tire_3",
+    "Trunk_1",
+    "TreeTrunk_1",
+    "Tree_2",
+    "BlackTire_1",
+    "Car_2",
+    "Plate_1"
+  ]
+}

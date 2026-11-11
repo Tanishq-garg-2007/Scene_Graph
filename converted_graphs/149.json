@@ -1,0 +1,99 @@
+{
+  "image_id": 149,
+  "prompt_text": "### Relational Edges:\n- [Headlight_1] --[on]--> [Car_3: white]\n- [Trunk_1] --[on]--> [Tree_1]\n- [ParkingMeter_2] --[on]--> [Sidewalk_1: light grey]\n- [OrangePole_1] --[on]--> [Road_1]\n- [Meter_1] --[on]--> [Sidewalk_1: light grey]\n- [Words_1] --[on]--> [Window_1: glass]\n- [ParkingMeter_1] --[on]--> [Pole_3]\n- [Tree_1] --[next to]--> [ParkingMeter_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [BlueBin_1: blue] -> [Window_1: glass] -> [Words_1] -> [Sign_1: leaning] -> [Car_1: black , parked] -> [Building_1: grey] -> [Trunk_1: thin] -> [Tree_1] -> [Leaves_1: green] -> [ParkedCars_1: parked] -> [Mulch_1] -> [Car_2: parked, grey ] -> [Pole_1: orange] -> [RedPole_1: red] -> [OrangePole_1: orange ] -> [Pole_2] -> [Car_3: white] -> [Pole_3] -> [ParkingMeter_1] -> [Meter_1] -> [ParkingMeter_2] -> [ParkingMeter_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Leaves_1: green] -> [Building_1: grey] -> [Words_1] -> [Window_1: glass] -> [Sign_1: leaning] -> [BlueBin_1: blue] -> [ParkedCars_1: parked] -> [Car_3: white] -> [Car_2: parked, grey ] -> [Car_1: black , parked] -> [Pole_1: orange] -> [OrangePole_1: orange ] -> [RedPole_1: red] -> [Pole_2] -> [Tree_1] -> [Trunk_1: thin] -> [ParkingMeter_3] -> [ParkingMeter_1] -> [ParkingMeter_2] -> [Meter_1] -> [Pole_3] -> [Mulch_1]",
+  "semantic_id_mapping": {
+    "1535705": "BlueBin_1",
+    "1535692": "Building_1",
+    "1535693": "Car_1",
+    "1535694": "Car_2",
+    "1535682": "Car_3",
+    "1535680": "Dirt_1",
+    "1535681": "Headlight_1",
+    "1535709": "Leaves_1",
+    "1535702": "Meter_1",
+    "1535711": "Mulch_1",
+    "1535696": "OrangePole_1",
+    "1535698": "ParkedCars_1",
+    "1535717": "ParkingMeter_1",
+    "1535712": "ParkingMeter_2",
+    "1535713": "ParkingMeter_3",
+    "1535701": "Pole_1",
+    "1535699": "Pole_2",
+    "1535714": "Pole_3",
+    "1535675": "RedPole_1",
+    "1535700": "Road_1",
+    "1535691": "Sidewalk_1",
+    "1535704": "Sign_1",
+    "1535676": "Street_1",
+    "1535716": "Tree_1",
+    "1535683": "Trunk_1",
+    "1535677": "Window_1",
+    "1535706": "Words_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Headlight_1",
+      "predicate": "on",
+      "object": "Car_3"
+    },
+    {
+      "subject": "Trunk_1",
+      "predicate": "on",
+      "object": "Tree_1"
+    },
+    {
+      "subject": "ParkingMeter_2",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "OrangePole_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Meter_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Words_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "ParkingMeter_1",
+      "predicate": "on",
+      "object": "Pole_3"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "next to",
+      "object": "ParkingMeter_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "BlueBin_1",
+    "Window_1",
+    "Words_1",
+    "Sign_1",
+    "Car_1",
+    "Building_1",
+    "Trunk_1",
+    "Tree_1",
+    "Leaves_1",
+    "ParkedCars_1",
+    "Mulch_1",
+    "Car_2",
+    "Pole_1",
+    "RedPole_1",
+    "OrangePole_1",
+    "Pole_2",
+    "Car_3",
+    "Pole_3",
+    "ParkingMeter_1",
+    "Meter_1",
+    "ParkingMeter_2",
+    "ParkingMeter_3"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "image_id": 59,
+  "prompt_text": "### Relational Edges:\n- [LicensePlate_2] --[on]--> [Motorcycle_1]\n- [Truck_1] --[on]--> [Street_1]\n- [Man_1] --[wearing]--> [Shirt_1: blue]\n- [Man_1] --[wearing]--> [Backpack_1]\n- [BusinessName_1] --[on]--> [Sign_4: rectangular, blue, white, red]\n- [Board_1] --[on]--> [Store_1]\n- [LicensePlate_1] --[on]--> [Car_2: silver]\n- [Sign_2] --[on]--> [Building_1]\n- [FrontTire_1] --[on]--> [Car_1]\n- [BackTire_1] --[on]--> [Motorcycle_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Truck_1: white] -> [TruckBack_1: black] -> [BoxTruck_1: white] -> [FrontTire_1] -> [Car_1] -> [Lettering_1: black] -> [Sign_1: rectangular, orange] -> [Suv_1: black] -> [Railings_1: white] -> [Porch_1] -> [RestaurantSign_1: red white and green] -> [Sign_2] -> [EliteClub_1] -> [Sign_3: red] -> [Word_1: green, ELITE] -> [TailLight_1] -> [Lights_1: on] -> [Car_2: silver] -> [Eroski_1] -> [SilverCar_1: silver] -> [Sign_4: rectangular, blue, white, red] -> [Board_1: red and white] -> [BusinessName_1] -> [Letters8477Cjv_1] -> [LicensePlate_1: white] -> [Building_1] -> [LicensePlate_2: yellow] -> [Store_1] -> [Club_1: white] -> [Written_1] -> [Sign_5: blue] -> [BackTire_1] -> [Motorcycle_1] -> [Mirrors_1] -> [Scooter_1] -> [Moped_1: silver, parked] -> [BlackPole_1: black] -> [Slash_1] -> [Circle_1: red, black] -> [Sign_6: black, red] -> [Man_1] -> [Person_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Written_1] -> [Club_1: white] -> [Sign_5: blue] -> [Sign_6: black, red] -> [Slash_1] -> [Circle_1: red, black] -> [Word_1: green, ELITE] -> [RestaurantSign_1: red white and green] -> [Sign_2] -> [Sign_3: red] -> [Sign_4: rectangular, blue, white, red] -> [EliteClub_1] -> [BusinessName_1] -> [Board_1: red and white] -> [BlackPole_1: black] -> [Eroski_1] -> [Building_1] -> [Store_1] -> [Lettering_1: black] -> [Sign_1: rectangular, orange] -> [Porch_1] -> [TruckBack_1: black] -> [Truck_1: white] -> [BoxTruck_1: white] -> [Mirrors_1] -> [Railings_1: white] -> [Man_1] -> [Person_1] -> [Car_1] -> [Suv_1: black] -> [FrontTire_1] -> [LicensePlate_1: white] -> [Letters8477Cjv_1] -> [Car_2: silver] -> [Lights_1: on] -> [TailLight_1] -> [SilverCar_1: silver] -> [Scooter_1] -> [Moped_1: silver, parked] -> [Motorcycle_1] -> [LicensePlate_2: yellow] -> [BackTire_1]",
+  "semantic_id_mapping": {
+    "1533839": "BackTire_1",
+    "1533813": "Backpack_1",
+    "1533841": "BlackPole_1",
+    "1533824": "Board_1",
+    "3786820": "BoxTruck_1",
+    "1533833": "Building_1",
+    "1533821": "BusinessName_1",
+    "1533838": "Car_1",
+    "1533843": "Car_2",
+    "1533851": "Circle_1",
+    "3786822": "Club_1",
+    "1533823": "EliteClub_1",
+    "3786819": "Eroski_1",
+    "1533837": "FrontTire_1",
+    "3786823": "Lettering_1",
+    "1533844": "Letters8477Cjv_1",
+    "1533826": "LicensePlate_1",
+    "1533808": "LicensePlate_2",
+    "1533817": "Lights_1",
+    "1533811": "Man_1",
+    "1533849": "Mirrors_1",
+    "1533819": "Moped_1",
+    "1533840": "Motorcycle_1",
+    "1533830": "Person_1",
+    "1533815": "Porch_1",
+    "1533814": "Railings_1",
+    "1533818": "RestaurantSign_1",
+    "1533848": "Scooter_1",
+    "1533812": "Shirt_1",
+    "1533855": "Sign_1",
+    "1533832": "Sign_2",
+    "1533822": "Sign_3",
+    "1533845": "Sign_4",
+    "1533852": "Sign_5",
+    "1533836": "Sign_6",
+    "1533816": "SilverCar_1",
+    "3786821": "Slash_1",
+    "1533825": "Store_1",
+    "1533810": "Street_1",
+    "1533847": "Suv_1",
+    "1533834": "TailLight_1",
+    "1533809": "Truck_1",
+    "1533846": "TruckBack_1",
+    "1533854": "Word_1",
+    "1533853": "Written_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "LicensePlate_2",
+      "predicate": "on",
+      "object": "Motorcycle_1"
+    },
+    {
+      "subject": "Truck_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Backpack_1"
+    },
+    {
+      "subject": "BusinessName_1",
+      "predicate": "on",
+      "object": "Sign_4"
+    },
+    {
+      "subject": "Board_1",
+      "predicate": "on",
+      "object": "Store_1"
+    },
+    {
+      "subject": "LicensePlate_1",
+      "predicate": "on",
+      "object": "Car_2"
+    },
+    {
+      "subject": "Sign_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "FrontTire_1",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "BackTire_1",
+      "predicate": "on",
+      "object": "Motorcycle_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Truck_1",
+    "TruckBack_1",
+    "BoxTruck_1",
+    "FrontTire_1",
+    "Car_1",
+    "Lettering_1",
+    "Sign_1",
+    "Suv_1",
+    "Railings_1",
+    "Porch_1",
+    "RestaurantSign_1",
+    "Sign_2",
+    "EliteClub_1",
+    "Sign_3",
+    "Word_1",
+    "TailLight_1",
+    "Lights_1",
+    "Car_2",
+    "Eroski_1",
+    "SilverCar_1",
+    "Sign_4",
+    "Board_1",
+    "BusinessName_1",
+    "Letters8477Cjv_1",
+    "LicensePlate_1",
+    "Building_1",
+    "LicensePlate_2",
+    "Store_1",
+    "Club_1",
+    "Written_1",
+    "Sign_5",
+    "BackTire_1",
+    "Motorcycle_1",
+    "Mirrors_1",
+    "Scooter_1",
+    "Moped_1",
+    "BlackPole_1",
+    "Slash_1",
+    "Circle_1",
+    "Sign_6",
+    "Man_1",
+    "Person_1"
+  ]
+}

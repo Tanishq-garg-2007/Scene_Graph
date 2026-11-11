@@ -1,0 +1,96 @@
+{
+  "image_id": 83,
+  "prompt_text": "### Relational Edges:\n- [Art_1] --[on]--> [Book_1: green]\n- [Light_1] --[on]--> [FireAlarm_1]\n- [Books_1] --[on]--> [Table_1: wood, clean, wooden]\n- [Tower_1] --[on]--> [Table_1: wood, clean, wooden]\n- [Lamp_1] --[on]--> [Table_1: wood, clean, wooden]\n- [Computer_1] --[on]--> [Table_1: wood, clean, wooden]\n- [Cord_1] --[attached to]--> [Wall_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [CardFiles_1: indexed] -> [Catalog_1: cards] -> [Art_1] -> [Monitor_1] -> [Book_1: green] -> [Chairs_1: wood, wooden, maple] -> [Boy_1: sitting] -> [Man_1: sitting] -> [Table_1: wood, clean, wooden] -> [Cord_1: black] -> [Books_1: piled, stacked] -> [Person_1: sitting] -> [Computer_1: unused] -> [Light_1] -> [Stack_1] -> [FireAlarm_1] -> [Woman_1: sitting] -> [Girl_1: sitting] -> [Computers_1: row] -> [Tower_1] -> [Stacks_1] -> [Mouse_1: black] -> [Lamp_1: small, off, brass] -> [Lampshade_1: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Light_1] -> [FireAlarm_1] -> [Boy_1: sitting] -> [Monitor_1] -> [Woman_1: sitting] -> [Tower_1] -> [Computers_1: row] -> [Computer_1: unused] -> [Man_1: sitting] -> [Lampshade_1: white] -> [Girl_1: sitting] -> [Catalog_1: cards] -> [Person_1: sitting] -> [Mouse_1: black] -> [Chairs_1: wood, wooden, maple] -> [Lamp_1: small, off, brass] -> [CardFiles_1: indexed] -> [Cord_1: black] -> [Book_1: green] -> [Books_1: piled, stacked] -> [Stack_1] -> [Art_1] -> [Stacks_1] -> [Table_1: wood, clean, wooden]",
+  "semantic_id_mapping": {
+    "1062213": "Art_1",
+    "1062214": "Book_1",
+    "1062221": "Books_1",
+    "1062228": "Boy_1",
+    "1062218": "CardFiles_1",
+    "1062231": "Catalog_1",
+    "1062217": "Chairs_1",
+    "1062226": "Computer_1",
+    "1062215": "Computers_1",
+    "1062225": "Cord_1",
+    "1062220": "FireAlarm_1",
+    "1062229": "Girl_1",
+    "1062216": "Lamp_1",
+    "1062227": "Lampshade_1",
+    "1062219": "Light_1",
+    "1062233": "Man_1",
+    "1062239": "Monitor_1",
+    "1062230": "Mouse_1",
+    "1062234": "Person_1",
+    "1062238": "Shade_1",
+    "1062224": "Shirt_1",
+    "1062235": "Stack_1",
+    "1062236": "Stacks_1",
+    "1062222": "Table_1",
+    "1062223": "Tower_1",
+    "1062232": "Wall_1",
+    "1062237": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Art_1",
+      "predicate": "on",
+      "object": "Book_1"
+    },
+    {
+      "subject": "Light_1",
+      "predicate": "on",
+      "object": "FireAlarm_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Tower_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Computer_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Cord_1",
+      "predicate": "attached to",
+      "object": "Wall_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "CardFiles_1",
+    "Catalog_1",
+    "Art_1",
+    "Monitor_1",
+    "Book_1",
+    "Chairs_1",
+    "Boy_1",
+    "Man_1",
+    "Table_1",
+    "Cord_1",
+    "Books_1",
+    "Person_1",
+    "Computer_1",
+    "Light_1",
+    "Stack_1",
+    "FireAlarm_1",
+    "Woman_1",
+    "Girl_1",
+    "Computers_1",
+    "Tower_1",
+    "Stacks_1",
+    "Mouse_1",
+    "Lamp_1",
+    "Lampshade_1"
+  ]
+}

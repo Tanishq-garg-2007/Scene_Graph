@@ -1,0 +1,147 @@
+{
+  "image_id": 198,
+  "prompt_text": "### Relational Edges:\n- [Balcony_1] --[on]--> [House_1: log, brown, cabin]\n- [Leaves_1] --[on]--> [Ground_1: grassy]\n- [LicensePlate_1] --[on]--> [Car_1: white, lite-up]\n- [Bench_1] --[on]--> [Porch_1]\n- [Pane_4] --[on]--> [Window_3]\n- [Pane_3] --[on]--> [Window_3]\n- [Pane_1] --[on]--> [Window_3]\n- [Pane_2] --[on]--> [Window_3]\n- [Light_1] --[on]--> [Car_1: white, lite-up]\n- [Emblem_1] --[on]--> [Car_1: white, lite-up]\n- [Window_5] --[on]--> [Car_1: white, lite-up]\n- [Window_2] --[on]--> [House_1: log, brown, cabin]\n- [Window_1] --[on]--> [House_1: log, brown, cabin]\n- [Window_4] --[on]--> [House_1: log, brown, cabin]\n- [Log_2] --[on]--> [House_1: log, brown, cabin]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Log_1: brown] -> [Bench_1] -> [Porch_1] -> [Window_1] -> [Bush_1: leafy] -> [Leaves_1] -> [Log_2] -> [Window_2] -> [Roof_1: brown] -> [Chiney_1: brick] -> [Chimney_1] -> [House_1: log, brown, cabin] -> [Sign_1: white] -> [LeftBrake-light_1] -> [Pane_1] -> [Pane_2] -> [Window_3] -> [Pane_3] -> [Pane_4] -> [LicensePlate_1] -> [Emblem_1] -> [Bumper_1] -> [Door_1: open] -> [Car_1: white, lite-up] -> [Door_2] -> [Window_4] -> [Window_5] -> [Balcony_1: wooden] -> [Light_1] -> [RightBrake-light_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Chimney_1] -> [Chiney_1: brick] -> [Roof_1: brown] -> [Door_2] -> [Balcony_1: wooden] -> [House_1: log, brown, cabin] -> [Pane_2] -> [Pane_4] -> [Window_3] -> [Window_1] -> [Window_2] -> [Log_1: brown] -> [Window_4] -> [Pane_1] -> [Pane_3] -> [Bench_1] -> [Porch_1] -> [Light_1] -> [Door_1: open] -> [Bush_1: leafy] -> [Log_2] -> [Window_5] -> [Sign_1: white] -> [Car_1: white, lite-up] -> [Emblem_1] -> [LeftBrake-light_1] -> [LicensePlate_1] -> [RightBrake-light_1] -> [Leaves_1] -> [Bumper_1]",
+  "semantic_id_mapping": {
+    "1062600": "Balcony_1",
+    "1062605": "Bench_1",
+    "1062626": "Bumper_1",
+    "1062608": "Bush_1",
+    "1062597": "Car_1",
+    "1062609": "Chimney_1",
+    "1062603": "Chiney_1",
+    "1062596": "Door_1",
+    "1062628": "Door_2",
+    "1062617": "Emblem_1",
+    "1062607": "Grass_1",
+    "1062602": "Ground_1",
+    "1062598": "House_1",
+    "1062601": "Leaves_1",
+    "1062623": "LeftBrake-light_1",
+    "1062604": "LicensePlate_1",
+    "1062616": "Light_1",
+    "1062599": "Log_1",
+    "1062622": "Log_2",
+    "1062613": "Pane_1",
+    "1062611": "Pane_2",
+    "1062614": "Pane_3",
+    "1062615": "Pane_4",
+    "1062606": "Porch_1",
+    "1062625": "RightBrake-light_1",
+    "1062610": "Roof_1",
+    "1062627": "Sign_1",
+    "1062620": "Window_1",
+    "1062619": "Window_2",
+    "1062612": "Window_3",
+    "1062621": "Window_4",
+    "1062618": "Window_5"
+  },
+  "relational_edges": [
+    {
+      "subject": "Balcony_1",
+      "predicate": "on",
+      "object": "House_1"
+    },
+    {
+      "subject": "Leaves_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "LicensePlate_1",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "Bench_1",
+      "predicate": "on",
+      "object": "Porch_1"
+    },
+    {
+      "subject": "Pane_4",
+      "predicate": "on",
+      "object": "Window_3"
+    },
+    {
+      "subject": "Pane_3",
+      "predicate": "on",
+      "object": "Window_3"
+    },
+    {
+      "subject": "Pane_1",
+      "predicate": "on",
+      "object": "Window_3"
+    },
+    {
+      "subject": "Pane_2",
+      "predicate": "on",
+      "object": "Window_3"
+    },
+    {
+      "subject": "Light_1",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "Emblem_1",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "Window_5",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "House_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "House_1"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "House_1"
+    },
+    {
+      "subject": "Log_2",
+      "predicate": "on",
+      "object": "House_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Log_1",
+    "Bench_1",
+    "Porch_1",
+    "Window_1",
+    "Bush_1",
+    "Leaves_1",
+    "Log_2",
+    "Window_2",
+    "Roof_1",
+    "Chiney_1",
+    "Chimney_1",
+    "House_1",
+    "Sign_1",
+    "LeftBrake-light_1",
+    "Pane_1",
+    "Pane_2",
+    "Window_3",
+    "Pane_3",
+    "Pane_4",
+    "LicensePlate_1",
+    "Emblem_1",
+    "Bumper_1",
+    "Door_1",
+    "Car_1",
+    "Door_2",
+    "Window_4",
+    "Window_5",
+    "Balcony_1",
+    "Light_1",
+    "RightBrake-light_1"
+  ]
+}

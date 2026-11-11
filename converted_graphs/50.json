@@ -1,0 +1,204 @@
+{
+  "image_id": 50,
+  "prompt_text": "### Relational Edges:\n- [Book_5] --[on]--> [Desk_1: yellow]\n- [Book_2] --[on]--> [Desk_1: yellow]\n- [Book_4] --[on]--> [Desk_1: yellow]\n- [Book_1] --[on]--> [Desk_1: yellow]\n- [Desk_1] --[next to]--> [Computer_1: corner]\n- [ComputerMouse_1] --[on]--> [Desk_1: yellow]\n- [DuctTape_1] --[on]--> [DeskLamp_1: silver, porcelain, decorated, gold]\n- [Highlighter_1] --[on]--> [Book_5]\n- [Book_1] --[on]--> [Papers_1: stacked]\n- [Papers_2] --[on]--> [Papers_1: stacked]\n- [RemoteControl_1] --[on]--> [Table_1: untidy]\n- [Papers_2] --[on]--> [Table_1: untidy]\n- [Keyboard_1] --[on]--> [Table_1: untidy]\n- [Cup_1] --[on]--> [Table_1: untidy]\n- [Selotape_1] --[on]--> [Table_1: untidy]\n- [CompactDisk_1] --[on]--> [Table_1: untidy]\n- [Pens_1] --[on]--> [Table_1: untidy]\n- [Lamp_1] --[on]--> [Table_1: untidy]\n- [Books_1] --[on]--> [Table_1: untidy]\n- [LampStand_1] --[on]--> [Table_1: untidy]\n- [Tape_1] --[on]--> [Table_1: untidy]\n- [CoffeeMug_1] --[on]--> [Desk_1: yellow]\n- [Papers_2] --[on]--> [Desk_1: yellow]\n- [Books_1] --[on]--> [Desk_1: yellow]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Keyboard_1: blakc, black] -> [Telephone_1: black] -> [Lamp_1: off] -> [CompactDisk_1: out] -> [RemoteControl_1: black, gold, colored, metal] -> [Table_1: untidy] -> [LampStand_1: golden] -> [ComputerMouse_1: gray] -> [Computer_1: corner] -> [Marker_1: black] -> [Pen_1: highlighter] -> [Book_1] -> [CoffeeMug_1: empty, loose, blue] -> [BackUpCd_1] -> [Selotape_1: masking] -> [Board_1] -> [Pins_1: six] -> [Bookmark_1] -> [Book_2] -> [Desk_1: yellow] -> [Pens_1] -> [Bookmark_2] -> [Tape_1] -> [Papers_1: stacked] -> [Folder_1: yellow] -> [Book_3] -> [Books_1: unarranged, row, four] -> [DuctTape_1: rolled, blue, large] -> [Cup_1] -> [DeskLamp_1: silver, porcelain, decorated, gold] -> [Book_4: remote control] -> [Cord_1: yellow] -> [Reminder_1] -> [Papers_2: stacked, white, piled] -> [PushPin_1] -> [Book_5] -> [Highlighter_1: yellow, loose]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [PushPin_1] -> [Pins_1: six] -> [Reminder_1] -> [Papers_2: stacked, white, piled] -> [ComputerMouse_1: gray] -> [Computer_1: corner] -> [BackUpCd_1] -> [Board_1] -> [Book_1] -> [Papers_1: stacked] -> [Bookmark_2] -> [Bookmark_1] -> [Lamp_1: off] -> [RemoteControl_1: black, gold, colored, metal] -> [Highlighter_1: yellow, loose] -> [Books_1: unarranged, row, four] -> [Book_3] -> [Telephone_1: black] -> [CoffeeMug_1: empty, loose, blue] -> [Pen_1: highlighter] -> [CompactDisk_1: out] -> [Marker_1: black] -> [LampStand_1: golden] -> [Book_5] -> [DeskLamp_1: silver, porcelain, decorated, gold] -> [Cup_1] -> [Keyboard_1: blakc, black] -> [DuctTape_1: rolled, blue, large] -> [Pens_1] -> [Tape_1] -> [Book_4: remote control] -> [Selotape_1: masking] -> [Table_1: untidy] -> [Cord_1: yellow] -> [Folder_1: yellow] -> [Desk_1: yellow] -> [Book_2]",
+  "semantic_id_mapping": {
+    "6143": "BackUpCd_1",
+    "1062000": "Board_1",
+    "6140": "Book_1",
+    "6138": "Book_2",
+    "6148": "Book_3",
+    "6139": "Book_4",
+    "6136": "Book_5",
+    "6149": "Bookmark_1",
+    "6147": "Bookmark_2",
+    "1061994": "Books_1",
+    "1061957": "CoffeeMug_1",
+    "1062001": "CompactDisk_1",
+    "1061968": "Computer_1",
+    "1061970": "ComputerMouse_1",
+    "1062005": "Cord_1",
+    "1061997": "Cup_1",
+    "1061980": "Desk_1",
+    "1061955": "DeskLamp_1",
+    "1061956": "DuctTape_1",
+    "1062009": "Folder_1",
+    "6135": "Highlighter_1",
+    "1061996": "Keyboard_1",
+    "1062004": "Lamp_1",
+    "1062006": "LampStand_1",
+    "1062008": "Marker_1",
+    "6141": "Papers_1",
+    "1061985": "Papers_2",
+    "6150": "Pen_1",
+    "1062002": "Pens_1",
+    "1062003": "Pins_1",
+    "1061989": "PushPin_1",
+    "1061999": "Reminder_1",
+    "1061958": "RemoteControl_1",
+    "1061998": "Selotape_1",
+    "1061995": "Table_1",
+    "1062007": "Tape_1",
+    "1062010": "Telephone_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Book_5",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Book_2",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Book_4",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Desk_1",
+      "predicate": "next to",
+      "object": "Computer_1"
+    },
+    {
+      "subject": "ComputerMouse_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "DuctTape_1",
+      "predicate": "on",
+      "object": "DeskLamp_1"
+    },
+    {
+      "subject": "Highlighter_1",
+      "predicate": "on",
+      "object": "Book_5"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Papers_1"
+    },
+    {
+      "subject": "Papers_2",
+      "predicate": "on",
+      "object": "Papers_1"
+    },
+    {
+      "subject": "RemoteControl_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Papers_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Cup_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Selotape_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "CompactDisk_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Pens_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "LampStand_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Tape_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "CoffeeMug_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Papers_2",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Keyboard_1",
+    "Telephone_1",
+    "Lamp_1",
+    "CompactDisk_1",
+    "RemoteControl_1",
+    "Table_1",
+    "LampStand_1",
+    "ComputerMouse_1",
+    "Computer_1",
+    "Marker_1",
+    "Pen_1",
+    "Book_1",
+    "CoffeeMug_1",
+    "BackUpCd_1",
+    "Selotape_1",
+    "Board_1",
+    "Pins_1",
+    "Bookmark_1",
+    "Book_2",
+    "Desk_1",
+    "Pens_1",
+    "Bookmark_2",
+    "Tape_1",
+    "Papers_1",
+    "Folder_1",
+    "Book_3",
+    "Books_1",
+    "DuctTape_1",
+    "Cup_1",
+    "DeskLamp_1",
+    "Book_4",
+    "Cord_1",
+    "Reminder_1",
+    "Papers_2",
+    "PushPin_1",
+    "Book_5",
+    "Highlighter_1"
+  ]
+}

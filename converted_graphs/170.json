@@ -1,0 +1,35 @@
+{
+  "image_id": 170,
+  "prompt_text": "### Relational Edges:\n- [Bottle_2] --[on]--> [Shelf_1]\n- [Bottle_3] --[on]--> [Shelf_2]\n- [Bottle_1] --[on]--> [Shelf_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Shelf_1] -> [Shelf_2] -> [Bottle_1] -> [Bottle_2] -> [Bottle_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Bottle_2] -> [Shelf_1] -> [Bottle_1] -> [Bottle_3] -> [Shelf_2]",
+  "semantic_id_mapping": {
+    "1621370": "Bottle_1",
+    "1621363": "Bottle_2",
+    "1621366": "Bottle_3",
+    "1621364": "Shelf_1",
+    "1621372": "Shelf_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Bottle_2",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Bottle_3",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Bottle_1",
+      "predicate": "on",
+      "object": "Shelf_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Shelf_1",
+    "Shelf_2",
+    "Bottle_1",
+    "Bottle_2",
+    "Bottle_3"
+  ]
+}

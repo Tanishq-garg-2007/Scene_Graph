@@ -1,0 +1,95 @@
+{
+  "image_id": 96,
+  "prompt_text": "### Relational Edges:\n- [Mug_1] --[on]--> [Table_1: brown]\n- [Knife_1] --[on]--> [Napkin_1: white]\n- [Fork_1] --[on]--> [Napkin_1: white]\n- [Chair_1] --[next to]--> [Table_1: brown]\n- [Spoon_1] --[next to]--> [Knife_1: silver]\n- [Spoon_1] --[on]--> [Napkin_1: white]\n- [Piano_1] --[next to]--> [Table_1: brown]\n- [Napkin_1] --[on]--> [Table_1: brown]\n- [Flame_1] --[on]--> [Candle_1: white]\n- [Candle_1] --[on]--> [Table_1: brown]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Flame_1: orange] -> [Candle_1: white] -> [CandleStick_1: silver] -> [Holder_1: large, silver] -> [Jar_1: white, blue] -> [Plate_1: white] -> [Pattern_1] -> [Chair_1: brown, fancy] -> [Cup_1: white, black] -> [Table_1: brown] -> [Mug_1] -> [Handle_1] -> [Fork_1: silver] -> [Napkin_1: white] -> [Knife_1: silver] -> [Spoon_1: silver] -> [Piano_1: large, black]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Flame_1: orange] -> [Candle_1: white] -> [Piano_1: large, black] -> [Chair_1: brown, fancy] -> [Pattern_1] -> [CandleStick_1: silver] -> [Holder_1: large, silver] -> [Handle_1] -> [Cup_1: white, black] -> [Mug_1] -> [Jar_1: white, blue] -> [Table_1: brown] -> [Spoon_1: silver] -> [Knife_1: silver] -> [Fork_1: silver] -> [Napkin_1: white] -> [Plate_1: white]",
+  "semantic_id_mapping": {
+    "1062243": "Candle_1",
+    "1062254": "CandleStick_1",
+    "1062247": "Chair_1",
+    "1062251": "Cup_1",
+    "1062255": "Flame_1",
+    "1062257": "Floor_1",
+    "1062246": "Fork_1",
+    "1062244": "Handle_1",
+    "1062252": "Holder_1",
+    "1062253": "Jar_1",
+    "1062245": "Knife_1",
+    "1062241": "Mug_1",
+    "1062240": "Napkin_1",
+    "1062256": "Pattern_1",
+    "1062250": "Piano_1",
+    "1062249": "Plate_1",
+    "1062248": "Spoon_1",
+    "1062242": "Table_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Mug_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Knife_1",
+      "predicate": "on",
+      "object": "Napkin_1"
+    },
+    {
+      "subject": "Fork_1",
+      "predicate": "on",
+      "object": "Napkin_1"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "next to",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Spoon_1",
+      "predicate": "next to",
+      "object": "Knife_1"
+    },
+    {
+      "subject": "Spoon_1",
+      "predicate": "on",
+      "object": "Napkin_1"
+    },
+    {
+      "subject": "Piano_1",
+      "predicate": "next to",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Napkin_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Flame_1",
+      "predicate": "on",
+      "object": "Candle_1"
+    },
+    {
+      "subject": "Candle_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Flame_1",
+    "Candle_1",
+    "CandleStick_1",
+    "Holder_1",
+    "Jar_1",
+    "Plate_1",
+    "Pattern_1",
+    "Chair_1",
+    "Cup_1",
+    "Table_1",
+    "Mug_1",
+    "Handle_1",
+    "Fork_1",
+    "Napkin_1",
+    "Knife_1",
+    "Spoon_1",
+    "Piano_1"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "image_id": 142,
+  "prompt_text": "### Relational Edges:\n- [Bench_5] --[on]--> [Walkway_1: brick]\n- [Bench_4] --[on]--> [Walkway_1: brick]\n- [Bench_3] --[on]--> [Walkway_1: brick]\n- [Bench_1] --[on]--> [Ground_1]\n- [Bench_5] --[on]--> [Ground_1]\n- [Bench_4] --[on]--> [Ground_1]\n- [Bench_3] --[on]--> [Ground_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Fountain_1: public, outdoor] -> [Post_1: tall, lamp] -> [Lamppost_1] -> [LampPost_1: outdoor] -> [Lamppost_2: lamp] -> [Post_2: tall] -> [LampPost_2: outdoor] -> [Person_1: walking] -> [Walkway_1: brick] -> [Bench_1: Black, brown] -> [LampPost_3: outdoor, lamp] -> [Bench_2: wooden] -> [Field_1] -> [Bench_3] -> [Tree_1] -> [Bench_4] -> [Bench_5]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Tree_1] -> [Post_1: tall, lamp] -> [Lamppost_1] -> [Post_2: tall] -> [Lamppost_2: lamp] -> [LampPost_1: outdoor] -> [LampPost_2: outdoor] -> [LampPost_3: outdoor, lamp] -> [Person_1: walking] -> [Bench_1: Black, brown] -> [Bench_2: wooden] -> [Bench_3] -> [Bench_4] -> [Fountain_1: public, outdoor] -> [Bench_5] -> [Walkway_1: brick] -> [Field_1]",
+  "semantic_id_mapping": {
+    "1621279": "Bench_1",
+    "1621263": "Bench_2",
+    "1621273": "Bench_3",
+    "1621272": "Bench_4",
+    "1621285": "Bench_5",
+    "1621276": "Field_1",
+    "1621265": "Fountain_1",
+    "1621288": "Ground_1",
+    "1621266": "LampPost_1",
+    "1621267": "LampPost_2",
+    "1621268": "LampPost_3",
+    "1621277": "Lamppost_1",
+    "1621278": "Lamppost_2",
+    "1621280": "Person_1",
+    "3562308": "Post_1",
+    "3562309": "Post_2",
+    "1621275": "Tree_1",
+    "1621274": "Walkway_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Bench_5",
+      "predicate": "on",
+      "object": "Walkway_1"
+    },
+    {
+      "subject": "Bench_4",
+      "predicate": "on",
+      "object": "Walkway_1"
+    },
+    {
+      "subject": "Bench_3",
+      "predicate": "on",
+      "object": "Walkway_1"
+    },
+    {
+      "subject": "Bench_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Bench_5",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Bench_4",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Bench_3",
+      "predicate": "on",
+      "object": "Ground_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Fountain_1",
+    "Post_1",
+    "Lamppost_1",
+    "LampPost_1",
+    "Lamppost_2",
+    "Post_2",
+    "LampPost_2",
+    "Person_1",
+    "Walkway_1",
+    "Bench_1",
+    "LampPost_3",
+    "Bench_2",
+    "Field_1",
+    "Bench_3",
+    "Tree_1",
+    "Bench_4",
+    "Bench_5"
+  ]
+}

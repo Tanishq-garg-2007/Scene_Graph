@@ -1,0 +1,73 @@
+{
+  "image_id": 87,
+  "prompt_text": "### Relational Edges:\n- [GroupOfPeople_1] --[on]--> [Water_1: clear, rippled, green]\n- [Man_2] --[wearing]--> [Shorts_1: red]\n- [Woman_1] --[wearing]--> [Swimsuit_1: black]\n- [Boy_2] --[wearing]--> [Water_1: clear, rippled, green]\n- [Log_1] --[on]--> [Water_1: clear, rippled, green]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Man_1: hunched] -> [TwoPeople_1: swimming] -> [Woman_1] -> [Tent_1] -> [Boy_1] -> [Rock_1] -> [GroupOfPeople_1] -> [Man_2: sitting] -> [Background_1] -> [Trees_1: green] -> [Man_3] -> [Boy_2: splashing] -> [Swimming_1] -> [Ripples_1] -> [Tree_1: thin, green, tall] -> [Rock_2: formation] -> [Log_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Tree_1: thin, green, tall] -> [Background_1] -> [Trees_1: green] -> [Man_1: hunched] -> [Tent_1] -> [Log_1] -> [Woman_1] -> [Boy_1] -> [Man_3] -> [Rock_2: formation] -> [Man_2: sitting] -> [GroupOfPeople_1] -> [Rock_1] -> [TwoPeople_1: swimming] -> [Boy_2: splashing] -> [Swimming_1] -> [Ripples_1]",
+  "semantic_id_mapping": {
+    "1025825": "Background_1",
+    "1025822": "Boy_1",
+    "1025808": "Boy_2",
+    "1025814": "GroupOfPeople_1",
+    "1025829": "Log_1",
+    "1025827": "Man_1",
+    "1025810": "Man_2",
+    "1025816": "Man_3",
+    "1025819": "Ripples_1",
+    "1025823": "Rock_1",
+    "1025815": "Rock_2",
+    "1025817": "Shorts_1",
+    "1025821": "Sky_1",
+    "1025818": "Swimming_1",
+    "1025826": "Swimsuit_1",
+    "1025824": "Tent_1",
+    "1025813": "Tree_1",
+    "1025820": "Trees_1",
+    "1025811": "TwoPeople_1",
+    "1025809": "Water_1",
+    "1025812": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "GroupOfPeople_1",
+      "predicate": "on",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Shorts_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Swimsuit_1"
+    },
+    {
+      "subject": "Boy_2",
+      "predicate": "wearing",
+      "object": "Water_1"
+    },
+    {
+      "subject": "Log_1",
+      "predicate": "on",
+      "object": "Water_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Man_1",
+    "TwoPeople_1",
+    "Woman_1",
+    "Tent_1",
+    "Boy_1",
+    "Rock_1",
+    "GroupOfPeople_1",
+    "Man_2",
+    "Background_1",
+    "Trees_1",
+    "Man_3",
+    "Boy_2",
+    "Swimming_1",
+    "Ripples_1",
+    "Tree_1",
+    "Rock_2",
+    "Log_1"
+  ]
+}

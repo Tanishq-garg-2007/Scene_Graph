@@ -1,0 +1,97 @@
+{
+  "image_id": 129,
+  "prompt_text": "### Relational Edges:\n- [Grass_1] --[near]--> [Tree_1]\n- [Trees_1] --[on]--> [Sidewalk_1: stone]\n- [Nyc_1] --[on]--> [Sign_2: blue, white]\n- [Wheel_1] --[on]--> [Van_1: green]\n- [Wheel_2] --[attached to]--> [Van_1: green]\n- [SideWindow_1] --[on]--> [Van_1: green]\n- [Headlight_1] --[on]--> [Van_1: green]\n- [People_1] --[on]--> [Sidewalk_1: stone]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Fence_1] -> [Wheel_1] -> [Tree_1] -> [Van_1: green] -> [SideWindow_1] -> [Window_1] -> [Wheel_2] -> [Window_2] -> [Building_1: red] -> [Car_1: white] -> [Sign_1: white] -> [Cars_1: parked] -> [Pole_1] -> [Sign_2: blue, white] -> [Nyc_1] -> [Stone_1: gray] -> [Man_1] -> [Umbrella_1: black] -> [People_1: walking] -> [Trees_1] -> [Wood_1] -> [Fence_2: metal, black]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_1] -> [Window_2] -> [Nyc_1] -> [Sign_2: blue, white] -> [Building_1: red] -> [Pole_1] -> [Sign_1: white] -> [Tree_1] -> [Trees_1] -> [Umbrella_1: black] -> [People_1: walking] -> [Man_1] -> [SideWindow_1] -> [Car_1: white] -> [Van_1: green] -> [Cars_1: parked] -> [Fence_2: metal, black] -> [Wheel_2] -> [Wheel_1] -> [Fence_1] -> [Stone_1: gray] -> [Wood_1]",
+  "semantic_id_mapping": {
+    "1026017": "Building_1",
+    "1026013": "Car_1",
+    "1026004": "Cars_1",
+    "1026020": "Fence_1",
+    "1026006": "Fence_2",
+    "1026011": "Grass_1",
+    "1026025": "Headlight_1",
+    "1026018": "Man_1",
+    "1026021": "Nyc_1",
+    "1026005": "People_1",
+    "1026009": "Pole_1",
+    "1026024": "SideWindow_1",
+    "1026014": "Sidewalk_1",
+    "1026008": "Sign_1",
+    "1026007": "Sign_2",
+    "1026003": "Stone_1",
+    "1026012": "Tree_1",
+    "1026015": "Trees_1",
+    "1026010": "Umbrella_1",
+    "1026016": "Van_1",
+    "1026022": "Wheel_1",
+    "1026023": "Wheel_2",
+    "1026026": "Window_1",
+    "1026027": "Window_2",
+    "1026019": "Wood_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Grass_1",
+      "predicate": "near",
+      "object": "Tree_1"
+    },
+    {
+      "subject": "Trees_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Nyc_1",
+      "predicate": "on",
+      "object": "Sign_2"
+    },
+    {
+      "subject": "Wheel_1",
+      "predicate": "on",
+      "object": "Van_1"
+    },
+    {
+      "subject": "Wheel_2",
+      "predicate": "attached to",
+      "object": "Van_1"
+    },
+    {
+      "subject": "SideWindow_1",
+      "predicate": "on",
+      "object": "Van_1"
+    },
+    {
+      "subject": "Headlight_1",
+      "predicate": "on",
+      "object": "Van_1"
+    },
+    {
+      "subject": "People_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Fence_1",
+    "Wheel_1",
+    "Tree_1",
+    "Van_1",
+    "SideWindow_1",
+    "Window_1",
+    "Wheel_2",
+    "Window_2",
+    "Building_1",
+    "Car_1",
+    "Sign_1",
+    "Cars_1",
+    "Pole_1",
+    "Sign_2",
+    "Nyc_1",
+    "Stone_1",
+    "Man_1",
+    "Umbrella_1",
+    "People_1",
+    "Trees_1",
+    "Wood_1",
+    "Fence_2"
+  ]
+}

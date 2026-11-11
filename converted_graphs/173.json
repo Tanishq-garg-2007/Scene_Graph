@@ -1,0 +1,109 @@
+{
+  "image_id": 173,
+  "prompt_text": "### Relational Edges:\n- [Books_3] --[on]--> [Shelf_1]\n- [Books_2] --[on]--> [ShelfUnits_1]\n- [Woman_2] --[wearing]--> [BlackJacket_1: long, black]\n- [Books_1] --[on]--> [MetalShelves_1: tall, metal]\n- [Woman_3] --[behind]--> [WheeledCart_1]\n- [Woman_3] --[wearing]--> [Chair_1: modern, gray]\n- [Person_1] --[behind]--> [Register_1]\n- [Shirt_1] --[on]--> [Woman_3]\n- [Wheels_1] --[on]--> [Cart_1: register cart]\n- [Woman_1] --[wearing]--> [Coat_1: brown]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [BookShelveUnit_1] -> [Books_1] -> [MetalShelves_1: tall, metal] -> [Books_2] -> [StacksOfBooks_1] -> [LargeTables_1: large] -> [Books_3] -> [Woman_1] -> [Bookshelves_1] -> [Shelf_1] -> [ShelfUnits_1] -> [Woman_2: blonde] -> [Register_1] -> [Cart_1: register cart] -> [RollingCart_1] -> [WheeledCart_1] -> [Container_1: white, storage container] -> [Wheels_1] -> [PlasticBins_1: plastic] -> [Woman_3] -> [Person_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Bookshelves_1] -> [Shelf_1] -> [MetalShelves_1: tall, metal] -> [ShelfUnits_1] -> [Books_1] -> [Woman_1] -> [BookShelveUnit_1] -> [Register_1] -> [Books_2] -> [Books_3] -> [Person_1] -> [Woman_3] -> [Woman_2: blonde] -> [StacksOfBooks_1] -> [WheeledCart_1] -> [Cart_1: register cart] -> [RollingCart_1] -> [LargeTables_1: large] -> [PlasticBins_1: plastic] -> [Container_1: white, storage container] -> [Wheels_1]",
+  "semantic_id_mapping": {
+    "1536310": "BlackJacket_1",
+    "1536302": "BookShelveUnit_1",
+    "1536303": "Books_1",
+    "1536297": "Books_2",
+    "1536295": "Books_3",
+    "1536316": "Bookshelves_1",
+    "1536328": "Cart_1",
+    "1536322": "Chair_1",
+    "1536331": "Coat_1",
+    "1536329": "Container_1",
+    "1536313": "LargeTables_1",
+    "1536304": "MetalShelves_1",
+    "1536326": "Pants_1",
+    "1536321": "Pants_2",
+    "1536317": "Person_1",
+    "1536311": "PlasticBins_1",
+    "1536318": "Register_1",
+    "1536312": "RollingCart_1",
+    "1536294": "Shelf_1",
+    "1536296": "ShelfUnits_1",
+    "1536319": "Shirt_1",
+    "1536325": "Shoes_1",
+    "1536314": "StacksOfBooks_1",
+    "1536306": "WheeledCart_1",
+    "1536327": "Wheels_1",
+    "1536315": "Woman_1",
+    "1536323": "Woman_2",
+    "1536320": "Woman_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Books_3",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Books_2",
+      "predicate": "on",
+      "object": "ShelfUnits_1"
+    },
+    {
+      "subject": "Woman_2",
+      "predicate": "wearing",
+      "object": "BlackJacket_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "MetalShelves_1"
+    },
+    {
+      "subject": "Woman_3",
+      "predicate": "behind",
+      "object": "WheeledCart_1"
+    },
+    {
+      "subject": "Woman_3",
+      "predicate": "wearing",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "behind",
+      "object": "Register_1"
+    },
+    {
+      "subject": "Shirt_1",
+      "predicate": "on",
+      "object": "Woman_3"
+    },
+    {
+      "subject": "Wheels_1",
+      "predicate": "on",
+      "object": "Cart_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Coat_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "BookShelveUnit_1",
+    "Books_1",
+    "MetalShelves_1",
+    "Books_2",
+    "StacksOfBooks_1",
+    "LargeTables_1",
+    "Books_3",
+    "Woman_1",
+    "Bookshelves_1",
+    "Shelf_1",
+    "ShelfUnits_1",
+    "Woman_2",
+    "Register_1",
+    "Cart_1",
+    "RollingCart_1",
+    "WheeledCart_1",
+    "Container_1",
+    "Wheels_1",
+    "PlasticBins_1",
+    "Woman_3",
+    "Person_1"
+  ]
+}

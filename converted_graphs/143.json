@@ -1,0 +1,97 @@
+{
+  "image_id": 143,
+  "prompt_text": "### Relational Edges:\n- [Sign_1] --[on]--> [Building_1]\n- [Tree_1] --[next to]--> [Building_1]\n- [Tree_2] --[next to]--> [Building_1]\n- [Tree_4] --[next to]--> [Building_1]\n- [Sidewalk_1] --[on]--> [Road_1]\n- [Window_2] --[on]--> [Building_1]\n- [Window_4] --[on]--> [Building_1]\n- [Window_1] --[on]--> [Building_1]\n- [Window_3] --[on]--> [Building_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Tree_1] -> [Tree_2] -> [Person_1] -> [Person_2: walking] -> [Person_3] -> [Window_1] -> [Pot_1] -> [Tree_3] -> [Tree_4] -> [Window_2] -> [Window_3] -> [Sign_1] -> [Lady_1: walking] -> [Window_4] -> [Building_1] -> [Crosswalk_1] -> [StopLight_1] -> [Window_5] -> [Car_1] -> [Lady_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_3] -> [Window_1] -> [Window_5] -> [Sign_1] -> [Building_1] -> [StopLight_1] -> [Window_2] -> [Window_4] -> [Tree_1] -> [Tree_2] -> [Person_1] -> [Person_2: walking] -> [Person_3] -> [Tree_3] -> [Car_1] -> [Lady_1: walking] -> [Tree_4] -> [Pot_1] -> [Lady_2] -> [Crosswalk_1]",
+  "semantic_id_mapping": {
+    "1624962": "Building_1",
+    "1624965": "Car_1",
+    "3632901": "Crosswalk_1",
+    "1624946": "Lady_1",
+    "1624945": "Lady_2",
+    "1624949": "Person_1",
+    "1624948": "Person_2",
+    "1624947": "Person_3",
+    "1624964": "Pot_1",
+    "1624957": "Road_1",
+    "1624956": "Sidewalk_1",
+    "1624950": "Sign_1",
+    "1535573": "StopLight_1",
+    "1624954": "Tree_1",
+    "1624953": "Tree_2",
+    "1624963": "Tree_3",
+    "1624952": "Tree_4",
+    "1624961": "Window_1",
+    "1624959": "Window_2",
+    "1624958": "Window_3",
+    "1624960": "Window_4",
+    "1624966": "Window_5"
+  },
+  "relational_edges": [
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "next to",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Tree_2",
+      "predicate": "next to",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Tree_4",
+      "predicate": "next to",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Sidewalk_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_3",
+      "predicate": "on",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Tree_1",
+    "Tree_2",
+    "Person_1",
+    "Person_2",
+    "Person_3",
+    "Window_1",
+    "Pot_1",
+    "Tree_3",
+    "Tree_4",
+    "Window_2",
+    "Window_3",
+    "Sign_1",
+    "Lady_1",
+    "Window_4",
+    "Building_1",
+    "Crosswalk_1",
+    "StopLight_1",
+    "Window_5",
+    "Car_1",
+    "Lady_2"
+  ]
+}

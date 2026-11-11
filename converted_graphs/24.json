@@ -1,0 +1,120 @@
+{
+  "image_id": 24,
+  "prompt_text": "### Relational Edges:\n- [Marks_1] --[on]--> [Road_1: clean, narrow, clear]\n- [Trees_1] --[on]--> [Road_1: clean, narrow, clear]\n- [Man_2] --[next to]--> [Bikes_1]\n- [Trees_1] --[along]--> [Road_1: clean, narrow, clear]\n- [Bicycle_1] --[on]--> [Road_1: clean, narrow, clear]\n- [Building_1] --[on]--> [Street_1]\n- [Poles_1] --[on]--> [Pvement_1]\n- [Sign_1] --[on]--> [Pole_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Man_1: sitting, drinking] -> [Something_1] -> [Bottle_1] -> [Building_1: here] -> [Pvement_1] -> [Poles_1: present, here] -> [NextToStreet_1] -> [Traffic_1: nearby, still, here] -> [Motorcycles_1: here] -> [Motorbike_1: red] -> [Weather_1: sunny] -> [Lines_1: white] -> [Stripes_1: faded] -> [InDistance_1] -> [Sign_1: red, blue] -> [It_1: outdoors] -> [Marks_1: faded] -> [Busy_1] -> [Scene_1: here] -> [Time_1: daytime] -> [Photo_1: outdoors, here] -> [BlueBike_1: parked] -> [MotorBike_1: blue] -> [Bikes_1] -> [Man_2: standing, sitting] -> [Lighting_1: green] -> [Trees_1: present, green, here] -> [Scooter_1: red] -> [Pole_1] -> [Car_1: parked, red, maroon] -> [OnSidewalk_1] -> [Bicycle_1: black, parked] -> [Bike_1: parked] -> [Bicycle_2: here]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Weather_1: sunny] -> [Lighting_1: green] -> [Building_1: here] -> [Sign_1: red, blue] -> [InDistance_1] -> [Trees_1: present, green, here] -> [Pole_1] -> [Time_1: daytime] -> [Traffic_1: nearby, still, here] -> [Photo_1: outdoors, here] -> [Scene_1: here] -> [Motorbike_1: red] -> [Motorcycles_1: here] -> [Man_2: standing, sitting] -> [Something_1] -> [Bottle_1] -> [Busy_1] -> [BlueBike_1: parked] -> [MotorBike_1: blue] -> [Scooter_1: red] -> [Bikes_1] -> [Man_1: sitting, drinking] -> [It_1: outdoors] -> [Car_1: parked, red, maroon] -> [Poles_1: present, here] -> [Lines_1: white] -> [NextToStreet_1] -> [Bicycle_1: black, parked] -> [Stripes_1: faded] -> [Pvement_1] -> [Bike_1: parked] -> [Bicycle_2: here] -> [Marks_1: faded] -> [OnSidewalk_1]",
+  "semantic_id_mapping": {
+    "1061180": "Bicycle_1",
+    "1061152": "Bicycle_2",
+    "5550": "Bike_1",
+    "5555": "Bikes_1",
+    "5557": "BlueBike_1",
+    "1061186": "Bottle_1",
+    "1061176": "Building_1",
+    "1061181": "Busy_1",
+    "1061151": "Car_1",
+    "5566": "InDistance_1",
+    "5559": "It_1",
+    "5552": "Lighting_1",
+    "1061182": "Lines_1",
+    "1061148": "Man_1",
+    "1061159": "Man_2",
+    "5547": "Marks_1",
+    "1061163": "MotorBike_1",
+    "1061189": "Motorbike_1",
+    "1061171": "Motorcycles_1",
+    "5565": "NextToStreet_1",
+    "5567": "OnSidewalk_1",
+    "1061172": "Photo_1",
+    "1061187": "Pole_1",
+    "1061174": "Poles_1",
+    "1061185": "Pvement_1",
+    "1061150": "Road_1",
+    "1061179": "Scene_1",
+    "1061188": "Scooter_1",
+    "1061161": "Sign_1",
+    "5551": "Something_1",
+    "1061184": "Street_1",
+    "1061178": "Stripes_1",
+    "5558": "Time_1",
+    "1061170": "Traffic_1",
+    "1061157": "Trees_1",
+    "1061177": "Weather_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Marks_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Trees_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "next to",
+      "object": "Bikes_1"
+    },
+    {
+      "subject": "Trees_1",
+      "predicate": "along",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Bicycle_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "Building_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Poles_1",
+      "predicate": "on",
+      "object": "Pvement_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Man_1",
+    "Something_1",
+    "Bottle_1",
+    "Building_1",
+    "Pvement_1",
+    "Poles_1",
+    "NextToStreet_1",
+    "Traffic_1",
+    "Motorcycles_1",
+    "Motorbike_1",
+    "Weather_1",
+    "Lines_1",
+    "Stripes_1",
+    "InDistance_1",
+    "Sign_1",
+    "It_1",
+    "Marks_1",
+    "Busy_1",
+    "Scene_1",
+    "Time_1",
+    "Photo_1",
+    "BlueBike_1",
+    "MotorBike_1",
+    "Bikes_1",
+    "Man_2",
+    "Lighting_1",
+    "Trees_1",
+    "Scooter_1",
+    "Pole_1",
+    "Car_1",
+    "OnSidewalk_1",
+    "Bicycle_1",
+    "Bike_1",
+    "Bicycle_2"
+  ]
+}

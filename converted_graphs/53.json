@@ -1,0 +1,83 @@
+{
+  "image_id": 53,
+  "prompt_text": "### Relational Edges:\n- [Phone_1] --[on]--> [Sidewalk_1: brick]\n- [Person_1] --[on]--> [Motorcycle_1]\n- [Car_2] --[next to]--> [Motorcycle_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Doorway_1] -> [Lighting_1] -> [Building_1] -> [Building_2] -> [TrafficLight_1: yellow] -> [Light_1: red] -> [Red_1] -> [Window_1] -> [Bicycles_1] -> [Storefront_1: illuminated] -> [Tree_1] -> [MailBox_1: circular] -> [Post_1: steel] -> [Lamp_1: yellow] -> [Shadow_1] -> [Phone_1: gray, tall] -> [Pay_1] -> [Entrance_1] -> [LicensePlate_1: white, black] -> [Motorcycle_1] -> [Building_3] -> [Person_1] -> [FrontEnd_1] -> [Window_2] -> [Car_1: black, parked] -> [Car_2: black, white] -> [Person_2] -> [Wheel_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_2] -> [Building_3] -> [Lamp_1: yellow] -> [Building_2] -> [Window_1] -> [Tree_1] -> [Light_1: red] -> [Red_1] -> [Building_1] -> [Lighting_1] -> [Post_1: steel] -> [TrafficLight_1: yellow] -> [Storefront_1: illuminated] -> [Entrance_1] -> [Person_2] -> [Person_1] -> [Phone_1: gray, tall] -> [Bicycles_1] -> [Pay_1] -> [Car_2: black, white] -> [Motorcycle_1] -> [MailBox_1: circular] -> [Doorway_1] -> [Car_1: black, parked] -> [FrontEnd_1] -> [LicensePlate_1: white, black] -> [Wheel_1] -> [Shadow_1]",
+  "semantic_id_mapping": {
+    "1062035": "Bicycles_1",
+    "1062038": "Building_1",
+    "1062036": "Building_2",
+    "1062012": "Building_3",
+    "1062011": "Car_1",
+    "1062023": "Car_2",
+    "1062021": "Doorway_1",
+    "1062016": "Entrance_1",
+    "1062032": "FrontEnd_1",
+    "1062014": "Lamp_1",
+    "1062025": "LicensePlate_1",
+    "1062034": "Light_1",
+    "1062022": "Lighting_1",
+    "1062033": "MailBox_1",
+    "1062018": "Motorcycle_1",
+    "1062031": "Pay_1",
+    "1062017": "Person_1",
+    "1062039": "Person_2",
+    "1062015": "Phone_1",
+    "1062028": "Post_1",
+    "1062020": "Red_1",
+    "1062026": "Shadow_1",
+    "1062029": "Sidewalk_1",
+    "1062024": "Storefront_1",
+    "1062030": "Street_1",
+    "1062019": "TrafficLight_1",
+    "1062037": "Tree_1",
+    "1062027": "Wheel_1",
+    "3786803": "Window_1",
+    "1062013": "Window_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Phone_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Motorcycle_1"
+    },
+    {
+      "subject": "Car_2",
+      "predicate": "next to",
+      "object": "Motorcycle_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Doorway_1",
+    "Lighting_1",
+    "Building_1",
+    "Building_2",
+    "TrafficLight_1",
+    "Light_1",
+    "Red_1",
+    "Window_1",
+    "Bicycles_1",
+    "Storefront_1",
+    "Tree_1",
+    "MailBox_1",
+    "Post_1",
+    "Lamp_1",
+    "Shadow_1",
+    "Phone_1",
+    "Pay_1",
+    "Entrance_1",
+    "LicensePlate_1",
+    "Motorcycle_1",
+    "Building_3",
+    "Person_1",
+    "FrontEnd_1",
+    "Window_2",
+    "Car_1",
+    "Car_2",
+    "Person_2",
+    "Wheel_1"
+  ]
+}

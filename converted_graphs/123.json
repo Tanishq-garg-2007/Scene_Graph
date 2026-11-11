@@ -1,0 +1,25 @@
+{
+  "image_id": 123,
+  "prompt_text": "### Relational Edges:\n- [RecessedLight_1] --[on]--> [Ceiling_2: has]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [RecessedLight_1: on] -> [Lights_1: on] -> [RecessedLight_2] -> [RecessedLight_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [RecessedLight_1: on] -> [RecessedLight_3] -> [RecessedLight_2] -> [Lights_1: on]",
+  "semantic_id_mapping": {
+    "3562163": "Ceiling_1",
+    "1621180": "Ceiling_2",
+    "1621176": "Lights_1",
+    "1621177": "RecessedLight_1",
+    "1621178": "RecessedLight_2",
+    "1621179": "RecessedLight_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "RecessedLight_1",
+      "predicate": "on",
+      "object": "Ceiling_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "RecessedLight_1",
+    "Lights_1",
+    "RecessedLight_2",
+    "RecessedLight_3"
+  ]
+}

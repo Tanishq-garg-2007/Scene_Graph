@@ -1,0 +1,15 @@
+{
+  "id": "tanishqgarg2007/qwen-24-query-spatial-benchmark",
+  "title": "Qwen 24 Query Spatial Benchmark",
+  "code_file": "kernel_benchmark_24.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

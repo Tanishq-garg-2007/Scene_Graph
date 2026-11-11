@@ -1,0 +1,75 @@
+{
+  "image_id": 191,
+  "prompt_text": "### Relational Edges:\n- [Trees_1] --[on]--> [Hills_1: green]\n- [Poles_2] --[behind]--> [Chairs_1: white, blue, aligned]\n- [Sticker_1] --[near]--> [Pool_1: big]\n- [3_1] --[on]--> [Ground_1: stone]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Sticker_1] -> [3_1] -> [Table_1: concrete, grey, white, stone] -> [Driveway_1] -> [Houses_1: in rear] -> [Fence_1: tall, brown] -> [Chairs_1: white, blue, aligned] -> [Deck_1: wooden] -> [Poles_1: metal] -> [Ladder_1: silver, grey] -> [Pool_1: big] -> [Water_1: blue, clean, clear] -> [Trees_1: thick] -> [Hills_1: green] -> [Footstool_1: white] -> [Poles_2: wooden] -> [Clouds_1: mounded] -> [Lining_1: blue] -> [Chairs_2: white] -> [Mountain_1: in distance] -> [Railing_1: silver]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Clouds_1: mounded] -> [Trees_1: thick] -> [Poles_2: wooden] -> [Mountain_1: in distance] -> [Houses_1: in rear] -> [Driveway_1] -> [Hills_1: green] -> [Fence_1: tall, brown] -> [Chairs_2: white] -> [Chairs_1: white, blue, aligned] -> [Footstool_1: white] -> [Table_1: concrete, grey, white, stone] -> [Deck_1: wooden] -> [Poles_1: metal] -> [Ladder_1: silver, grey] -> [Lining_1: blue] -> [Pool_1: big] -> [Water_1: blue, clean, clear] -> [Railing_1: silver] -> [Sticker_1] -> [3_1]",
+  "semantic_id_mapping": {
+    "1062594": "3_1",
+    "1062573": "Chairs_1",
+    "1062586": "Chairs_2",
+    "1062591": "Clouds_1",
+    "1062576": "Deck_1",
+    "1062593": "Driveway_1",
+    "1062588": "Fence_1",
+    "1062587": "Footstool_1",
+    "1062589": "Grass_1",
+    "1062579": "Ground_1",
+    "1062577": "Hills_1",
+    "1062592": "Houses_1",
+    "1062585": "Ladder_1",
+    "1062584": "Lining_1",
+    "1062581": "Mountain_1",
+    "1062575": "Poles_1",
+    "1062582": "Poles_2",
+    "1062572": "Pool_1",
+    "1062595": "Railing_1",
+    "1062590": "Sky_1",
+    "1062583": "Sticker_1",
+    "1062574": "Table_1",
+    "1062578": "Trees_1",
+    "1062580": "Water_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Trees_1",
+      "predicate": "on",
+      "object": "Hills_1"
+    },
+    {
+      "subject": "Poles_2",
+      "predicate": "behind",
+      "object": "Chairs_1"
+    },
+    {
+      "subject": "Sticker_1",
+      "predicate": "near",
+      "object": "Pool_1"
+    },
+    {
+      "subject": "3_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Sticker_1",
+    "3_1",
+    "Table_1",
+    "Driveway_1",
+    "Houses_1",
+    "Fence_1",
+    "Chairs_1",
+    "Deck_1",
+    "Poles_1",
+    "Ladder_1",
+    "Pool_1",
+    "Water_1",
+    "Trees_1",
+    "Hills_1",
+    "Footstool_1",
+    "Poles_2",
+    "Clouds_1",
+    "Lining_1",
+    "Chairs_2",
+    "Mountain_1",
+    "Railing_1"
+  ]
+}

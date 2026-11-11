@@ -1,0 +1,131 @@
+{
+  "image_id": 161,
+  "prompt_text": "### Relational Edges:\n- [Object_1] --[on]--> [Ground_2]\n- [Person_3] --[on]--> [Sidewalk_1: black]\n- [Person_2] --[on]--> [Sidewalk_1: black]\n- [Person_1] --[on]--> [Sidewalk_1: black]\n- [Dirt_1] --[on]--> [Ground_3]\n- [Trunk_1] --[on]--> [Tree_2: palm]\n- [Bike_2] --[on]--> [Left_1]\n- [Bike_1] --[on]--> [Left_1]\n- [Leaves_1] --[on]--> [Ground_1]\n- [Man_1] --[wearing]--> [Shorts_1]\n- [Person_3] --[wearing]--> [Jeans_1]\n- [Truck_1] --[on]--> [Ground_3]\n- [Woman_1] --[wearing]--> [Shirt_1: black]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Bike_1] -> [Truck_1: red, toy] -> [Object_1] -> [Bike_2] -> [Building_1] -> [Leaves_1] -> [Tree_1: tall, brown] -> [Trunk_1] -> [Tree_2: palm] -> [Left_1] -> [Leaf_1: green] -> [Leaf_2: green] -> [Building_2] -> [Shadow_1] -> [Shrubbery_1] -> [Woman_1] -> [Shadow_2] -> [Person_1] -> [Man_1] -> [Person_2] -> [Person_3] -> [Tree_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Building_2] -> [Tree_2: palm] -> [Tree_3] -> [Leaf_1: green] -> [Building_1] -> [Leaf_2: green] -> [Left_1] -> [Shrubbery_1] -> [Person_3] -> [Person_2] -> [Man_1] -> [Woman_1] -> [Person_1] -> [Tree_1: tall, brown] -> [Bike_2] -> [Leaves_1] -> [Bike_1] -> [Trunk_1] -> [Shadow_2] -> [Shadow_1] -> [Truck_1: red, toy] -> [Object_1]",
+  "semantic_id_mapping": {
+    "3787179": "Bike_1",
+    "3787176": "Bike_2",
+    "1536012": "Building_1",
+    "1536024": "Building_2",
+    "3787172": "Dirt_1",
+    "3787183": "Ground_1",
+    "1536017": "Ground_2",
+    "3787173": "Ground_3",
+    "3787188": "Jeans_1",
+    "3787189": "Leaf_1",
+    "3787190": "Leaf_2",
+    "3787182": "Leaves_1",
+    "3787178": "Left_1",
+    "3787197": "Man_1",
+    "1536016": "Object_1",
+    "3787170": "Person_1",
+    "3787169": "Person_2",
+    "3787166": "Person_3",
+    "1536014": "Road_1",
+    "1536018": "Shadow_1",
+    "3787165": "Shadow_2",
+    "3787195": "Shirt_1",
+    "3787196": "Shirt_2",
+    "3787185": "Shorts_1",
+    "1536015": "Shrubbery_1",
+    "3787186": "Sidewalk_1",
+    "3787180": "Sidewalk_2",
+    "1536013": "Street_1",
+    "3787191": "Tree_1",
+    "3787181": "Tree_2",
+    "3787164": "Tree_3",
+    "3787192": "Truck_1",
+    "3787174": "Trunk_1",
+    "3787194": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Object_1",
+      "predicate": "on",
+      "object": "Ground_2"
+    },
+    {
+      "subject": "Person_3",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_2",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Dirt_1",
+      "predicate": "on",
+      "object": "Ground_3"
+    },
+    {
+      "subject": "Trunk_1",
+      "predicate": "on",
+      "object": "Tree_2"
+    },
+    {
+      "subject": "Bike_2",
+      "predicate": "on",
+      "object": "Left_1"
+    },
+    {
+      "subject": "Bike_1",
+      "predicate": "on",
+      "object": "Left_1"
+    },
+    {
+      "subject": "Leaves_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shorts_1"
+    },
+    {
+      "subject": "Person_3",
+      "predicate": "wearing",
+      "object": "Jeans_1"
+    },
+    {
+      "subject": "Truck_1",
+      "predicate": "on",
+      "object": "Ground_3"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Bike_1",
+    "Truck_1",
+    "Object_1",
+    "Bike_2",
+    "Building_1",
+    "Leaves_1",
+    "Tree_1",
+    "Trunk_1",
+    "Tree_2",
+    "Left_1",
+    "Leaf_1",
+    "Leaf_2",
+    "Building_2",
+    "Shadow_1",
+    "Shrubbery_1",
+    "Woman_1",
+    "Shadow_2",
+    "Person_1",
+    "Man_1",
+    "Person_2",
+    "Person_3",
+    "Tree_3"
+  ]
+}

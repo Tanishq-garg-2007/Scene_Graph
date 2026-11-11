@@ -1,0 +1,52 @@
+{
+  "image_id": 125,
+  "prompt_text": "### Relational Edges:\n- [Window_7] --[on]--> [Building_3: large]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Window_1] -> [Window_2] -> [Window_3] -> [Building_1: large] -> [Window_4] -> [Window_5] -> [Building_2: large, old] -> [Window_6] -> [City_1: old] -> [Window_7] -> [Building_3: large] -> [Window_8] -> [Window_9] -> [Window_10] -> [Window_11] -> [Window_12] -> [Building_4: large] -> [Window_13]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_8] -> [Window_3] -> [Window_1] -> [Window_13] -> [Window_11] -> [Window_2] -> [Window_7] -> [Window_12] -> [City_1: old] -> [Building_3: large] -> [Building_1: large] -> [Window_9] -> [Building_4: large] -> [Window_10] -> [Window_5] -> [Building_2: large, old] -> [Window_4] -> [Window_6]",
+  "semantic_id_mapping": {
+    "1621204": "Building_1",
+    "1621197": "Building_2",
+    "1621216": "Building_3",
+    "1621214": "Building_4",
+    "1621195": "City_1",
+    "1621203": "Window_1",
+    "1621199": "Window_2",
+    "1621201": "Window_3",
+    "1621196": "Window_4",
+    "1621217": "Window_5",
+    "1621215": "Window_6",
+    "1621187": "Window_7",
+    "1621205": "Window_8",
+    "1621211": "Window_9",
+    "1621181": "Window_10",
+    "1621207": "Window_11",
+    "1621209": "Window_12",
+    "1621213": "Window_13",
+    "1621193": "Windows_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Window_7",
+      "predicate": "on",
+      "object": "Building_3"
+    }
+  ],
+  "horizontal_ordering": [
+    "Window_1",
+    "Window_2",
+    "Window_3",
+    "Building_1",
+    "Window_4",
+    "Window_5",
+    "Building_2",
+    "Window_6",
+    "City_1",
+    "Window_7",
+    "Building_3",
+    "Window_8",
+    "Window_9",
+    "Window_10",
+    "Window_11",
+    "Window_12",
+    "Building_4",
+    "Window_13"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "image_id": 94,
+  "prompt_text": "### Relational Edges:\n- [Eggs_2] --[on]--> [Plate_1: red]\n- [Grape_2] --[on]--> [Plate_1: red]\n- [Grape_1] --[on]--> [Plate_1: red]\n- [Shrimp_3] --[on]--> [Plate_1: red]\n- [Shrimp_2] --[on]--> [Plate_1: red]\n- [Fruit_1] --[on]--> [Plate_1: red]\n- [Meal_1] --[on]--> [Plate_1: red]\n- [Knife_1] --[next to]--> [Plate_1: red]\n- [Plate_1] --[on]--> [Table_1]\n- [Grapes_1] --[on]--> [Plate_1: red]\n- [Orange_2] --[on]--> [Plate_1: red]\n- [Egg_1] --[on]--> [Plate_1: red]\n- [Napkin_1] --[next to]--> [Plate_1: red]\n- [Olives_1] --[on]--> [Plate_1: red]\n- [Placemat_1] --[on]--> [Table_1]\n- [Grapes_2] --[on]--> [Plate_1: red]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Knife_1] -> [Eggs_1: white, yellow] -> [Egg_1: sliced] -> [Eggs_2] -> [Fruit_1] -> [Orange_1: sliced] -> [Orange_2] -> [Olives_1] -> [Table_1] -> [Building_1] -> [Napkin_1] -> [Meal_1] -> [Plate_1: red] -> [Shrimp_1] -> [Shrimp_2] -> [Plate_2: red] -> [Grapes_1] -> [Shrimp_3] -> [Grape_1] -> [Grape_2] -> [Tail_1] -> [Building_2] -> [Building_3] -> [Grapes_2] -> [Lettuce_1: green] -> [Placemat_1] -> [Glass_1] -> [Glass_2] -> [Liquid_1] -> [Ice_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Ice_1] -> [Glass_1] -> [Building_2] -> [Liquid_1] -> [Building_1] -> [Glass_2] -> [Orange_1: sliced] -> [Fruit_1] -> [Grapes_2] -> [Building_3] -> [Tail_1] -> [Orange_2] -> [Shrimp_1] -> [Shrimp_3] -> [Knife_1] -> [Shrimp_2] -> [Lettuce_1: green] -> [Olives_1] -> [Plate_1: red] -> [Napkin_1] -> [Table_1] -> [Meal_1] -> [Grape_1] -> [Eggs_2] -> [Egg_1: sliced] -> [Eggs_1: white, yellow] -> [Grapes_1] -> [Grape_2] -> [Plate_2: red] -> [Placemat_1]",
+  "semantic_id_mapping": {
+    "1534504": "Building_1",
+    "1534503": "Building_2",
+    "1534512": "Building_3",
+    "3786914": "Egg_1",
+    "3786929": "Eggs_1",
+    "1534499": "Eggs_2",
+    "3786900": "Fruit_1",
+    "3786927": "Glass_1",
+    "3786917": "Glass_2",
+    "3786892": "Grape_1",
+    "3786890": "Grape_2",
+    "3786910": "Grapes_1",
+    "3786930": "Grapes_2",
+    "3786926": "Ice_1",
+    "3786904": "Knife_1",
+    "3786928": "Lettuce_1",
+    "3786916": "Liquid_1",
+    "3786902": "Meal_1",
+    "3786918": "Napkin_1",
+    "3786920": "Olives_1",
+    "3786932": "Orange_1",
+    "3786912": "Orange_2",
+    "3786922": "Placemat_1",
+    "3786903": "Plate_1",
+    "3786925": "Plate_2",
+    "3786899": "Shrimp_1",
+    "3786896": "Shrimp_2",
+    "3786894": "Shrimp_3",
+    "3786923": "Table_1",
+    "3786898": "Tail_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Eggs_2",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Grape_2",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Grape_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Shrimp_3",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Shrimp_2",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Fruit_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Meal_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Knife_1",
+      "predicate": "next to",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Plate_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Grapes_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Orange_2",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Egg_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Napkin_1",
+      "predicate": "next to",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Olives_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Placemat_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Grapes_2",
+      "predicate": "on",
+      "object": "Plate_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Knife_1",
+    "Eggs_1",
+    "Egg_1",
+    "Eggs_2",
+    "Fruit_1",
+    "Orange_1",
+    "Orange_2",
+    "Olives_1",
+    "Table_1",
+    "Building_1",
+    "Napkin_1",
+    "Meal_1",
+    "Plate_1",
+    "Shrimp_1",
+    "Shrimp_2",
+    "Plate_2",
+    "Grapes_1",
+    "Shrimp_3",
+    "Grape_1",
+    "Grape_2",
+    "Tail_1",
+    "Building_2",
+    "Building_3",
+    "Grapes_2",
+    "Lettuce_1",
+    "Placemat_1",
+    "Glass_1",
+    "Glass_2",
+    "Liquid_1",
+    "Ice_1"
+  ]
+}

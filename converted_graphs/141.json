@@ -1,0 +1,97 @@
+{
+  "image_id": 141,
+  "prompt_text": "### Relational Edges:\n- [Man_1] --[wearing]--> [Pants_1: khaki]\n- [Man_1] --[wearing]--> [Shirt_1: black]\n- [Grate_1] --[on]--> [Sidewalk_3]\n- [Window_2] --[on]--> [Building_1: white]\n- [Pipe_1] --[on]--> [Building_1: white]\n- [Window_1] --[on]--> [Building_1: white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Stroller_1] -> [Woman_1] -> [Clouds_1: bright] -> [Cage_1] -> [Grate_1] -> [Sewer_1] -> [Man_1] -> [People_1] -> [Pole_1: thick, black] -> [Pole_2: black, thick] -> [Stripe_1: white] -> [StopLight_1: red] -> [Building_1: white] -> [Building_2: tan] -> [Sign_1: small, white] -> [Sign_2: tall] -> [Pole_3: thick, black] -> [Stripe_2: white] -> [Stipe_1: white] -> [Pipe_1] -> [Window_1] -> [Window_2] -> [Bricks_1: red] -> [Outcropping_1: cement]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Clouds_1: bright] -> [Building_1: white] -> [Sign_1: small, white] -> [Window_2] -> [Building_2: tan] -> [Sign_2: tall] -> [StopLight_1: red] -> [Pole_1: thick, black] -> [Stripe_2: white] -> [Window_1] -> [Pole_2: black, thick] -> [Stripe_1: white] -> [Pole_3: thick, black] -> [Pipe_1] -> [Stipe_1: white] -> [Bricks_1: red] -> [Woman_1] -> [People_1] -> [Man_1] -> [Stroller_1] -> [Cage_1] -> [Grate_1] -> [Sewer_1] -> [Outcropping_1: cement]",
+  "semantic_id_mapping": {
+    "3787149": "Bricks_1",
+    "1535529": "Building_1",
+    "1535555": "Building_2",
+    "3787142": "Cage_1",
+    "3787153": "Clouds_1",
+    "3787138": "Grate_1",
+    "3787127": "Man_1",
+    "3787150": "Outcropping_1",
+    "3787128": "Pants_1",
+    "3787154": "People_1",
+    "3787146": "Pipe_1",
+    "3787125": "Pole_1",
+    "3787130": "Pole_2",
+    "3787123": "Pole_3",
+    "3787151": "Road_1",
+    "3787145": "Road_2",
+    "3787143": "Sewer_1",
+    "3787129": "Shirt_1",
+    "3787132": "Sidewalk_1",
+    "3787155": "Sidewalk_2",
+    "3787139": "Sidewalk_3",
+    "3787135": "Sign_1",
+    "3787136": "Sign_2",
+    "3787152": "Sky_1",
+    "3787124": "Stipe_1",
+    "3787137": "StopLight_1",
+    "3787140": "Street_1",
+    "3787131": "Stripe_1",
+    "3787126": "Stripe_2",
+    "3787134": "Stroller_1",
+    "3787148": "Window_1",
+    "3787141": "Window_2",
+    "3787133": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Pants_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Grate_1",
+      "predicate": "on",
+      "object": "Sidewalk_3"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Pipe_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Stroller_1",
+    "Woman_1",
+    "Clouds_1",
+    "Cage_1",
+    "Grate_1",
+    "Sewer_1",
+    "Man_1",
+    "People_1",
+    "Pole_1",
+    "Pole_2",
+    "Stripe_1",
+    "StopLight_1",
+    "Building_1",
+    "Building_2",
+    "Sign_1",
+    "Sign_2",
+    "Pole_3",
+    "Stripe_2",
+    "Stipe_1",
+    "Pipe_1",
+    "Window_1",
+    "Window_2",
+    "Bricks_1",
+    "Outcropping_1"
+  ]
+}

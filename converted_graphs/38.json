@@ -1,0 +1,121 @@
+{
+  "image_id": 38,
+  "prompt_text": "### Relational Edges:\n- [Plants_1] --[on]--> [Shadow_1: cast]\n- [Flowers_2] --[on]--> [Wall_1: weathered, wicker, stucco]\n- [Flowers_4] --[on]--> [Ground_2]\n- [Shadows_1] --[on]--> [Ground_1]\n- [Vase_1] --[on]--> [Table_1: round]\n- [Cloth_1] --[on]--> [Table_1: round]\n- [Glassware_1] --[on]--> [Table_1: round]\n- [Alcove_1] --[attached to]--> [Wall_1: weathered, wicker, stucco]\n- [Planter_1] --[on]--> [Patio_1]\n- [Plates_1] --[on]--> [Table_1: round]\n- [Plants_1] --[on]--> [Floor_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Flowers_1: white, clay] -> [Shadow_1: cast] -> [Tree_1] -> [Green_1: dominant] -> [Shadows_1] -> [Table_1: round] -> [Vines_1: flowering] -> [Flowers_2: yellow, hanging, white, here] -> [Vase_1: here] -> [Bush_1: green, curved, arranged] -> [Glassware_1: here] -> [China_1] -> [Flowers_3: beautiful, outdoors] -> [Plants_1: white, flowered, potted, green] -> [Basket_1: woven, outdoors, scene, here] -> [Flowers_4] -> [Pot_1: brown, green, iron, five] -> [Cloth_1: white] -> [Scene_1: outdoors, daytime, sunny] -> [Plates_1] -> [Chairs_1: metallic, four, curved, white, green, metal] -> [Statue_1: stone] -> [Alcove_1: brick\\] -> [Planter_1] -> [Archway_1: brick] -> [Patio_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Vines_1: flowering] -> [Flowers_2: yellow, hanging, white, here] -> [Statue_1: stone] -> [Cloth_1: white] -> [Green_1: dominant] -> [Basket_1: woven, outdoors, scene, here] -> [Chairs_1: metallic, four, curved, white, green, metal] -> [Table_1: round] -> [Scene_1: outdoors, daytime, sunny] -> [Alcove_1: brick\\] -> [Bush_1: green, curved, arranged] -> [Archway_1: brick] -> [Vase_1: here] -> [Glassware_1: here] -> [China_1] -> [Plates_1] -> [Planter_1] -> [Tree_1] -> [Pot_1: brown, green, iron, five] -> [Flowers_3: beautiful, outdoors] -> [Plants_1: white, flowered, potted, green] -> [Shadow_1: cast] -> [Flowers_1: white, clay] -> [Shadows_1] -> [Flowers_4] -> [Patio_1]",
+  "semantic_id_mapping": {
+    "1061552": "Alcove_1",
+    "1061560": "Archway_1",
+    "1061529": "Basket_1",
+    "1061522": "Bush_1",
+    "1061517": "Chairs_1",
+    "5876": "China_1",
+    "1061519": "Cloth_1",
+    "1061559": "Floor_1",
+    "1061538": "Flowers_1",
+    "1061541": "Flowers_2",
+    "5867": "Flowers_3",
+    "5875": "Flowers_4",
+    "1061546": "Glassware_1",
+    "1061551": "Green_1",
+    "1061549": "Ground_1",
+    "3798648": "Ground_2",
+    "1061554": "Patio_1",
+    "1061553": "Planter_1",
+    "1061526": "Plants_1",
+    "1061555": "Plates_1",
+    "5866": "Pot_1",
+    "1061547": "Scene_1",
+    "1061525": "Shadow_1",
+    "1061548": "Shadows_1",
+    "1061558": "Statue_1",
+    "1061518": "Table_1",
+    "1061556": "Tree_1",
+    "1061550": "Vase_1",
+    "1061557": "Vines_1",
+    "1061528": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Plants_1",
+      "predicate": "on",
+      "object": "Shadow_1"
+    },
+    {
+      "subject": "Flowers_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Flowers_4",
+      "predicate": "on",
+      "object": "Ground_2"
+    },
+    {
+      "subject": "Shadows_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Vase_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Cloth_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Glassware_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Alcove_1",
+      "predicate": "attached to",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Planter_1",
+      "predicate": "on",
+      "object": "Patio_1"
+    },
+    {
+      "subject": "Plates_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Plants_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Flowers_1",
+    "Shadow_1",
+    "Tree_1",
+    "Green_1",
+    "Shadows_1",
+    "Table_1",
+    "Vines_1",
+    "Flowers_2",
+    "Vase_1",
+    "Bush_1",
+    "Glassware_1",
+    "China_1",
+    "Flowers_3",
+    "Plants_1",
+    "Basket_1",
+    "Flowers_4",
+    "Pot_1",
+    "Cloth_1",
+    "Scene_1",
+    "Plates_1",
+    "Chairs_1",
+    "Statue_1",
+    "Alcove_1",
+    "Planter_1",
+    "Archway_1",
+    "Patio_1"
+  ]
+}

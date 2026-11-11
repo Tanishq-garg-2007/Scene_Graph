@@ -1,0 +1,101 @@
+{
+  "image_id": 179,
+  "prompt_text": "### Relational Edges:\n- [Drain_1] --[on]--> [Floor_1]\n- [Vent_1] --[on]--> [Wall_1]\n- [Door_1] --[on]--> [Wall_2]\n- [Door_2] --[on]--> [Wall_2]\n- [Lines_1] --[on]--> [Bottom_1]\n- [Rail_1] --[on]--> [End_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Vents_1] -> [Vent_1: metal] -> [Tank_1: light blue] -> [Bucket_1: yellow] -> [Tube_1: tall, metal] -> [Bucket_2: yellow] -> [Chemicals_1: pool] -> [Basket_1: large, grey] -> [LaundryBasket_1: gray] -> [HandRail_1: long, metal] -> [Counter_1: long, gray] -> [Counter_2] -> [Items_1] -> [Rail_1: metal] -> [End_1] -> [Ladder_1: metal, small, pool] -> [Rail_2] -> [Pool_1] -> [Water_1: blue] -> [Cushion_1: blue] -> [Stool_1: white, metal] -> [PoolRoom_1] -> [Bottom_1] -> [Lines_1: black] -> [Light_1] -> [Door_1: brown] -> [Doors_1] -> [Door_2: brown] -> [Drain_1: white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Door_1: brown] -> [Door_2: brown] -> [Doors_1] -> [Items_1] -> [Counter_2] -> [Cushion_1: blue] -> [Vent_1: metal] -> [Vents_1] -> [Stool_1: white, metal] -> [Counter_1: long, gray] -> [Bucket_1: yellow] -> [Basket_1: large, grey] -> [LaundryBasket_1: gray] -> [Tank_1: light blue] -> [Tube_1: tall, metal] -> [PoolRoom_1] -> [Rail_2] -> [Ladder_1: metal, small, pool] -> [Light_1] -> [Chemicals_1: pool] -> [Bucket_2: yellow] -> [Drain_1: white] -> [Pool_1] -> [HandRail_1: long, metal] -> [Water_1: blue] -> [Bottom_1] -> [Lines_1: black] -> [End_1] -> [Rail_1: metal]",
+  "semantic_id_mapping": {
+    "1536451": "Basket_1",
+    "3787274": "Bottom_1",
+    "3787264": "Bucket_1",
+    "1536431": "Bucket_2",
+    "3787268": "Chemicals_1",
+    "1536448": "Counter_1",
+    "1536424": "Counter_2",
+    "3787272": "Cushion_1",
+    "3787266": "Door_1",
+    "3787265": "Door_2",
+    "1536440": "Doors_1",
+    "1536425": "Drain_1",
+    "3787276": "End_1",
+    "1536426": "Floor_1",
+    "1536439": "HandRail_1",
+    "1536423": "Items_1",
+    "1536454": "Ladder_1",
+    "1536414": "LaundryBasket_1",
+    "3787262": "Light_1",
+    "1536429": "Lines_1",
+    "3787273": "Pool_1",
+    "1536432": "PoolRoom_1",
+    "1536450": "Rail_1",
+    "1536417": "Rail_2",
+    "1536438": "Stool_1",
+    "1536419": "Tank_1",
+    "1536434": "Tube_1",
+    "1536435": "Vent_1",
+    "1536421": "Vents_1",
+    "1536436": "Wall_1",
+    "3787267": "Wall_2",
+    "1536443": "Water_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Drain_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Vent_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Door_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Door_2",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Lines_1",
+      "predicate": "on",
+      "object": "Bottom_1"
+    },
+    {
+      "subject": "Rail_1",
+      "predicate": "on",
+      "object": "End_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Vents_1",
+    "Vent_1",
+    "Tank_1",
+    "Bucket_1",
+    "Tube_1",
+    "Bucket_2",
+    "Chemicals_1",
+    "Basket_1",
+    "LaundryBasket_1",
+    "HandRail_1",
+    "Counter_1",
+    "Counter_2",
+    "Items_1",
+    "Rail_1",
+    "End_1",
+    "Ladder_1",
+    "Rail_2",
+    "Pool_1",
+    "Water_1",
+    "Cushion_1",
+    "Stool_1",
+    "PoolRoom_1",
+    "Bottom_1",
+    "Lines_1",
+    "Light_1",
+    "Door_1",
+    "Doors_1",
+    "Door_2",
+    "Drain_1"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "image_id": 33,
+  "prompt_text": "### Relational Edges:\n- [Table_2] --[on]--> [Floor_1]\n- [Tile_1] --[on]--> [Floor_2]\n- [Tile_4] --[on]--> [Floor_2]\n- [Tile_3] --[on]--> [Floor_2]\n- [Tile_2] --[on]--> [Floor_2]\n- [Tile_5] --[on]--> [Floor_2]\n- [Pillow_1] --[on]--> [Seat_1]\n- [Pillow_2] --[on]--> [Seat_1]\n- [Pillow_3] --[on]--> [Seat_1]\n- [Pillow_4] --[on]--> [Seat_1]\n- [Pillow_5] --[on]--> [Seat_1]\n- [Rug_1] --[on]--> [Floor_3: shiny, clean, tiles]\n- [WineGlasses_1] --[on]--> [Table_1: brown, wood]\n- [Plate_1] --[on]--> [Table_1: brown, wood]\n- [Painting_1] --[on]--> [Wall_2: wood]\n- [Pillows_1] --[on]--> [Couch_1: white]\n- [Glasses_1] --[on]--> [CoffeeTable_1: wooden]\n- [Tiles_1] --[on]--> [Floor_3: shiny, clean, tiles]\n- [PictureFrame_1] --[on]--> [Wall_2: wood]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Pillow_1] -> [CouchIsWhite_1: white] -> [SunShinning_1] -> [Table_1: brown, wood] -> [SunIsShinning_1] -> [Table_2] -> [WindowOpen_1] -> [Window_1] -> [TableOnFloor_1: brown] -> [GlassesOnTable_1] -> [GlassesEmpty_1] -> [WineGlasses_1] -> [Pillow_2] -> [GlassesAreEmpty_1] -> [Bottle_1] -> [Flask_1] -> [Window_2: drawn] -> [EmptyGlasses_1] -> [Bottles_1: whisky] -> [OrangeLiquid_1] -> [Liquid_1: orange] -> [Plate_1] -> [Bottle_2] -> [Pillows_1: white] -> [Glass_1] -> [Seat_1] -> [CouchIsGrey_1: grey] -> [PillowsOnSeats_1] -> [Pillow_3] -> [CoffeeTable_1: wooden] -> [SeatsAreWhite_1] -> [Wood_1] -> [Pillow_4] -> [Seat_2: white] -> [Picture_1] -> [Painting_1] -> [IndoorsPicture_1] -> [Room_1] -> [Couch_1: white] -> [Rug_1] -> [PictureFrame_1] -> [Pillow_5] -> [CornerSwitch_1] -> [Switch_1: white] -> [SwitchIsAtCorner_1] -> [Tile_1] -> [FloorHasTiles_1] -> [Reflections_1] -> [Door_1: open] -> [WindowsAreClear_1] -> [Trees_1] -> [ClosedDoor_1: closed] -> [Tile_2] -> [Tile_3] -> [Chimney_1] -> [Tiles_1] -> [Fireplace_1] -> [Logs_1] -> [Tile_4] -> [Tile_5] -> [WoodsAreThere_1] -> [Woods_1] -> [Wood_2] -> [Stand_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Wood_1] -> [Window_2: drawn] -> [PictureFrame_1] -> [Picture_1] -> [Chimney_1] -> [SunIsShinning_1] -> [Painting_1] -> [WindowOpen_1] -> [Window_1] -> [SunShinning_1] -> [Trees_1] -> [WindowsAreClear_1] -> [ClosedDoor_1: closed] -> [Door_1: open] -> [Switch_1: white] -> [SwitchIsAtCorner_1] -> [CornerSwitch_1] -> [IndoorsPicture_1] -> [Room_1] -> [Pillow_2] -> [Logs_1] -> [Pillow_5] -> [WoodsAreThere_1] -> [Pillow_4] -> [Pillows_1: white] -> [Pillow_3] -> [Pillow_1] -> [Woods_1] -> [Wood_2] -> [PillowsOnSeats_1] -> [SeatsAreWhite_1] -> [Couch_1: white] -> [Seat_2: white] -> [Seat_1] -> [Fireplace_1] -> [Reflections_1] -> [Stand_1] -> [Bottle_1] -> [CouchIsGrey_1: grey] -> [EmptyGlasses_1] -> [CoffeeTable_1: wooden] -> [Flask_1] -> [Bottles_1: whisky] -> [Bottle_2] -> [Glass_1] -> [GlassesAreEmpty_1] -> [WineGlasses_1] -> [Plate_1] -> [GlassesOnTable_1] -> [GlassesEmpty_1] -> [OrangeLiquid_1] -> [Liquid_1: orange] -> [FloorHasTiles_1] -> [TableOnFloor_1: brown] -> [Table_1: brown, wood] -> [Rug_1] -> [Table_2] -> [Tile_1] -> [Tile_3] -> [Tile_4] -> [Tiles_1] -> [Tile_2] -> [Tile_5] -> [CouchIsWhite_1: white]",
+  "semantic_id_mapping": {
+    "3798597": "Bottle_1",
+    "3798596": "Bottle_2",
+    "5764": "Bottles_1",
+    "1061394": "Carpet_1",
+    "1061392": "Chimney_1",
+    "5757": "ClosedDoor_1",
+    "1061398": "CoffeeTable_1",
+    "5773": "CornerSwitch_1",
+    "1061385": "Couch_1",
+    "5762": "CouchIsGrey_1",
+    "5763": "CouchIsWhite_1",
+    "1061387": "Door_1",
+    "5760": "EmptyGlasses_1",
+    "1061400": "Fireplace_1",
+    "1061383": "Flask_1",
+    "3798598": "Floor_1",
+    "3798635": "Floor_2",
+    "1061377": "Floor_3",
+    "5769": "FloorHasTiles_1",
+    "3798646": "Glass_1",
+    "1061395": "Glasses_1",
+    "5761": "GlassesAreEmpty_1",
+    "5759": "GlassesEmpty_1",
+    "5768": "GlassesOnTable_1",
+    "5766": "IndoorsPicture_1",
+    "3798645": "Liquid_1",
+    "1061399": "Logs_1",
+    "5777": "OrangeLiquid_1",
+    "1061396": "Painting_1",
+    "1061390": "Picture_1",
+    "1061401": "PictureFrame_1",
+    "3798643": "Pillow_1",
+    "3798642": "Pillow_2",
+    "3798641": "Pillow_3",
+    "3798640": "Pillow_4",
+    "3798639": "Pillow_5",
+    "1061386": "Pillows_1",
+    "5776": "PillowsOnSeats_1",
+    "1061381": "Plate_1",
+    "1061382": "Reflections_1",
+    "1061361": "Room_1",
+    "1061376": "Rug_1",
+    "3798644": "Seat_1",
+    "3798638": "Seat_2",
+    "5775": "SeatsAreWhite_1",
+    "3798637": "Stand_1",
+    "5771": "SunIsShinning_1",
+    "1061403": "SunShinning_1",
+    "1061388": "Switch_1",
+    "5774": "SwitchIsAtCorner_1",
+    "1061380": "Table_1",
+    "3798599": "Table_2",
+    "5767": "TableOnFloor_1",
+    "3798634": "Tile_1",
+    "3798631": "Tile_2",
+    "3798632": "Tile_3",
+    "3798633": "Tile_4",
+    "3798630": "Tile_5",
+    "1061397": "Tiles_1",
+    "1061393": "Trees_1",
+    "5765": "Wall_1",
+    "1061378": "Wall_2",
+    "1061353": "Window_1",
+    "1061402": "Window_2",
+    "5758": "WindowOpen_1",
+    "1061404": "Windows_1",
+    "5772": "WindowsAreClear_1",
+    "1061379": "WineGlasses_1",
+    "1061389": "Wood_1",
+    "3798636": "Wood_2",
+    "1061391": "Woods_1",
+    "5770": "WoodsAreThere_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Table_2",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Tile_1",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Tile_4",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Tile_3",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Tile_2",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Tile_5",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Pillow_1",
+      "predicate": "on",
+      "object": "Seat_1"
+    },
+    {
+      "subject": "Pillow_2",
+      "predicate": "on",
+      "object": "Seat_1"
+    },
+    {
+      "subject": "Pillow_3",
+      "predicate": "on",
+      "object": "Seat_1"
+    },
+    {
+      "subject": "Pillow_4",
+      "predicate": "on",
+      "object": "Seat_1"
+    },
+    {
+      "subject": "Pillow_5",
+      "predicate": "on",
+      "object": "Seat_1"
+    },
+    {
+      "subject": "Rug_1",
+      "predicate": "on",
+      "object": "Floor_3"
+    },
+    {
+      "subject": "WineGlasses_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Plate_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Pillows_1",
+      "predicate": "on",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "Glasses_1",
+      "predicate": "on",
+      "object": "CoffeeTable_1"
+    },
+    {
+      "subject": "Tiles_1",
+      "predicate": "on",
+      "object": "Floor_3"
+    },
+    {
+      "subject": "PictureFrame_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Pillow_1",
+    "CouchIsWhite_1",
+    "SunShinning_1",
+    "Table_1",
+    "SunIsShinning_1",
+    "Table_2",
+    "WindowOpen_1",
+    "Window_1",
+    "TableOnFloor_1",
+    "GlassesOnTable_1",
+    "GlassesEmpty_1",
+    "WineGlasses_1",
+    "Pillow_2",
+    "GlassesAreEmpty_1",
+    "Bottle_1",
+    "Flask_1",
+    "Window_2",
+    "EmptyGlasses_1",
+    "Bottles_1",
+    "OrangeLiquid_1",
+    "Liquid_1",
+    "Plate_1",
+    "Bottle_2",
+    "Pillows_1",
+    "Glass_1",
+    "Seat_1",
+    "CouchIsGrey_1",
+    "PillowsOnSeats_1",
+    "Pillow_3",
+    "CoffeeTable_1",
+    "SeatsAreWhite_1",
+    "Wood_1",
+    "Pillow_4",
+    "Seat_2",
+    "Picture_1",
+    "Painting_1",
+    "IndoorsPicture_1",
+    "Room_1",
+    "Couch_1",
+    "Rug_1",
+    "PictureFrame_1",
+    "Pillow_5",
+    "CornerSwitch_1",
+    "Switch_1",
+    "SwitchIsAtCorner_1",
+    "Tile_1",
+    "FloorHasTiles_1",
+    "Reflections_1",
+    "Door_1",
+    "WindowsAreClear_1",
+    "Trees_1",
+    "ClosedDoor_1",
+    "Tile_2",
+    "Tile_3",
+    "Chimney_1",
+    "Tiles_1",
+    "Fireplace_1",
+    "Logs_1",
+    "Tile_4",
+    "Tile_5",
+    "WoodsAreThere_1",
+    "Woods_1",
+    "Wood_2",
+    "Stand_1"
+  ]
+}

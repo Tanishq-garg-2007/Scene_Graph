@@ -1,0 +1,126 @@
+{
+  "image_id": 73,
+  "prompt_text": "### Relational Edges:\n- [Man_1] --[wearing]--> [Suit_1: dark]\n- [Man_1] --[wearing]--> [Glasses_1]\n- [Woman_1] --[wearing]--> [Shirt_2: floral, printed, black, pink, green]\n- [Man_2] --[wearing]--> [Suit_2: black]\n- [Woman_3] --[wearing]--> [Dress_1: dark brown]\n- [Silverware_1] --[on]--> [Table_1: long, covered]\n- [Man_2] --[wearing]--> [Tie_1: yellow]\n- [Glass_1] --[on]--> [Table_1: long, covered]\n- [Man_1] --[wearing]--> [Shirt_1: striped]\n- [Woman_2] --[wearing]--> [Necklace_1: pearl]\n- [Bottle_1] --[on]--> [Table_1: long, covered]\n- [Purse_1] --[on]--> [Floor_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Man_1: balding, bald] -> [Mustache_1] -> [Napkin_1: lavender] -> [Glass_1] -> [WineGlass_1: long stemmed] -> [Silverware_1] -> [Bottle_1: large] -> [Fork_1: shiny, silver] -> [Water_1] -> [Woman_1] -> [Woman_2: blonde] -> [Chair_1] -> [Table_1: long, covered] -> [Chairs_1: plastic] -> [Chair_2] -> [Man_2: white haired] -> [Purse_1: brown] -> [Chair_3] -> [Woman_3: gray haired] -> [Chair_4]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Mustache_1] -> [Woman_1] -> [Man_1: balding, bald] -> [Napkin_1: lavender] -> [Woman_3: gray haired] -> [Man_2: white haired] -> [Bottle_1: large] -> [WineGlass_1: long stemmed] -> [Glass_1] -> [Table_1: long, covered] -> [Water_1] -> [Woman_2: blonde] -> [Chair_4] -> [Silverware_1] -> [Chairs_1: plastic] -> [Fork_1: shiny, silver] -> [Chair_3] -> [Chair_2] -> [Chair_1] -> [Purse_1: brown]",
+  "semantic_id_mapping": {
+    "1025743": "Back_1",
+    "1025755": "Bottle_1",
+    "1025750": "Chair_1",
+    "1025752": "Chair_2",
+    "1025754": "Chair_3",
+    "1025742": "Chair_4",
+    "1025766": "Chairs_1",
+    "1025764": "Dress_1",
+    "1025772": "Floor_1",
+    "1025757": "Fork_1",
+    "1025761": "Glass_1",
+    "1025746": "Glasses_1",
+    "1025769": "Hair_1",
+    "1025763": "Hair_2",
+    "1025765": "Hair_3",
+    "1025759": "Hand_1",
+    "1025776": "Jacket_1",
+    "1025741": "Leg_1",
+    "1025744": "Man_1",
+    "1025751": "Man_2",
+    "1025773": "Mustache_1",
+    "1025760": "Napkin_1",
+    "1025775": "Necklace_1",
+    "1025771": "Purse_1",
+    "1025774": "Shirt_1",
+    "1025748": "Shirt_2",
+    "1025767": "Silverware_1",
+    "1025745": "Suit_1",
+    "1025762": "Suit_2",
+    "1025768": "Table_1",
+    "1025770": "Tie_1",
+    "1025756": "Water_1",
+    "1025758": "WineGlass_1",
+    "1025747": "Woman_1",
+    "1025749": "Woman_2",
+    "1025753": "Woman_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Suit_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Glasses_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Shirt_2"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Suit_2"
+    },
+    {
+      "subject": "Woman_3",
+      "predicate": "wearing",
+      "object": "Dress_1"
+    },
+    {
+      "subject": "Silverware_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Tie_1"
+    },
+    {
+      "subject": "Glass_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Woman_2",
+      "predicate": "wearing",
+      "object": "Necklace_1"
+    },
+    {
+      "subject": "Bottle_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Purse_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Man_1",
+    "Mustache_1",
+    "Napkin_1",
+    "Glass_1",
+    "WineGlass_1",
+    "Silverware_1",
+    "Bottle_1",
+    "Fork_1",
+    "Water_1",
+    "Woman_1",
+    "Woman_2",
+    "Chair_1",
+    "Table_1",
+    "Chairs_1",
+    "Chair_2",
+    "Man_2",
+    "Purse_1",
+    "Chair_3",
+    "Woman_3",
+    "Chair_4"
+  ]
+}

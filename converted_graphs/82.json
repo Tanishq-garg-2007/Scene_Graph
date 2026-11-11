@@ -1,0 +1,144 @@
+{
+  "image_id": 82,
+  "prompt_text": "### Relational Edges:\n- [Door_2] --[on]--> [Refrigerator_1]\n- [Door_1] --[on]--> [Refrigerator_1]\n- [Dial_1] --[on]--> [Dials_1: black]\n- [Dial_2] --[on]--> [Oven_1]\n- [Dial_3] --[on]--> [Oven_1]\n- [Dial_4] --[on]--> [Oven_1]\n- [Dial_5] --[on]--> [Oven_1]\n- [Dial_6] --[on]--> [Oven_1]\n- [Dial_7] --[on]--> [Oven_1]\n- [Dials_1] --[on]--> [Oven_1]\n- [Tile_1] --[on]--> [Floor_1]\n- [Sink_1] --[on]--> [Counter_2: red]\n- [CoffeeMaker_1] --[on]--> [Counter_2: red]\n- [Teapot_1] --[on]--> [Stove_2]\n- [Dishcloth_1] --[on]--> [Stove_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [UtensilCrock_1: metallic] -> [Utensils_1] -> [Dishcloth_1] -> [Dial_1: black] -> [Dial_2: black] -> [Dial_3: black] -> [Stove_1] -> [Oven_1] -> [BlackKnobs_1] -> [StoveTop_1: dark, glass] -> [Stove_2] -> [Dials_1: black] -> [Dial_4: black] -> [Dial_5: black] -> [Teapot_1: silver] -> [Dial_6: black] -> [Dial_7: black] -> [Counter_1] -> [Tile_1: white] -> [TileFloor_1] -> [Dishwasher_1: stainless steel, automatic] -> [Counter_2: red] -> [Cabinets_1: white] -> [CoffeeMaker_1: white] -> [Sink_1: silver] -> [WashingMachine_1] -> [Door_1] -> [Refrigerator_1] -> [Door_2: stainless steel]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Cabinets_1: white] -> [Utensils_1] -> [CoffeeMaker_1: white] -> [Teapot_1: silver] -> [UtensilCrock_1: metallic] -> [Counter_1] -> [Stove_2] -> [StoveTop_1: dark, glass] -> [Door_1] -> [Dishcloth_1] -> [Sink_1: silver] -> [Refrigerator_1] -> [Dials_1: black] -> [Dial_7: black] -> [BlackKnobs_1] -> [Dial_4: black] -> [Dial_5: black] -> [Dial_3: black] -> [Dial_6: black] -> [Dial_2: black] -> [Dial_1: black] -> [Counter_2: red] -> [Dishwasher_1: stainless steel, automatic] -> [Oven_1] -> [Stove_1] -> [WashingMachine_1] -> [TileFloor_1] -> [Tile_1: white] -> [Door_2: stainless steel]",
+  "semantic_id_mapping": {
+    "1534266": "BlackKnobs_1",
+    "1534259": "Cabinets_1",
+    "1534272": "CoffeeMaker_1",
+    "1534262": "Counter_1",
+    "1534273": "Counter_2",
+    "3786879": "Dial_1",
+    "3786878": "Dial_2",
+    "3786877": "Dial_3",
+    "3786876": "Dial_4",
+    "3786875": "Dial_5",
+    "3786874": "Dial_6",
+    "3786873": "Dial_7",
+    "1534252": "Dials_1",
+    "1534257": "Dishcloth_1",
+    "1534263": "Dishwasher_1",
+    "1534249": "Door_1",
+    "1534250": "Door_2",
+    "3786881": "Floor_1",
+    "1534261": "Oven_1",
+    "1534248": "Refrigerator_1",
+    "1534268": "Sink_1",
+    "1534267": "Stove_1",
+    "1534277": "Stove_2",
+    "1534254": "StoveTop_1",
+    "1534275": "Teapot_1",
+    "3786880": "Tile_1",
+    "1534265": "TileFloor_1",
+    "1534255": "UtensilCrock_1",
+    "1534256": "Utensils_1",
+    "1534270": "WashingMachine_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Door_2",
+      "predicate": "on",
+      "object": "Refrigerator_1"
+    },
+    {
+      "subject": "Door_1",
+      "predicate": "on",
+      "object": "Refrigerator_1"
+    },
+    {
+      "subject": "Dial_1",
+      "predicate": "on",
+      "object": "Dials_1"
+    },
+    {
+      "subject": "Dial_2",
+      "predicate": "on",
+      "object": "Oven_1"
+    },
+    {
+      "subject": "Dial_3",
+      "predicate": "on",
+      "object": "Oven_1"
+    },
+    {
+      "subject": "Dial_4",
+      "predicate": "on",
+      "object": "Oven_1"
+    },
+    {
+      "subject": "Dial_5",
+      "predicate": "on",
+      "object": "Oven_1"
+    },
+    {
+      "subject": "Dial_6",
+      "predicate": "on",
+      "object": "Oven_1"
+    },
+    {
+      "subject": "Dial_7",
+      "predicate": "on",
+      "object": "Oven_1"
+    },
+    {
+      "subject": "Dials_1",
+      "predicate": "on",
+      "object": "Oven_1"
+    },
+    {
+      "subject": "Tile_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Sink_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "CoffeeMaker_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Teapot_1",
+      "predicate": "on",
+      "object": "Stove_2"
+    },
+    {
+      "subject": "Dishcloth_1",
+      "predicate": "on",
+      "object": "Stove_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "UtensilCrock_1",
+    "Utensils_1",
+    "Dishcloth_1",
+    "Dial_1",
+    "Dial_2",
+    "Dial_3",
+    "Stove_1",
+    "Oven_1",
+    "BlackKnobs_1",
+    "StoveTop_1",
+    "Stove_2",
+    "Dials_1",
+    "Dial_4",
+    "Dial_5",
+    "Teapot_1",
+    "Dial_6",
+    "Dial_7",
+    "Counter_1",
+    "Tile_1",
+    "TileFloor_1",
+    "Dishwasher_1",
+    "Counter_2",
+    "Cabinets_1",
+    "CoffeeMaker_1",
+    "Sink_1",
+    "WashingMachine_1",
+    "Door_1",
+    "Refrigerator_1",
+    "Door_2"
+  ]
+}

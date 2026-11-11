@@ -1,0 +1,119 @@
+{
+  "image_id": 115,
+  "prompt_text": "### Relational Edges:\n- [Man_1] --[wearing]--> [LeftEye_1]\n- [Man_1] --[wearing]--> [RightEye_1]\n- [Woman_1] --[wearing]--> [LeftEye_2]\n- [Woman_1] --[wearing]--> [LeftHand_1]\n- [Woman_1] --[wearing]--> [RightHand_1]\n- [TissueBox_1] --[on]--> [Table_1: wood, brown]\n- [Man_1] --[wearing]--> [Shirt_1: yellow]\n- [Woman_1] --[wearing]--> [Top_1: white]\n- [Man_1] --[wearing]--> [RightLeg_1]\n- [Man_1] --[wearing]--> [LeftLeg_1]\n- [Man_1] --[wearing]--> [RightArm_1]\n- [Man_1] --[wearing]--> [LeftArm_1]\n- [Man_1] --[wearing]--> [Pants_1]\n- [Man_1] --[wearing]--> [Tie_1: brown]\n- [Woman_1] --[wearing]--> [Skirt_1: black]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Hands_1] -> [Man_1] -> [Painting_1] -> [People_1] -> [Couch_1: brown, leather ] -> [Table_1: wood, brown] -> [Woman_1] -> [TissueBox_1] -> [Handbag_1: brown]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Painting_1] -> [Woman_1] -> [Handbag_1: brown] -> [People_1] -> [Man_1] -> [Couch_1: brown, leather ] -> [Hands_1] -> [TissueBox_1] -> [Table_1: wood, brown]",
+  "semantic_id_mapping": {
+    "1025967": "Couch_1",
+    "1025981": "Handbag_1",
+    "1025987": "Hands_1",
+    "1025986": "LeftArm_1",
+    "1025971": "LeftEye_1",
+    "1025973": "LeftEye_2",
+    "1025974": "LeftHand_1",
+    "1025984": "LeftLeg_1",
+    "1025966": "Man_1",
+    "1025976": "Nose_1",
+    "1025977": "Painting_1",
+    "1025988": "Pants_1",
+    "1025989": "People_1",
+    "1025985": "RightArm_1",
+    "1025972": "RightEye_1",
+    "1025975": "RightHand_1",
+    "1025983": "RightLeg_1",
+    "1025982": "Shirt_1",
+    "1025990": "Skirt_1",
+    "1025980": "Table_1",
+    "1025969": "Tie_1",
+    "1025979": "TissueBox_1",
+    "1025970": "Top_1",
+    "1025978": "Wall_1",
+    "1025968": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "LeftEye_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "RightEye_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "LeftEye_2"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "LeftHand_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "RightHand_1"
+    },
+    {
+      "subject": "TissueBox_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Top_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "RightLeg_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "LeftLeg_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "RightArm_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "LeftArm_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Pants_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Tie_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Skirt_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Hands_1",
+    "Man_1",
+    "Painting_1",
+    "People_1",
+    "Couch_1",
+    "Table_1",
+    "Woman_1",
+    "TissueBox_1",
+    "Handbag_1"
+  ]
+}

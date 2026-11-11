@@ -1,0 +1,165 @@
+{
+  "image_id": 28,
+  "prompt_text": "### Relational Edges:\n- [Picture_5] --[on]--> [Wall_1: white]\n- [Picture_4] --[on]--> [Wall_1: white]\n- [Picture_3] --[on]--> [Wall_1: white]\n- [Picture_2] --[on]--> [Wall_1: white]\n- [Picture_1] --[on]--> [Wall_1: white]\n- [Bowl_1] --[on]--> [Table_1: wooden, modernistic]\n- [Vase_1] --[on]--> [Table_1: wooden, modernistic]\n- [Pillow_1] --[on]--> [Couch_1: white, ivory colored]\n- [Pillow_2] --[on]--> [Couch_1: white, ivory colored]\n- [Book_1] --[on]--> [Table_1: wooden, modernistic]\n- [Flowers_1] --[on]--> [Table_1: wooden, modernistic]\n- [Cloth_1] --[on]--> [Couch_1: white, ivory colored]\n- [Reflection_1] --[on]--> [Picture_5: colorful, framed]\n- [Painting_1] --[on]--> [Wall_1: white]\n- [Pictures_1] --[on]--> [Wall_1: white]\n- [Basket_2] --[on]--> [Floor_1]\n- [Orchid_1] --[on]--> [SideTable_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Painting_1] -> [Blanket_1: orange, gold] -> [Pillow_1: red, striped, checked] -> [Cloth_1] -> [Frame_1] -> [Picture_1: colorful] -> [Picture_2: colorful] -> [Frame_2] -> [Bowl_1: white, big] -> [Picture_3: colorful] -> [Frame_3] -> [Picture_4: colorful] -> [Frame_4] -> [Couch_1: white, ivory colored] -> [Plank_1: wooden] -> [Pictures_1: framed, hanged] -> [Vase_1] -> [Flowers_1: drooping] -> [Table_1: wooden, modernistic] -> [Reflection_1] -> [Picture_5: colorful, framed] -> [Photo_1: white, indoors, timeless, scary] -> [Room_1: white, indoor, neat, empty] -> [Frame_5] -> [Book_1] -> [Pillow_2: orange, white] -> [Orchid_1] -> [Orchid_2] -> [Basket_1: woven] -> [Stand_1: metallic] -> [Pillows_1: multi-colored] -> [SideTable_1] -> [Basket_2] -> [Curtains_1: full length]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Picture_2: colorful] -> [Frame_1] -> [Picture_3: colorful] -> [Frame_3] -> [Picture_4: colorful] -> [Picture_1: colorful] -> [Frame_2] -> [Frame_4] -> [Pictures_1: framed, hanged] -> [Reflection_1] -> [Painting_1] -> [Picture_5: colorful, framed] -> [Frame_5] -> [Orchid_1] -> [Curtains_1: full length] -> [Room_1: white, indoor, neat, empty] -> [Photo_1: white, indoors, timeless, scary] -> [Orchid_2] -> [Basket_1: woven] -> [Blanket_1: orange, gold] -> [Pillow_2: orange, white] -> [Flowers_1: drooping] -> [Couch_1: white, ivory colored] -> [SideTable_1] -> [Pillow_1: red, striped, checked] -> [Vase_1] -> [Stand_1: metallic] -> [Bowl_1: white, big] -> [Book_1] -> [Plank_1: wooden] -> [Basket_2] -> [Table_1: wooden, modernistic] -> [Pillows_1: multi-colored] -> [Cloth_1]",
+  "semantic_id_mapping": {
+    "1024796": "Basket_1",
+    "1024810": "Basket_2",
+    "1024809": "Blanket_1",
+    "1024801": "Book_1",
+    "1024773": "Bowl_1",
+    "1024805": "Cloth_1",
+    "1024781": "Couch_1",
+    "1024813": "Curtains_1",
+    "1024811": "Floor_1",
+    "1024776": "Flowers_1",
+    "5667": "Frame_1",
+    "5666": "Frame_2",
+    "5664": "Frame_3",
+    "5665": "Frame_4",
+    "5663": "Frame_5",
+    "1024814": "Orchid_1",
+    "1024812": "Orchid_2",
+    "1024807": "Painting_1",
+    "5662": "Photo_1",
+    "5661": "Picture_1",
+    "5660": "Picture_2",
+    "5659": "Picture_3",
+    "5658": "Picture_4",
+    "1024786": "Picture_5",
+    "1024803": "Pictures_1",
+    "5674": "Pillow_1",
+    "1024799": "Pillow_2",
+    "1024808": "Pillows_1",
+    "5675": "Plank_1",
+    "1024783": "Reflection_1",
+    "1024804": "Room_1",
+    "1024815": "SideTable_1",
+    "1024806": "Stand_1",
+    "1024802": "Table_1",
+    "1024775": "Vase_1",
+    "1024757": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Picture_5",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Picture_4",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Picture_3",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Picture_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Picture_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Vase_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Pillow_1",
+      "predicate": "on",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "Pillow_2",
+      "predicate": "on",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "Book_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Cloth_1",
+      "predicate": "on",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "Reflection_1",
+      "predicate": "on",
+      "object": "Picture_5"
+    },
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Pictures_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Basket_2",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Orchid_1",
+      "predicate": "on",
+      "object": "SideTable_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Painting_1",
+    "Blanket_1",
+    "Pillow_1",
+    "Cloth_1",
+    "Frame_1",
+    "Picture_1",
+    "Picture_2",
+    "Frame_2",
+    "Bowl_1",
+    "Picture_3",
+    "Frame_3",
+    "Picture_4",
+    "Frame_4",
+    "Couch_1",
+    "Plank_1",
+    "Pictures_1",
+    "Vase_1",
+    "Flowers_1",
+    "Table_1",
+    "Reflection_1",
+    "Picture_5",
+    "Photo_1",
+    "Room_1",
+    "Frame_5",
+    "Book_1",
+    "Pillow_2",
+    "Orchid_1",
+    "Orchid_2",
+    "Basket_1",
+    "Stand_1",
+    "Pillows_1",
+    "SideTable_1",
+    "Basket_2",
+    "Curtains_1"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "image_id": 138,
+  "prompt_text": "### Relational Edges:\n- [Vest_1] --[on]--> [Man_1]\n- [Man_1] --[behind]--> [Van_2: turning, white, parked]\n- [Sign_3] --[on]--> [Street_1]\n- [Sign_2] --[on]--> [Post_1]\n- [Logo_1] --[on]--> [Van_2: turning, white, parked]\n- [Lines_2] --[on]--> [Street_1]\n- [Lines_1] --[on]--> [Street_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Van_1: grey, black, parked] -> [Tree_1: bushy] -> [Sign_1: blue] -> [Person_1: standing, waiting] -> [Lines_1] -> [Lamp_1: tall] -> [Car_1: red] -> [Billboard_1] -> [Intersection_1: vacant] -> [Buiding_1: distant] -> [Lines_2] -> [Building_1: skyscrapper, grey] -> [Man_1] -> [Building_2] -> [Logo_1] -> [Post_1] -> [Sign_2: red] -> [Van_2: turning, white, parked] -> [Sign_3] -> [ElectricalBox_1: graffitied] -> [Man_2] -> [Bike_1] -> [Buiding_2: distant]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Tree_1: bushy] -> [Lamp_1: tall] -> [Building_1: skyscrapper, grey] -> [Post_1] -> [Buiding_2: distant] -> [Building_2] -> [Sign_1: blue] -> [Buiding_1: distant] -> [Sign_3] -> [Sign_2: red] -> [Billboard_1] -> [Car_1: red] -> [Person_1: standing, waiting] -> [Van_1: grey, black, parked] -> [Man_2] -> [Man_1] -> [Logo_1] -> [ElectricalBox_1: graffitied] -> [Lines_1] -> [Bike_1] -> [Van_2: turning, white, parked] -> [Lines_2] -> [Intersection_1: vacant]",
+  "semantic_id_mapping": {
+    "1062413": "Bike_1",
+    "1062428": "Billboard_1",
+    "1062432": "Buiding_1",
+    "1062433": "Buiding_2",
+    "1062411": "Building_1",
+    "1062431": "Building_2",
+    "1062422": "Car_1",
+    "1062421": "ElectricalBox_1",
+    "1062418": "Intersection_1",
+    "1062420": "Lamp_1",
+    "1062429": "Lines_1",
+    "1062430": "Lines_2",
+    "1062427": "Logo_1",
+    "1062410": "Man_1",
+    "1062412": "Man_2",
+    "1062417": "Person_1",
+    "1062426": "Post_1",
+    "1062416": "Sidewalk_1",
+    "1062414": "Sign_1",
+    "1062425": "Sign_2",
+    "1062424": "Sign_3",
+    "1062419": "Sky_1",
+    "1062423": "Street_1",
+    "1062415": "Tree_1",
+    "1062408": "Van_1",
+    "1062407": "Van_2",
+    "1062409": "Vest_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Vest_1",
+      "predicate": "on",
+      "object": "Man_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "behind",
+      "object": "Van_2"
+    },
+    {
+      "subject": "Sign_3",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Sign_2",
+      "predicate": "on",
+      "object": "Post_1"
+    },
+    {
+      "subject": "Logo_1",
+      "predicate": "on",
+      "object": "Van_2"
+    },
+    {
+      "subject": "Lines_2",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Lines_1",
+      "predicate": "on",
+      "object": "Street_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Van_1",
+    "Tree_1",
+    "Sign_1",
+    "Person_1",
+    "Lines_1",
+    "Lamp_1",
+    "Car_1",
+    "Billboard_1",
+    "Intersection_1",
+    "Buiding_1",
+    "Lines_2",
+    "Building_1",
+    "Man_1",
+    "Building_2",
+    "Logo_1",
+    "Post_1",
+    "Sign_2",
+    "Van_2",
+    "Sign_3",
+    "ElectricalBox_1",
+    "Man_2",
+    "Bike_1",
+    "Buiding_2"
+  ]
+}

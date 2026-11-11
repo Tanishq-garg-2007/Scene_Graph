@@ -1,0 +1,56 @@
+{
+  "image_id": 56,
+  "prompt_text": "### Relational Edges:\n- [Window_4] --[on]--> [Building_2]\n- [Window_5] --[on]--> [Building_2]\n- [Window_6] --[on]--> [Building_2]\n- [Window_1] --[on]--> [Building_1]\n- [Window_2] --[on]--> [Building_1]\n- [Window_3] --[on]--> [Building_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Window_1] -> [Building_1] -> [Window_2] -> [Window_3] -> [Window_4] -> [Window_5] -> [Building_2] -> [Window_6]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_4] -> [Building_2] -> [Window_5] -> [Window_6] -> [Window_1] -> [Window_2] -> [Window_3] -> [Building_1]",
+  "semantic_id_mapping": {
+    "1533774": "Building_1",
+    "1533780": "Building_2",
+    "1533772": "Window_1",
+    "1533773": "Window_2",
+    "1533775": "Window_3",
+    "1533765": "Window_4",
+    "1533768": "Window_5",
+    "1533769": "Window_6"
+  },
+  "relational_edges": [
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_5",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_6",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_3",
+      "predicate": "on",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Window_1",
+    "Building_1",
+    "Window_2",
+    "Window_3",
+    "Window_4",
+    "Window_5",
+    "Building_2",
+    "Window_6"
+  ]
+}

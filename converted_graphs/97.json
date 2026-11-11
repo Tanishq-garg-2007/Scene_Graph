@@ -1,0 +1,124 @@
+{
+  "image_id": 97,
+  "prompt_text": "### Relational Edges:\n- [Newspaper_1] --[on]--> [Magazine_1: red]\n- [Dish_1] --[holding]--> [Bread_2: sliced]\n- [Dish_1] --[holding]--> [Bread_1: sliced]\n- [Knife_2] --[on]--> [Napkin_1: blue]\n- [Dish_1] --[on]--> [Napkin_1: blue]\n- [Bread_2] --[on]--> [Dish_1: blue]\n- [Bread_1] --[on]--> [Dish_1: blue]\n- [Mug_1] --[on]--> [Saucer_1: small]\n- [Bag_2] --[on]--> [Table_1]\n- [Newspaper_1] --[on]--> [Table_1]\n- [Chocolate_1] --[on]--> [Table_1]\n- [Butter_1] --[on]--> [Table_1]\n- [Press_1] --[on]--> [Table_1]\n- [Handle_1] --[on]--> [Knife_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Magazine_1: red] -> [Newspaper_1] -> [Bag_1: food, paper] -> [Bag_2] -> [Butter_1: contained, rectangular] -> [Table_1] -> [Lid_1: plastic, green] -> [Cheese_1] -> [Container_1] -> [Chocolate_1] -> [Bread_1: sliced] -> [Dish_1: blue] -> [Napkin_1: blue] -> [Bread_2: sliced] -> [Coaster_1] -> [Knife_1] -> [Handle_1] -> [Press_1] -> [Saucer_1: small] -> [Knife_2: silver] -> [Mug_1: black] -> [Coffee_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Cheese_1] -> [Press_1] -> [Coaster_1] -> [Bag_2] -> [Container_1] -> [Chocolate_1] -> [Bag_1: food, paper] -> [Lid_1: plastic, green] -> [Table_1] -> [Coffee_1] -> [Saucer_1: small] -> [Mug_1: black] -> [Magazine_1: red] -> [Butter_1: contained, rectangular] -> [Napkin_1: blue] -> [Bread_1: sliced] -> [Newspaper_1] -> [Bread_2: sliced] -> [Dish_1: blue] -> [Knife_1] -> [Knife_2: silver] -> [Handle_1]",
+  "semantic_id_mapping": {
+    "1025866": "Bag_1",
+    "1025877": "Bag_2",
+    "1025869": "Bread_1",
+    "1025870": "Bread_2",
+    "1025865": "Butter_1",
+    "1025881": "Cheese_1",
+    "1025879": "Chocolate_1",
+    "1025884": "Coaster_1",
+    "1025880": "Coffee_1",
+    "1025882": "Container_1",
+    "1025868": "Dish_1",
+    "1025874": "Handle_1",
+    "1025873": "Knife_1",
+    "1025875": "Knife_2",
+    "1025867": "Lid_1",
+    "1025864": "Magazine_1",
+    "1025871": "Mug_1",
+    "1025876": "Napkin_1",
+    "1025863": "Newspaper_1",
+    "1025883": "Press_1",
+    "1025872": "Saucer_1",
+    "1025878": "Table_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Newspaper_1",
+      "predicate": "on",
+      "object": "Magazine_1"
+    },
+    {
+      "subject": "Dish_1",
+      "predicate": "holding",
+      "object": "Bread_2"
+    },
+    {
+      "subject": "Dish_1",
+      "predicate": "holding",
+      "object": "Bread_1"
+    },
+    {
+      "subject": "Knife_2",
+      "predicate": "on",
+      "object": "Napkin_1"
+    },
+    {
+      "subject": "Dish_1",
+      "predicate": "on",
+      "object": "Napkin_1"
+    },
+    {
+      "subject": "Bread_2",
+      "predicate": "on",
+      "object": "Dish_1"
+    },
+    {
+      "subject": "Bread_1",
+      "predicate": "on",
+      "object": "Dish_1"
+    },
+    {
+      "subject": "Mug_1",
+      "predicate": "on",
+      "object": "Saucer_1"
+    },
+    {
+      "subject": "Bag_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Newspaper_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Chocolate_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Butter_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Press_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Handle_1",
+      "predicate": "on",
+      "object": "Knife_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Magazine_1",
+    "Newspaper_1",
+    "Bag_1",
+    "Bag_2",
+    "Butter_1",
+    "Table_1",
+    "Lid_1",
+    "Cheese_1",
+    "Container_1",
+    "Chocolate_1",
+    "Bread_1",
+    "Dish_1",
+    "Napkin_1",
+    "Bread_2",
+    "Coaster_1",
+    "Knife_1",
+    "Handle_1",
+    "Press_1",
+    "Saucer_1",
+    "Knife_2",
+    "Mug_1",
+    "Coffee_1"
+  ]
+}

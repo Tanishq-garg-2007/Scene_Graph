@@ -1,0 +1,173 @@
+{
+  "image_id": 26,
+  "prompt_text": "### Relational Edges:\n- [Car_2] --[on]--> [Roadway_1: busy]\n- [Car_1] --[on]--> [Roadway_1: busy]\n- [Traffic_1] --[on]--> [Roadway_1: busy]\n- [Building_2] --[near]--> [Roadway_1: busy]\n- [Lightpost_1] --[near]--> [Roadway_1: busy]\n- [Flowers_1] --[near]--> [Roadway_1: busy]\n- [Sign_1] --[on]--> [Building_4]\n- [Tree_2] --[near]--> [Roadway_1: busy]\n- [Man_1] --[wearing]--> [Suit_1]\n- [Shadows_1] --[on]--> [Sidewalk_1: cobblestone, wide, tiled, brick]\n- [Bricks_1] --[on]--> [Sidewalk_1: cobblestone, wide, tiled, brick]\n- [Sign_2] --[on]--> [Building_7: tall]\n- [Window_4] --[on]--> [Building_2: tall]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Tree_1: green] -> [Car_1: grey] -> [Window_1] -> [Window_2] -> [Tree_2: green] -> [Building_1: tall] -> [Trees_1] -> [Traffic_1] -> [Window_3] -> [Car_2: white, driving] -> [Roadway_1: busy] -> [Tree_3: green] -> [Window_4] -> [Window_5] -> [Buildings_1] -> [Building_2: tall] -> [Tree_4: green] -> [Building_3: domed] -> [Bricks_1] -> [ManRidingAHorse_1: stone, statue, sculpture] -> [Statue_1: stone, in background, horse] -> [Shadows_1] -> [OutdoorScene_1: bright, in image, in picture] -> [Man_1: walking] -> [Flowers_1] -> [Sign_1] -> [Building_4] -> [Lightpost_1: tall, metal] -> [Building_5: tall] -> [People_1] -> [Window_6] -> [Window_7] -> [Window_8] -> [Window_9] -> [Building_6: tall] -> [Window_10] -> [PineTree_1: tall, leaning, green] -> [Bus_1: yellow] -> [Vehicle_1: yellow] -> [Men_1: turned away] -> [Man_2] -> [Papers_1] -> [Package_1] -> [Sign_2: large, hanging, rectangular] -> [Building_7: tall] -> [Dispenser_1: for newspapers]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_9] -> [Sign_1] -> [Window_8] -> [Window_1] -> [Window_3] -> [Window_10] -> [Sign_2: large, hanging, rectangular] -> [Building_4] -> [Window_2] -> [Building_2: tall] -> [Buildings_1] -> [Window_6] -> [Building_7: tall] -> [Building_6: tall] -> [Window_4] -> [Building_5: tall] -> [Building_1: tall] -> [Building_3: domed] -> [Window_5] -> [Window_7] -> [PineTree_1: tall, leaning, green] -> [ManRidingAHorse_1: stone, statue, sculpture] -> [OutdoorScene_1: bright, in image, in picture] -> [Trees_1] -> [Tree_1: green] -> [Statue_1: stone, in background, horse] -> [Tree_2: green] -> [Tree_4: green] -> [Lightpost_1: tall, metal] -> [Tree_3: green] -> [Bus_1: yellow] -> [Vehicle_1: yellow] -> [Car_1: grey] -> [Flowers_1] -> [Car_2: white, driving] -> [Man_2] -> [Package_1] -> [People_1] -> [Men_1: turned away] -> [Papers_1] -> [Man_1: walking] -> [Bricks_1] -> [Dispenser_1: for newspapers] -> [Traffic_1] -> [Roadway_1: busy] -> [Shadows_1]",
+  "semantic_id_mapping": {
+    "1061256": "Bricks_1",
+    "5616": "Building_1",
+    "1061203": "Building_2",
+    "1061248": "Building_3",
+    "1061242": "Building_4",
+    "5614": "Building_5",
+    "5615": "Building_6",
+    "1061235": "Building_7",
+    "1061249": "Buildings_1",
+    "1061245": "Bus_1",
+    "5610": "Car_1",
+    "1061193": "Car_2",
+    "1061243": "Dispenser_1",
+    "1061239": "Flowers_1",
+    "1061228": "Grass_1",
+    "1061237": "Hair_1",
+    "1061190": "Lightpost_1",
+    "1061191": "Man_1",
+    "1061246": "Man_2",
+    "1061202": "ManRidingAHorse_1",
+    "1061253": "Men_1",
+    "1061218": "OutdoorScene_1",
+    "1061247": "Package_1",
+    "1061254": "Papers_1",
+    "1061251": "People_1",
+    "1061195": "PineTree_1",
+    "1061224": "Roadway_1",
+    "1061252": "Shadows_1",
+    "1061192": "Sidewalk_1",
+    "1061241": "Sign_1",
+    "1061197": "Sign_2",
+    "1061196": "Sky_1",
+    "1061201": "Statue_1",
+    "1061240": "Street_1",
+    "1061255": "Suit_1",
+    "1061221": "Traffic_1",
+    "5630": "Tree_1",
+    "1061230": "Tree_2",
+    "5632": "Tree_3",
+    "5633": "Tree_4",
+    "1061250": "Trees_1",
+    "1061244": "Vehicle_1",
+    "5618": "Window_1",
+    "5619": "Window_2",
+    "5620": "Window_3",
+    "1061211": "Window_4",
+    "5622": "Window_5",
+    "5626": "Window_6",
+    "5627": "Window_7",
+    "5624": "Window_8",
+    "5623": "Window_9",
+    "5625": "Window_10"
+  },
+  "relational_edges": [
+    {
+      "subject": "Car_2",
+      "predicate": "on",
+      "object": "Roadway_1"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Roadway_1"
+    },
+    {
+      "subject": "Traffic_1",
+      "predicate": "on",
+      "object": "Roadway_1"
+    },
+    {
+      "subject": "Building_2",
+      "predicate": "near",
+      "object": "Roadway_1"
+    },
+    {
+      "subject": "Lightpost_1",
+      "predicate": "near",
+      "object": "Roadway_1"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "near",
+      "object": "Roadway_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Building_4"
+    },
+    {
+      "subject": "Tree_2",
+      "predicate": "near",
+      "object": "Roadway_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Suit_1"
+    },
+    {
+      "subject": "Shadows_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Bricks_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Sign_2",
+      "predicate": "on",
+      "object": "Building_7"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Tree_1",
+    "Car_1",
+    "Window_1",
+    "Window_2",
+    "Tree_2",
+    "Building_1",
+    "Trees_1",
+    "Traffic_1",
+    "Window_3",
+    "Car_2",
+    "Roadway_1",
+    "Tree_3",
+    "Window_4",
+    "Window_5",
+    "Buildings_1",
+    "Building_2",
+    "Tree_4",
+    "Building_3",
+    "Bricks_1",
+    "ManRidingAHorse_1",
+    "Statue_1",
+    "Shadows_1",
+    "OutdoorScene_1",
+    "Man_1",
+    "Flowers_1",
+    "Sign_1",
+    "Building_4",
+    "Lightpost_1",
+    "Building_5",
+    "People_1",
+    "Window_6",
+    "Window_7",
+    "Window_8",
+    "Window_9",
+    "Building_6",
+    "Window_10",
+    "PineTree_1",
+    "Bus_1",
+    "Vehicle_1",
+    "Men_1",
+    "Man_2",
+    "Papers_1",
+    "Package_1",
+    "Sign_2",
+    "Building_7",
+    "Dispenser_1"
+  ]
+}

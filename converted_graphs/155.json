@@ -1,0 +1,66 @@
+{
+  "image_id": 155,
+  "prompt_text": "### Relational Edges:\n- [Apple_1] --[on]--> [Box_1: wood]\n- [Man_1] --[wearing]--> [Shirt_1: white]\n- [Telephone_1] --[on]--> [Sill_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Telephone_1: white] -> [Handle_1] -> [Spatula_1] -> [Table_1: wood, small, wooden, brown] -> [Sill_1] -> [Blinds_1: white] -> [Slacks_1: dark] -> [Man_1: standing] -> [Cup_1: paper, white] -> [Plate_1: blue, white] -> [Pot_1: black] -> [Mug_1: grey, black, green] -> [Machine_1: black] -> [Plug_1: black] -> [Box_1: wood] -> [Toaster_1: white] -> [Box_2: red] -> [Apple_1: yellow]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Plug_1: black] -> [Blinds_1: white] -> [Machine_1: black] -> [Sill_1] -> [Telephone_1: white] -> [Plate_1: blue, white] -> [Man_1: standing] -> [Box_2: red] -> [Apple_1: yellow] -> [Mug_1: grey, black, green] -> [Handle_1] -> [Spatula_1] -> [Cup_1: paper, white] -> [Box_1: wood] -> [Table_1: wood, small, wooden, brown] -> [Pot_1: black] -> [Slacks_1: dark] -> [Toaster_1: white]",
+  "semantic_id_mapping": {
+    "1062444": "Apple_1",
+    "1062451": "Arm_1",
+    "1062443": "Blinds_1",
+    "1062454": "Box_1",
+    "1062437": "Box_2",
+    "1062438": "Cup_1",
+    "1062452": "Hand_1",
+    "1062446": "Handle_1",
+    "1062450": "Head_1",
+    "1062453": "Leg_1",
+    "1062447": "Machine_1",
+    "1062434": "Man_1",
+    "1062440": "Mug_1",
+    "1062439": "Plate_1",
+    "1062455": "Plug_1",
+    "1062442": "Pot_1",
+    "1062435": "Shirt_1",
+    "1062456": "Sill_1",
+    "1062449": "Slacks_1",
+    "1062445": "Spatula_1",
+    "1062441": "Table_1",
+    "1062448": "Telephone_1",
+    "1062436": "Toaster_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Apple_1",
+      "predicate": "on",
+      "object": "Box_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Telephone_1",
+      "predicate": "on",
+      "object": "Sill_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Telephone_1",
+    "Handle_1",
+    "Spatula_1",
+    "Table_1",
+    "Sill_1",
+    "Blinds_1",
+    "Slacks_1",
+    "Man_1",
+    "Cup_1",
+    "Plate_1",
+    "Pot_1",
+    "Mug_1",
+    "Machine_1",
+    "Plug_1",
+    "Box_1",
+    "Toaster_1",
+    "Box_2",
+    "Apple_1"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "image_id": 147,
+  "prompt_text": "### Relational Edges:\n- [Tire_7] --[on]--> [Cars_1]\n- [Tire_6] --[on]--> [Cars_1]\n- [Tire_5] --[on]--> [Cars_1]\n- [Tire_4] --[on]--> [Cars_1]\n- [Tire_3] --[on]--> [Cars_1]\n- [Tire_2] --[on]--> [Cars_1]\n- [Tire_1] --[on]--> [Cars_1]\n- [Tire_5] --[on]--> [Car_5]\n- [Tire_4] --[on]--> [Car_4]\n- [Tire_3] --[on]--> [Car_3: white]\n- [Tire_1] --[on]--> [Car_2]\n- [Tire_2] --[on]--> [Car_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Tire_1] -> [Car_1] -> [Tire_2] -> [Window_1] -> [Car_2] -> [BlueCar_1: blue] -> [Window_2] -> [Cars_1] -> [Tire_3] -> [Window_3] -> [Building_1] -> [Car_3: white] -> [Tire_4] -> [Window_4] -> [WhiteCar_1: white] -> [Car_4] -> [Tire_5] -> [Car_5] -> [Tire_6] -> [Window_5] -> [Window_6] -> [Tire_7]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_4] -> [Window_6] -> [Window_3] -> [Building_1] -> [Window_1] -> [Window_2] -> [Window_5] -> [WhiteCar_1: white] -> [Car_5] -> [Car_4] -> [Car_3: white] -> [Car_2] -> [BlueCar_1: blue] -> [Car_1] -> [Tire_7] -> [Tire_6] -> [Cars_1] -> [Tire_1] -> [Tire_5] -> [Tire_4] -> [Tire_3] -> [Tire_2]",
+  "semantic_id_mapping": {
+    "1535631": "BlueCar_1",
+    "3787157": "Building_1",
+    "1535658": "Car_1",
+    "1535659": "Car_2",
+    "3787158": "Car_3",
+    "1535661": "Car_4",
+    "1535662": "Car_5",
+    "3792880": "Cars_1",
+    "1535654": "Tire_1",
+    "1535643": "Tire_2",
+    "1535655": "Tire_3",
+    "1535641": "Tire_4",
+    "1535651": "Tire_5",
+    "1535646": "Tire_6",
+    "1535647": "Tire_7",
+    "1535632": "WhiteCar_1",
+    "3787156": "Window_1",
+    "1535629": "Window_2",
+    "1535628": "Window_3",
+    "1535630": "Window_4",
+    "1535627": "Window_5",
+    "1535626": "Window_6"
+  },
+  "relational_edges": [
+    {
+      "subject": "Tire_7",
+      "predicate": "on",
+      "object": "Cars_1"
+    },
+    {
+      "subject": "Tire_6",
+      "predicate": "on",
+      "object": "Cars_1"
+    },
+    {
+      "subject": "Tire_5",
+      "predicate": "on",
+      "object": "Cars_1"
+    },
+    {
+      "subject": "Tire_4",
+      "predicate": "on",
+      "object": "Cars_1"
+    },
+    {
+      "subject": "Tire_3",
+      "predicate": "on",
+      "object": "Cars_1"
+    },
+    {
+      "subject": "Tire_2",
+      "predicate": "on",
+      "object": "Cars_1"
+    },
+    {
+      "subject": "Tire_1",
+      "predicate": "on",
+      "object": "Cars_1"
+    },
+    {
+      "subject": "Tire_5",
+      "predicate": "on",
+      "object": "Car_5"
+    },
+    {
+      "subject": "Tire_4",
+      "predicate": "on",
+      "object": "Car_4"
+    },
+    {
+      "subject": "Tire_3",
+      "predicate": "on",
+      "object": "Car_3"
+    },
+    {
+      "subject": "Tire_1",
+      "predicate": "on",
+      "object": "Car_2"
+    },
+    {
+      "subject": "Tire_2",
+      "predicate": "on",
+      "object": "Car_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Tire_1",
+    "Car_1",
+    "Tire_2",
+    "Window_1",
+    "Car_2",
+    "BlueCar_1",
+    "Window_2",
+    "Cars_1",
+    "Tire_3",
+    "Window_3",
+    "Building_1",
+    "Car_3",
+    "Tire_4",
+    "Window_4",
+    "WhiteCar_1",
+    "Car_4",
+    "Tire_5",
+    "Car_5",
+    "Tire_6",
+    "Window_5",
+    "Window_6",
+    "Tire_7"
+  ]
+}

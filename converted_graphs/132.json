@@ -1,0 +1,95 @@
+{
+  "image_id": 132,
+  "prompt_text": "### Relational Edges:\n- [Line_1] --[on]--> [Road_2]\n- [Car_1] --[on]--> [Road_1]\n- [LicensePlate_1] --[on]--> [Car_1: blue]\n- [TrashCan_1] --[on]--> [Sidewalk_1]\n- [StreetLight_1] --[on]--> [Curb_1]\n- [Mirror_1] --[on]--> [Car_1: blue]\n- [BeachChairs_2] --[on]--> [Sand_1]\n- [BeachChairs_1] --[on]--> [Sand_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [TrashCan_1: grey] -> [StreetLight_1] -> [Foam_1: white] -> [Umbrella_1: large] -> [Umbrella_2: large] -> [Ocean_1: blue] -> [Curb_1] -> [Sand_1] -> [Beach_1] -> [LicensePlate_1] -> [Lights_1: red] -> [Car_1: blue] -> [BeachHut_1] -> [TailLight_1: red] -> [Mirror_1] -> [BeachChairs_1] -> [Building_1: clear] -> [BeachChairs_2] -> [Line_1: yellow]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Building_1: clear] -> [StreetLight_1] -> [Umbrella_1: large] -> [BeachHut_1] -> [BeachChairs_1] -> [Umbrella_2: large] -> [Ocean_1: blue] -> [BeachChairs_2] -> [Foam_1: white] -> [Beach_1] -> [TrashCan_1: grey] -> [Mirror_1] -> [Sand_1] -> [Car_1: blue] -> [TailLight_1: red] -> [Lights_1: red] -> [LicensePlate_1] -> [Curb_1] -> [Line_1: yellow]",
+  "semantic_id_mapping": {
+    "3792872": "Beach_1",
+    "3792870": "BeachChairs_1",
+    "3792867": "BeachChairs_2",
+    "3786998": "BeachHut_1",
+    "1535357": "Building_1",
+    "3787002": "Car_1",
+    "3787008": "Curb_1",
+    "3787014": "Foam_1",
+    "1634701": "Grass_1",
+    "1634703": "Grass_2",
+    "1634702": "Grass_3",
+    "3787004": "LicensePlate_1",
+    "3786996": "Lights_1",
+    "3786999": "Line_1",
+    "3787013": "Mirror_1",
+    "3787010": "Ocean_1",
+    "3787003": "Road_1",
+    "3787000": "Road_2",
+    "3792868": "Sand_1",
+    "3787007": "Sidewalk_1",
+    "3787011": "Sky_1",
+    "1634700": "StreetLight_1",
+    "3792873": "TailLight_1",
+    "3787001": "TrashCan_1",
+    "3792875": "Umbrella_1",
+    "3792876": "Umbrella_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Line_1",
+      "predicate": "on",
+      "object": "Road_2"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "LicensePlate_1",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "TrashCan_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "StreetLight_1",
+      "predicate": "on",
+      "object": "Curb_1"
+    },
+    {
+      "subject": "Mirror_1",
+      "predicate": "on",
+      "object": "Car_1"
+    },
+    {
+      "subject": "BeachChairs_2",
+      "predicate": "on",
+      "object": "Sand_1"
+    },
+    {
+      "subject": "BeachChairs_1",
+      "predicate": "on",
+      "object": "Sand_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "TrashCan_1",
+    "StreetLight_1",
+    "Foam_1",
+    "Umbrella_1",
+    "Umbrella_2",
+    "Ocean_1",
+    "Curb_1",
+    "Sand_1",
+    "Beach_1",
+    "LicensePlate_1",
+    "Lights_1",
+    "Car_1",
+    "BeachHut_1",
+    "TailLight_1",
+    "Mirror_1",
+    "BeachChairs_1",
+    "Building_1",
+    "BeachChairs_2",
+    "Line_1"
+  ]
+}

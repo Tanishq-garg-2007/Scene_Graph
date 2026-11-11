@@ -1,0 +1,56 @@
+{
+  "image_id": 57,
+  "prompt_text": "### Relational Edges:\n- [Line_1] --[on]--> [Road_1]\n- [People_1] --[on]--> [Street_1]\n- [Arrow_1] --[on]--> [Road_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Entrance_1] -> [Store_1] -> [Building_1] -> [Name_1] -> [Sign_1] -> [Pole_1: black, short] -> [People_1] -> [Man_1] -> [Car_1] -> [Line_1: white] -> [Arrow_1: white] -> [Person_1] -> [People_2] -> [Person_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Building_1] -> [Name_1] -> [Sign_1] -> [Store_1] -> [Entrance_1] -> [People_2] -> [Person_2] -> [Person_1] -> [People_1] -> [Car_1] -> [Man_1] -> [Pole_1: black, short] -> [Line_1: white] -> [Arrow_1: white]",
+  "semantic_id_mapping": {
+    "1634346": "Arrow_1",
+    "3632794": "Building_1",
+    "1634356": "Car_1",
+    "1634349": "Entrance_1",
+    "1634354": "Line_1",
+    "1634351": "Man_1",
+    "1634347": "Name_1",
+    "1634343": "People_1",
+    "1634352": "People_2",
+    "3632784": "Person_1",
+    "3632783": "Person_2",
+    "1634358": "Pole_1",
+    "3632793": "Road_1",
+    "1634353": "Sidewalk_1",
+    "1634357": "Sign_1",
+    "1634348": "Store_1",
+    "3632782": "Street_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Line_1",
+      "predicate": "on",
+      "object": "Road_1"
+    },
+    {
+      "subject": "People_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Arrow_1",
+      "predicate": "on",
+      "object": "Road_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Entrance_1",
+    "Store_1",
+    "Building_1",
+    "Name_1",
+    "Sign_1",
+    "Pole_1",
+    "People_1",
+    "Man_1",
+    "Car_1",
+    "Line_1",
+    "Arrow_1",
+    "Person_1",
+    "People_2",
+    "Person_2"
+  ]
+}

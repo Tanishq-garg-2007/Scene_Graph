@@ -1,0 +1,149 @@
+{
+  "image_id": 11,
+  "prompt_text": "### Relational Edges:\n- [Computer_1] --[on]--> [Desk_1]\n- [Mug_1] --[on]--> [Desk_1]\n- [Mouse_1] --[on]--> [Desk_1]\n- [Bowl_1] --[on]--> [Table_1]\n- [Clothing_1] --[on]--> [Desk_1]\n- [Cup_1] --[on]--> [Desk_1]\n- [Plate_1] --[on]--> [Desk_1]\n- [Plant_3] --[on]--> [Desk_2]\n- [Mouse_1] --[on]--> [MousePad_1: red]\n- [Bowl_1] --[on]--> [Desk_2]\n- [ComputerTower_1] --[on]--> [Floor_1: grey, clean]\n- [Lint_1] --[on]--> [Floor_1: grey, clean]\n- [Bag_2] --[on]--> [Desk_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Mug_1: white] -> [Cpu_1: white] -> [ComputerTower_1: here] -> [Bag_1: plastic] -> [Box_1: brown, cardboard] -> [Monitor_1: here, off] -> [Computer_1] -> [Keyboard_1] -> [Keys_1: grey] -> [Lint_1] -> [Mouse_1] -> [MousePad_1: red] -> [Cup_1: white] -> [Desk_1] -> [ArmRest_1] -> [It_1: office, indoors] -> [Chair_1: tan, empty] -> [Legs_1] -> [Bag_2: yellow] -> [Scene_1: indoors, here, daytime] -> [Clothing_1: black] -> [Cabinet_1: metal] -> [Paperwork_1: stacked, here] -> [Blinds_1: closed] -> [Plate_1] -> [Window_1] -> [Sun_1: shining] -> [Bowl_1: brown] -> [Table_1] -> [Desk_2] -> [Building_1] -> [Plant_1: green] -> [Flowers_1] -> [Plant_2: here] -> [Pot_1: red] -> [Plant_3]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Building_1] -> [Blinds_1: closed] -> [Window_1] -> [Sun_1: shining] -> [Monitor_1: here, off] -> [Computer_1] -> [Plant_1: green] -> [Flowers_1] -> [Plant_2: here] -> [Clothing_1: black] -> [Pot_1: red] -> [Plant_3] -> [Cup_1: white] -> [Bowl_1: brown] -> [Bag_2: yellow] -> [Mouse_1] -> [Plate_1] -> [Paperwork_1: stacked, here] -> [MousePad_1: red] -> [Mug_1: white] -> [Keyboard_1] -> [Keys_1: grey] -> [Desk_1] -> [Table_1] -> [Desk_2] -> [ArmRest_1] -> [It_1: office, indoors] -> [Scene_1: indoors, here, daytime] -> [Cabinet_1: metal] -> [Box_1: brown, cardboard] -> [Chair_1: tan, empty] -> [Bag_1: plastic] -> [Cpu_1: white] -> [ComputerTower_1: here] -> [Lint_1] -> [Legs_1]",
+  "semantic_id_mapping": {
+    "1060654": "ArmRest_1",
+    "1060652": "Bag_1",
+    "1060648": "Bag_2",
+    "1060656": "Blinds_1",
+    "1060632": "Bowl_1",
+    "1060619": "Box_1",
+    "5271": "Building_1",
+    "5284": "Cabinet_1",
+    "1060613": "Chair_1",
+    "5282": "Clothing_1",
+    "1060616": "Computer_1",
+    "1060650": "ComputerTower_1",
+    "5275": "Cpu_1",
+    "1060642": "Cup_1",
+    "1060643": "Desk_1",
+    "1060649": "Desk_2",
+    "1060645": "Floor_1",
+    "5280": "Flowers_1",
+    "5266": "It_1",
+    "1060657": "Keyboard_1",
+    "1060653": "Keys_1",
+    "5283": "Legs_1",
+    "1060651": "Lint_1",
+    "1060644": "Monitor_1",
+    "1060646": "Mouse_1",
+    "1060636": "MousePad_1",
+    "1060623": "Mug_1",
+    "1060655": "Paperwork_1",
+    "1060658": "Plant_1",
+    "1060635": "Plant_2",
+    "1060634": "Plant_3",
+    "1060647": "Plate_1",
+    "5279": "Pot_1",
+    "1060611": "Scene_1",
+    "1060622": "Sun_1",
+    "5278": "Table_1",
+    "1060625": "Wall_1",
+    "5272": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Computer_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Mug_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Clothing_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Cup_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Plate_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Plant_3",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "MousePad_1"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "ComputerTower_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Lint_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Bag_2",
+      "predicate": "on",
+      "object": "Desk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Mug_1",
+    "Cpu_1",
+    "ComputerTower_1",
+    "Bag_1",
+    "Box_1",
+    "Monitor_1",
+    "Computer_1",
+    "Keyboard_1",
+    "Keys_1",
+    "Lint_1",
+    "Mouse_1",
+    "MousePad_1",
+    "Cup_1",
+    "Desk_1",
+    "ArmRest_1",
+    "It_1",
+    "Chair_1",
+    "Legs_1",
+    "Bag_2",
+    "Scene_1",
+    "Clothing_1",
+    "Cabinet_1",
+    "Paperwork_1",
+    "Blinds_1",
+    "Plate_1",
+    "Window_1",
+    "Sun_1",
+    "Bowl_1",
+    "Table_1",
+    "Desk_2",
+    "Building_1",
+    "Plant_1",
+    "Flowers_1",
+    "Plant_2",
+    "Pot_1",
+    "Plant_3"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "image_id": 98,
+  "prompt_text": "### Relational Edges:\n- [PizzaSlice_1] --[on]--> [Plate_1: white]\n- [MeltedCheese_1] --[on]--> [PizzaSlice_1]\n- [Fork_1] --[on]--> [Napkin_1: white]\n- [Butterknife_1] --[on]--> [Napkin_1: white]\n- [Salt_1] --[on]--> [Table_1: brown, wooden]\n- [Menu_1] --[on]--> [Table_1: brown, wooden]\n- [Fork_1] --[next to]--> [Plate_1: white]\n- [Salt_1] --[next to]--> [Cup_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Menu_1] -> [Shaker_1] -> [Pepper_1] -> [Shakers_1] -> [Shaker_2] -> [Salt_1] -> [MeltedCheese_1] -> [PizzaSlice_1] -> [Plate_1: white] -> [Cup_1] -> [Water_1] -> [Glass_1] -> [OrangeJuice_1] -> [Fork_1] -> [DeepDishPizza_1] -> [Table_1: brown, wooden] -> [Pan_1] -> [Butterknife_1] -> [ClothNapkin_1: green] -> [Napkin_1: white] -> [Cardboard_1] -> [Pan_2: metal] -> [DeepDishPizza_2] -> [Spatula_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [DeepDishPizza_1] -> [Pan_1] -> [OrangeJuice_1] -> [Glass_1] -> [ClothNapkin_1: green] -> [Cup_1] -> [Shaker_2] -> [Shakers_1] -> [Water_1] -> [Shaker_1] -> [Salt_1] -> [Pepper_1] -> [DeepDishPizza_2] -> [Menu_1] -> [Pan_2: metal] -> [Table_1: brown, wooden] -> [Cardboard_1] -> [PizzaSlice_1] -> [Butterknife_1] -> [Spatula_1] -> [MeltedCheese_1] -> [Fork_1] -> [Napkin_1: white] -> [Plate_1: white]",
+  "semantic_id_mapping": {
+    "1025897": "Butterknife_1",
+    "1025908": "Cardboard_1",
+    "1025893": "ClothNapkin_1",
+    "1025890": "Cup_1",
+    "1025902": "DeepDishPizza_1",
+    "1025887": "DeepDishPizza_2",
+    "1025895": "Fork_1",
+    "1025905": "Glass_1",
+    "1025894": "MeltedCheese_1",
+    "1025906": "Menu_1",
+    "1025896": "Napkin_1",
+    "1025904": "OrangeJuice_1",
+    "1025903": "Pan_1",
+    "1025888": "Pan_2",
+    "1025899": "Pepper_1",
+    "1025885": "PizzaSlice_1",
+    "1025886": "Plate_1",
+    "1025891": "Salt_1",
+    "1025900": "Shaker_1",
+    "1025892": "Shaker_2",
+    "1025907": "Shakers_1",
+    "1025898": "Spatula_1",
+    "1025901": "Table_1",
+    "1025889": "Water_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "PizzaSlice_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "MeltedCheese_1",
+      "predicate": "on",
+      "object": "PizzaSlice_1"
+    },
+    {
+      "subject": "Fork_1",
+      "predicate": "on",
+      "object": "Napkin_1"
+    },
+    {
+      "subject": "Butterknife_1",
+      "predicate": "on",
+      "object": "Napkin_1"
+    },
+    {
+      "subject": "Salt_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Menu_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Fork_1",
+      "predicate": "next to",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Salt_1",
+      "predicate": "next to",
+      "object": "Cup_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Menu_1",
+    "Shaker_1",
+    "Pepper_1",
+    "Shakers_1",
+    "Shaker_2",
+    "Salt_1",
+    "MeltedCheese_1",
+    "PizzaSlice_1",
+    "Plate_1",
+    "Cup_1",
+    "Water_1",
+    "Glass_1",
+    "OrangeJuice_1",
+    "Fork_1",
+    "DeepDishPizza_1",
+    "Table_1",
+    "Pan_1",
+    "Butterknife_1",
+    "ClothNapkin_1",
+    "Napkin_1",
+    "Cardboard_1",
+    "Pan_2",
+    "DeepDishPizza_2",
+    "Spatula_1"
+  ]
+}

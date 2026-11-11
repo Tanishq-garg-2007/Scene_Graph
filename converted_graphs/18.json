@@ -1,0 +1,84 @@
+{
+  "image_id": 18,
+  "prompt_text": "### Relational Edges:\n- [Can_1] --[on]--> [Table_1: long, white]\n- [Mouse_1] --[on]--> [Table_1: long, white]\n- [Bag_1] --[on]--> [Table_1: long, white]\n- [Helmet_1] --[on]--> [Shelf_1: book, wooden, long, tall, brown]\n- [Table_1] --[on]--> [Floor_1: blue, black]\n- [Can_1] --[next to]--> [Table_1: long, white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Bag_1: lunch] -> [Mouse_1: computer] -> [Mug_1: white] -> [Bottle_1: soda, plastic] -> [Soda_1] -> [Window_1: clean, clear, shut, locked, closed] -> [Tissue_1] -> [Table_1: long, white] -> [Desk_1: white] -> [Can_1: coke, small, wet, white, open, red] -> [There_1: monitor] -> [Computer_1: black, off] -> [Keyboard_1: white, computer, beige] -> [Cpu_1: wide, tall, black] -> [Helmet_1] -> [Shelf_1: book, wooden, long, tall, brown] -> [Books_1: white] -> [Chair_1: black] -> [Man_1: black, busy, working, sitting, white] -> [Monitor_1: white, on, black, computer]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Books_1: white] -> [Helmet_1] -> [Window_1: clean, clear, shut, locked, closed] -> [Shelf_1: book, wooden, long, tall, brown] -> [There_1: monitor] -> [Computer_1: black, off] -> [Monitor_1: white, on, black, computer] -> [Tissue_1] -> [Can_1: coke, small, wet, white, open, red] -> [Keyboard_1: white, computer, beige] -> [Table_1: long, white] -> [Desk_1: white] -> [Bottle_1: soda, plastic] -> [Bag_1: lunch] -> [Man_1: black, busy, working, sitting, white] -> [Mug_1: white] -> [Soda_1] -> [Cpu_1: wide, tall, black] -> [Mouse_1: computer] -> [Chair_1: black]",
+  "semantic_id_mapping": {
+    "5432": "Bag_1",
+    "1060914": "Books_1",
+    "5419": "Bottle_1",
+    "1060888": "Can_1",
+    "1060917": "Chair_1",
+    "1060885": "Computer_1",
+    "1060905": "Cpu_1",
+    "1060889": "Desk_1",
+    "1060913": "Floor_1",
+    "1060883": "Hair_1",
+    "5433": "Helmet_1",
+    "1060892": "Keyboard_1",
+    "1060902": "Man_1",
+    "1060891": "Monitor_1",
+    "5429": "Mouse_1",
+    "1060900": "Mug_1",
+    "1060893": "Shelf_1",
+    "1060915": "Shirt_1",
+    "5420": "Soda_1",
+    "1060910": "Table_1",
+    "5427": "There_1",
+    "5431": "Tissue_1",
+    "1060916": "Wall_1",
+    "1060895": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Can_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Bag_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Helmet_1",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Table_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Can_1",
+      "predicate": "next to",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Bag_1",
+    "Mouse_1",
+    "Mug_1",
+    "Bottle_1",
+    "Soda_1",
+    "Window_1",
+    "Tissue_1",
+    "Table_1",
+    "Desk_1",
+    "Can_1",
+    "There_1",
+    "Computer_1",
+    "Keyboard_1",
+    "Cpu_1",
+    "Helmet_1",
+    "Shelf_1",
+    "Books_1",
+    "Chair_1",
+    "Man_1",
+    "Monitor_1"
+  ]
+}

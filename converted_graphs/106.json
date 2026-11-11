@@ -1,0 +1,90 @@
+{
+  "image_id": 106,
+  "prompt_text": "### Relational Edges:\n- [Man_2] --[wearing]--> [Helmet_2: yellow]\n- [Shadow_1] --[on]--> [Ground_1: dirty]\n- [Window_1] --[on]--> [Building_1: concrete, grey]\n- [Man_1] --[wearing]--> [Shadow_1]\n- [Man_1] --[on]--> [Sidewalk_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Barrier_1: concrete] -> [Fence_1: grey] -> [Men_1: standing] -> [ConstructionWorker_1] -> [ConstructionWorking_1] -> [Overalls_1] -> [Coveralls_1: tan] -> [Man_1] -> [Helmet_1: grey] -> [Box_1: cardboard] -> [Building_1: concrete, grey] -> [Cart_1: red] -> [Window_1] -> [Gesture_1] -> [Sweatshirt_1: grey] -> [Man_2] -> [Branches_1] -> [Tree_1: bare] -> [Helmet_3: white] -> [Sign_1: yellow] -> [Truck_1: empty, white] -> [Arrow_1: black] -> [Writing_1] -> [Sign_2: white] -> [LicensePlate_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Branches_1] -> [Window_1] -> [Tree_1: bare] -> [Building_1: concrete, grey] -> [Sign_1: yellow] -> [Truck_1: empty, white] -> [Helmet_1: grey] -> [Helmet_3: white] -> [Gesture_1] -> [Men_1: standing] -> [Sweatshirt_1: grey] -> [LicensePlate_1] -> [Man_2] -> [Box_1: cardboard] -> [ConstructionWorker_1] -> [ConstructionWorking_1] -> [Overalls_1] -> [Fence_1: grey] -> [Man_1] -> [Coveralls_1: tan] -> [Cart_1: red] -> [Barrier_1: concrete] -> [Writing_1] -> [Sign_2: white] -> [Arrow_1: black]",
+  "semantic_id_mapping": {
+    "1062353": "Arrow_1",
+    "1062354": "Barrier_1",
+    "1062349": "Box_1",
+    "1062359": "Branches_1",
+    "1062344": "Building_1",
+    "1062356": "Cart_1",
+    "1062336": "ConstructionWorker_1",
+    "1025917": "ConstructionWorking_1",
+    "1062338": "Coveralls_1",
+    "1062343": "Fence_1",
+    "1062347": "Gesture_1",
+    "1062358": "Ground_1",
+    "1062348": "Helmet_1",
+    "1062339": "Helmet_2",
+    "1062340": "Helmet_3",
+    "1062355": "LicensePlate_1",
+    "1062363": "Man_1",
+    "1062346": "Man_2",
+    "1062360": "Men_1",
+    "1025918": "Overalls_1",
+    "1062361": "Pants_1",
+    "1062357": "Shadow_1",
+    "1062364": "Sidewalk_1",
+    "1062351": "Sign_1",
+    "1062341": "Sign_2",
+    "1062352": "Sweatshirt_1",
+    "1062350": "Tree_1",
+    "1062342": "Truck_1",
+    "1062345": "Window_1",
+    "1062362": "Writing_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Man_2",
+      "predicate": "wearing",
+      "object": "Helmet_2"
+    },
+    {
+      "subject": "Shadow_1",
+      "predicate": "on",
+      "object": "Ground_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shadow_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Barrier_1",
+    "Fence_1",
+    "Men_1",
+    "ConstructionWorker_1",
+    "ConstructionWorking_1",
+    "Overalls_1",
+    "Coveralls_1",
+    "Man_1",
+    "Helmet_1",
+    "Box_1",
+    "Building_1",
+    "Cart_1",
+    "Window_1",
+    "Gesture_1",
+    "Sweatshirt_1",
+    "Man_2",
+    "Branches_1",
+    "Tree_1",
+    "Helmet_3",
+    "Sign_1",
+    "Truck_1",
+    "Arrow_1",
+    "Writing_1",
+    "Sign_2",
+    "LicensePlate_1"
+  ]
+}

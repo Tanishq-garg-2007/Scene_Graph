@@ -1,0 +1,174 @@
+{
+  "image_id": 35,
+  "prompt_text": "### Relational Edges:\n- [Lamp_1] --[on]--> [Stand_1]\n- [Books_1] --[on]--> [Desk_1]\n- [Floor_2] --[on]--> [Floor_1]\n- [Flowers_1] --[on]--> [Wall_3]\n- [DeskChair_2] --[near]--> [Desk_2]\n- [Lamp_2] --[on]--> [Desk_2]\n- [Books_1] --[near]--> [DeskChair_1: black]\n- [Flowers_1] --[on]--> [Floor_2: tiled, brown, white]\n- [Chairs_1] --[on]--> [Floor_2: tiled, brown, white]\n- [Computer_1] --[on]--> [Desk_2]\n- [FileCabinet_1] --[near]--> [Computer_1: off, white]\n- [Lamp_2] --[next to]--> [DeskChair_2: empty, metallic]\n- [Drawers_1] --[next to]--> [DeskChair_1: black]\n- [Shadows_1] --[on]--> [Wall_2]\n- [Drawers_1] --[next to]--> [Chairs_1: metalic, silver, metallic]\n- [Keyboard_1] --[on]--> [Desk_2]\n- [Keyboard_1] --[near]--> [DeskChair_1: black]\n- [Keyboard_1] --[near]--> [Computer_1: off, white]\n- [SomeBooks_1] --[on]--> [Desk_1]\n- [WindowBlinds_1] --[near]--> [Computer_1: off, white]\n- [Wall_1] --[next to]--> [Computer_1: off, white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Computer_1: off, white] -> [Books_1: white] -> [Drawer_1: wood] -> [Drawers_1: brown, wood] -> [ComputerScreen_1: black] -> [WindowBlinds_1: white] -> [Wheels_1] -> [Desk_1] -> [SomeBooks_1] -> [Keyboard_1: grey] -> [DeskChair_1: black] -> [FileCabinet_1] -> [Shadows_1: black] -> [TableStand_1: black] -> [Desk_2] -> [Office_1: laidout, cast, time, bright, shining, white] -> [Shadows_2] -> [Books_2: white] -> [Table_1: wooden, black] -> [Wheels_2] -> [Chairs_1: metalic, silver, metallic] -> [Lamp_1] -> [Flowers_1: green] -> [Lamp_2: off, white, metallic] -> [Stand_1] -> [DeskChair_2: empty, metallic] -> [Bookshelf_1: arranged, wooden]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Books_1: white] -> [Flowers_1: green] -> [Books_2: white] -> [WindowBlinds_1: white] -> [Bookshelf_1: arranged, wooden] -> [ComputerScreen_1: black] -> [FileCabinet_1] -> [Stand_1] -> [Lamp_2: off, white, metallic] -> [Shadows_1: black] -> [Computer_1: off, white] -> [Lamp_1] -> [Desk_1] -> [SomeBooks_1] -> [Keyboard_1: grey] -> [Desk_2] -> [Office_1: laidout, cast, time, bright, shining, white] -> [DeskChair_1: black] -> [Drawer_1: wood] -> [Drawers_1: brown, wood] -> [Chairs_1: metalic, silver, metallic] -> [Wheels_1] -> [Table_1: wooden, black] -> [DeskChair_2: empty, metallic] -> [TableStand_1: black] -> [Wheels_2] -> [Shadows_2]",
+  "semantic_id_mapping": {
+    "1024960": "Books_1",
+    "1024974": "Books_2",
+    "1024971": "Bookshelf_1",
+    "1024949": "Chairs_1",
+    "1024947": "Computer_1",
+    "1024986": "ComputerScreen_1",
+    "1024961": "Desk_1",
+    "1024955": "Desk_2",
+    "1024976": "DeskChair_1",
+    "1024975": "DeskChair_2",
+    "5812": "Drawer_1",
+    "1024967": "Drawers_1",
+    "1024977": "FileCabinet_1",
+    "3798647": "Floor_1",
+    "1024958": "Floor_2",
+    "1024972": "Flowers_1",
+    "1024983": "Keyboard_1",
+    "5804": "Lamp_1",
+    "1024951": "Lamp_2",
+    "1024946": "Office_1",
+    "1024978": "Shadows_1",
+    "1024985": "Shadows_2",
+    "1024987": "SomeBooks_1",
+    "5816": "Stand_1",
+    "1024980": "Table_1",
+    "1024981": "TableStand_1",
+    "1024988": "Wall_1",
+    "1024979": "Wall_2",
+    "5815": "Wall_3",
+    "1024982": "Wheels_1",
+    "1024965": "Wheels_2",
+    "1024984": "WindowBlinds_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Stand_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Floor_2",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "on",
+      "object": "Wall_3"
+    },
+    {
+      "subject": "DeskChair_2",
+      "predicate": "near",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Lamp_2",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "near",
+      "object": "DeskChair_1"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Chairs_1",
+      "predicate": "on",
+      "object": "Floor_2"
+    },
+    {
+      "subject": "Computer_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "FileCabinet_1",
+      "predicate": "near",
+      "object": "Computer_1"
+    },
+    {
+      "subject": "Lamp_2",
+      "predicate": "next to",
+      "object": "DeskChair_2"
+    },
+    {
+      "subject": "Drawers_1",
+      "predicate": "next to",
+      "object": "DeskChair_1"
+    },
+    {
+      "subject": "Shadows_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Drawers_1",
+      "predicate": "next to",
+      "object": "Chairs_1"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "near",
+      "object": "DeskChair_1"
+    },
+    {
+      "subject": "Keyboard_1",
+      "predicate": "near",
+      "object": "Computer_1"
+    },
+    {
+      "subject": "SomeBooks_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "WindowBlinds_1",
+      "predicate": "near",
+      "object": "Computer_1"
+    },
+    {
+      "subject": "Wall_1",
+      "predicate": "next to",
+      "object": "Computer_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Computer_1",
+    "Books_1",
+    "Drawer_1",
+    "Drawers_1",
+    "ComputerScreen_1",
+    "WindowBlinds_1",
+    "Wheels_1",
+    "Desk_1",
+    "SomeBooks_1",
+    "Keyboard_1",
+    "DeskChair_1",
+    "FileCabinet_1",
+    "Shadows_1",
+    "TableStand_1",
+    "Desk_2",
+    "Office_1",
+    "Shadows_2",
+    "Books_2",
+    "Table_1",
+    "Wheels_2",
+    "Chairs_1",
+    "Lamp_1",
+    "Flowers_1",
+    "Lamp_2",
+    "Stand_1",
+    "DeskChair_2",
+    "Bookshelf_1"
+  ]
+}

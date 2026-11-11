@@ -1,0 +1,207 @@
+{
+  "image_id": 10,
+  "prompt_text": "### Relational Edges:\n- [Headphones_1] --[on]--> [Desk_1: folded]\n- [Charger_1] --[on]--> [Cable_1]\n- [Cpu_1] --[on]--> [Floor_1: grey]\n- [Cpu_2] --[on]--> [Floor_1: grey]\n- [Man_1] --[wearing]--> [Coat_1: red, hanging, blue]\n- [Board_1] --[on]--> [Wall_1: green, greenish]\n- [Coat_1] --[on]--> [Chair_1]\n- [Papers_3] --[on]--> [Shelf_1]\n- [Papers_2] --[on]--> [Shelf_2]\n- [Papers_4] --[on]--> [Shelf_4]\n- [Cup_1] --[on]--> [Desk_1: folded]\n- [Papers_1] --[on]--> [Desk_1: folded]\n- [Cpu_2] --[near]--> [Headphones_1: laying, pair, black]\n- [Man_1] --[on]--> [Cable_1]\n- [PictureFrame_1] --[on]--> [Wall_1: green, greenish]\n- [Ostirch_1] --[on]--> [Bookshelf_1: wood, leaning, tall]\n- [Man_1] --[wearing]--> [Shirt_1: grey]\n- [Monitor_2] --[on]--> [Desk_2]\n- [Outlet_1] --[on]--> [Floor_1: grey]\n- [Books_1] --[on]--> [Bookshelf_1: wood, leaning, tall]\n- [Headphones_1] --[on]--> [Table_1]\n- [Cable_1] --[on]--> [Floor_1: grey]\n- [Panes_1] --[on]--> [Screen_1]\n- [Books_1] --[on]--> [Shelf_3: full]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Headphones_1: laying, pair, black] -> [Cup_1: blue, black] -> [Table_1] -> [Papers_1: scattered] -> [Board_1: cork, hanging] -> [PictureFrame_1: blank, brown, hanging, empty] -> [Corkboard_1] -> [Cable_1] -> [Desk_1: folded] -> [Charger_1: black, white] -> [Outlet_1] -> [Bottle_1] -> [Monitor_1] -> [Panes_1] -> [Computer_1] -> [Screen_1] -> [Keyboard_1: white] -> [Cpu_1: black] -> [Cpu_2: red, blue] -> [Papers_2] -> [Papers_3] -> [Bookshelf_1: wood, leaning, tall] -> [Shelf_1] -> [Shelf_2] -> [Shelf_3: full] -> [Books_1: white] -> [Papers_4] -> [Shelf_4] -> [Ostirch_1: stuffed] -> [Ostrich_1: stuffed] -> [Chair_1] -> [Man_1] -> [ComputerScreen_1: on] -> [Monitor_2: white, on] -> [Computer_2] -> [Desk_2]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Ostirch_1: stuffed] -> [Ostrich_1: stuffed] -> [Board_1: cork, hanging] -> [PictureFrame_1: blank, brown, hanging, empty] -> [Corkboard_1] -> [Books_1: white] -> [Panes_1] -> [ComputerScreen_1: on] -> [Bookshelf_1: wood, leaning, tall] -> [Monitor_2: white, on] -> [Screen_1] -> [Shelf_3: full] -> [Monitor_1] -> [Computer_2] -> [Man_1] -> [Computer_1] -> [Desk_2] -> [Papers_3] -> [Bottle_1] -> [Shelf_1] -> [Keyboard_1: white] -> [Papers_2] -> [Shelf_2] -> [Chair_1] -> [Cup_1: blue, black] -> [Papers_1: scattered] -> [Papers_4] -> [Desk_1: folded] -> [Shelf_4] -> [Table_1] -> [Cpu_2: red, blue] -> [Cpu_1: black] -> [Headphones_1: laying, pair, black] -> [Charger_1: black, white] -> [Outlet_1] -> [Cable_1]",
+  "semantic_id_mapping": {
+    "5254": "Back_1",
+    "5252": "Board_1",
+    "1060594": "Books_1",
+    "1060564": "Bookshelf_1",
+    "1060597": "Bottle_1",
+    "1060546": "Cable_1",
+    "1060559": "Chair_1",
+    "5244": "Charger_1",
+    "1060551": "Coat_1",
+    "1060598": "Computer_1",
+    "1060601": "Computer_2",
+    "1060600": "ComputerScreen_1",
+    "1060610": "Corkboard_1",
+    "1060584": "Cpu_1",
+    "1060586": "Cpu_2",
+    "1060573": "Cup_1",
+    "1060591": "Desk_1",
+    "1060599": "Desk_2",
+    "1060585": "Floor_1",
+    "1060590": "Headphones_1",
+    "1060604": "Keyboard_1",
+    "1060550": "Man_1",
+    "1060607": "Monitor_1",
+    "1060603": "Monitor_2",
+    "1060595": "Ostirch_1",
+    "1060596": "Ostrich_1",
+    "1060605": "Outlet_1",
+    "1060609": "Panes_1",
+    "1060575": "Papers_1",
+    "5258": "Papers_2",
+    "5256": "Papers_3",
+    "5260": "Papers_4",
+    "1024116": "PictureFrame_1",
+    "1060608": "Screen_1",
+    "5259": "Shelf_1",
+    "5261": "Shelf_2",
+    "1060567": "Shelf_3",
+    "5262": "Shelf_4",
+    "1060602": "Shirt_1",
+    "1060606": "Table_1",
+    "1024113": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Headphones_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Charger_1",
+      "predicate": "on",
+      "object": "Cable_1"
+    },
+    {
+      "subject": "Cpu_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Cpu_2",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Coat_1"
+    },
+    {
+      "subject": "Board_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Coat_1",
+      "predicate": "on",
+      "object": "Chair_1"
+    },
+    {
+      "subject": "Papers_3",
+      "predicate": "on",
+      "object": "Shelf_1"
+    },
+    {
+      "subject": "Papers_2",
+      "predicate": "on",
+      "object": "Shelf_2"
+    },
+    {
+      "subject": "Papers_4",
+      "predicate": "on",
+      "object": "Shelf_4"
+    },
+    {
+      "subject": "Cup_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Papers_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Cpu_2",
+      "predicate": "near",
+      "object": "Headphones_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "on",
+      "object": "Cable_1"
+    },
+    {
+      "subject": "PictureFrame_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Ostirch_1",
+      "predicate": "on",
+      "object": "Bookshelf_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Monitor_2",
+      "predicate": "on",
+      "object": "Desk_2"
+    },
+    {
+      "subject": "Outlet_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Bookshelf_1"
+    },
+    {
+      "subject": "Headphones_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Cable_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Panes_1",
+      "predicate": "on",
+      "object": "Screen_1"
+    },
+    {
+      "subject": "Books_1",
+      "predicate": "on",
+      "object": "Shelf_3"
+    }
+  ],
+  "horizontal_ordering": [
+    "Headphones_1",
+    "Cup_1",
+    "Table_1",
+    "Papers_1",
+    "Board_1",
+    "PictureFrame_1",
+    "Corkboard_1",
+    "Cable_1",
+    "Desk_1",
+    "Charger_1",
+    "Outlet_1",
+    "Bottle_1",
+    "Monitor_1",
+    "Panes_1",
+    "Computer_1",
+    "Screen_1",
+    "Keyboard_1",
+    "Cpu_1",
+    "Cpu_2",
+    "Papers_2",
+    "Papers_3",
+    "Bookshelf_1",
+    "Shelf_1",
+    "Shelf_2",
+    "Shelf_3",
+    "Books_1",
+    "Papers_4",
+    "Shelf_4",
+    "Ostirch_1",
+    "Ostrich_1",
+    "Chair_1",
+    "Man_1",
+    "ComputerScreen_1",
+    "Monitor_2",
+    "Computer_2",
+    "Desk_2"
+  ]
+}

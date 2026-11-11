@@ -1,0 +1,59 @@
+{
+  "image_id": 197,
+  "prompt_text": "### Relational Edges:\n- [Lights_2] --[on]--> [Tower_1]\n- [Puddles_1] --[on]--> [Sidewalk_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Trees_1: tall] -> [Path_1: paved] -> [Areas_1: grassy] -> [Path_2] -> [Clouds_1: white] -> [Building_1: tall, grey] -> [Lights_1: red] -> [Puddles_1] -> [Tower_1] -> [Trees_2: small] -> [Lights_2] -> [Pole_1: tall , gray] -> [Pole_2: gray , tall ] -> [Pole_3: tall , gray ] -> [Pillars_1] -> [Pole_4: tall , gray ] -> [Pole_5: gray , tall ] -> [Pole_6: tall , gray ]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Clouds_1: white] -> [Lights_1: red] -> [Tower_1] -> [Trees_1: tall] -> [Lights_2] -> [Pillars_1] -> [Pole_5: gray , tall ] -> [Pole_2: gray , tall ] -> [Pole_6: tall , gray ] -> [Pole_1: tall , gray] -> [Building_1: tall, grey] -> [Pole_4: tall , gray ] -> [Pole_3: tall , gray ] -> [Trees_2: small] -> [Path_1: paved] -> [Areas_1: grassy] -> [Puddles_1] -> [Path_2]",
+  "semantic_id_mapping": {
+    "3792935": "Areas_1",
+    "1536811": "Building_1",
+    "1536806": "Clouds_1",
+    "1536793": "Grass_1",
+    "3792934": "Lights_1",
+    "1536795": "Lights_2",
+    "1536804": "Path_1",
+    "1536803": "Path_2",
+    "1536802": "Pillars_1",
+    "1536819": "Pole_1",
+    "1536818": "Pole_2",
+    "1536821": "Pole_3",
+    "1536823": "Pole_4",
+    "1536824": "Pole_5",
+    "1536825": "Pole_6",
+    "1536799": "Puddles_1",
+    "1536798": "Sidewalk_1",
+    "1536805": "Sky_1",
+    "1536796": "Tower_1",
+    "1536800": "Trees_1",
+    "1536794": "Trees_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Lights_2",
+      "predicate": "on",
+      "object": "Tower_1"
+    },
+    {
+      "subject": "Puddles_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Trees_1",
+    "Path_1",
+    "Areas_1",
+    "Path_2",
+    "Clouds_1",
+    "Building_1",
+    "Lights_1",
+    "Puddles_1",
+    "Tower_1",
+    "Trees_2",
+    "Lights_2",
+    "Pole_1",
+    "Pole_2",
+    "Pole_3",
+    "Pillars_1",
+    "Pole_4",
+    "Pole_5",
+    "Pole_6"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "image_id": 127,
+  "prompt_text": "### Relational Edges:\n- [Person_3] --[wearing]--> [Street_2]\n- [Person_4] --[wearing]--> [Street_2]\n- [Person_5] --[wearing]--> [Street_2]\n- [Man_1] --[holding]--> [Bag_1]\n- [Man_1] --[wearing]--> [Coat_1: black]\n- [Flag_1] --[on]--> [Building_1]\n- [Design_1] --[on]--> [Pavement_1]\n- [Sign_1] --[on]--> [Post_1]\n- [Flag_2] --[on]--> [Building_2]\n- [Car_1] --[on]--> [Road_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Car_1: yellow] -> [Man_1] -> [Building_1] -> [Bag_1] -> [Awning_1: blue] -> [Door_1] -> [Person_1] -> [Person_2] -> [Sign_1] -> [Post_1] -> [Person_3] -> [Crosswalk_1] -> [Umbrella_1: black] -> [Flag_1: blue] -> [People_1] -> [Person_4] -> [Person_5] -> [Lines_1] -> [Design_1] -> [WhiteJacket_1: white] -> [Woman_1] -> [Flag_2: American] -> [Building_2] -> [Man_2] -> [Sign_2: yellow, green] -> [Window_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Flag_1: blue] -> [Window_1] -> [Building_2] -> [Flag_2: American] -> [Building_1] -> [Sign_2: yellow, green] -> [Awning_1: blue] -> [Sign_1] -> [Post_1] -> [Door_1] -> [Car_1: yellow] -> [WhiteJacket_1: white] -> [Person_5] -> [Woman_1] -> [People_1] -> [Person_1] -> [Person_2] -> [Person_4] -> [Person_3] -> [Umbrella_1: black] -> [Man_1] -> [Lines_1] -> [Man_2] -> [Crosswalk_1] -> [Bag_1] -> [Design_1]",
+  "semantic_id_mapping": {
+    "1535240": "Awning_1",
+    "1535229": "Bag_1",
+    "1535231": "Building_1",
+    "1535258": "Building_2",
+    "1535252": "Car_1",
+    "1535228": "Coat_1",
+    "1535255": "Coat_2",
+    "1535251": "Crosswalk_1",
+    "1535232": "Design_1",
+    "1535241": "Door_1",
+    "1535230": "Flag_1",
+    "1535236": "Flag_2",
+    "1535239": "Hand_1",
+    "1535244": "Lines_1",
+    "1535248": "Man_1",
+    "1535254": "Man_2",
+    "1535233": "Pavement_1",
+    "1535242": "People_1",
+    "1535217": "Person_1",
+    "1535219": "Person_2",
+    "1535221": "Person_3",
+    "1535223": "Person_4",
+    "1535226": "Person_5",
+    "1535235": "Post_1",
+    "1535253": "Road_1",
+    "1535234": "Sign_1",
+    "1535246": "Sign_2",
+    "1535243": "Street_1",
+    "1535220": "Street_2",
+    "1535238": "Umbrella_1",
+    "1535257": "WhiteJacket_1",
+    "1535259": "Window_1",
+    "1535256": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Person_3",
+      "predicate": "wearing",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Person_4",
+      "predicate": "wearing",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Person_5",
+      "predicate": "wearing",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "holding",
+      "object": "Bag_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Coat_1"
+    },
+    {
+      "subject": "Flag_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Design_1",
+      "predicate": "on",
+      "object": "Pavement_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Post_1"
+    },
+    {
+      "subject": "Flag_2",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Road_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Car_1",
+    "Man_1",
+    "Building_1",
+    "Bag_1",
+    "Awning_1",
+    "Door_1",
+    "Person_1",
+    "Person_2",
+    "Sign_1",
+    "Post_1",
+    "Person_3",
+    "Crosswalk_1",
+    "Umbrella_1",
+    "Flag_1",
+    "People_1",
+    "Person_4",
+    "Person_5",
+    "Lines_1",
+    "Design_1",
+    "WhiteJacket_1",
+    "Woman_1",
+    "Flag_2",
+    "Building_2",
+    "Man_2",
+    "Sign_2",
+    "Window_1"
+  ]
+}

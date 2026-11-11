@@ -1,0 +1,182 @@
+{
+  "image_id": 43,
+  "prompt_text": "### Relational Edges:\n- [Plate_1] --[on]--> [Table_1: grey]\n- [Switch_1] --[on]--> [Wall_1]\n- [Knob_1] --[on]--> [Drawers_1: brown]\n- [TwoMen_1] --[on]--> [TvSet_1: on, black, older type]\n- [PlasticThings_1] --[on]--> [Table_1: grey]\n- [Thing_1] --[on]--> [Table_1: grey]\n- [TvSet_1] --[on]--> [Counter_1: black]\n- [Plate_1] --[on]--> [Counter_1: black]\n- [Tiles_2] --[behind]--> [Tv_1: black, on]\n- [Drawer_1] --[near]--> [Tv_1: black, on]\n- [Plates_1] --[near]--> [Tv_1: black, on]\n- [Plug_1] --[near]--> [Tv_1: black, on]\n- [Tv_1] --[on]--> [Counter_1: black]\n- [Socket_1] --[near]--> [Tv_1: black, on]\n- [Plates_1] --[on]--> [Counter_1: black]\n- [Stand_1] --[on]--> [Counter_1: black]\n- [Knob_1] --[on]--> [Drawer_1: brown]\n- [Dial_1] --[on]--> [Object_1: blue, large]\n- [PhoneOutlet_1] --[on]--> [Tiles_2: white]\n- [People_1] --[on]--> [Tv_1: black, on]\n- [Object_1] --[on]--> [Counter_1: black]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Plates_1: white] -> [PlasticThings_1: white] -> [Knob_1: gold] -> [Drawer_1: brown] -> [Drawers_1: brown] -> [Cabinets_1: wood] -> [Granite_1: black] -> [People_1] -> [Tiles_1: white] -> [Backsplash_1: tiles] -> [Kitchen_1] -> [Tiles_2: white] -> [Counter_1: black] -> [Tiles_3: decorative] -> [Cabinets_2: wood] -> [TwoMen_1] -> [TvSet_1: on, black, older type] -> [Tv_1: black, on] -> [Table_1: grey] -> [Dial_1] -> [Object_1: blue, large] -> [Thing_1: blue, plugged, plugged in] -> [Plug_1] -> [Wire_1: plugged in] -> [Socket_1] -> [Plate_1: colorful] -> [PhoneOutlet_1] -> [Tray_1: clear, glass] -> [Plug_2] -> [Switch_1: white] -> [Wire_2: plugged in] -> [Outlet_1] -> [Stand_1: wooden]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Cabinets_2: wood] -> [Tiles_1: white] -> [Tiles_2: white] -> [Tiles_3: decorative] -> [TwoMen_1] -> [Backsplash_1: tiles] -> [Socket_1] -> [Wire_1: plugged in] -> [Plug_1] -> [Tv_1: black, on] -> [Switch_1: white] -> [PhoneOutlet_1] -> [Kitchen_1] -> [People_1] -> [TvSet_1: on, black, older type] -> [Outlet_1] -> [Wire_2: plugged in] -> [Stand_1: wooden] -> [Plug_2] -> [PlasticThings_1: white] -> [Plates_1: white] -> [Object_1: blue, large] -> [Thing_1: blue, plugged, plugged in] -> [Granite_1: black] -> [Tray_1: clear, glass] -> [Dial_1] -> [Counter_1: black] -> [Table_1: grey] -> [Drawer_1: brown] -> [Cabinets_1: wood] -> [Drawers_1: brown] -> [Plate_1: colorful] -> [Knob_1: gold]",
+  "semantic_id_mapping": {
+    "5959": "Backsplash_1",
+    "5964": "Cabinets_1",
+    "5963": "Cabinets_2",
+    "1061695": "Counter_1",
+    "1061703": "Dial_1",
+    "1061692": "Drawer_1",
+    "5952": "Drawers_1",
+    "5960": "Granite_1",
+    "5951": "Kitchen_1",
+    "5953": "Knob_1",
+    "1061700": "Object_1",
+    "1061678": "Outlet_1",
+    "1061704": "People_1",
+    "1061705": "PhoneOutlet_1",
+    "5955": "PlasticThings_1",
+    "5946": "Plate_1",
+    "1061693": "Plates_1",
+    "1061698": "Plug_1",
+    "1061706": "Plug_2",
+    "1061697": "Socket_1",
+    "1061696": "Stand_1",
+    "5948": "Switch_1",
+    "5947": "Table_1",
+    "5956": "Thing_1",
+    "5950": "Tiles_1",
+    "1061690": "Tiles_2",
+    "1061701": "Tiles_3",
+    "1061694": "Tray_1",
+    "1061691": "Tv_1",
+    "5945": "TvSet_1",
+    "5954": "TwoMen_1",
+    "5949": "Wall_1",
+    "5961": "Wire_1",
+    "5962": "Wire_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Plate_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Switch_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Knob_1",
+      "predicate": "on",
+      "object": "Drawers_1"
+    },
+    {
+      "subject": "TwoMen_1",
+      "predicate": "on",
+      "object": "TvSet_1"
+    },
+    {
+      "subject": "PlasticThings_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Thing_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "TvSet_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Plate_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Tiles_2",
+      "predicate": "behind",
+      "object": "Tv_1"
+    },
+    {
+      "subject": "Drawer_1",
+      "predicate": "near",
+      "object": "Tv_1"
+    },
+    {
+      "subject": "Plates_1",
+      "predicate": "near",
+      "object": "Tv_1"
+    },
+    {
+      "subject": "Plug_1",
+      "predicate": "near",
+      "object": "Tv_1"
+    },
+    {
+      "subject": "Tv_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Socket_1",
+      "predicate": "near",
+      "object": "Tv_1"
+    },
+    {
+      "subject": "Plates_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Stand_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Knob_1",
+      "predicate": "on",
+      "object": "Drawer_1"
+    },
+    {
+      "subject": "Dial_1",
+      "predicate": "on",
+      "object": "Object_1"
+    },
+    {
+      "subject": "PhoneOutlet_1",
+      "predicate": "on",
+      "object": "Tiles_2"
+    },
+    {
+      "subject": "People_1",
+      "predicate": "on",
+      "object": "Tv_1"
+    },
+    {
+      "subject": "Object_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Plates_1",
+    "PlasticThings_1",
+    "Knob_1",
+    "Drawer_1",
+    "Drawers_1",
+    "Cabinets_1",
+    "Granite_1",
+    "People_1",
+    "Tiles_1",
+    "Backsplash_1",
+    "Kitchen_1",
+    "Tiles_2",
+    "Counter_1",
+    "Tiles_3",
+    "Cabinets_2",
+    "TwoMen_1",
+    "TvSet_1",
+    "Tv_1",
+    "Table_1",
+    "Dial_1",
+    "Object_1",
+    "Thing_1",
+    "Plug_1",
+    "Wire_1",
+    "Socket_1",
+    "Plate_1",
+    "PhoneOutlet_1",
+    "Tray_1",
+    "Plug_2",
+    "Switch_1",
+    "Wire_2",
+    "Outlet_1",
+    "Stand_1"
+  ]
+}

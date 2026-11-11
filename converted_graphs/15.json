@@ -1,0 +1,121 @@
+{
+  "image_id": 15,
+  "prompt_text": "### Relational Edges:\n- [PapersAreHere._1] --[on]--> [Desk_1: grey]\n- [KetchupSeenHere._1] --[on]--> [Desk_1: grey]\n- [Papers_1] --[on]--> [Desk_1: grey]\n- [Gazette_1] --[on]--> [Desk_1: grey]\n- [Red_1] --[on]--> [Computer_1]\n- [Mouse_1] --[on]--> [Desk_1: grey]\n- [Pad_1] --[on]--> [Desk_1: grey]\n- [Mouse_1] --[on]--> [Pad_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Key_1] -> [Box_1: brown] -> [Box_2: small] -> [PaperHasPuzzle._1] -> [PaperShowsPuzzle._1] -> [Thing_1: white] -> [PaperOnDesk._1] -> [Gazette_1] -> [PaperHasCorner._1] -> [PowderOnDesk_1: white] -> [Sticker_1: white] -> [ThingOnComputer._1: red] -> [Thing_2: red] -> [Red_1] -> [Grey_1] -> [Computer_1] -> [Monitor_1: off, white] -> [RoundButtonHere._1] -> [MonitorIsOff._1: off, white, Computer] -> [Label_1: dell] -> [KeyboardHasWhite._1: white, gray] -> [Keyboard_1: white, grey] -> [ButtonIsRound._1] -> [SeeGreyDesk._1] -> [Room_1: lit, indoors] -> [Desk_1: grey] -> [DeskIsGrey._1] -> [PadIsBlack._1: black, Mouse, silver ] -> [Pad_1] -> [MouseIsWhite._1: white] -> [Mouse_1: white, cream] -> [IsWallWhite?_1: white] -> [PapersAreHere._1: white] -> [Papers_1: white] -> [KetchupSeenHere._1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Red_1] -> [Sticker_1: white] -> [ThingOnComputer._1: red] -> [Thing_2: red] -> [IsWallWhite?_1: white] -> [MonitorIsOff._1: off, white, Computer] -> [Monitor_1: off, white] -> [Box_1: brown] -> [Computer_1] -> [Room_1: lit, indoors] -> [Thing_1: white] -> [PapersAreHere._1: white] -> [Papers_1: white] -> [Label_1: dell] -> [ButtonIsRound._1] -> [RoundButtonHere._1] -> [PowderOnDesk_1: white] -> [DeskIsGrey._1] -> [Box_2: small] -> [Desk_1: grey] -> [KeyboardHasWhite._1: white, gray] -> [Keyboard_1: white, grey] -> [PaperOnDesk._1] -> [Gazette_1] -> [Grey_1] -> [KetchupSeenHere._1] -> [PaperShowsPuzzle._1] -> [PaperHasCorner._1] -> [MouseIsWhite._1: white] -> [Mouse_1: white, cream] -> [PadIsBlack._1: black, Mouse, silver ] -> [Pad_1] -> [Key_1] -> [PaperHasPuzzle._1] -> [SeeGreyDesk._1]",
+  "semantic_id_mapping": {
+    "1060764": "Box_1",
+    "1060762": "Box_2",
+    "5362": "ButtonIsRound._1",
+    "1060772": "Computer_1",
+    "1060766": "Desk_1",
+    "5353": "DeskIsGrey._1",
+    "1060740": "Gazette_1",
+    "1060763": "Grey_1",
+    "5364": "IsWallWhite?_1",
+    "5361": "KetchupSeenHere._1",
+    "1060765": "Key_1",
+    "1060745": "Keyboard_1",
+    "5355": "KeyboardHasWhite._1",
+    "1060769": "Label_1",
+    "1060768": "Monitor_1",
+    "5348": "MonitorIsOff._1",
+    "1060739": "Mouse_1",
+    "5349": "MouseIsWhite._1",
+    "1060741": "Pad_1",
+    "5351": "PadIsBlack._1",
+    "5358": "PaperHasCorner._1",
+    "5360": "PaperHasPuzzle._1",
+    "5350": "PaperOnDesk._1",
+    "5359": "PaperShowsPuzzle._1",
+    "1060742": "Papers_1",
+    "5352": "PapersAreHere._1",
+    "5357": "PowderOnDesk_1",
+    "1060773": "Red_1",
+    "1060771": "Room_1",
+    "5363": "RoundButtonHere._1",
+    "5354": "SeeGreyDesk._1",
+    "1060770": "Sticker_1",
+    "1060774": "Thing_1",
+    "1060747": "Thing_2",
+    "5356": "ThingOnComputer._1",
+    "1060767": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "PapersAreHere._1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "KetchupSeenHere._1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Papers_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Gazette_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Red_1",
+      "predicate": "on",
+      "object": "Computer_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Pad_1",
+      "predicate": "on",
+      "object": "Desk_1"
+    },
+    {
+      "subject": "Mouse_1",
+      "predicate": "on",
+      "object": "Pad_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Key_1",
+    "Box_1",
+    "Box_2",
+    "PaperHasPuzzle._1",
+    "PaperShowsPuzzle._1",
+    "Thing_1",
+    "PaperOnDesk._1",
+    "Gazette_1",
+    "PaperHasCorner._1",
+    "PowderOnDesk_1",
+    "Sticker_1",
+    "ThingOnComputer._1",
+    "Thing_2",
+    "Red_1",
+    "Grey_1",
+    "Computer_1",
+    "Monitor_1",
+    "RoundButtonHere._1",
+    "MonitorIsOff._1",
+    "Label_1",
+    "KeyboardHasWhite._1",
+    "Keyboard_1",
+    "ButtonIsRound._1",
+    "SeeGreyDesk._1",
+    "Room_1",
+    "Desk_1",
+    "DeskIsGrey._1",
+    "PadIsBlack._1",
+    "Pad_1",
+    "MouseIsWhite._1",
+    "Mouse_1",
+    "IsWallWhite?_1",
+    "PapersAreHere._1",
+    "Papers_1",
+    "KetchupSeenHere._1"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "image_id": 174,
+  "prompt_text": "### Relational Edges:\n- [Window_1] --[on]--> [Building_1]\n- [Shades_1] --[on]--> [Window_1: large]\n- [Tv_1] --[on]--> [Mantle_1]\n- [Lamp_1] --[next to]--> [Bed_1: large, satin lined, multi colored, wooden]\n- [Tv_1] --[on]--> [Window_1: large]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Headboard_1: wooden] -> [Table_1: wooden] -> [Lamp_1: turned on, yellow, illuminated] -> [ShadeCover_1] -> [Screen_1] -> [Tv_1: small] -> [Sheet_1] -> [Mantle_1] -> [Window_1: large] -> [Bed_1: large, satin lined, multi colored, wooden] -> [Shades_1] -> [Room_1] -> [Fan_1: white] -> [Light_1] -> [Building_1] -> [Knob_1: gold] -> [Closet_1: brown] -> [Door_1: wooden] -> [Shelves_1: gray, white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Fan_1: white] -> [Light_1] -> [Shelves_1: gray, white] -> [Shades_1] -> [Mantle_1] -> [Window_1: large] -> [ShadeCover_1] -> [Closet_1: brown] -> [Door_1: wooden] -> [Lamp_1: turned on, yellow, illuminated] -> [Screen_1] -> [Knob_1: gold] -> [Tv_1: small] -> [Headboard_1: wooden] -> [Building_1] -> [Room_1] -> [Bed_1: large, satin lined, multi colored, wooden] -> [Sheet_1] -> [Table_1: wooden]",
+  "semantic_id_mapping": {
+    "1062458": "Bed_1",
+    "1062464": "Building_1",
+    "1062468": "Closet_1",
+    "1062469": "Door_1",
+    "1062460": "Fan_1",
+    "1062467": "Floor_1",
+    "1062472": "Headboard_1",
+    "1062463": "Knob_1",
+    "1062457": "Lamp_1",
+    "1062473": "Light_1",
+    "1062471": "Mantle_1",
+    "1062475": "Room_1",
+    "1062476": "Screen_1",
+    "1062477": "ShadeCover_1",
+    "1062465": "Shades_1",
+    "1062466": "Sheet_1",
+    "1062462": "Shelves_1",
+    "1062474": "Table_1",
+    "1062461": "Tv_1",
+    "1062470": "Wall_1",
+    "1062459": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Shades_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Tv_1",
+      "predicate": "on",
+      "object": "Mantle_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "next to",
+      "object": "Bed_1"
+    },
+    {
+      "subject": "Tv_1",
+      "predicate": "on",
+      "object": "Window_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Headboard_1",
+    "Table_1",
+    "Lamp_1",
+    "ShadeCover_1",
+    "Screen_1",
+    "Tv_1",
+    "Sheet_1",
+    "Mantle_1",
+    "Window_1",
+    "Bed_1",
+    "Shades_1",
+    "Room_1",
+    "Fan_1",
+    "Light_1",
+    "Building_1",
+    "Knob_1",
+    "Closet_1",
+    "Door_1",
+    "Shelves_1"
+  ]
+}

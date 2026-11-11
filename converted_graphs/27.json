@@ -1,0 +1,68 @@
+{
+  "image_id": 27,
+  "prompt_text": "### Relational Edges:\n- [Switch_1] --[on]--> [Wall_2: painted, white]\n- [Chair_1] --[next to]--> [Table_1: wood, dining table, one, smooth, empty, wooden, light colored, in room]\n- [AirConditioner_1] --[next to]--> [Wall_3: white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Door_1: black, with edge, open] -> [Strip_1: black] -> [Switch_1] -> [Socket_1: three, electrical] -> [Tile_1] -> [Socket_2] -> [Chair_1: wood, wooden, ladder backed] -> [Chair_2: wood] -> [Scene_1: dining room, indoors] -> [Room_1: empty, small] -> [Picture_1: indoor] -> [Set_1: brown] -> [Table_1: wood, dining table, one, smooth, empty, wooden, light colored, in room] -> [Shadow_1: cast] -> [Chairs_1: wood, four, in room] -> [Chair_3: wood] -> [Reflection_1] -> [Chair_4: wood] -> [AirConditioner_1: air , heat register, white]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Tile_1] -> [Reflection_1] -> [Picture_1: indoor] -> [Door_1: black, with edge, open] -> [Room_1: empty, small] -> [Scene_1: dining room, indoors] -> [Chair_2: wood] -> [Socket_2] -> [Socket_1: three, electrical] -> [Switch_1] -> [AirConditioner_1: air , heat register, white] -> [Chair_4: wood] -> [Chair_1: wood, wooden, ladder backed] -> [Chairs_1: wood, four, in room] -> [Set_1: brown] -> [Table_1: wood, dining table, one, smooth, empty, wooden, light colored, in room] -> [Chair_3: wood] -> [Strip_1: black] -> [Shadow_1: cast]",
+  "semantic_id_mapping": {
+    "1024748": "AirConditioner_1",
+    "1024754": "Carpet_1",
+    "1024728": "Ceiling_1",
+    "1024733": "Chair_1",
+    "5649": "Chair_2",
+    "5651": "Chair_3",
+    "5650": "Chair_4",
+    "1024718": "Chairs_1",
+    "1024727": "Door_1",
+    "5645": "Picture_1",
+    "5644": "Reflection_1",
+    "1024726": "Room_1",
+    "1024752": "Scene_1",
+    "5653": "Set_1",
+    "5647": "Shadow_1",
+    "1024742": "Socket_1",
+    "5648": "Socket_2",
+    "1024753": "Strip_1",
+    "5639": "Switch_1",
+    "1024725": "Table_1",
+    "1024755": "Tile_1",
+    "1024750": "Wall_1",
+    "1024737": "Wall_2",
+    "1024751": "Wall_3"
+  },
+  "relational_edges": [
+    {
+      "subject": "Switch_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "next to",
+      "object": "Table_1"
+    },
+    {
+      "subject": "AirConditioner_1",
+      "predicate": "next to",
+      "object": "Wall_3"
+    }
+  ],
+  "horizontal_ordering": [
+    "Door_1",
+    "Strip_1",
+    "Switch_1",
+    "Socket_1",
+    "Tile_1",
+    "Socket_2",
+    "Chair_1",
+    "Chair_2",
+    "Scene_1",
+    "Room_1",
+    "Picture_1",
+    "Set_1",
+    "Table_1",
+    "Shadow_1",
+    "Chairs_1",
+    "Chair_3",
+    "Reflection_1",
+    "Chair_4",
+    "AirConditioner_1"
+  ]
+}

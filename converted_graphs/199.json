@@ -1,0 +1,84 @@
+{
+  "image_id": 199,
+  "prompt_text": "### Relational Edges:\n- [Fork_1] --[on]--> [Plate_1: white colored, oval, white]\n- [Knife_1] --[on]--> [Table_1]\n- [Sandwich_1] --[on]--> [Plate_1: white colored, oval, white]\n- [Salad_1] --[on]--> [Plate_1: white colored, oval, white]\n- [Plate_1] --[holding]--> [Sandwich_1: half eaten]\n- [Cup_1] --[on]--> [Plate_2: white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Leaf_1: green] -> [Olive_1: black] -> [Tomato_1: half cherry, red] -> [Sandwich_1: half eaten] -> [Salad_1] -> [Cup_1: white] -> [Plate_1: white colored, oval, white] -> [Plate_2: white] -> [CherryTomato_1: red] -> [Fork_1: silver colored] -> [Cup_2: clear] -> [Glass_1: clear] -> [Water_1] -> [Table_1] -> [Sauce_1] -> [Sauce_2] -> [Bowl_1: white, glass] -> [Glass_2] -> [Spoon_1: silver] -> [Bowl_2] -> [Bread_1] -> [Knife_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Cup_1: white] -> [Bread_1] -> [Bowl_2] -> [Plate_2: white] -> [Glass_1: clear] -> [Cup_2: clear] -> [Water_1] -> [Glass_2] -> [Sauce_2] -> [Olive_1: black] -> [Sandwich_1: half eaten] -> [Table_1] -> [Knife_1] -> [Plate_1: white colored, oval, white] -> [Spoon_1: silver] -> [Tomato_1: half cherry, red] -> [Bowl_1: white, glass] -> [Leaf_1: green] -> [Sauce_1] -> [Salad_1] -> [Fork_1: silver colored] -> [CherryTomato_1: red]",
+  "semantic_id_mapping": {
+    "1062636": "Bowl_1",
+    "1062650": "Bowl_2",
+    "1062649": "Bread_1",
+    "1062642": "CherryTomato_1",
+    "1062647": "Cup_1",
+    "1062635": "Cup_2",
+    "1062630": "Fork_1",
+    "1062644": "Glass_1",
+    "1062646": "Glass_2",
+    "1062638": "Knife_1",
+    "1062632": "Leaf_1",
+    "1062640": "Olive_1",
+    "1062631": "Plate_1",
+    "1062648": "Plate_2",
+    "1062641": "Salad_1",
+    "1062629": "Sandwich_1",
+    "1062643": "Sauce_1",
+    "1062645": "Sauce_2",
+    "1062637": "Spoon_1",
+    "1062639": "Table_1",
+    "1062633": "Tomato_1",
+    "1062634": "Water_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Fork_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Knife_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Sandwich_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Salad_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Plate_1",
+      "predicate": "holding",
+      "object": "Sandwich_1"
+    },
+    {
+      "subject": "Cup_1",
+      "predicate": "on",
+      "object": "Plate_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Leaf_1",
+    "Olive_1",
+    "Tomato_1",
+    "Sandwich_1",
+    "Salad_1",
+    "Cup_1",
+    "Plate_1",
+    "Plate_2",
+    "CherryTomato_1",
+    "Fork_1",
+    "Cup_2",
+    "Glass_1",
+    "Water_1",
+    "Table_1",
+    "Sauce_1",
+    "Sauce_2",
+    "Bowl_1",
+    "Glass_2",
+    "Spoon_1",
+    "Bowl_2",
+    "Bread_1",
+    "Knife_1"
+  ]
+}

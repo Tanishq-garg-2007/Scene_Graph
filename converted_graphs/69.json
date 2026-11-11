@@ -1,0 +1,105 @@
+{
+  "image_id": 69,
+  "prompt_text": "### Relational Edges:\n- [Potato_5] --[on]--> [Plate_1: blue, white, full]\n- [Potato_1] --[on]--> [Plate_1: blue, white, full]\n- [Potato_6] --[on]--> [Plate_1: blue, white, full]\n- [Potato_2] --[on]--> [Plate_1: blue, white, full]\n- [Potato_4] --[on]--> [Plate_1: blue, white, full]\n- [Potato_3] --[on]--> [Plate_1: blue, white, full]\n- [Mark_4] --[on]--> [Chicken_1: grilled, tan]\n- [Mark_2] --[on]--> [Chicken_1: grilled, tan]\n- [Mark_3] --[on]--> [Chicken_1: grilled, tan]\n- [Mark_1] --[on]--> [Chicken_1: grilled, tan]\n- [Cauliflower_1] --[on]--> [Plate_1: blue, white, full]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Potato_1: small, yellow] -> [Mark_1] -> [Mark_2] -> [Mark_3] -> [Potato_2: roasted, yellow] -> [Chicken_1: grilled, tan] -> [Potato_3: roasted, yellow, small] -> [Mark_4] -> [Table_1: brown, wood, light] -> [Potato_4: yellow] -> [Potato_5: small, yellow] -> [Plate_1: blue, white, full] -> [Cauliflower_1] -> [Potato_6: yellow] -> [Cauliflower_2: white] -> [Cauliflower_3: cooked] -> [Cauliflower_4] -> [Cauliflower_5: white] -> [Cauliflower_6: white] -> [Knot_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Knot_1] -> [Cauliflower_1] -> [Potato_3: roasted, yellow, small] -> [Cauliflower_4] -> [Potato_4: yellow] -> [Cauliflower_5: white] -> [Potato_1: small, yellow] -> [Potato_2: roasted, yellow] -> [Potato_6: yellow] -> [Potato_5: small, yellow] -> [Plate_1: blue, white, full] -> [Mark_1] -> [Table_1: brown, wood, light] -> [Mark_2] -> [Cauliflower_6: white] -> [Mark_3] -> [Cauliflower_2: white] -> [Chicken_1: grilled, tan] -> [Mark_4] -> [Cauliflower_3: cooked]",
+  "semantic_id_mapping": {
+    "1025733": "Cauliflower_1",
+    "1025725": "Cauliflower_2",
+    "1025729": "Cauliflower_3",
+    "1025731": "Cauliflower_4",
+    "1025721": "Cauliflower_5",
+    "1025722": "Cauliflower_6",
+    "1025714": "Chicken_1",
+    "1025734": "Knot_1",
+    "1025732": "Mark_1",
+    "1025727": "Mark_2",
+    "1025726": "Mark_3",
+    "1025728": "Mark_4",
+    "1025723": "Plate_1",
+    "1025715": "Potato_1",
+    "1025716": "Potato_2",
+    "1025718": "Potato_3",
+    "1025717": "Potato_4",
+    "1025719": "Potato_5",
+    "1025720": "Potato_6",
+    "1025730": "Table_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Potato_5",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Potato_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Potato_6",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Potato_2",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Potato_4",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Potato_3",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Mark_4",
+      "predicate": "on",
+      "object": "Chicken_1"
+    },
+    {
+      "subject": "Mark_2",
+      "predicate": "on",
+      "object": "Chicken_1"
+    },
+    {
+      "subject": "Mark_3",
+      "predicate": "on",
+      "object": "Chicken_1"
+    },
+    {
+      "subject": "Mark_1",
+      "predicate": "on",
+      "object": "Chicken_1"
+    },
+    {
+      "subject": "Cauliflower_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Potato_1",
+    "Mark_1",
+    "Mark_2",
+    "Mark_3",
+    "Potato_2",
+    "Chicken_1",
+    "Potato_3",
+    "Mark_4",
+    "Table_1",
+    "Potato_4",
+    "Potato_5",
+    "Plate_1",
+    "Cauliflower_1",
+    "Potato_6",
+    "Cauliflower_2",
+    "Cauliflower_3",
+    "Cauliflower_4",
+    "Cauliflower_5",
+    "Cauliflower_6",
+    "Knot_1"
+  ]
+}

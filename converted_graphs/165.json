@@ -1,0 +1,69 @@
+{
+  "image_id": 165,
+  "prompt_text": "### Relational Edges:\n- [MetalBeam_2] --[on]--> [RollerCoaster_1: metal, large, blue, orange, framed]\n- [MetalBeam_3] --[on]--> [RollerCoaster_1: metal, large, blue, orange, framed]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Trees_1: darkest, dense] -> [MetalBeam_1: blue, large, metal] -> [Tree_1] -> [Track_1] -> [HighTrack_1] -> [Tree_2] -> [LowestTrack_1: lowest, orange, curved] -> [Tree_3] -> [OvalTrack_1: orange, round] -> [Oval_1: curved] -> [Woods_1] -> [RollerCoaster_1: metal, large, blue, orange, framed] -> [RollerCoasterCar_1] -> [Tree_4] -> [MetalBeam_2: large, blue] -> [Railing_1: white] -> [Top_1] -> [Section_1: highest] -> [Track_2: tallest] -> [MetalBeam_3: large, blue] -> [Building_1] -> [MetalBeam_4: large, metal] -> [MetalBeam_5] -> [MetalBeam_6]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Top_1] -> [Railing_1: white] -> [Building_1] -> [RollerCoasterCar_1] -> [Track_2: tallest] -> [RollerCoaster_1: metal, large, blue, orange, framed] -> [Section_1: highest] -> [MetalBeam_3: large, blue] -> [MetalBeam_4: large, metal] -> [MetalBeam_2: large, blue] -> [MetalBeam_5] -> [MetalBeam_6] -> [Track_1] -> [HighTrack_1] -> [MetalBeam_1: blue, large, metal] -> [OvalTrack_1: orange, round] -> [Oval_1: curved] -> [LowestTrack_1: lowest, orange, curved] -> [Woods_1] -> [Tree_3] -> [Tree_2] -> [Tree_1] -> [Trees_1: darkest, dense] -> [Tree_4]",
+  "semantic_id_mapping": {
+    "1536176": "Building_1",
+    "1536160": "HighTrack_1",
+    "1536161": "LowestTrack_1",
+    "1536147": "MetalBeam_1",
+    "1536139": "MetalBeam_2",
+    "1536140": "MetalBeam_3",
+    "1536143": "MetalBeam_4",
+    "1536144": "MetalBeam_5",
+    "1536136": "MetalBeam_6",
+    "3787200": "Oval_1",
+    "1536159": "OvalTrack_1",
+    "1536149": "Railing_1",
+    "1536146": "RollerCoaster_1",
+    "1536154": "RollerCoasterCar_1",
+    "1536157": "Section_1",
+    "1536155": "Sky_1",
+    "3787199": "Top_1",
+    "1536152": "Track_1",
+    "1536153": "Track_2",
+    "1536164": "Tree_1",
+    "1536162": "Tree_2",
+    "1536163": "Tree_3",
+    "1536165": "Tree_4",
+    "1536151": "Trees_1",
+    "3792916": "Woods_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "MetalBeam_2",
+      "predicate": "on",
+      "object": "RollerCoaster_1"
+    },
+    {
+      "subject": "MetalBeam_3",
+      "predicate": "on",
+      "object": "RollerCoaster_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Trees_1",
+    "MetalBeam_1",
+    "Tree_1",
+    "Track_1",
+    "HighTrack_1",
+    "Tree_2",
+    "LowestTrack_1",
+    "Tree_3",
+    "OvalTrack_1",
+    "Oval_1",
+    "Woods_1",
+    "RollerCoaster_1",
+    "RollerCoasterCar_1",
+    "Tree_4",
+    "MetalBeam_2",
+    "Railing_1",
+    "Top_1",
+    "Section_1",
+    "Track_2",
+    "MetalBeam_3",
+    "Building_1",
+    "MetalBeam_4",
+    "MetalBeam_5",
+    "MetalBeam_6"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "image_id": 55,
+  "prompt_text": "### Relational Edges:\n- [Bus_1] --[on]--> [Street_2]\n- [Vehicle_1] --[on]--> [Sidewalk_1]\n- [Line_1] --[on]--> [Street_1]\n- [Flowers_1] --[on]--> [Pole_2]\n- [Child_1] --[holding]--> [Balloons_1]\n- [Woman_1] --[holding]--> [Balloons_1]\n- [Person_2] --[wearing]--> [Shirt_2: white]\n- [Person_3] --[wearing]--> [Shirt_3: white]\n- [Person_4] --[wearing]--> [Shirt_4: black]\n- [Person_1] --[wearing]--> [Shirt_1: pink ]\n- [Window_4] --[on]--> [Building_1]\n- [Window_3] --[on]--> [Building_1]\n- [Window_5] --[on]--> [Building_1]\n- [Window_7] --[on]--> [Building_1]\n- [Window_6] --[on]--> [Building_1]\n- [Window_1] --[on]--> [Building_1]\n- [Window_2] --[on]--> [Building_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Bicycle_1: white and red] -> [Pole_1] -> [Bikes_1: parked] -> [Bicycle_2: white] -> [Pole_2] -> [Flowers_1: hanging ] -> [Wheels_1] -> [Bus_1] -> [StreetLight_1: tall] -> [Line_1] -> [Windshield_1] -> [Person_1] -> [Person_2] -> [Person_3] -> [Bag_1: white, being carried] -> [Wheels_2] -> [City_1] -> [Buildings_1] -> [Balloons_1] -> [Woman_1] -> [Person_4] -> [Child_1] -> [Window_1: square] -> [Window_2: square] -> [Building_1] -> [Bike_1: parked ] -> [Window_3: square] -> [Window_4: square] -> [Window_5: square] -> [Window_6: square] -> [Window_7: square] -> [TrashCan_1] -> [GarbageCan_1: public] -> [Lamp_1: small] -> [Vehicle_1: parked ]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Flowers_1: hanging ] -> [Window_6: square] -> [Window_3: square] -> [Window_1: square] -> [StreetLight_1: tall] -> [Building_1] -> [Buildings_1] -> [Window_7: square] -> [Window_4: square] -> [Window_2: square] -> [Lamp_1: small] -> [Wheels_2] -> [Pole_2] -> [City_1] -> [Window_5: square] -> [Pole_1] -> [Windshield_1] -> [Bus_1] -> [Balloons_1] -> [Person_3] -> [Person_2] -> [Woman_1] -> [Person_1] -> [Person_4] -> [Bike_1: parked ] -> [Bag_1: white, being carried] -> [Vehicle_1: parked ] -> [Child_1] -> [Wheels_1] -> [Line_1] -> [Bicycle_1: white and red] -> [Bicycle_2: white] -> [Bikes_1: parked] -> [TrashCan_1] -> [GarbageCan_1: public]",
+  "semantic_id_mapping": {
+    "1533724": "Bag_1",
+    "1533746": "Balloons_1",
+    "1533754": "Bicycle_1",
+    "1533753": "Bicycle_2",
+    "1533726": "Bike_1",
+    "1533723": "Bikes_1",
+    "3786806": "Building_1",
+    "1533738": "Buildings_1",
+    "3786810": "Bus_1",
+    "1533745": "Child_1",
+    "3786808": "City_1",
+    "1533739": "Flowers_1",
+    "1533755": "GarbageCan_1",
+    "1533752": "Lamp_1",
+    "1533731": "Line_1",
+    "1533732": "Person_1",
+    "1533748": "Person_2",
+    "1533749": "Person_3",
+    "1533750": "Person_4",
+    "3786804": "Pole_1",
+    "3786809": "Pole_2",
+    "1533733": "Shirt_1",
+    "3786811": "Shirt_2",
+    "3786812": "Shirt_3",
+    "3786813": "Shirt_4",
+    "1533729": "Sidewalk_1",
+    "3786807": "Street_1",
+    "1533722": "Street_2",
+    "1533740": "StreetLight_1",
+    "1533721": "TrashCan_1",
+    "1533728": "Vehicle_1",
+    "1533742": "Wheels_1",
+    "1533743": "Wheels_2",
+    "1533761": "Window_1",
+    "1533764": "Window_2",
+    "3786817": "Window_3",
+    "3786818": "Window_4",
+    "3786816": "Window_5",
+    "1533757": "Window_6",
+    "3786815": "Window_7",
+    "1533730": "Windows_1",
+    "1533741": "Windshield_1",
+    "1533744": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Bus_1",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Vehicle_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Line_1",
+      "predicate": "on",
+      "object": "Street_1"
+    },
+    {
+      "subject": "Flowers_1",
+      "predicate": "on",
+      "object": "Pole_2"
+    },
+    {
+      "subject": "Child_1",
+      "predicate": "holding",
+      "object": "Balloons_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "holding",
+      "object": "Balloons_1"
+    },
+    {
+      "subject": "Person_2",
+      "predicate": "wearing",
+      "object": "Shirt_2"
+    },
+    {
+      "subject": "Person_3",
+      "predicate": "wearing",
+      "object": "Shirt_3"
+    },
+    {
+      "subject": "Person_4",
+      "predicate": "wearing",
+      "object": "Shirt_4"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    },
+    {
+      "subject": "Window_4",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_3",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_5",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_7",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_6",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "Window_2",
+      "predicate": "on",
+      "object": "Building_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Bicycle_1",
+    "Pole_1",
+    "Bikes_1",
+    "Bicycle_2",
+    "Pole_2",
+    "Flowers_1",
+    "Wheels_1",
+    "Bus_1",
+    "StreetLight_1",
+    "Line_1",
+    "Windshield_1",
+    "Person_1",
+    "Person_2",
+    "Person_3",
+    "Bag_1",
+    "Wheels_2",
+    "City_1",
+    "Buildings_1",
+    "Balloons_1",
+    "Woman_1",
+    "Person_4",
+    "Child_1",
+    "Window_1",
+    "Window_2",
+    "Building_1",
+    "Bike_1",
+    "Window_3",
+    "Window_4",
+    "Window_5",
+    "Window_6",
+    "Window_7",
+    "TrashCan_1",
+    "GarbageCan_1",
+    "Lamp_1",
+    "Vehicle_1"
+  ]
+}

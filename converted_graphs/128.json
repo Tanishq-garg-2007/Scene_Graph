@@ -1,0 +1,125 @@
+{
+  "image_id": 128,
+  "prompt_text": "### Relational Edges:\n- [Flag_1] --[on]--> [Building_2]\n- [OrangeDoor_1] --[on]--> [Building_1]\n- [GoldWindow_1] --[on]--> [Building_2]\n- [RedSign_1] --[on]--> [Pole_1]\n- [Person_5] --[on]--> [Sidewalk_1]\n- [Person_3] --[on]--> [Sidewalk_1]\n- [Person_2] --[on]--> [Sidewalk_1]\n- [Person_4] --[on]--> [Sidewalk_1]\n- [Person_1] --[on]--> [Sidewalk_1]\n- [Sign_2] --[on]--> [Pole_1]\n- [Sign_1] --[on]--> [Pole_1]\n- [Sign_3] --[on]--> [Pole_1]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [GoldWindow_1] -> [OrangeDoor_1] -> [Tile_1] -> [Building_1] -> [Person_1] -> [Building_2] -> [Person_2] -> [Tile_2] -> [Window_1] -> [Building_3] -> [Person_3] -> [Person_4] -> [Tile_3] -> [BlueWindow_1] -> [Flag_1: American] -> [Person_5] -> [Tile_4] -> [Tile_5] -> [LargeWhiteBuilding_1] -> [Building_4] -> [Window_2] -> [Sign_1] -> [Sign_2] -> [RedSign_1] -> [Sign_3] -> [Pole_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Window_1] -> [Sign_3] -> [Pole_1] -> [Building_3] -> [Sign_1] -> [Building_2] -> [Flag_1: American] -> [GoldWindow_1] -> [Sign_2] -> [RedSign_1] -> [LargeWhiteBuilding_1] -> [BlueWindow_1] -> [Window_2] -> [Building_4] -> [Building_1] -> [OrangeDoor_1] -> [Person_2] -> [Person_1] -> [Person_3] -> [Person_4] -> [Person_5] -> [Tile_1] -> [Tile_2] -> [Tile_3] -> [Tile_5] -> [Tile_4]",
+  "semantic_id_mapping": {
+    "1535268": "BlueWindow_1",
+    "1535263": "Building_1",
+    "1535264": "Building_2",
+    "1535289": "Building_3",
+    "1535290": "Building_4",
+    "1535286": "Flag_1",
+    "1535301": "Floor_1",
+    "3792866": "Floor_2",
+    "1535265": "GoldWindow_1",
+    "1535269": "LargeWhiteBuilding_1",
+    "1535262": "OrangeDoor_1",
+    "1535278": "Person_1",
+    "1535274": "Person_2",
+    "1535272": "Person_3",
+    "1535276": "Person_4",
+    "1535271": "Person_5",
+    "1535285": "Pole_1",
+    "1535266": "RedSign_1",
+    "1535273": "Sidewalk_1",
+    "1535283": "Sign_1",
+    "1535280": "Sign_2",
+    "1535284": "Sign_3",
+    "1535292": "Tile_1",
+    "1535295": "Tile_2",
+    "1535296": "Tile_3",
+    "1535300": "Tile_4",
+    "1535299": "Tile_5",
+    "1535288": "Window_1",
+    "1535291": "Window_2"
+  },
+  "relational_edges": [
+    {
+      "subject": "Flag_1",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "OrangeDoor_1",
+      "predicate": "on",
+      "object": "Building_1"
+    },
+    {
+      "subject": "GoldWindow_1",
+      "predicate": "on",
+      "object": "Building_2"
+    },
+    {
+      "subject": "RedSign_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "Person_5",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_3",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_2",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_4",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Sign_2",
+      "predicate": "on",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    },
+    {
+      "subject": "Sign_3",
+      "predicate": "on",
+      "object": "Pole_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "GoldWindow_1",
+    "OrangeDoor_1",
+    "Tile_1",
+    "Building_1",
+    "Person_1",
+    "Building_2",
+    "Person_2",
+    "Tile_2",
+    "Window_1",
+    "Building_3",
+    "Person_3",
+    "Person_4",
+    "Tile_3",
+    "BlueWindow_1",
+    "Flag_1",
+    "Person_5",
+    "Tile_4",
+    "Tile_5",
+    "LargeWhiteBuilding_1",
+    "Building_4",
+    "Window_2",
+    "Sign_1",
+    "Sign_2",
+    "RedSign_1",
+    "Sign_3",
+    "Pole_1"
+  ]
+}

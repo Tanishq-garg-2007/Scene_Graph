@@ -1,0 +1,111 @@
+{
+  "image_id": 110,
+  "prompt_text": "### Relational Edges:\n- [Painting_1] --[on]--> [Wall_3]\n- [Trey_1] --[on]--> [Table_1: rectangular, long, one, wooden]\n- [Picture_1] --[on]--> [Wall_2]\n- [Ashtray_1] --[on]--> [Table_1: rectangular, long, one, wooden]\n- [Ashtray_2] --[on]--> [Table_1: rectangular, long, one, wooden]\n- [Card_1] --[on]--> [Table_1: rectangular, long, one, wooden]\n- [Curtain_1] --[on]--> [Window_1]\n- [Curtain_2] --[on]--> [Window_1]\n- [Chair_3] --[on]--> [Table_1: rectangular, long, one, wooden]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Door_1: open] -> [Picture_1: framed] -> [Painting_1] -> [Chair_1: blue, wooden] -> [Table_1: rectangular, long, one, wooden] -> [Chair_2: black, wood] -> [Curtain_1] -> [Room_1] -> [Trey_1] -> [Ashtray_1: glass] -> [Card_1] -> [Placard_1: small] -> [Ashtray_2] -> [Chair_3] -> [Curtains_1: white] -> [Window_1] -> [Trophy_1] -> [Trophy_2: gold] -> [Chair_4: black, wooden] -> [Chair_5: wooden] -> [Curtain_2] -> [Chair_6: one, black, wooden] -> [ChairArm_1: black padding ] -> [ChairArm_2: black padding ] -> [ChairArm_3: black padding ]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Curtain_1] -> [Picture_1: framed] -> [Curtains_1: white] -> [Window_1] -> [Painting_1] -> [Curtain_2] -> [Door_1: open] -> [Trophy_2: gold] -> [Trophy_1] -> [Chair_3] -> [Chair_2: black, wood] -> [Chair_4: black, wooden] -> [Room_1] -> [Ashtray_2] -> [Chair_1: blue, wooden] -> [Trey_1] -> [Ashtray_1: glass] -> [Card_1] -> [Placard_1: small] -> [Chair_5: wooden] -> [Table_1: rectangular, long, one, wooden] -> [Chair_6: one, black, wooden] -> [ChairArm_2: black padding ] -> [ChairArm_1: black padding ] -> [ChairArm_3: black padding ]",
+  "semantic_id_mapping": {
+    "4290923": "Arm_1",
+    "4290934": "Ashtray_1",
+    "4290936": "Ashtray_2",
+    "4290938": "Card_1",
+    "4290927": "Chair_1",
+    "4290913": "Chair_2",
+    "4290948": "Chair_3",
+    "4290911": "Chair_4",
+    "4520413": "Chair_5",
+    "4290909": "Chair_6",
+    "4520414": "ChairArm_1",
+    "4520420": "ChairArm_2",
+    "4520419": "ChairArm_3",
+    "4290944": "Curtain_1",
+    "4290946": "Curtain_2",
+    "4290931": "Curtains_1",
+    "4290950": "Door_1",
+    "4290941": "Floor_1",
+    "4290932": "Floor_2",
+    "4290919": "Painting_1",
+    "4520406": "Picture_1",
+    "4520404": "Placard_1",
+    "4290942": "Room_1",
+    "4290935": "Table_1",
+    "4290925": "Trey_1",
+    "4520405": "Trophy_1",
+    "4290922": "Trophy_2",
+    "4290930": "Wall_1",
+    "4290929": "Wall_2",
+    "4290920": "Wall_3",
+    "4290945": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Wall_3"
+    },
+    {
+      "subject": "Trey_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Picture_1",
+      "predicate": "on",
+      "object": "Wall_2"
+    },
+    {
+      "subject": "Ashtray_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Ashtray_2",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Card_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Curtain_1",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Curtain_2",
+      "predicate": "on",
+      "object": "Window_1"
+    },
+    {
+      "subject": "Chair_3",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Door_1",
+    "Picture_1",
+    "Painting_1",
+    "Chair_1",
+    "Table_1",
+    "Chair_2",
+    "Curtain_1",
+    "Room_1",
+    "Trey_1",
+    "Ashtray_1",
+    "Card_1",
+    "Placard_1",
+    "Ashtray_2",
+    "Chair_3",
+    "Curtains_1",
+    "Window_1",
+    "Trophy_1",
+    "Trophy_2",
+    "Chair_4",
+    "Chair_5",
+    "Curtain_2",
+    "Chair_6",
+    "ChairArm_1",
+    "ChairArm_2",
+    "ChairArm_3"
+  ]
+}

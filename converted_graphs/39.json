@@ -1,0 +1,88 @@
+{
+  "image_id": 39,
+  "prompt_text": "### Relational Edges:\n- [Clutter_1] --[on]--> [Table_1: cluttered, colored, creme, indoors, brown]\n- [Painting_1] --[on]--> [Wall_1: mustard yellow, wood, indoors, brown, orange, white]\n- [Plant_1] --[on]--> [Floor_1: tiled, black, shiny, brown]\n- [Mirror_2] --[on]--> [Wall_1: mustard yellow, wood, indoors, brown, orange, white]\n- [Mirror_1] --[on]--> [Wall_1: mustard yellow, wood, indoors, brown, orange, white]\n- [Lamp_1] --[near]--> [Wall_1: mustard yellow, wood, indoors, brown, orange, white]\n- [Plant_1] --[on]--> [Mirror_2: hanging, wood, indoors, grey]\n- [Chair_4] --[on]--> [Mirror_1: hanging, wood, indoors, grey]\n- [Lamp_1] --[on]--> [Table_1: cluttered, colored, creme, indoors, brown]\n- [Flower_1] --[on]--> [Table_1: cluttered, colored, creme, indoors, brown]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Lamp_1] -> [Plant_1: wood, indoors, green] -> [Mirror_1: hanging, wood, indoors, grey] -> [Painting_1: hanging, wood, indoors, brown] -> [Chair_1: empty, indoors, brown] -> [Chair_2: empty, indoors] -> [Clutter_1: black, framed] -> [Flower_1: red] -> [Vase_1] -> [Table_1: cluttered, colored, creme, indoors, brown] -> [Mirror_2: hanging, wood, indoors, grey] -> [Chair_3: empty] -> [Chair_4: empty, brown]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Painting_1: hanging, wood, indoors, brown] -> [Mirror_2: hanging, wood, indoors, grey] -> [Mirror_1: hanging, wood, indoors, grey] -> [Lamp_1] -> [Flower_1: red] -> [Vase_1] -> [Clutter_1: black, framed] -> [Chair_3: empty] -> [Chair_2: empty, indoors] -> [Table_1: cluttered, colored, creme, indoors, brown] -> [Chair_4: empty, brown] -> [Chair_1: empty, indoors, brown] -> [Plant_1: wood, indoors, green]",
+  "semantic_id_mapping": {
+    "1025161": "Chair_1",
+    "5887": "Chair_2",
+    "5888": "Chair_3",
+    "1025165": "Chair_4",
+    "5879": "Clutter_1",
+    "1025150": "Floor_1",
+    "1025136": "Flower_1",
+    "5890": "Lamp_1",
+    "1025166": "Mirror_1",
+    "1025159": "Mirror_2",
+    "1025156": "Painting_1",
+    "1025158": "Plant_1",
+    "1025168": "Table_1",
+    "5892": "Vase_1",
+    "1025157": "Wall_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Clutter_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Painting_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Plant_1",
+      "predicate": "on",
+      "object": "Floor_1"
+    },
+    {
+      "subject": "Mirror_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Mirror_1",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "near",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Plant_1",
+      "predicate": "on",
+      "object": "Mirror_2"
+    },
+    {
+      "subject": "Chair_4",
+      "predicate": "on",
+      "object": "Mirror_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Flower_1",
+      "predicate": "on",
+      "object": "Table_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Lamp_1",
+    "Plant_1",
+    "Mirror_1",
+    "Painting_1",
+    "Chair_1",
+    "Chair_2",
+    "Clutter_1",
+    "Flower_1",
+    "Vase_1",
+    "Table_1",
+    "Mirror_2",
+    "Chair_3",
+    "Chair_4"
+  ]
+}

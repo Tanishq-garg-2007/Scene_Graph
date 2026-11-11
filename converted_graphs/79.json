@@ -1,0 +1,58 @@
+{
+  "image_id": 79,
+  "prompt_text": "### Relational Edges:\n- [Cushion_1] --[on]--> [Couch_1: wood]\n- [Lamp_1] --[near]--> [Couch_1: wood]\n- [Couch_1] --[near]--> [Fireplace_1: white]\n- [Rack_1] --[near]--> [Fireplace_1: white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Light_1: handing, off] -> [Table_1: brown, clean, wood] -> [Chair_1: wood] -> [Chair_2: wood] -> [Curtain_1: blue, yellow] -> [Window_1: large] -> [Lamp_1: wicker, white, hanging] -> [Chair_3: wood] -> [Couch_1: wood] -> [Rug_1: green] -> [Cushion_1] -> [Fireplace_1: white] -> [Rack_1: metal, black]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Light_1: handing, off] -> [Window_1: large] -> [Curtain_1: blue, yellow] -> [Lamp_1: wicker, white, hanging] -> [Fireplace_1: white] -> [Cushion_1] -> [Rack_1: metal, black] -> [Couch_1: wood] -> [Rug_1: green] -> [Chair_3: wood] -> [Table_1: brown, clean, wood] -> [Chair_2: wood] -> [Chair_1: wood]",
+  "semantic_id_mapping": {
+    "1025795": "Chair_1",
+    "1025794": "Chair_2",
+    "1025793": "Chair_3",
+    "1025802": "Couch_1",
+    "1025797": "Curtain_1",
+    "1025801": "Cushion_1",
+    "1025804": "Fireplace_1",
+    "1025799": "Floor_1",
+    "1025803": "Lamp_1",
+    "1025798": "Light_1",
+    "1025796": "Rack_1",
+    "1025800": "Rug_1",
+    "1025792": "Table_1",
+    "1025805": "Wall_1",
+    "1025806": "Window_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Cushion_1",
+      "predicate": "on",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "Lamp_1",
+      "predicate": "near",
+      "object": "Couch_1"
+    },
+    {
+      "subject": "Couch_1",
+      "predicate": "near",
+      "object": "Fireplace_1"
+    },
+    {
+      "subject": "Rack_1",
+      "predicate": "near",
+      "object": "Fireplace_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Light_1",
+    "Table_1",
+    "Chair_1",
+    "Chair_2",
+    "Curtain_1",
+    "Window_1",
+    "Lamp_1",
+    "Chair_3",
+    "Couch_1",
+    "Rug_1",
+    "Cushion_1",
+    "Fireplace_1",
+    "Rack_1"
+  ]
+}

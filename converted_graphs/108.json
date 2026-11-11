@@ -1,0 +1,150 @@
+{
+  "image_id": 108,
+  "prompt_text": "### Relational Edges:\n- [Door_2] --[on]--> [Car_2]\n- [Bluepants_1] --[on]--> [Person_2: wearing]\n- [Reddress_1] --[on]--> [Person_3]\n- [Lines_2] --[on]--> [Street_2]\n- [Tree_1] --[on]--> [Street_2]\n- [Person_1] --[on]--> [Sidewalk_1]\n- [Car_1] --[on]--> [Street_2]\n- [Tree_4] --[behind]--> [Building_2]\n- [Tree_2] --[behind]--> [Building_2]\n- [Tree_3] --[behind]--> [Building_2]\n- [Line_1] --[on]--> [Street_2]\n- [Building_1] --[on]--> [Street_2]\n- [Car_1] --[next to]--> [Truck_1]\n- [Sign_1] --[on]--> [Pole_1: tall, silver]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [RedBrick_1] -> [CementIsland_1] -> [Person_1: walking] -> [WhiteBuildings_1] -> [Building_1] -> [Person_2: wearing] -> [Bluepants_1] -> [People_1] -> [People_2] -> [People_3] -> [Bike_1] -> [Scooter_1] -> [Pole_1: tall, silver] -> [Sign_1] -> [Tree_1: lining] -> [Scooter_2] -> [Line_1: white] -> [Lines_1: white] -> [TrafficLight_1] -> [Tree_2: large] -> [Truck_1] -> [Lines_2: painted] -> [Person_3] -> [Reddress_1] -> [Car_1: white] -> [Tree_3] -> [Building_2] -> [Lines_3] -> [Car_2] -> [Door_1] -> [Tree_4] -> [Door_2: four]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Building_2] -> [Tree_4] -> [Tree_1: lining] -> [Tree_2: large] -> [Pole_1: tall, silver] -> [Tree_3] -> [Building_1] -> [WhiteBuildings_1] -> [Sign_1] -> [TrafficLight_1] -> [Truck_1] -> [People_2] -> [Person_1: walking] -> [Person_2: wearing] -> [People_3] -> [People_1] -> [Scooter_2] -> [Car_1: white] -> [Bluepants_1] -> [Person_3] -> [Scooter_1] -> [Bike_1] -> [Reddress_1] -> [Door_1] -> [Door_2: four] -> [Car_2] -> [Lines_2: painted] -> [Lines_3] -> [RedBrick_1] -> [Lines_1: white] -> [Line_1: white] -> [CementIsland_1]",
+  "semantic_id_mapping": {
+    "1534790": "Bike_1",
+    "1534783": "Bluepants_1",
+    "1534826": "Building_1",
+    "1534819": "Building_2",
+    "1534828": "Car_1",
+    "1534837": "Car_2",
+    "1534794": "CementIsland_1",
+    "1534838": "Door_1",
+    "1534781": "Door_2",
+    "1534834": "Ground_1",
+    "1534832": "Line_1",
+    "1534798": "Lines_1",
+    "1534799": "Lines_2",
+    "1534797": "Lines_3",
+    "1534807": "People_1",
+    "1534808": "People_2",
+    "1534809": "People_3",
+    "1534805": "Person_1",
+    "1534782": "Person_2",
+    "1534784": "Person_3",
+    "1534813": "Pole_1",
+    "1534793": "RedBrick_1",
+    "1534785": "Reddress_1",
+    "1534833": "Road_1",
+    "1534830": "Scooter_1",
+    "1534831": "Scooter_2",
+    "1534806": "Sidewalk_1",
+    "1534835": "Sign_1",
+    "1534796": "Street_1",
+    "1534810": "Street_2",
+    "1534816": "TrafficLight_1",
+    "1534804": "Tree_1",
+    "1534820": "Tree_2",
+    "1534803": "Tree_3",
+    "1534802": "Tree_4",
+    "1534829": "Truck_1",
+    "1534795": "WhiteBuildings_1",
+    "3786945": "Windows_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Door_2",
+      "predicate": "on",
+      "object": "Car_2"
+    },
+    {
+      "subject": "Bluepants_1",
+      "predicate": "on",
+      "object": "Person_2"
+    },
+    {
+      "subject": "Reddress_1",
+      "predicate": "on",
+      "object": "Person_3"
+    },
+    {
+      "subject": "Lines_2",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Tree_1",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Person_1",
+      "predicate": "on",
+      "object": "Sidewalk_1"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Tree_4",
+      "predicate": "behind",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Tree_2",
+      "predicate": "behind",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Tree_3",
+      "predicate": "behind",
+      "object": "Building_2"
+    },
+    {
+      "subject": "Line_1",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Building_1",
+      "predicate": "on",
+      "object": "Street_2"
+    },
+    {
+      "subject": "Car_1",
+      "predicate": "next to",
+      "object": "Truck_1"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Pole_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "RedBrick_1",
+    "CementIsland_1",
+    "Person_1",
+    "WhiteBuildings_1",
+    "Building_1",
+    "Person_2",
+    "Bluepants_1",
+    "People_1",
+    "People_2",
+    "People_3",
+    "Bike_1",
+    "Scooter_1",
+    "Pole_1",
+    "Sign_1",
+    "Tree_1",
+    "Scooter_2",
+    "Line_1",
+    "Lines_1",
+    "TrafficLight_1",
+    "Tree_2",
+    "Truck_1",
+    "Lines_2",
+    "Person_3",
+    "Reddress_1",
+    "Car_1",
+    "Tree_3",
+    "Building_2",
+    "Lines_3",
+    "Car_2",
+    "Door_1",
+    "Tree_4",
+    "Door_2"
+  ]
+}

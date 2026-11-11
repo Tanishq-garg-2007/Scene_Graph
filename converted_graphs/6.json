@@ -1,0 +1,148 @@
+{
+  "image_id": 6,
+  "prompt_text": "### Relational Edges:\n- [Apple_1] --[on]--> [Counter_1: granite, black, used]\n- [DrinkingBottle_1] --[on]--> [Granite_1: black]\n- [Fork_1] --[on]--> [Plate_1: white, empty, dirty]\n- [BarStool_1] --[next to]--> [Counter_2: black, wood]\n- [Bag_2] --[on]--> [Counter_2: black, wood]\n- [Bowl_1] --[on]--> [Counter_2: black, wood]\n- [Container_1] --[on]--> [Counter_2: black, wood]\n- [Pan_1] --[on]--> [Counter_2: black, wood]\n- [Bag_1] --[on]--> [Counter_2: black, wood]\n- [Glass_2] --[on]--> [Counter_2: black, wood]\n- [Counter_1] --[on]--> [Counter_2: black, wood]\n- [Glass_1] --[on]--> [Counter_2: black, wood]\n- [Apple_2] --[on]--> [Counter_2: black, wood]\n- [Bag_2] --[next to]--> [Container_1: white, plastic, empty]\n- [Crumb_2] --[on]--> [Plate_1: white, empty, dirty]\n- [Crumb_1] --[on]--> [Plate_1: white, empty, dirty]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Crumb_1] -> [Fork_1: metal, steel, dirty, utensil] -> [BarStool_1] -> [Chair_1] -> [Plate_1: white, empty, dirty] -> [Crumb_2] -> [Glass_1: empty, used, clear] -> [Packet_1: unused, sauce] -> [Counter_1: granite, black, used] -> [Apple_1: red, shiny, liquid] -> [Liquid_1] -> [Glass_2: used, empty] -> [Counter_2: black, wood] -> [Apple_2: shiny, fresh, whole, uneaten, fruit, red, unpeeled] -> [Food_1: carrots, raw] -> [Bag_1: plastic] -> [Bowl_1: wooden, large, empty, salad, circular, brown] -> [Granite_1: black] -> [Bottle_1: plastic, white, red] -> [Logo_1] -> [DrinkingBottle_1: red, white, plastic] -> [Utensil_1: dirty] -> [Cover_1] -> [Container_1: white, plastic, empty] -> [Bag_2: black, square, potholder, pot holder] -> [Pan_1: metal, empty] -> [Lid_1: red, wooden] -> [Handle_1]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Glass_2: used, empty] -> [Glass_1: empty, used, clear] -> [Pan_1: metal, empty] -> [Bowl_1: wooden, large, empty, salad, circular, brown] -> [Counter_1: granite, black, used] -> [Cover_1] -> [Apple_1: red, shiny, liquid] -> [Liquid_1] -> [Bag_1: plastic] -> [DrinkingBottle_1: red, white, plastic] -> [Container_1: white, plastic, empty] -> [Food_1: carrots, raw] -> [Crumb_2] -> [Plate_1: white, empty, dirty] -> [Fork_1: metal, steel, dirty, utensil] -> [Bag_2: black, square, potholder, pot holder] -> [Crumb_1] -> [Utensil_1: dirty] -> [Granite_1: black] -> [Bottle_1: plastic, white, red] -> [Packet_1: unused, sauce] -> [BarStool_1] -> [Chair_1] -> [Counter_2: black, wood] -> [Apple_2: shiny, fresh, whole, uneaten, fruit, red, unpeeled] -> [Logo_1] -> [Lid_1: red, wooden] -> [Handle_1]",
+  "semantic_id_mapping": {
+    "1023953": "Apple_1",
+    "1023988": "Apple_2",
+    "1023986": "Bag_1",
+    "1023983": "Bag_2",
+    "5165": "BarStool_1",
+    "1023957": "Bottle_1",
+    "1023976": "Bowl_1",
+    "1023970": "Chair_1",
+    "1023972": "Container_1",
+    "1023954": "Counter_1",
+    "1023984": "Counter_2",
+    "1023991": "Cover_1",
+    "1023995": "Crumb_1",
+    "1023996": "Crumb_2",
+    "5158": "DrinkingBottle_1",
+    "1023987": "Food_1",
+    "1023966": "Fork_1",
+    "1023975": "Glass_1",
+    "1023990": "Glass_2",
+    "5159": "Granite_1",
+    "5161": "Handle_1",
+    "1023993": "Leg_1",
+    "1023994": "Leg_2",
+    "5160": "Lid_1",
+    "5164": "Liquid_1",
+    "1023997": "Logo_1",
+    "1023989": "Packet_1",
+    "1023985": "Pan_1",
+    "1023967": "Plate_1",
+    "1023992": "Utensil_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Apple_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "DrinkingBottle_1",
+      "predicate": "on",
+      "object": "Granite_1"
+    },
+    {
+      "subject": "Fork_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "BarStool_1",
+      "predicate": "next to",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Bag_2",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Bowl_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Container_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Pan_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Bag_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Glass_2",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Counter_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Glass_1",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Apple_2",
+      "predicate": "on",
+      "object": "Counter_2"
+    },
+    {
+      "subject": "Bag_2",
+      "predicate": "next to",
+      "object": "Container_1"
+    },
+    {
+      "subject": "Crumb_2",
+      "predicate": "on",
+      "object": "Plate_1"
+    },
+    {
+      "subject": "Crumb_1",
+      "predicate": "on",
+      "object": "Plate_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Crumb_1",
+    "Fork_1",
+    "BarStool_1",
+    "Chair_1",
+    "Plate_1",
+    "Crumb_2",
+    "Glass_1",
+    "Packet_1",
+    "Counter_1",
+    "Apple_1",
+    "Liquid_1",
+    "Glass_2",
+    "Counter_2",
+    "Apple_2",
+    "Food_1",
+    "Bag_1",
+    "Bowl_1",
+    "Granite_1",
+    "Bottle_1",
+    "Logo_1",
+    "DrinkingBottle_1",
+    "Utensil_1",
+    "Cover_1",
+    "Container_1",
+    "Bag_2",
+    "Pan_1",
+    "Lid_1",
+    "Handle_1"
+  ]
+}

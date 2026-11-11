@@ -1,0 +1,85 @@
+{
+  "image_id": 114,
+  "prompt_text": "### Relational Edges:\n- [Woman_1] --[wearing]--> [Watch_2: black]\n- [Man_1] --[wearing]--> [Jeans_2]\n- [Woman_1] --[wearing]--> [Jeans_1: blue]\n- [Man_1] --[wearing]--> [Shirt_2: white, long sleeved]\n- [Man_1] --[wearing]--> [Watch_1: black]\n- [Woman_1] --[wearing]--> [Bag_1: black]\n- [Button_1] --[on]--> [Shirt_2: white, long sleeved]\n- [Watch_2] --[on]--> [Wrist_1]\n- [Woman_1] --[wearing]--> [Shirt_1: white]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Strap_1: black] -> [Pillar_1: large, dark] -> [Pocket_1] -> [Woman_1: blonde] -> [Wrist_1] -> [Leaf_1: green] -> [Man_1: brown haired] -> [Button_1: undone]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Leaf_1: green] -> [Button_1: undone] -> [Pillar_1: large, dark] -> [Man_1: brown haired] -> [Strap_1: black] -> [Woman_1: blonde] -> [Wrist_1] -> [Pocket_1]",
+  "semantic_id_mapping": {
+    "1025956": "Arm_1",
+    "1025947": "Bag_1",
+    "1025961": "Button_1",
+    "1025965": "Ear_1",
+    "1025957": "Ear_2",
+    "1025958": "Hair_1",
+    "1025964": "Hair_2",
+    "1025960": "Hand_1",
+    "1025944": "Jeans_1",
+    "1025954": "Jeans_2",
+    "1025953": "Leaf_1",
+    "1025950": "Man_1",
+    "1025952": "Nose_1",
+    "1025959": "Pillar_1",
+    "1025963": "Pocket_1",
+    "1025951": "Shirt_1",
+    "1025946": "Shirt_2",
+    "1025948": "Strap_1",
+    "1025955": "Watch_1",
+    "1025945": "Watch_2",
+    "1025949": "Woman_1",
+    "1025962": "Wrist_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Watch_2"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Jeans_2"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Jeans_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Shirt_2"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Watch_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Bag_1"
+    },
+    {
+      "subject": "Button_1",
+      "predicate": "on",
+      "object": "Shirt_2"
+    },
+    {
+      "subject": "Watch_2",
+      "predicate": "on",
+      "object": "Wrist_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "wearing",
+      "object": "Shirt_1"
+    }
+  ],
+  "horizontal_ordering": [
+    "Strap_1",
+    "Pillar_1",
+    "Pocket_1",
+    "Woman_1",
+    "Wrist_1",
+    "Leaf_1",
+    "Man_1",
+    "Button_1"
+  ]
+}

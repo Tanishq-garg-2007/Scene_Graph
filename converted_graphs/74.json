@@ -1,0 +1,184 @@
+{
+  "image_id": 74,
+  "prompt_text": "### Relational Edges:\n- [Screen_2] --[on]--> [Wall_1]\n- [Chair_1] --[near]--> [Table_1: round]\n- [Chair_5] --[near]--> [Table_2]\n- [Chair_4] --[near]--> [Table_2]\n- [Chair_2] --[near]--> [Table_1: round]\n- [Chair_3] --[near]--> [Table_1: round]\n- [Light_3] --[on]--> [Ceiling_2]\n- [Light_5] --[on]--> [Ceiling_2]\n- [Light_6] --[on]--> [Ceiling_2]\n- [Sign_1] --[on]--> [Counter_1]\n- [Reflection_1] --[on]--> [Table_1: round]\n- [Light_7] --[on]--> [Ceiling_2]\n- [Sign_2] --[on]--> [Counter_1]\n- [Man_1] --[wearing]--> [Suit_1]\n- [Woman_1] --[on]--> [Screen_2: large]\n- [Light_1] --[on]--> [Ceiling_2]\n- [Light_2] --[on]--> [Ceiling_1]\n- [Light_4] --[on]--> [Ceiling_1]\n- [Chair_6] --[near]--> [Table_2]\n\n### Spatial Ordering Chains:\n- Horizontal Ordering (Left-to-Right Chain):\n  [Light_1] -> [Trashcan_1: silver] -> [Light_2] -> [Light_3] -> [Leaves_1: green] -> [Sign_1] -> [Screen_1] -> [Tv_1] -> [Light_4] -> [Stool_1: black] -> [Counter_1] -> [Stool_2: black] -> [Stools_1: bar] -> [Light_5] -> [Light_6] -> [Chair_1] -> [Sign_2] -> [Chair_2] -> [Stool_3: angled] -> [Table_1: round] -> [Reflection_1] -> [Base_1] -> [Light_7] -> [Sign_3] -> [Bar_1: shiny] -> [Chair_3] -> [Chair_4] -> [Chair_5: pink] -> [Chair_6] -> [Man_1] -> [Table_2] -> [TableTop_1: brown] -> [People_1] -> [Light_8: hanging] -> [Shelf_1: long] -> [Woman_1] -> [Screen_2: large]\n\n- Vertical Ordering (Top-to-Bottom / Highest-to-Lowest Chain):\n  [Light_5] -> [Light_8: hanging] -> [Light_3] -> [Light_7] -> [Light_1] -> [Sign_3] -> [Light_6] -> [Woman_1] -> [People_1] -> [Man_1] -> [Screen_2: large] -> [Light_4] -> [Light_2] -> [Tv_1] -> [Screen_1] -> [Sign_2] -> [Sign_1] -> [Counter_1] -> [Bar_1: shiny] -> [Stool_3: angled] -> [Leaves_1: green] -> [Stool_2: black] -> [Stools_1: bar] -> [Stool_1: black] -> [Trashcan_1: silver] -> [Reflection_1] -> [Shelf_1: long] -> [Chair_2] -> [Chair_3] -> [TableTop_1: brown] -> [Table_1: round] -> [Chair_1] -> [Chair_6] -> [Base_1] -> [Chair_4] -> [Table_2] -> [Chair_5: pink]",
+  "semantic_id_mapping": {
+    "1062187": "Bar_1",
+    "1062203": "Base_1",
+    "1062210": "Ceiling_1",
+    "1062181": "Ceiling_2",
+    "1062173": "Chair_1",
+    "1062178": "Chair_2",
+    "1062179": "Chair_3",
+    "1062177": "Chair_4",
+    "1062175": "Chair_5",
+    "1062212": "Chair_6",
+    "1062185": "Counter_1",
+    "1062191": "Floor_1",
+    "1062195": "Leaves_1",
+    "1062208": "Light_1",
+    "1062209": "Light_2",
+    "1062180": "Light_3",
+    "1062211": "Light_4",
+    "1062182": "Light_5",
+    "1062183": "Light_6",
+    "1062194": "Light_7",
+    "1062206": "Light_8",
+    "1062200": "Man_1",
+    "1062199": "People_1",
+    "1062192": "Reflection_1",
+    "1062198": "Screen_1",
+    "1025777": "Screen_2",
+    "1062190": "Shelf_1",
+    "1062184": "Sign_1",
+    "1062196": "Sign_2",
+    "1062186": "Sign_3",
+    "1062202": "Stool_1",
+    "1062205": "Stool_2",
+    "1062189": "Stool_3",
+    "1062193": "Stools_1",
+    "1062201": "Suit_1",
+    "1062174": "Table_1",
+    "1062176": "Table_2",
+    "1062204": "TableTop_1",
+    "1062188": "Trashcan_1",
+    "1062197": "Tv_1",
+    "1025778": "Wall_1",
+    "1062207": "Woman_1"
+  },
+  "relational_edges": [
+    {
+      "subject": "Screen_2",
+      "predicate": "on",
+      "object": "Wall_1"
+    },
+    {
+      "subject": "Chair_1",
+      "predicate": "near",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Chair_5",
+      "predicate": "near",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Chair_4",
+      "predicate": "near",
+      "object": "Table_2"
+    },
+    {
+      "subject": "Chair_2",
+      "predicate": "near",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Chair_3",
+      "predicate": "near",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Light_3",
+      "predicate": "on",
+      "object": "Ceiling_2"
+    },
+    {
+      "subject": "Light_5",
+      "predicate": "on",
+      "object": "Ceiling_2"
+    },
+    {
+      "subject": "Light_6",
+      "predicate": "on",
+      "object": "Ceiling_2"
+    },
+    {
+      "subject": "Sign_1",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Reflection_1",
+      "predicate": "on",
+      "object": "Table_1"
+    },
+    {
+      "subject": "Light_7",
+      "predicate": "on",
+      "object": "Ceiling_2"
+    },
+    {
+      "subject": "Sign_2",
+      "predicate": "on",
+      "object": "Counter_1"
+    },
+    {
+      "subject": "Man_1",
+      "predicate": "wearing",
+      "object": "Suit_1"
+    },
+    {
+      "subject": "Woman_1",
+      "predicate": "on",
+      "object": "Screen_2"
+    },
+    {
+      "subject": "Light_1",
+      "predicate": "on",
+      "object": "Ceiling_2"
+    },
+    {
+      "subject": "Light_2",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Light_4",
+      "predicate": "on",
+      "object": "Ceiling_1"
+    },
+    {
+      "subject": "Chair_6",
+      "predicate": "near",
+      "object": "Table_2"
+    }
+  ],
+  "horizontal_ordering": [
+    "Light_1",
+    "Trashcan_1",
+    "Light_2",
+    "Light_3",
+    "Leaves_1",
+    "Sign_1",
+    "Screen_1",
+    "Tv_1",
+    "Light_4",
+    "Stool_1",
+    "Counter_1",
+    "Stool_2",
+    "Stools_1",
+    "Light_5",
+    "Light_6",
+    "Chair_1",
+    "Sign_2",
+    "Chair_2",
+    "Stool_3",
+    "Table_1",
+    "Reflection_1",
+    "Base_1",
+    "Light_7",
+    "Sign_3",
+    "Bar_1",
+    "Chair_3",
+    "Chair_4",
+    "Chair_5",
+    "Chair_6",
+    "Man_1",
+    "Table_2",
+    "TableTop_1",
+    "People_1",
+    "Light_8",
+    "Shelf_1",
+    "Woman_1",
+    "Screen_2"
+  ]
+}
